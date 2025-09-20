@@ -54,7 +54,7 @@ python generate_images_3_agent_multigpu.py
 For faster model downloads on clusters with local SSD storage:
 ```bash
 cd scripts
-./run_with_cache.sh
+./run_with_cache.sh                # Runs 3-agent generation with cache
 ```
 This automatically:
 - Sets up local cache to avoid slow network downloads
@@ -76,6 +76,17 @@ python generate_images_2_agent.py
 cd scripts
 python generate_images_2_agent_multigpu.py
 ```
+
+#### Cluster/High-Performance Computing
+For faster model downloads on clusters with local SSD storage:
+```bash
+cd scripts
+./run_with_cache_2_agent.sh        # Runs 2-agent generation with cache
+```
+This automatically:
+- Sets up local cache to avoid slow network downloads
+- Loads HuggingFace token from `.env` file for authentication
+- Validates authentication before starting generation
 
 ### Expected Output
 
@@ -104,7 +115,8 @@ diffusion_auctions_multiagent/
 │   ├── generate_images_2_agent.py    # 2-agent single-GPU script
 │   ├── generate_images_2_agent_multigpu.py # 2-agent multi-GPU script
 │   ├── multi_gpu_config.py           # Multi-GPU management
-│   └── run_with_cache.sh             # Cluster-optimized runner
+│   ├── run_with_cache.sh             # 3-agent cluster-optimized runner
+│   └── run_with_cache_2_agent.sh     # 2-agent cluster-optimized runner
 ├── helpers/                          # Utility scripts and tools
 │   ├── setup_cache.sh                # HuggingFace cache setup
 │   ├── manage_cache.py               # Cache management utility
@@ -183,7 +195,7 @@ Edit `prompts/prompts_3_agent.json`:
 - **CUDA out of memory:** Reduce `num_inference_steps` or use smaller batch size
 - **Path errors:** Ensure you're running from the `scripts/` directory
 - **Missing dependencies:** Run `pip install -r requirements.txt`
-- **Slow model downloads:** Use `./run_with_cache.sh` for cluster environments
+- **Slow model downloads:** Use `./run_with_cache.sh` (3-agent) or `./run_with_cache_2_agent.sh` (2-agent) for cluster environments
 
 ### Performance Notes
 - Generation time: ~5-10 seconds per image on GPU
