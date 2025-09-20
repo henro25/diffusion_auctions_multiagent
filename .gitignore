@@ -1,0 +1,139 @@
+# ===== PYTHON =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===== VIRTUAL ENVIRONMENTS =====
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+conda-meta/
+
+# ===== IDE & EDITORS =====
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+.ropeproject
+
+# ===== JUPYTER NOTEBOOKS =====
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.ipynb
+
+# ===== OS SPECIFIC =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===== ML/AI SPECIFIC =====
+# Model files
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+*.joblib
+*.safetensors
+
+# Hugging Face cache
+.hfcache/
+.cache/
+transformers_cache/
+diffusers_cache/
+
+# Datasets
+data/
+datasets/
+*.csv
+*.json.gz
+*.parquet
+
+# Weights & Biases
+wandb/
+
+# MLflow
+mlruns/
+mlflow/
+
+# ===== LOGS & OUTPUTS =====
+logs/
+*.log
+*.out
+*.err
+log_*.txt
+generation_log.json
+
+# Generated images and outputs
+images/
+outputs/
+results/
+generated/
+samples/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+
+# ===== PROJECT SPECIFIC =====
+.experimental_prompts/
+.hfcache/
+
+# ===== SECRETS & CONFIG =====
+.env.local
+.env.*.local
+secrets.json
+config.json
+credentials.json
+*.key
+*.pem
+
+# ===== TEMPORARY FILES =====
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+
+# ===== DOCUMENTATION =====
+docs/_build/
+.readthedocs.yml

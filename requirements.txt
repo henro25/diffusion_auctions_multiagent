@@ -1,0 +1,11 @@
+torch
+accelerate
+transformers
+numpy
+tqdm
+requests
+matplotlib
+pillow
+ipython
+seaborn
+diffusers

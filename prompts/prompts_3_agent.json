@@ -1,0 +1,152 @@
+[
+  {
+    "base_prompt": "Two friends chatting over coffee at a cafe",
+    "agent1_prompt": "Starbucks mug",
+    "agent2_prompt": "Apple MacBook Air",
+    "agent3_prompt": "New York Times newspaper"
+  },
+  {
+    "base_prompt": "People enjoying a sunny day at the beach",
+    "agent1_prompt": "Wilson volleyball",
+    "agent2_prompt": "Red Bull cooler",
+    "agent3_prompt": "Banana Boat sunscreen"
+  },
+  {
+    "base_prompt": "A person relaxing on a living-room sofa",
+    "agent1_prompt": "Lay's potato chips",
+    "agent2_prompt": "M&M's candy",
+    "agent3_prompt": "Netflix show on TV"
+  },
+  {
+    "base_prompt": "A hiker resting on a mountain trail",
+    "agent1_prompt": "North Face backpack",
+    "agent2_prompt": "Gatorade bottle",
+    "agent3_prompt": "Garmin watch"
+  },
+  {
+    "base_prompt": "A professional working at a desk in a bright office",
+    "agent1_prompt": "Dell monitor",
+    "agent2_prompt": "Deer Park water bottle",
+    "agent3_prompt": "Moleskine notebook"
+  },
+  {
+    "base_prompt": "A swimming pool outdoors",
+    "agent1_prompt": "Marriott Bonvoy hotel",
+    "agent2_prompt": "Ray-Ban sunglasses",
+    "agent3_prompt": "Red Cross first aid kit"
+  },
+  {
+    "base_prompt": "A woman with a tray of food at a cafeteria",
+    "agent1_prompt": "McDonald's fries",
+    "agent2_prompt": "Pepsi can",
+    "agent3_prompt": "Heinz ketchup packet"
+  },
+  {
+    "base_prompt": "A person walking down a city street",
+    "agent1_prompt": "Louis Vuitton handbag",
+    "agent2_prompt": "H&M storefront",
+    "agent3_prompt": "Nike sneakers"
+  },
+  {
+    "base_prompt": "Friends gathered for a movie night at home",
+    "agent1_prompt": "Doritos chips",
+    "agent2_prompt": "Coca-Cola cans",
+    "agent3_prompt": "Amazon Fire TV remote"
+  },
+  {
+    "base_prompt": "A car driving along a scenic coastal highway",
+    "agent1_prompt": "Tesla car",
+    "agent2_prompt": "ExxonMobil sign",
+    "agent3_prompt": "Goodyear tires"
+  },
+  {
+    "base_prompt": "Skiers waiting in a ski-lift line",
+    "agent1_prompt": "Patagonia jacket",
+    "agent2_prompt": "GoPro camera",
+    "agent3_prompt": "Beats wireless headphones"
+  },
+  {
+    "base_prompt": "A man waiting at a bus stop",
+    "agent1_prompt": "Adidas backpack",
+    "agent2_prompt": "Samsung Galaxy phone",
+    "agent3_prompt": "Sony headphones"
+  },
+  {
+    "base_prompt": "A family having dinner at home",
+    "agent1_prompt": "KitchenAid mixer",
+    "agent2_prompt": "Ikea dining table",
+    "agent3_prompt": "Heineken beer bottle"
+  },
+  {
+    "base_prompt": "A student studying in a university library",
+    "agent1_prompt": "MacBook Pro laptop",
+    "agent2_prompt": "Red Bull energy drink",
+    "agent3_prompt": "Coca-Cola can"
+  },
+  {
+    "base_prompt": "A jogger exercising in a city park",
+    "agent1_prompt": "Nike running shoes",
+    "agent2_prompt": "Apple Watch",
+    "agent3_prompt": "Gatorade water bottle"
+  },
+  {
+    "base_prompt": "A chef cooking in a restaurant kitchen",
+    "agent1_prompt": "KitchenAid stand mixer",
+    "agent2_prompt": "Coca-Cola glass bottle",
+    "agent3_prompt": "Heinz ketchup bottle"
+  },
+  {
+    "base_prompt": "A photographer at a wedding ceremony",
+    "agent1_prompt": "Canon camera",
+    "agent2_prompt": "Canon camera bag",
+    "agent3_prompt": "Adobe Lightroom screen"
+  },
+  {
+    "base_prompt": "A couple shopping at a farmers market",
+    "agent1_prompt": "Whole Foods tote bag",
+    "agent2_prompt": "iPhone camera",
+    "agent3_prompt": "Patagonia fleece jacket"
+  },
+  {
+    "base_prompt": "A teenager gaming in their bedroom",
+    "agent1_prompt": "PlayStation 5 controller",
+    "agent2_prompt": "Monster Energy drink",
+    "agent3_prompt": "Razer gaming headset"
+  },
+  {
+    "base_prompt": "A businesswoman in an airport lounge",
+    "agent1_prompt": "Louis Vuitton luggage",
+    "agent2_prompt": "Starbucks coffee cup",
+    "agent3_prompt": "iPad Pro tablet"
+  },
+  {
+    "base_prompt": "A mechanic working in an auto garage",
+    "agent1_prompt": "Ford truck",
+    "agent2_prompt": "DeWalt power drill",
+    "agent3_prompt": "Mobil 1 motor oil"
+  },
+  {
+    "base_prompt": "A barista working in a trendy coffee shop",
+    "agent1_prompt": "Starbucks coffee machine",
+    "agent2_prompt": "Spotify playlist screen",
+    "agent3_prompt": "Levi's denim apron"
+  },
+  {
+    "base_prompt": "A fitness trainer at a modern gym",
+    "agent1_prompt": "Under Armour workout shirt",
+    "agent2_prompt": "Beats wireless headphones",
+    "agent3_prompt": "Hydroflask water bottle"
+  },
+  {
+    "base_prompt": "A doctor in a hospital break room",
+    "agent1_prompt": "MacBook Air laptop",
+    "agent2_prompt": "Starbucks coffee cup",
+    "agent3_prompt": "Samsung tablet"
+  },
+  {
+    "base_prompt": "A musician performing at an outdoor festival",
+    "agent1_prompt": "Yamaha electric guitar",
+    "agent2_prompt": "Marshall amplifier",
+    "agent3_prompt": "Converse All-Star shoes"
+  }
+]
