@@ -27,6 +27,7 @@ from diffusers.utils import is_torch_xla_available
 # XLA availability check
 if is_torch_xla_available():
     import torch_xla.core.xla_model as xm
+
     XLA_AVAILABLE = True
 else:
     XLA_AVAILABLE = False
@@ -146,15 +147,20 @@ class FluxPipelineAuction(FluxPipeline):
         )
 
         self._guidance_scale = guidance_scale
-        self._joint_attention_kwargs = joint_attention_kwargs if joint_attention_kwargs is not None else {}
+        self._joint_attention_kwargs = (
+            joint_attention_kwargs if joint_attention_kwargs is not None else {}
+        )
         self._current_timestep = None
         self._interrupt = False
 
         # 2. Determine batch size from available prompts
         batch_size = self._determine_batch_size(
-            agent1_prompt, agent1_prompt_embeds,
-            agent2_prompt, agent2_prompt_embeds,
-            agent3_prompt, agent3_prompt_embeds
+            agent1_prompt,
+            agent1_prompt_embeds,
+            agent2_prompt,
+            agent2_prompt_embeds,
+            agent3_prompt,
+            agent3_prompt_embeds,
         )
 
         device = self._execution_device
@@ -166,16 +172,42 @@ class FluxPipelineAuction(FluxPipeline):
 
         # 3. Organize and sort agent data by bid amount
         sorted_agents_data = self._organize_and_sort_agents(
-            agent1_prompt, agent1_prompt_2, agent1_bid, agent1_prompt_embeds, agent1_pooled_prompt_embeds,
-            agent2_prompt, agent2_prompt_2, agent2_bid, agent2_prompt_embeds, agent2_pooled_prompt_embeds,
-            agent3_prompt, agent3_prompt_2, agent3_bid, agent3_prompt_embeds, agent3_pooled_prompt_embeds,
+            agent1_prompt,
+            agent1_prompt_2,
+            agent1_bid,
+            agent1_prompt_embeds,
+            agent1_pooled_prompt_embeds,
+            agent2_prompt,
+            agent2_prompt_2,
+            agent2_bid,
+            agent2_prompt_embeds,
+            agent2_pooled_prompt_embeds,
+            agent3_prompt,
+            agent3_prompt_2,
+            agent3_bid,
+            agent3_prompt_embeds,
+            agent3_pooled_prompt_embeds,
         )
 
         # 4. Generate prompt embeddings for score composition
-        (s1_embeds, s1_pooled_embeds, s1_text_ids,
-         s1_s2_embeds, s1_s2_pooled_embeds, s1_s2_text_ids,
-         s1_s2_s3_embeds, s1_s2_s3_pooled_embeds, s1_s2_s3_text_ids) = self._generate_prompt_embeddings(
-            sorted_agents_data, base_prompt, base_prompt_2, device, num_images_per_prompt, max_sequence_length, lora_scale
+        (
+            s1_embeds,
+            s1_pooled_embeds,
+            s1_text_ids,
+            s1_s2_embeds,
+            s1_s2_pooled_embeds,
+            s1_s2_text_ids,
+            s1_s2_s3_embeds,
+            s1_s2_s3_pooled_embeds,
+            s1_s2_s3_text_ids,
+        ) = self._generate_prompt_embeddings(
+            sorted_agents_data,
+            base_prompt,
+            base_prompt_2,
+            device,
+            num_images_per_prompt,
+            max_sequence_length,
+            lora_scale,
         )
 
         # Set global flags for score composition
@@ -212,12 +244,16 @@ class FluxPipelineAuction(FluxPipeline):
             sigmas=sigmas,
             mu=mu,
         )
-        num_warmup_steps = max(len(timesteps) - num_inference_steps * self.scheduler.order, 0)
+        num_warmup_steps = max(
+            len(timesteps) - num_inference_steps * self.scheduler.order, 0
+        )
         self._num_timesteps = len(timesteps)
 
         # 7. Guidance preparation
         if self.transformer.config.guidance_embeds:
-            guidance = torch.full([1], guidance_scale, device=device, dtype=torch.float32)
+            guidance = torch.full(
+                [1], guidance_scale, device=device, dtype=torch.float32
+            )
             guidance = guidance.expand(latents.shape[0])
         else:
             guidance = None
@@ -225,18 +261,35 @@ class FluxPipelineAuction(FluxPipeline):
         # 8. IP Adapter setup
         if ip_adapter_image is not None or ip_adapter_image_embeds is not None:
             processed_ip_adapter_image_embeds = self.prepare_ip_adapter_image_embeds(
-                ip_adapter_image, ip_adapter_image_embeds, device, batch_size * num_images_per_prompt
+                ip_adapter_image,
+                ip_adapter_image_embeds,
+                device,
+                batch_size * num_images_per_prompt,
             )
-            self._joint_attention_kwargs["ip_adapter_image_embeds"] = processed_ip_adapter_image_embeds
+            self._joint_attention_kwargs["ip_adapter_image_embeds"] = (
+                processed_ip_adapter_image_embeds
+            )
 
         # 9. Main denoising loop with score composition
         generation_results = self._denoising_loop_with_score_composition(
-            latents, latent_image_ids, timesteps, num_inference_steps, num_warmup_steps,
-            sorted_agents_data, guidance,
-            s1_embeds, s1_pooled_embeds, s1_text_ids,
-            s1_s2_embeds, s1_s2_pooled_embeds, s1_s2_text_ids,
-            s1_s2_s3_embeds, s1_s2_s3_pooled_embeds, s1_s2_s3_text_ids,
-            callback_on_step_end, callback_on_step_end_tensor_inputs
+            latents,
+            latent_image_ids,
+            timesteps,
+            num_inference_steps,
+            num_warmup_steps,
+            sorted_agents_data,
+            guidance,
+            s1_embeds,
+            s1_pooled_embeds,
+            s1_text_ids,
+            s1_s2_embeds,
+            s1_s2_pooled_embeds,
+            s1_s2_text_ids,
+            s1_s2_s3_embeds,
+            s1_s2_s3_pooled_embeds,
+            s1_s2_s3_text_ids,
+            callback_on_step_end,
+            callback_on_step_end_tensor_inputs,
         )
 
         # 10. Post-processing
@@ -244,8 +297,12 @@ class FluxPipelineAuction(FluxPipeline):
         if output_type == "latent":
             image = generation_results
         else:
-            latents = self._unpack_latents(generation_results, height, width, self.vae_scale_factor)
-            latents = (latents / self.vae.config.scaling_factor) + self.vae.config.shift_factor
+            latents = self._unpack_latents(
+                generation_results, height, width, self.vae_scale_factor
+            )
+            latents = (
+                latents / self.vae.config.scaling_factor
+            ) + self.vae.config.shift_factor
             image = self.vae.decode(latents, return_dict=False)[0]
             image = self.image_processor.postprocess(image, output_type=output_type)
 
@@ -255,14 +312,29 @@ class FluxPipelineAuction(FluxPipeline):
             return (image,)
         return FluxPipelineOutput(images=image)
 
-    def _determine_batch_size(self, agent1_prompt, agent1_prompt_embeds, agent2_prompt, agent2_prompt_embeds, agent3_prompt, agent3_prompt_embeds):
+    def _determine_batch_size(
+        self,
+        agent1_prompt,
+        agent1_prompt_embeds,
+        agent2_prompt,
+        agent2_prompt_embeds,
+        agent3_prompt,
+        agent3_prompt_embeds,
+    ):
         """Determine batch size from available agent prompts."""
-        for prompt, embeds in [(agent1_prompt, agent1_prompt_embeds), (agent2_prompt, agent2_prompt_embeds), (agent3_prompt, agent3_prompt_embeds)]:
+        for prompt, embeds in [
+            (agent1_prompt, agent1_prompt_embeds),
+            (agent2_prompt, agent2_prompt_embeds),
+            (agent3_prompt, agent3_prompt_embeds),
+        ]:
             if prompt is not None:
                 return 1 if isinstance(prompt, str) else len(prompt)
+            # Use explicit check to avoid tensor boolean ambiguity
             elif embeds is not None:
                 return embeds.shape[0]
-        raise ValueError("At least one agent prompt or its embeddings must be provided to determine batch_size.")
+        raise ValueError(
+            "At least one agent prompt or its embeddings must be provided to determine batch_size."
+        )
 
     def _organize_and_sort_agents(self, *agent_params):
         """Organize agent data and sort by bid amount (descending)."""
@@ -271,7 +343,7 @@ class FluxPipelineAuction(FluxPipeline):
         for i in range(3):
             base_idx = i * 5
             agent_data = {
-                "id": f"agent{i+1}",
+                "id": f"agent{i + 1}",
                 "prompt": agent_params[base_idx],
                 "prompt_2": agent_params[base_idx + 1],
                 "bid": agent_params[base_idx + 2],
@@ -281,11 +353,16 @@ class FluxPipelineAuction(FluxPipeline):
             agents_initial_data.append(agent_data)
 
         # Filter active agents (those with prompts or embeddings)
-        agents_active_data = [
-            agent for agent in agents_initial_data
-            if (agent["prompt"] is not None or
-                (agent["prompt_embeds"] is not None and agent["pooled_prompt_embeds"] is not None))
-        ]
+        # Use safer boolean checks to avoid tensor boolean ambiguity
+        agents_active_data = []
+        for agent in agents_initial_data:
+            has_prompt = agent["prompt"] is not None
+            has_embeds = (
+                agent.get("prompt_embeds") is not None
+                and agent.get("pooled_prompt_embeds") is not None
+            )
+            if has_prompt or has_embeds:
+                agents_active_data.append(agent)
 
         if not agents_active_data:
             raise ValueError("No active agents with prompts or embeddings provided.")
@@ -293,7 +370,16 @@ class FluxPipelineAuction(FluxPipeline):
         # Sort by bid amount (descending order)
         return sorted(agents_active_data, key=lambda x: x["bid"], reverse=True)
 
-    def _generate_prompt_embeddings(self, sorted_agents_data, base_prompt, base_prompt_2, device, num_images_per_prompt, max_sequence_length, lora_scale):
+    def _generate_prompt_embeddings(
+        self,
+        sorted_agents_data,
+        base_prompt,
+        base_prompt_2,
+        device,
+        num_images_per_prompt,
+        max_sequence_length,
+        lora_scale,
+    ):
         """Generate embeddings for all agent combinations needed for score composition."""
 
         s_agent1_data = sorted_agents_data[0] if len(sorted_agents_data) > 0 else None
@@ -320,65 +406,127 @@ class FluxPipelineAuction(FluxPipeline):
             if isinstance(sec_p, str) and sec_p:
                 effective_p2 = f"{effective_p2} and {sec_p}" if effective_p2 else sec_p
 
-            return (effective_p if effective_p else None, effective_p2 if effective_p2 else None)
+            return (
+                effective_p if effective_p else None,
+                effective_p2 if effective_p2 else None,
+            )
 
         # Generate embeddings for s1 (highest bidder only)
-        s1_full_prompt, s1_full_prompt_2 = _get_effective_prompt(s_agent1_data, base_prompt, base_prompt_2)
+        s1_full_prompt, s1_full_prompt_2 = _get_effective_prompt(
+            s_agent1_data, base_prompt, base_prompt_2
+        )
+
+        # Check if we should generate embeddings for s1 (avoid tensor boolean issues)
+        should_generate_s1 = s_agent1_data is not None and (
+            s1_full_prompt or (s_agent1_data.get("prompt_embeds") is not None)
+        )
 
         (s1_embeds, s1_pooled_embeds, s1_text_ids) = (
             self.encode_prompt(
-                prompt=s1_full_prompt, prompt_2=s1_full_prompt_2,
+                prompt=s1_full_prompt,
+                prompt_2=s1_full_prompt_2,
                 prompt_embeds=s_agent1_data["prompt_embeds"] if s_agent1_data else None,
-                pooled_prompt_embeds=s_agent1_data["pooled_prompt_embeds"] if s_agent1_data else None,
-                device=device, num_images_per_prompt=num_images_per_prompt,
-                max_sequence_length=max_sequence_length, lora_scale=lora_scale,
+                pooled_prompt_embeds=s_agent1_data["pooled_prompt_embeds"]
+                if s_agent1_data
+                else None,
+                device=device,
+                num_images_per_prompt=num_images_per_prompt,
+                max_sequence_length=max_sequence_length,
+                lora_scale=lora_scale,
             )
-            if s_agent1_data and (s1_full_prompt or (s_agent1_data["prompt_embeds"] is not None))
+            if should_generate_s1
             else (None, None, None)
         )
 
         # Generate embeddings for s1+s2 (top 2 bidders combined)
-        s1_s2_combined_prompt = self._combine_agent_prompts([s_agent1_data, s_agent2_data], base_prompt, ", ")
-        s1_s2_combined_prompt_2 = self._combine_agent_prompts([s_agent1_data, s_agent2_data], base_prompt_2, ", ", prompt_type="prompt_2")
+        s1_s2_combined_prompt = self._combine_agent_prompts(
+            [s_agent1_data, s_agent2_data], base_prompt, ", "
+        )
+        s1_s2_combined_prompt_2 = self._combine_agent_prompts(
+            [s_agent1_data, s_agent2_data], base_prompt_2, ", ", prompt_type="prompt_2"
+        )
+
+        # Check if we should generate embeddings for s1_s2 (avoid tensor boolean issues)
+        should_generate_s1_s2 = s1_s2_combined_prompt is not None
 
         (s1_s2_embeds, s1_s2_pooled_embeds, s1_s2_text_ids) = (
             self.encode_prompt(
-                prompt=s1_s2_combined_prompt, prompt_2=s1_s2_combined_prompt_2,
-                device=device, num_images_per_prompt=num_images_per_prompt,
-                max_sequence_length=max_sequence_length, lora_scale=lora_scale,
+                prompt=s1_s2_combined_prompt,
+                prompt_2=s1_s2_combined_prompt_2,
+                device=device,
+                num_images_per_prompt=num_images_per_prompt,
+                max_sequence_length=max_sequence_length,
+                lora_scale=lora_scale,
             )
-            if s1_s2_combined_prompt
+            if should_generate_s1_s2
             else (s1_embeds, s1_pooled_embeds, s1_text_ids)
         )
 
         # Generate embeddings for s1+s2+s3 (all agents combined)
-        s1_s2_s3_combined_prompt = self._combine_agent_prompts([s_agent1_data, s_agent2_data, s_agent3_data], base_prompt, " and ")
-        s1_s2_s3_combined_prompt_2 = self._combine_agent_prompts([s_agent1_data, s_agent2_data, s_agent3_data], base_prompt_2, " and ", prompt_type="prompt_2")
+        s1_s2_s3_combined_prompt = self._combine_agent_prompts(
+            [s_agent1_data, s_agent2_data, s_agent3_data], base_prompt, " and "
+        )
+        s1_s2_s3_combined_prompt_2 = self._combine_agent_prompts(
+            [s_agent1_data, s_agent2_data, s_agent3_data],
+            base_prompt_2,
+            " and ",
+            prompt_type="prompt_2",
+        )
+
+        # Check if we should generate embeddings for s1_s2_s3 (avoid tensor boolean issues)
+        should_generate_s1_s2_s3 = s1_s2_s3_combined_prompt is not None
 
         (s1_s2_s3_embeds, s1_s2_s3_pooled_embeds, s1_s2_s3_text_ids) = (
             self.encode_prompt(
-                prompt=s1_s2_s3_combined_prompt, prompt_2=s1_s2_s3_combined_prompt_2,
-                device=device, num_images_per_prompt=num_images_per_prompt,
-                max_sequence_length=max_sequence_length, lora_scale=lora_scale,
+                prompt=s1_s2_s3_combined_prompt,
+                prompt_2=s1_s2_s3_combined_prompt_2,
+                device=device,
+                num_images_per_prompt=num_images_per_prompt,
+                max_sequence_length=max_sequence_length,
+                lora_scale=lora_scale,
             )
-            if s1_s2_s3_combined_prompt
+            if should_generate_s1_s2_s3
             else (s1_s2_embeds, s1_s2_pooled_embeds, s1_s2_text_ids)
         )
 
-        # Ensure at least one valid embedding set exists
+        # Ensure at least one valid embedding set exists (avoid tensor boolean issues)
         if s1_s2_s3_embeds is None:
-            if s1_s2_embeds is not None:
-                s1_s2_s3_embeds, s1_s2_s3_pooled_embeds, s1_s2_s3_text_ids = s1_s2_embeds, s1_s2_pooled_embeds, s1_s2_text_ids
-            elif s1_embeds is not None:
-                s1_s2_s3_embeds, s1_s2_s3_pooled_embeds, s1_s2_s3_text_ids = s1_embeds, s1_pooled_embeds, s1_text_ids
+            # Use explicit checks to avoid tensor boolean ambiguity
+            s1_s2_available = s1_s2_embeds is not None
+            s1_available = s1_embeds is not None
+
+            if s1_s2_available:
+                s1_s2_s3_embeds, s1_s2_s3_pooled_embeds, s1_s2_s3_text_ids = (
+                    s1_s2_embeds,
+                    s1_s2_pooled_embeds,
+                    s1_s2_text_ids,
+                )
+            elif s1_available:
+                s1_s2_s3_embeds, s1_s2_s3_pooled_embeds, s1_s2_s3_text_ids = (
+                    s1_embeds,
+                    s1_pooled_embeds,
+                    s1_text_ids,
+                )
             else:
-                raise ValueError("Failed to generate any valid prompt embeddings for the agents.")
+                raise ValueError(
+                    "Failed to generate any valid prompt embeddings for the agents."
+                )
 
-        return (s1_embeds, s1_pooled_embeds, s1_text_ids,
-                s1_s2_embeds, s1_s2_pooled_embeds, s1_s2_text_ids,
-                s1_s2_s3_embeds, s1_s2_s3_pooled_embeds, s1_s2_s3_text_ids)
+        return (
+            s1_embeds,
+            s1_pooled_embeds,
+            s1_text_ids,
+            s1_s2_embeds,
+            s1_s2_pooled_embeds,
+            s1_s2_text_ids,
+            s1_s2_s3_embeds,
+            s1_s2_s3_pooled_embeds,
+            s1_s2_s3_text_ids,
+        )
 
-    def _combine_agent_prompts(self, agent_data_list, base_prompt, separator, prompt_type="prompt"):
+    def _combine_agent_prompts(
+        self, agent_data_list, base_prompt, separator, prompt_type="prompt"
+    ):
         """Combine multiple agent prompts with a base prompt."""
         prompt_parts = []
 
@@ -391,11 +539,27 @@ class FluxPipelineAuction(FluxPipeline):
 
         return separator.join(p for p in prompt_parts if p) if prompt_parts else None
 
-    def _denoising_loop_with_score_composition(self, latents, latent_image_ids, timesteps, num_inference_steps, num_warmup_steps,
-                                             sorted_agents_data, guidance, s1_embeds, s1_pooled_embeds, s1_text_ids,
-                                             s1_s2_embeds, s1_s2_pooled_embeds, s1_s2_text_ids,
-                                             s1_s2_s3_embeds, s1_s2_s3_pooled_embeds, s1_s2_s3_text_ids,
-                                             callback_on_step_end, callback_on_step_end_tensor_inputs):
+    def _denoising_loop_with_score_composition(
+        self,
+        latents,
+        latent_image_ids,
+        timesteps,
+        num_inference_steps,
+        num_warmup_steps,
+        sorted_agents_data,
+        guidance,
+        s1_embeds,
+        s1_pooled_embeds,
+        s1_text_ids,
+        s1_s2_embeds,
+        s1_s2_pooled_embeds,
+        s1_s2_text_ids,
+        s1_s2_s3_embeds,
+        s1_s2_s3_pooled_embeds,
+        s1_s2_s3_text_ids,
+        callback_on_step_end,
+        callback_on_step_end_tensor_inputs,
+    ):
         """Main denoising loop with multi-agent score composition."""
 
         with self.progress_bar(total=num_inference_steps) as progress_bar:
@@ -407,33 +571,74 @@ class FluxPipelineAuction(FluxPipeline):
                 timestep_expanded = t.expand(latents.shape[0]).to(latents.dtype)
 
                 # Get noise predictions for each agent combination
+                # Use explicit fallback logic to avoid tensor boolean ambiguity
+                s1_embed_to_use = (
+                    s1_embeds if s1_embeds is not None else s1_s2_s3_embeds
+                )
+                s1_pooled_to_use = (
+                    s1_pooled_embeds
+                    if s1_pooled_embeds is not None
+                    else s1_s2_s3_pooled_embeds
+                )
+                s1_text_ids_to_use = (
+                    s1_text_ids if s1_text_ids is not None else s1_s2_s3_text_ids
+                )
+
                 noise_pred_s1 = self._get_noise_prediction(
-                    latents, timestep_expanded, guidance, latent_image_ids,
-                    s1_embeds or s1_s2_s3_embeds,
-                    s1_pooled_embeds or s1_s2_s3_pooled_embeds,
-                    s1_text_ids or s1_s2_s3_text_ids
+                    latents,
+                    timestep_expanded,
+                    guidance,
+                    latent_image_ids,
+                    s1_embed_to_use,
+                    s1_pooled_to_use,
+                    s1_text_ids_to_use,
+                )
+
+                s1_s2_embed_to_use = (
+                    s1_s2_embeds if s1_s2_embeds is not None else s1_s2_s3_embeds
+                )
+                s1_s2_pooled_to_use = (
+                    s1_s2_pooled_embeds
+                    if s1_s2_pooled_embeds is not None
+                    else s1_s2_s3_pooled_embeds
+                )
+                s1_s2_text_ids_to_use = (
+                    s1_s2_text_ids if s1_s2_text_ids is not None else s1_s2_s3_text_ids
                 )
 
                 noise_pred_s1_s2 = self._get_noise_prediction(
-                    latents, timestep_expanded, guidance, latent_image_ids,
-                    s1_s2_embeds or s1_s2_s3_embeds,
-                    s1_s2_pooled_embeds or s1_s2_s3_pooled_embeds,
-                    s1_s2_text_ids or s1_s2_s3_text_ids
+                    latents,
+                    timestep_expanded,
+                    guidance,
+                    latent_image_ids,
+                    s1_s2_embed_to_use,
+                    s1_s2_pooled_to_use,
+                    s1_s2_text_ids_to_use,
                 )
 
                 noise_pred_s1_s2_s3 = self._get_noise_prediction(
-                    latents, timestep_expanded, guidance, latent_image_ids,
-                    s1_s2_s3_embeds, s1_s2_s3_pooled_embeds, s1_s2_s3_text_ids
+                    latents,
+                    timestep_expanded,
+                    guidance,
+                    latent_image_ids,
+                    s1_s2_s3_embeds,
+                    s1_s2_s3_pooled_embeds,
+                    s1_s2_s3_text_ids,
                 )
 
                 # Apply score composition algorithm
                 noise_pred = self._apply_score_composition(
-                    sorted_agents_data, noise_pred_s1, noise_pred_s1_s2, noise_pred_s1_s2_s3
+                    sorted_agents_data,
+                    noise_pred_s1,
+                    noise_pred_s1_s2,
+                    noise_pred_s1_s2_s3,
                 )
 
                 # Scheduler step
                 latents_dtype = latents.dtype
-                latents = self.scheduler.step(noise_pred, t, latents, return_dict=False)[0]
+                latents = self.scheduler.step(
+                    noise_pred, t, latents, return_dict=False
+                )[0]
                 if latents.dtype != latents_dtype:
                     if torch.backends.mps.is_available():
                         latents = latents.to(latents_dtype)
@@ -447,7 +652,9 @@ class FluxPipelineAuction(FluxPipeline):
                     latents = callback_outputs.pop("latents", latents)
 
                 # Progress update
-                if i == len(timesteps) - 1 or ((i + 1) > num_warmup_steps and (i + 1) % self.scheduler.order == 0):
+                if i == len(timesteps) - 1 or (
+                    (i + 1) > num_warmup_steps and (i + 1) % self.scheduler.order == 0
+                ):
                     progress_bar.update()
 
                 if XLA_AVAILABLE:
@@ -455,7 +662,16 @@ class FluxPipelineAuction(FluxPipeline):
 
         return latents
 
-    def _get_noise_prediction(self, latents, timestep_expanded, guidance, latent_image_ids, embeds, pooled_embeds, text_ids):
+    def _get_noise_prediction(
+        self,
+        latents,
+        timestep_expanded,
+        guidance,
+        latent_image_ids,
+        embeds,
+        pooled_embeds,
+        text_ids,
+    ):
         """Get noise prediction from transformer for given embeddings."""
         return self.transformer(
             hidden_states=latents,
@@ -469,7 +685,9 @@ class FluxPipelineAuction(FluxPipeline):
             return_dict=False,
         )[0]
 
-    def _apply_score_composition(self, sorted_agents_data, noise_pred_s1, noise_pred_s1_s2, noise_pred_s1_s2_s3):
+    def _apply_score_composition(
+        self, sorted_agents_data, noise_pred_s1, noise_pred_s1_s2, noise_pred_s1_s2_s3
+    ):
         """
         Apply the core score composition algorithm for multi-agent auction.
 
@@ -517,9 +735,13 @@ class FluxPipelineAuction(FluxPipeline):
 
         # Apply recursive score composition
         # Step 1: Combine top 2 agents
-        s_1_2_intermediate_noise_pred = (1 - w_B) * noise_pred_s1_s2 + w_B * noise_pred_s1
+        s_1_2_intermediate_noise_pred = (
+            1 - w_B
+        ) * noise_pred_s1_s2 + w_B * noise_pred_s1
 
         # Step 2: Combine result with all 3 agents
-        final_noise_pred = (1 - w_A) * noise_pred_s1_s2_s3 + w_A * s_1_2_intermediate_noise_pred
+        final_noise_pred = (
+            1 - w_A
+        ) * noise_pred_s1_s2_s3 + w_A * s_1_2_intermediate_noise_pred
 
         return final_noise_pred
