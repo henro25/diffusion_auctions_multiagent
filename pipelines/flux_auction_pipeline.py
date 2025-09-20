@@ -325,6 +325,12 @@ class FluxPipelineAuction(FluxPipeline):
         # Generate embeddings for s1 (highest bidder only)
         s1_full_prompt, s1_full_prompt_2 = _get_effective_prompt(s_agent1_data, base_prompt, base_prompt_2)
 
+        # Check if we should generate embeddings for s1 (avoid tensor boolean issues)
+        should_generate_s1 = (
+            s_agent1_data is not None and
+            (s1_full_prompt or (s_agent1_data.get("prompt_embeds") is not None))
+        )
+
         (s1_embeds, s1_pooled_embeds, s1_text_ids) = (
             self.encode_prompt(
                 prompt=s1_full_prompt, prompt_2=s1_full_prompt_2,
@@ -333,7 +339,7 @@ class FluxPipelineAuction(FluxPipeline):
                 device=device, num_images_per_prompt=num_images_per_prompt,
                 max_sequence_length=max_sequence_length, lora_scale=lora_scale,
             )
-            if s_agent1_data and (s1_full_prompt or (s_agent1_data["prompt_embeds"] is not None))
+            if should_generate_s1
             else (None, None, None)
         )
 
@@ -341,13 +347,16 @@ class FluxPipelineAuction(FluxPipeline):
         s1_s2_combined_prompt = self._combine_agent_prompts([s_agent1_data, s_agent2_data], base_prompt, ", ")
         s1_s2_combined_prompt_2 = self._combine_agent_prompts([s_agent1_data, s_agent2_data], base_prompt_2, ", ", prompt_type="prompt_2")
 
+        # Check if we should generate embeddings for s1_s2 (avoid tensor boolean issues)
+        should_generate_s1_s2 = s1_s2_combined_prompt is not None
+
         (s1_s2_embeds, s1_s2_pooled_embeds, s1_s2_text_ids) = (
             self.encode_prompt(
                 prompt=s1_s2_combined_prompt, prompt_2=s1_s2_combined_prompt_2,
                 device=device, num_images_per_prompt=num_images_per_prompt,
                 max_sequence_length=max_sequence_length, lora_scale=lora_scale,
             )
-            if s1_s2_combined_prompt
+            if should_generate_s1_s2
             else (s1_embeds, s1_pooled_embeds, s1_text_ids)
         )
 
@@ -355,13 +364,16 @@ class FluxPipelineAuction(FluxPipeline):
         s1_s2_s3_combined_prompt = self._combine_agent_prompts([s_agent1_data, s_agent2_data, s_agent3_data], base_prompt, " and ")
         s1_s2_s3_combined_prompt_2 = self._combine_agent_prompts([s_agent1_data, s_agent2_data, s_agent3_data], base_prompt_2, " and ", prompt_type="prompt_2")
 
+        # Check if we should generate embeddings for s1_s2_s3 (avoid tensor boolean issues)
+        should_generate_s1_s2_s3 = s1_s2_s3_combined_prompt is not None
+
         (s1_s2_s3_embeds, s1_s2_s3_pooled_embeds, s1_s2_s3_text_ids) = (
             self.encode_prompt(
                 prompt=s1_s2_s3_combined_prompt, prompt_2=s1_s2_s3_combined_prompt_2,
                 device=device, num_images_per_prompt=num_images_per_prompt,
                 max_sequence_length=max_sequence_length, lora_scale=lora_scale,
             )
-            if s1_s2_s3_combined_prompt
+            if should_generate_s1_s2_s3
             else (s1_s2_embeds, s1_s2_pooled_embeds, s1_s2_text_ids)
         )
 
