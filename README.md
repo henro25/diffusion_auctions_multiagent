@@ -25,6 +25,9 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+
+# Log into HuggingFace
+huggingface-cli login
 ```
 
 ### Running the 3-Agent Image Generation
