@@ -25,6 +25,9 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+
+# Log into HuggingFace
+huggingface-cli login
 ```
 
 ### Running the 3-Agent Image Generation
@@ -35,7 +38,7 @@ python generate_images_3_agent.py
 ```
 
 ### Expected Output
-- Generated images will be saved to `images/images_3_agent/`
+- Generated images will be saved to `/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent/`
 - Each prompt gets its own subdirectory: `prompt_000/`, `prompt_001/`, etc.
 - Images are named with bid information: `idx000_b1_1.00_b2_0.00_b3_0.00.png`
 - Generation log saved as `generation_log.json`
