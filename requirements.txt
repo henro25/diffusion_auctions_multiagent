@@ -1,6 +1,7 @@
 torch
 accelerate
 transformers
+protobuf
 numpy
 tqdm
 requests
@@ -9,3 +10,4 @@ pillow
 ipython
 seaborn
 diffusers
+sentencepiece

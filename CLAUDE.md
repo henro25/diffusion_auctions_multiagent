@@ -32,11 +32,16 @@ diffusion_auctions_multiagent/
 │   ├── __init__.py                   # Module exports
 │   ├── flux_auction_pipeline.py      # FluxPipelineAuction class
 │   └── README.md                     # Pipeline documentation
-├── scripts/                          # Generation scripts
-│   ├── generate_images_3_agent.py    # Single-GPU script
+├── scripts/                          # Main generation scripts
+│   ├── generate_images_3_agent.py    # Single-GPU script (auto-cache)
 │   ├── generate_images_3_agent_multigpu.py # Multi-GPU script
-│   └── multi_gpu_config.py           # Multi-GPU management
-├── prompts/
+│   ├── multi_gpu_config.py           # Multi-GPU management
+│   └── run_with_cache.sh             # Cluster-optimized runner
+├── helpers/                          # Utility scripts and tools
+│   ├── setup_cache.sh                # HuggingFace cache setup
+│   ├── manage_cache.py               # Cache management utility
+│   └── CLUSTER_SETUP.md              # Cluster deployment guide
+├── prompts/                          # Prompt configurations
 │   ├── prompts_3_agent.json          # 3-agent test scenarios
 │   ├── prompts_2_agent.json          # 2-agent scenarios
 │   └── base_prompts.json             # Base prompt library
@@ -127,7 +132,9 @@ Example: `idx000_b1_0.60_b2_0.30_b3_0.10_s00.png`
 
 #### Single GPU (Recommended for Development)
 1. **Modify configuration** at top of `generate_images_3_agent.py`
-2. **Run from scripts directory**: `cd scripts && python generate_images_3_agent.py`
+2. **Run from scripts directory**:
+   - Standard: `cd scripts && python generate_images_3_agent.py`
+   - Cluster-optimized: `cd scripts && ./run_with_cache.sh`
 3. **Check outputs** in `images/images_3_agent/prompt_XXX/`
 
 #### Multi-GPU (Production)
@@ -139,10 +146,15 @@ Example: `idx000_b1_0.60_b2_0.30_b3_0.10_s00.png`
 2. **Run**: `cd scripts && python generate_images_3_agent_multigpu.py`
 3. **Check outputs** in `images/images_3_agent_multigpu/prompt_XXX/`
 
-#### Alternative GPU Selection
+#### Cluster/HPC Environments
+For faster model downloads on clusters:
 ```bash
-export CUDA_VISIBLE_DEVICES=1,2,3  # Use specific GPUs
-cd scripts && python generate_images_3_agent_multigpu.py
+# Automatic cache setup + generation
+cd scripts && ./run_with_cache.sh
+
+# Manual cache management
+python helpers/manage_cache.py list
+python helpers/manage_cache.py clean black-forest-labs/FLUX.1-schnell
 ```
 
 ### Common Modifications
@@ -204,16 +216,20 @@ NUM_PROMPTS_TO_PROCESS = 3
 
 ### Common Commands
 ```bash
-# Run generation
+# Run generation (standard)
 cd scripts && python generate_images_3_agent.py
 
-# Check git status (many files ignored)
-git status
+# Run generation (cluster-optimized)
+cd scripts && ./run_with_cache.sh
 
-# Install dependencies
+# Cache management
+python helpers/manage_cache.py list
+python helpers/manage_cache.py usage
+python helpers/manage_cache.py clean [model_name]
+
+# Project maintenance
+git status  # Many files in images/ are gitignored
 pip install -r requirements.txt
-
-# Activate virtual environment
 source .venv/bin/activate
 ```
 
