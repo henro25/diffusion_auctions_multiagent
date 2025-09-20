@@ -33,7 +33,7 @@ NUM_GPUS = None  # None = auto-detect, or specify number (e.g., 4)
 GPU_INDICES = None  # None = auto-detect, or specify list of GPU indices (e.g., [0, 1, 3] or [1, 2])
 
 # Sampling configuration
-NUM_SAMPLES_PER_COMBINATION = 1  # Number of times to sample each prompt-bid combination
+NUM_SAMPLES_PER_COMBINATION = 20  # Number of times to sample each prompt-bid combination
 NUM_PROMPTS_TO_PROCESS = None  # Number of prompts to process (None = all prompts)
 
 # Generation parameters
