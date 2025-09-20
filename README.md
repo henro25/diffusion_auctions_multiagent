@@ -44,6 +44,12 @@ cd scripts
 python generate_images_3_agent.py
 ```
 
+#### Multi-GPU Usage
+```bash
+cd scripts
+python generate_images_3_agent_multigpu.py
+```
+
 #### Cluster/High-Performance Computing
 For faster model downloads on clusters with local SSD storage:
 ```bash
@@ -55,10 +61,34 @@ This automatically:
 - Loads HuggingFace token from `.env` file for authentication
 - Validates authentication before starting generation
 
+### Running the 2-Agent Image Generation
+
+The 2-agent scripts automatically sweep across bid combinations where one agent gets `b` and the other gets `1-b`, with `b` taking values: 0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0.
+
+#### Standard Usage
+```bash
+cd scripts
+python generate_images_2_agent.py
+```
+
+#### Multi-GPU Usage
+```bash
+cd scripts
+python generate_images_2_agent_multigpu.py
+```
+
 ### Expected Output
+
+#### 3-Agent Generation
 - Generated images will be saved to `/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent/`
 - Each prompt gets its own subdirectory: `prompt_000/`, `prompt_001/`, etc.
 - Images are named with bid information: `idx000_b1_1.00_b2_0.00_b3_0.00.png`
+- Generation log saved as `generation_log.json`
+
+#### 2-Agent Generation
+- Generated images will be saved to `/datastor1/gdaras/diffusion_auctions_multiagent/images/images_2_agent/`
+- Multi-GPU version saves to `images_2_agent_multigpu/`
+- Images are named with bid information: `idx000_b1_0.70_b2_0.30_s00.png`
 - Generation log saved as `generation_log.json`
 
 ## 📁 Project Structure
@@ -69,8 +99,10 @@ diffusion_auctions_multiagent/
 │   ├── flux_auction_pipeline.py      # FluxPipelineAuction class
 │   └── README.md                     # Pipeline documentation
 ├── scripts/                          # Main generation scripts
-│   ├── generate_images_3_agent.py    # Single-GPU script (auto-cache)
-│   ├── generate_images_3_agent_multigpu.py # Multi-GPU script
+│   ├── generate_images_3_agent.py    # 3-agent single-GPU script
+│   ├── generate_images_3_agent_multigpu.py # 3-agent multi-GPU script
+│   ├── generate_images_2_agent.py    # 2-agent single-GPU script
+│   ├── generate_images_2_agent_multigpu.py # 2-agent multi-GPU script
 │   ├── multi_gpu_config.py           # Multi-GPU management
 │   └── run_with_cache.sh             # Cluster-optimized runner
 ├── helpers/                          # Utility scripts and tools
@@ -93,7 +125,7 @@ diffusion_auctions_multiagent/
 Each agent places a bid (0.0-1.0) to influence the final image:
 - **Agent 1:** Highest bidder gets the most influence
 - **Agent 2:** Second highest bidder gets moderate influence
-- **Agent 3:** Lowest bidder gets least influence
+- **Agent 3:** Lowest bidder gets least influence (3-agent scenarios only)
 
 ### Score Composition Algorithm
 The system uses a recursive score composition method:
@@ -103,9 +135,18 @@ The system uses a recursive score composition method:
 4. Higher bids = greater weight in final image generation
 
 ### Example Bidding Scenarios
+
+#### 3-Agent Scenarios
 - `(1.0, 0.0, 0.0)`: Agent 1 completely dominates
 - `(0.33, 0.33, 0.33)`: All agents have equal influence
 - `(0.6, 0.3, 0.1)`: Agent 1 > Agent 2 > Agent 3 with clear hierarchy
+
+#### 2-Agent Scenarios (Auto-generated sweep)
+- `(0.0, 1.0)`: Agent 2 completely dominates
+- `(0.3, 0.7)`: Agent 2 has more influence than Agent 1
+- `(0.5, 0.5)`: Both agents have equal influence
+- `(0.7, 0.3)`: Agent 1 has more influence than Agent 2
+- `(1.0, 0.0)`: Agent 1 completely dominates
 
 ## 💡 Project Concept
 
@@ -133,7 +174,8 @@ Edit `prompts/prompts_3_agent.json`:
 ```
 
 ### Modifying Bid Combinations
-In `generate_images_3_agent.py`, edit the `bidding_combinations_3_agent` list to test different bid scenarios.
+- **3-Agent:** In `generate_images_3_agent.py`, edit the `BIDDING_COMBINATIONS_3_AGENT` list to test different bid scenarios.
+- **2-Agent:** In `generate_images_2_agent.py`, modify the `SWEEP_VALUES` list to change the bid sweep range. The script automatically generates combinations where Agent 1 gets `b` and Agent 2 gets `1-b`.
 
 ## 🐛 Troubleshooting
 
