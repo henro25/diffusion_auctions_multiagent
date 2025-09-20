@@ -14,6 +14,33 @@ shift 2>/dev/null || true  # Remove first argument if it exists
 
 echo "=== Running with HuggingFace Cache Setup ==="
 
+# Load environment variables (including HF_TOKEN)
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+if [[ -f "$PROJECT_ROOT/.env" ]]; then
+    echo "Loading environment variables from .env..."
+    set -a  # Automatically export variables
+    source "$PROJECT_ROOT/.env"
+    set +a
+
+    # Validate HF_TOKEN
+    if [[ -z "$HF_TOKEN" || "$HF_TOKEN" == "your_huggingface_token_here" ]]; then
+        echo "ERROR: Please set your HuggingFace token in .env file"
+        echo "Get your token from: https://huggingface.co/settings/tokens"
+        echo "Then set: HF_TOKEN=your_actual_token"
+        exit 1
+    fi
+
+    # Set HuggingFace Hub token for authentication
+    export HUGGING_FACE_HUB_TOKEN="$HF_TOKEN"
+    export HF_HUB_TOKEN="$HF_TOKEN"
+    echo "HuggingFace authentication configured"
+else
+    echo "WARNING: .env file not found at $PROJECT_ROOT/.env"
+    echo "You may encounter authentication issues with gated models"
+fi
+
+echo ""
+
 # Setup cache environment
 HELPERS_DIR="$(dirname "$SCRIPT_DIR")/helpers"
 if [[ -f "$HELPERS_DIR/setup_cache.sh" ]]; then

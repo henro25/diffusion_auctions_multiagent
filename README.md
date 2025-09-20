@@ -26,9 +26,15 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Log into HuggingFace
+# Set up HuggingFace authentication
+# Option 1: Create .env file (recommended for clusters)
+echo "HF_TOKEN=your_token_here" > .env
+
+# Option 2: Interactive login
 huggingface-cli login
 ```
+
+Get your HuggingFace token from: https://huggingface.co/settings/tokens
 
 ### Running the 3-Agent Image Generation
 
@@ -44,7 +50,10 @@ For faster model downloads on clusters with local SSD storage:
 cd scripts
 ./run_with_cache.sh
 ```
-This automatically sets up local cache to avoid slow network downloads.
+This automatically:
+- Sets up local cache to avoid slow network downloads
+- Loads HuggingFace token from `.env` file for authentication
+- Validates authentication before starting generation
 
 ### Expected Output
 - Generated images will be saved to `/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent/`
