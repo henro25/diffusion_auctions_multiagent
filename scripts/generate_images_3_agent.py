@@ -14,6 +14,46 @@ import sys
 import torch
 from tqdm import tqdm
 
+# Setup HuggingFace cache before importing models
+def setup_hf_cache():
+    """Setup HuggingFace cache to use local SSD instead of slow NFS."""
+    # Check if cache is already configured
+    if 'HF_HOME' in os.environ:
+        print(f"Using existing HF cache: {os.environ['HF_HOME']}")
+        return
+
+    # Try to find a local SSD path
+    user = os.environ.get('USER', os.environ.get('USERNAME', 'user'))
+    cache_paths = [
+        f"/scratch/{user}/hf-cache",
+        f"/tmp/{user}/hf-cache",
+        f"/dev/shm/{user}/hf-cache",
+        f"/var/tmp/{user}/hf-cache"
+    ]
+
+    cache_dir = None
+    for path in cache_paths:
+        parent = os.path.dirname(path)
+        if os.access(parent, os.W_OK):
+            cache_dir = path
+            break
+
+    if cache_dir:
+        os.makedirs(cache_dir, exist_ok=True)
+        os.makedirs(f"{cache_dir}/hub", exist_ok=True)
+        os.makedirs(f"{cache_dir}/transformers", exist_ok=True)
+
+        os.environ['HF_HOME'] = cache_dir
+        os.environ['HF_HUB_CACHE'] = f"{cache_dir}/hub"
+        os.environ['TRANSFORMERS_CACHE'] = f"{cache_dir}/transformers"
+
+        print(f"Setup HF cache at: {cache_dir}")
+    else:
+        print("Warning: Could not find local SSD for cache, using default (may be slow)")
+
+# Setup cache before importing heavy libraries
+setup_hf_cache()
+
 # Import the FluxPipelineAuction class from pipelines module
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 from pipelines import FluxPipelineAuction

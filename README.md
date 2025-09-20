@@ -31,11 +31,20 @@ huggingface-cli login
 ```
 
 ### Running the 3-Agent Image Generation
+
+#### Standard Usage
 ```bash
-# From the project root directory
 cd scripts
 python generate_images_3_agent.py
 ```
+
+#### Cluster/High-Performance Computing
+For faster model downloads on clusters with local SSD storage:
+```bash
+cd scripts
+./run_with_cache.sh
+```
+This automatically sets up local cache to avoid slow network downloads.
 
 ### Expected Output
 - Generated images will be saved to `/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent/`
@@ -46,14 +55,27 @@ python generate_images_3_agent.py
 ## 📁 Project Structure
 ```
 diffusion_auctions_multiagent/
-├── scripts/
-│   └── generate_images_3_agent.py    # Main 3-agent generation script
-├── prompts/
-│   ├── prompts_3_agent.json          # 3-agent prompt configurations
-│   ├── prompts_2_agent.json          # 2-agent prompt configurations
+├── pipelines/                        # Core pipeline implementations
+│   ├── __init__.py                   # Module exports
+│   ├── flux_auction_pipeline.py      # FluxPipelineAuction class
+│   └── README.md                     # Pipeline documentation
+├── scripts/                          # Main generation scripts
+│   ├── generate_images_3_agent.py    # Single-GPU script (auto-cache)
+│   ├── generate_images_3_agent_multigpu.py # Multi-GPU script
+│   ├── multi_gpu_config.py           # Multi-GPU management
+│   └── run_with_cache.sh             # Cluster-optimized runner
+├── helpers/                          # Utility scripts and tools
+│   ├── setup_cache.sh                # HuggingFace cache setup
+│   ├── manage_cache.py               # Cache management utility
+│   └── CLUSTER_SETUP.md              # Cluster deployment guide
+├── prompts/                          # Prompt configurations
+│   ├── prompts_3_agent.json          # 3-agent test scenarios
+│   ├── prompts_2_agent.json          # 2-agent scenarios
 │   └── base_prompts.json             # Base prompt library
-├── images/                           # Generated images output directory
-└── requirements.txt                  # Python dependencies
+├── images/                           # Generated outputs (gitignored)
+├── requirements.txt                  # Python dependencies
+├── README.md                         # This file
+└── CLAUDE.md                         # Development context
 ```
 
 ## 🎲 How It Works
@@ -110,11 +132,18 @@ In `generate_images_3_agent.py`, edit the `bidding_combinations_3_agent` list to
 - **CUDA out of memory:** Reduce `num_inference_steps` or use smaller batch size
 - **Path errors:** Ensure you're running from the `scripts/` directory
 - **Missing dependencies:** Run `pip install -r requirements.txt`
+- **Slow model downloads:** Use `./run_with_cache.sh` for cluster environments
 
 ### Performance Notes
 - Generation time: ~5-10 seconds per image on GPU
 - Memory usage: ~8-12GB VRAM for FLUX.1-schnell model
 - Storage: ~2-5MB per generated image
+
+### Cluster Environments
+For detailed cluster setup and cache management, see `helpers/CLUSTER_SETUP.md`:
+- Local SSD cache setup for faster downloads
+- Cache management utilities
+- Troubleshooting interrupted downloads
 
 
 ## 📚 References
