@@ -28,8 +28,14 @@
 ## 📁 Project Structure
 ```
 diffusion_auctions_multiagent/
-├── scripts/
-│   └── generate_images_3_agent.py    # Main generation script
+├── pipelines/                        # Core pipeline implementations
+│   ├── __init__.py                   # Module exports
+│   ├── flux_auction_pipeline.py      # FluxPipelineAuction class
+│   └── README.md                     # Pipeline documentation
+├── scripts/                          # Generation scripts
+│   ├── generate_images_3_agent.py    # Single-GPU script
+│   ├── generate_images_3_agent_multigpu.py # Multi-GPU script
+│   └── multi_gpu_config.py           # Multi-GPU management
 ├── prompts/
 │   ├── prompts_3_agent.json          # 3-agent test scenarios
 │   ├── prompts_2_agent.json          # 2-agent scenarios
@@ -68,9 +74,9 @@ BIDDING_COMBINATIONS_3_AGENT = [
 ```
 
 ### Key Functions
-- **`FluxPipelineAuction.__call__`** (Lines 55-651): Core auction mechanism
-- **`generate_and_save_flux_image_3_agents`** (Lines 672-719): Image generation wrapper
-- **Main execution loop** (Lines 746-787): Processes all prompt-bid combinations
+- **`FluxPipelineAuction.__call__`** (pipelines/flux_auction_pipeline.py): Core auction mechanism
+- **`generate_and_save_image`** (scripts/generate_images_3_agent.py): Image generation wrapper
+- **Multi-GPU support** (scripts/multi_gpu_config.py): Parallel processing across GPUs
 
 ## 🐛 Known Issues & Fixes Applied
 
@@ -118,10 +124,26 @@ Example: `idx000_b1_0.60_b2_0.30_b3_0.10_s00.png`
 ## 🚀 Usage Patterns
 
 ### Development Workflow
+
+#### Single GPU (Recommended for Development)
 1. **Modify configuration** at top of `generate_images_3_agent.py`
 2. **Run from scripts directory**: `cd scripts && python generate_images_3_agent.py`
 3. **Check outputs** in `images/images_3_agent/prompt_XXX/`
-4. **Review generation_log.json** for metadata
+
+#### Multi-GPU (Production)
+1. **Configure GPUs** in `generate_images_3_agent_multigpu.py`:
+   ```python
+   USE_MULTI_GPU = True
+   GPU_INDICES = [0, 1, 2, 3]  # Specify exact GPUs
+   ```
+2. **Run**: `cd scripts && python generate_images_3_agent_multigpu.py`
+3. **Check outputs** in `images/images_3_agent_multigpu/prompt_XXX/`
+
+#### Alternative GPU Selection
+```bash
+export CUDA_VISIBLE_DEVICES=1,2,3  # Use specific GPUs
+cd scripts && python generate_images_3_agent_multigpu.py
+```
 
 ### Common Modifications
 ```python
