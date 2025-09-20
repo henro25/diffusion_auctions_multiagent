@@ -260,6 +260,7 @@ class FluxPipelineAuction(FluxPipeline):
         for prompt, embeds in [(agent1_prompt, agent1_prompt_embeds), (agent2_prompt, agent2_prompt_embeds), (agent3_prompt, agent3_prompt_embeds)]:
             if prompt is not None:
                 return 1 if isinstance(prompt, str) else len(prompt)
+            # Use explicit check to avoid tensor boolean ambiguity
             elif embeds is not None:
                 return embeds.shape[0]
         raise ValueError("At least one agent prompt or its embeddings must be provided to determine batch_size.")
@@ -281,11 +282,16 @@ class FluxPipelineAuction(FluxPipeline):
             agents_initial_data.append(agent_data)
 
         # Filter active agents (those with prompts or embeddings)
-        agents_active_data = [
-            agent for agent in agents_initial_data
-            if (agent["prompt"] is not None or
-                (agent["prompt_embeds"] is not None and agent["pooled_prompt_embeds"] is not None))
-        ]
+        # Use safer boolean checks to avoid tensor boolean ambiguity
+        agents_active_data = []
+        for agent in agents_initial_data:
+            has_prompt = agent["prompt"] is not None
+            has_embeds = (
+                agent.get("prompt_embeds") is not None and
+                agent.get("pooled_prompt_embeds") is not None
+            )
+            if has_prompt or has_embeds:
+                agents_active_data.append(agent)
 
         if not agents_active_data:
             raise ValueError("No active agents with prompts or embeddings provided.")
@@ -377,11 +383,15 @@ class FluxPipelineAuction(FluxPipeline):
             else (s1_s2_embeds, s1_s2_pooled_embeds, s1_s2_text_ids)
         )
 
-        # Ensure at least one valid embedding set exists
+        # Ensure at least one valid embedding set exists (avoid tensor boolean issues)
         if s1_s2_s3_embeds is None:
-            if s1_s2_embeds is not None:
+            # Use explicit checks to avoid tensor boolean ambiguity
+            s1_s2_available = s1_s2_embeds is not None
+            s1_available = s1_embeds is not None
+
+            if s1_s2_available:
                 s1_s2_s3_embeds, s1_s2_s3_pooled_embeds, s1_s2_s3_text_ids = s1_s2_embeds, s1_s2_pooled_embeds, s1_s2_text_ids
-            elif s1_embeds is not None:
+            elif s1_available:
                 s1_s2_s3_embeds, s1_s2_s3_pooled_embeds, s1_s2_s3_text_ids = s1_embeds, s1_pooled_embeds, s1_text_ids
             else:
                 raise ValueError("Failed to generate any valid prompt embeddings for the agents.")
