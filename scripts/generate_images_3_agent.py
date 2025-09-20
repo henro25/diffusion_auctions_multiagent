@@ -66,7 +66,7 @@ PROMPTS_PATH = "../prompts/prompts_3_agent.json"  # Path to prompts file
 OUTPUT_DIR = "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent"  # Output directory for generated images
 
 # Sampling configuration
-NUM_SAMPLES_PER_COMBINATION = 1  # Number of times to sample each prompt-bid combination
+NUM_SAMPLES_PER_COMBINATION = 20  # Number of times to sample each prompt-bid combination
 NUM_PROMPTS_TO_PROCESS = None  # Number of prompts to process (None = all prompts)
 
 # Generation parameters
