@@ -429,18 +429,23 @@ class FluxPipelineAuction(FluxPipeline):
                 timestep_expanded = t.expand(latents.shape[0]).to(latents.dtype)
 
                 # Get noise predictions for each agent combination
+                # Use explicit fallback logic to avoid tensor boolean ambiguity
+                s1_embed_to_use = s1_embeds if s1_embeds is not None else s1_s2_s3_embeds
+                s1_pooled_to_use = s1_pooled_embeds if s1_pooled_embeds is not None else s1_s2_s3_pooled_embeds
+                s1_text_ids_to_use = s1_text_ids if s1_text_ids is not None else s1_s2_s3_text_ids
+
                 noise_pred_s1 = self._get_noise_prediction(
                     latents, timestep_expanded, guidance, latent_image_ids,
-                    s1_embeds or s1_s2_s3_embeds,
-                    s1_pooled_embeds or s1_s2_s3_pooled_embeds,
-                    s1_text_ids or s1_s2_s3_text_ids
+                    s1_embed_to_use, s1_pooled_to_use, s1_text_ids_to_use
                 )
+
+                s1_s2_embed_to_use = s1_s2_embeds if s1_s2_embeds is not None else s1_s2_s3_embeds
+                s1_s2_pooled_to_use = s1_s2_pooled_embeds if s1_s2_pooled_embeds is not None else s1_s2_s3_pooled_embeds
+                s1_s2_text_ids_to_use = s1_s2_text_ids if s1_s2_text_ids is not None else s1_s2_s3_text_ids
 
                 noise_pred_s1_s2 = self._get_noise_prediction(
                     latents, timestep_expanded, guidance, latent_image_ids,
-                    s1_s2_embeds or s1_s2_s3_embeds,
-                    s1_s2_pooled_embeds or s1_s2_s3_pooled_embeds,
-                    s1_s2_text_ids or s1_s2_s3_text_ids
+                    s1_s2_embed_to_use, s1_s2_pooled_to_use, s1_s2_text_ids_to_use
                 )
 
                 noise_pred_s1_s2_s3 = self._get_noise_prediction(
