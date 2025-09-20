@@ -23,7 +23,7 @@ from pipelines import FluxPipelineAuction
 
 # Path configurations
 PROMPTS_PATH = "../prompts/prompts_3_agent.json"  # Path to prompts file
-OUTPUT_DIR = "images/images_3_agent"  # Output directory for generated images
+OUTPUT_DIR = "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent"  # Output directory for generated images
 
 # Sampling configuration
 NUM_SAMPLES_PER_COMBINATION = 1  # Number of times to sample each prompt-bid combination
