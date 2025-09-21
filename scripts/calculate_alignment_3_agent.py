@@ -89,40 +89,33 @@ def get_clip_alignment_score(
 ) -> float:
     """Calculate CLIP alignment score for a single image and text prompt."""
     try:
-        # Load and process image
         img = Image.open(image_path).convert("RGB")
 
-        # Process inputs
+        # Keep the BatchEncoding; move to device
         inputs = processor(
             text=[text],
             images=[img],
             return_tensors="pt",
             padding=True,
             truncation=True,
-        ).to(DEVICE)
+        )
+        inputs = inputs.to(DEVICE)  # preserves BatchEncoding type
 
-        # Move to appropriate dtype
-        inputs = {
-            k: v.to(
-                DTYPE if v.is_floating_point() and model.dtype == DTYPE else v.dtype
-            )
-            for k, v in inputs.items()
-        }
+        # Pull tensors explicitly; only cast image to float dtype
+        pixel_values = inputs["pixel_values"].to(DTYPE)
+        input_ids = inputs["input_ids"]
+        attention_mask = inputs.get("attention_mask", None)
 
         with torch.inference_mode():
-            # Get features
-            image_features = model.get_image_features(pixel_values=inputs.pixel_values)
+            image_features = model.get_image_features(pixel_values=pixel_values)
             text_features = model.get_text_features(
-                input_ids=inputs.input_ids, attention_mask=inputs.attention_mask
+                input_ids=input_ids, attention_mask=attention_mask
             )
 
-            # Normalize features
             image_features = image_features / image_features.norm(dim=-1, keepdim=True)
             text_features = text_features / text_features.norm(dim=-1, keepdim=True)
 
-            # Calculate cosine similarity
             similarity = (image_features @ text_features.T).squeeze()
-
             return float(similarity.item())
 
     except Exception as e:
@@ -136,6 +129,9 @@ def calculate_clip_quality(
     """Calculate image quality score using CLIP."""
     try:
         img = Image.open(image_path).convert("RGB")
+        pixel_values = inputs["pixel_values"].to(DTYPE)
+        input_ids = inputs["input_ids"]
+        attention_mask = inputs.get("attention_mask", None)
 
         # Process with quality prompts
         inputs = processor(
@@ -146,9 +142,9 @@ def calculate_clip_quality(
         ).to(DEVICE)
 
         with torch.inference_mode():
-            image_feats = model.get_image_features(pixel_values=inputs.pixel_values)
+            image_feats = model.get_image_features(pixel_values=pixel_values)
             text_feats = model.get_text_features(
-                input_ids=inputs.input_ids, attention_mask=inputs.attention_mask
+                input_ids=input_ids, attention_mask=attention_mask
             )
 
         # Normalize
