@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "prompt_index": 9,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 4,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_2_agent/prompt_009/idx009_b1_0.30_b2_0.70_s04.png",
+    "filename": "idx009_b1_0.30_b2_0.70_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "A car driving along a scenic coastal highway",
+    "agent1_prompt": "Tesla car",
+    "agent2_prompt": "ExxonMobil sign"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.271484375,
+    "agent1_alignment": 0.2294921875,
+    "agent2_alignment": 0.30859375
+  },
+  "quality_score": 0.49609375,
+  "welfare_metrics": {
+    "weighted_alignment": 0.28486328125,
+    "total_welfare": 0.28486328125
+  }
+}

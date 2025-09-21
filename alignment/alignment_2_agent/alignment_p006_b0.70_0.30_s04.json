@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "prompt_index": 6,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 4,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_2_agent/prompt_006/idx006_b1_0.70_b2_0.30_s04.png",
+    "filename": "idx006_b1_0.70_b2_0.30_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "A woman with a tray of food at a cafeteria",
+    "agent1_prompt": "McDonald's fries",
+    "agent2_prompt": "Pepsi can"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2353515625,
+    "agent1_alignment": 0.197265625,
+    "agent2_alignment": 0.16796875
+  },
+  "quality_score": 0.515625,
+  "welfare_metrics": {
+    "weighted_alignment": 0.18847656249999997,
+    "total_welfare": 0.18847656249999997
+  }
+}

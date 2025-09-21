@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "prompt_index": 1,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 7,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_2_agent/prompt_001/idx001_b1_0.10_b2_0.90_s07.png",
+    "filename": "idx001_b1_0.10_b2_0.90_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "People enjoying a sunny day at the beach",
+    "agent1_prompt": "Wilson volleyball",
+    "agent2_prompt": "Red Bull cooler"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2138671875,
+    "agent1_alignment": 0.12158203125,
+    "agent2_alignment": 0.2734375
+  },
+  "quality_score": 0.50390625,
+  "welfare_metrics": {
+    "weighted_alignment": 0.258251953125,
+    "total_welfare": 0.258251953125
+  }
+}

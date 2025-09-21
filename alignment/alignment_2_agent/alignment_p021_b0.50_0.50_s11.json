@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "prompt_index": 21,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 11,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_2_agent/prompt_021/idx021_b1_0.50_b2_0.50_s11.png",
+    "filename": "idx021_b1_0.50_b2_0.50_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "A barista working in a trendy coffee shop",
+    "agent1_prompt": "Starbucks coffee machine",
+    "agent2_prompt": "Spotify playlist screen"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2490234375,
+    "agent1_alignment": 0.2001953125,
+    "agent2_alignment": 0.158203125
+  },
+  "quality_score": 0.50390625,
+  "welfare_metrics": {
+    "weighted_alignment": 0.17919921875,
+    "total_welfare": 0.17919921875
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "prompt_index": 17,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 11,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_2_agent/prompt_017/idx017_b1_0.10_b2_0.90_s11.png",
+    "filename": "idx017_b1_0.10_b2_0.90_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "A couple shopping at a farmers market",
+    "agent1_prompt": "Whole Foods tote bag",
+    "agent2_prompt": "iPhone camera"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2099609375,
+    "agent1_alignment": 0.1240234375,
+    "agent2_alignment": 0.1669921875
+  },
+  "quality_score": 0.51171875,
+  "welfare_metrics": {
+    "weighted_alignment": 0.1626953125,
+    "total_welfare": 0.1626953125
+  }
+}

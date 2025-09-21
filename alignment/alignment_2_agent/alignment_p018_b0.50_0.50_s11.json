@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "prompt_index": 18,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 11,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_2_agent/prompt_018/idx018_b1_0.50_b2_0.50_s11.png",
+    "filename": "idx018_b1_0.50_b2_0.50_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "A teenager gaming in their bedroom",
+    "agent1_prompt": "PlayStation 5 controller",
+    "agent2_prompt": "Monster Energy drink"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.28515625,
+    "agent1_alignment": 0.1865234375,
+    "agent2_alignment": 0.2421875
+  },
+  "quality_score": 0.51171875,
+  "welfare_metrics": {
+    "weighted_alignment": 0.21435546875,
+    "total_welfare": 0.21435546875
+  }
+}

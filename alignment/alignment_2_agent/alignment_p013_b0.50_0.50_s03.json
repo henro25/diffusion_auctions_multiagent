@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "prompt_index": 13,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 3,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_2_agent/prompt_013/idx013_b1_0.50_b2_0.50_s03.png",
+    "filename": "idx013_b1_0.50_b2_0.50_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "A student studying in a university library",
+    "agent1_prompt": "MacBook Pro laptop",
+    "agent2_prompt": "Red Bull energy drink"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.25390625,
+    "agent1_alignment": 0.1943359375,
+    "agent2_alignment": 0.2197265625
+  },
+  "quality_score": 0.5078125,
+  "welfare_metrics": {
+    "weighted_alignment": 0.20703125,
+    "total_welfare": 0.20703125
+  }
+}
