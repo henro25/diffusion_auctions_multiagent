@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "prompt_index": 10,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 16,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_2_agent/prompt_010/idx010_b1_0.70_b2_0.30_s16.png",
+    "filename": "idx010_b1_0.70_b2_0.30_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "Skiers waiting in a ski-lift line",
+    "agent1_prompt": "Patagonia jacket",
+    "agent2_prompt": "GoPro camera"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2294921875,
+    "agent1_alignment": 0.22265625,
+    "agent2_alignment": 0.1630859375
+  },
+  "quality_score": 0.50390625,
+  "welfare_metrics": {
+    "weighted_alignment": 0.20478515625,
+    "total_welfare": 0.20478515625
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "prompt_index": 24,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 7,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_2_agent/prompt_024/idx024_b1_0.90_b2_0.10_s07.png",
+    "filename": "idx024_b1_0.90_b2_0.10_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "A musician performing at an outdoor festival",
+    "agent1_prompt": "Yamaha electric guitar",
+    "agent2_prompt": "Marshall amplifier"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2236328125,
+    "agent1_alignment": 0.1806640625,
+    "agent2_alignment": 0.1611328125
+  },
+  "quality_score": 0.50390625,
+  "welfare_metrics": {
+    "weighted_alignment": 0.1787109375,
+    "total_welfare": 0.1787109375
+  }
+}

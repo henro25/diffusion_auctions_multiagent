@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "prompt_index": 3,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 14,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_2_agent/prompt_003/idx003_b1_0.90_b2_0.10_s14.png",
+    "filename": "idx003_b1_0.90_b2_0.10_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "A hiker resting on a mountain trail",
+    "agent1_prompt": "North Face backpack",
+    "agent2_prompt": "Gatorade bottle"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.263671875,
+    "agent1_alignment": 0.1708984375,
+    "agent2_alignment": 0.1181640625
+  },
+  "quality_score": 0.51171875,
+  "welfare_metrics": {
+    "weighted_alignment": 0.165625,
+    "total_welfare": 0.165625
+  }
+}

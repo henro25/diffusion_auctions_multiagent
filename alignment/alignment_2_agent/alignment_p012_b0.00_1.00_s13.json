@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "prompt_index": 12,
+    "bids": [
+      0.0,
+      1.0
+    ],
+    "sample_index": 13,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_2_agent/prompt_012/idx012_b1_0.00_b2_1.00_s13.png",
+    "filename": "idx012_b1_0.00_b2_1.00_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "A family having dinner at home",
+    "agent1_prompt": "KitchenAid mixer",
+    "agent2_prompt": "Ikea dining table"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2353515625,
+    "agent1_alignment": 0.125,
+    "agent2_alignment": 0.232421875
+  },
+  "quality_score": 0.5078125,
+  "welfare_metrics": {
+    "weighted_alignment": 0.232421875,
+    "total_welfare": 0.232421875
+  }
+}

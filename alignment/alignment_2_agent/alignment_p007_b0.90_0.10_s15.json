@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "prompt_index": 7,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 15,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_2_agent/prompt_007/idx007_b1_0.90_b2_0.10_s15.png",
+    "filename": "idx007_b1_0.90_b2_0.10_s15.png"
+  },
+  "prompts": {
+    "base_prompt": "A person walking down a city street",
+    "agent1_prompt": "Louis Vuitton handbag",
+    "agent2_prompt": "H&M storefront"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.220703125,
+    "agent1_alignment": 0.2451171875,
+    "agent2_alignment": 0.1298828125
+  },
+  "quality_score": 0.51171875,
+  "welfare_metrics": {
+    "weighted_alignment": 0.23359375000000002,
+    "total_welfare": 0.23359375000000002
+  }
+}

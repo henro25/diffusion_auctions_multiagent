@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "prompt_index": 5,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 0,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_2_agent/prompt_005/idx005_b1_0.30_b2_0.70_s00.png",
+    "filename": "idx005_b1_0.30_b2_0.70_s00.png"
+  },
+  "prompts": {
+    "base_prompt": "A swimming pool outdoors",
+    "agent1_prompt": "Marriott Bonvoy hotel",
+    "agent2_prompt": "Ray-Ban sunglasses"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.1796875,
+    "agent1_alignment": 0.1767578125,
+    "agent2_alignment": 0.236328125
+  },
+  "quality_score": 0.5078125,
+  "welfare_metrics": {
+    "weighted_alignment": 0.21845703125,
+    "total_welfare": 0.21845703125
+  }
+}
