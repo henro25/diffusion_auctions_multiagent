@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "prompt_index": 2,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 11,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent/prompt_002/idx002_b1_0.60_b2_0.30_b3_0.10_s11.png",
+    "filename": "idx002_b1_0.60_b2_0.30_b3_0.10_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "A person relaxing on a living-room sofa",
+    "agent1_prompt": "Lay's potato chips",
+    "agent2_prompt": "M&M's candy",
+    "agent3_prompt": "Netflix show on TV"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.240234375,
+    "agent1_alignment": 0.25390625,
+    "agent2_alignment": 0.1923828125,
+    "agent3_alignment": 0.1689453125
+  },
+  "quality_score": 0.51171875,
+  "welfare_metrics": {
+    "weighted_alignment": 0.226953125,
+    "total_welfare": 0.226953125
+  }
+}

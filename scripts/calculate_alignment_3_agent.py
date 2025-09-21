@@ -128,18 +128,22 @@ def calculate_clip_quality(
 ) -> float:
     """Calculate image quality score using CLIP."""
     try:
-        img = Image.open(image_path).convert("RGB")
-        pixel_values = inputs["pixel_values"].to(DTYPE)
-        input_ids = inputs["input_ids"]
-        attention_mask = inputs.get("attention_mask", None)
+        # Open the image first
+        with Image.open(image_path) as im:
+            img = im.convert("RGB")
 
-        # Process with quality prompts
+        # Build inputs, then move to device
         inputs = processor(
             text=["High quality image.", "Low quality image."],
             images=[img],
             return_tensors="pt",
             padding=True,
         ).to(DEVICE)
+
+        # Pull tensors; cast only the image to model dtype
+        pixel_values = inputs["pixel_values"].to(model.dtype)
+        input_ids = inputs["input_ids"]
+        attention_mask = inputs.get("attention_mask", None)
 
         with torch.inference_mode():
             image_feats = model.get_image_features(pixel_values=pixel_values)
@@ -151,11 +155,10 @@ def calculate_clip_quality(
         image_feats = image_feats / image_feats.norm(dim=-1, keepdim=True)
         text_feats = text_feats / text_feats.norm(dim=-1, keepdim=True)
 
-        # Calculate probabilities
-        logits = image_feats @ text_feats.T  # shape (1,2)
-        probs = logits.softmax(dim=-1)  # shape (1,2)
+        # Probabilities over ["High quality", "Low quality"]
+        logits = image_feats @ text_feats.T  # (1, 2)
+        probs = logits.softmax(dim=-1)       # (1, 2)
 
-        # Return probability of "High quality image."
         return float(probs[0, 0].item())
 
     except Exception as e:

@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "prompt_index": 6,
+    "bids": [
+      0.33,
+      0.33,
+      0.33
+    ],
+    "sample_index": 1,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent/prompt_006/idx006_b1_0.33_b2_0.33_b3_0.33_s01.png",
+    "filename": "idx006_b1_0.33_b2_0.33_b3_0.33_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "A woman with a tray of food at a cafeteria",
+    "agent1_prompt": "McDonald's fries",
+    "agent2_prompt": "Pepsi can",
+    "agent3_prompt": "Heinz ketchup packet"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.21875,
+    "agent1_alignment": 0.2236328125,
+    "agent2_alignment": 0.169921875,
+    "agent3_alignment": 0.2392578125
+  },
+  "quality_score": 0.515625,
+  "welfare_metrics": {
+    "weighted_alignment": 0.21093750000000003,
+    "total_welfare": 0.20882812500000003
+  }
+}

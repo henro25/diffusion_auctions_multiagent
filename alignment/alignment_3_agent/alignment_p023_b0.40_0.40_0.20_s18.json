@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "prompt_index": 23,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 18,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent/prompt_023/idx023_b1_0.40_b2_0.40_b3_0.20_s18.png",
+    "filename": "idx023_b1_0.40_b2_0.40_b3_0.20_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "A doctor in a hospital break room",
+    "agent1_prompt": "MacBook Air laptop",
+    "agent2_prompt": "Starbucks coffee cup",
+    "agent3_prompt": "Samsung tablet"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2021484375,
+    "agent1_alignment": 0.16015625,
+    "agent2_alignment": 0.11376953125,
+    "agent3_alignment": 0.134765625
+  },
+  "quality_score": 0.5078125,
+  "welfare_metrics": {
+    "weighted_alignment": 0.1365234375,
+    "total_welfare": 0.1365234375
+  }
+}

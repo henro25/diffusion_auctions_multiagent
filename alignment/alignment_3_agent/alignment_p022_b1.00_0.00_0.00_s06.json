@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "prompt_index": 22,
+    "bids": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 6,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent/prompt_022/idx022_b1_1.00_b2_0.00_b3_0.00_s06.png",
+    "filename": "idx022_b1_1.00_b2_0.00_b3_0.00_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "A fitness trainer at a modern gym",
+    "agent1_prompt": "Under Armour workout shirt",
+    "agent2_prompt": "Beats wireless headphones",
+    "agent3_prompt": "Hydroflask water bottle"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.265625,
+    "agent1_alignment": 0.240234375,
+    "agent2_alignment": 0.150390625,
+    "agent3_alignment": 0.154296875
+  },
+  "quality_score": 0.51171875,
+  "welfare_metrics": {
+    "weighted_alignment": 0.240234375,
+    "total_welfare": 0.240234375
+  }
+}

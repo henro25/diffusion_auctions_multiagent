@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "prompt_index": 17,
+    "bids": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "sample_index": 18,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent/prompt_017/idx017_b1_0.60_b2_0.20_b3_0.20_s18.png",
+    "filename": "idx017_b1_0.60_b2_0.20_b3_0.20_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "A couple shopping at a farmers market",
+    "agent1_prompt": "Whole Foods tote bag",
+    "agent2_prompt": "iPhone camera",
+    "agent3_prompt": "Patagonia fleece jacket"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.224609375,
+    "agent1_alignment": 0.28515625,
+    "agent2_alignment": 0.11767578125,
+    "agent3_alignment": 0.150390625
+  },
+  "quality_score": 0.515625,
+  "welfare_metrics": {
+    "weighted_alignment": 0.22470703125,
+    "total_welfare": 0.22470703125
+  }
+}

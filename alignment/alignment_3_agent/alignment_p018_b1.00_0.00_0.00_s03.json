@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "prompt_index": 18,
+    "bids": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 3,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent/prompt_018/idx018_b1_1.00_b2_0.00_b3_0.00_s03.png",
+    "filename": "idx018_b1_1.00_b2_0.00_b3_0.00_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "A teenager gaming in their bedroom",
+    "agent1_prompt": "PlayStation 5 controller",
+    "agent2_prompt": "Monster Energy drink",
+    "agent3_prompt": "Razer gaming headset"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.255859375,
+    "agent1_alignment": 0.2177734375,
+    "agent2_alignment": 0.1083984375,
+    "agent3_alignment": 0.1513671875
+  },
+  "quality_score": 0.51171875,
+  "welfare_metrics": {
+    "weighted_alignment": 0.2177734375,
+    "total_welfare": 0.2177734375
+  }
+}
