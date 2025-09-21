@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "prompt_index": 9,
+    "bids": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 10,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent/prompt_009/idx009_b1_1.00_b2_0.00_b3_0.00_s10.png",
+    "filename": "idx009_b1_1.00_b2_0.00_b3_0.00_s10.png"
+  },
+  "prompts": {
+    "base_prompt": "A car driving along a scenic coastal highway",
+    "agent1_prompt": "Tesla car",
+    "agent2_prompt": "ExxonMobil sign",
+    "agent3_prompt": "Goodyear tires"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2734375,
+    "agent1_alignment": 0.208984375,
+    "agent2_alignment": 0.10986328125,
+    "agent3_alignment": 0.1435546875
+  },
+  "quality_score": 0.5078125,
+  "welfare_metrics": {
+    "weighted_alignment": 0.208984375,
+    "total_welfare": 0.208984375
+  }
+}

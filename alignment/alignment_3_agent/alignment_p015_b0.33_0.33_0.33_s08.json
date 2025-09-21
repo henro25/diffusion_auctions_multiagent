@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "prompt_index": 15,
+    "bids": [
+      0.33,
+      0.33,
+      0.33
+    ],
+    "sample_index": 8,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent/prompt_015/idx015_b1_0.33_b2_0.33_b3_0.33_s08.png",
+    "filename": "idx015_b1_0.33_b2_0.33_b3_0.33_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "A chef cooking in a restaurant kitchen",
+    "agent1_prompt": "KitchenAid stand mixer",
+    "agent2_prompt": "Coca-Cola glass bottle",
+    "agent3_prompt": "Heinz ketchup bottle"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2392578125,
+    "agent1_alignment": 0.2333984375,
+    "agent2_alignment": 0.15625,
+    "agent3_alignment": 0.1806640625
+  },
+  "quality_score": 0.51171875,
+  "welfare_metrics": {
+    "weighted_alignment": 0.19010416666666669,
+    "total_welfare": 0.18820312500000003
+  }
+}

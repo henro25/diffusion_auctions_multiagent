@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "prompt_index": 16,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 16,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent/prompt_016/idx016_b1_0.40_b2_0.40_b3_0.20_s16.png",
+    "filename": "idx016_b1_0.40_b2_0.40_b3_0.20_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "A photographer at a wedding ceremony",
+    "agent1_prompt": "Canon camera",
+    "agent2_prompt": "Canon camera bag",
+    "agent3_prompt": "Adobe Lightroom screen"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.25390625,
+    "agent1_alignment": 0.19921875,
+    "agent2_alignment": 0.197265625,
+    "agent3_alignment": 0.1455078125
+  },
+  "quality_score": 0.51171875,
+  "welfare_metrics": {
+    "weighted_alignment": 0.18769531250000004,
+    "total_welfare": 0.18769531250000004
+  }
+}

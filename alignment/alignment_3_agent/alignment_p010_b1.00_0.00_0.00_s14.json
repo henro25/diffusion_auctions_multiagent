@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "prompt_index": 10,
+    "bids": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 14,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent/prompt_010/idx010_b1_1.00_b2_0.00_b3_0.00_s14.png",
+    "filename": "idx010_b1_1.00_b2_0.00_b3_0.00_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "Skiers waiting in a ski-lift line",
+    "agent1_prompt": "Patagonia jacket",
+    "agent2_prompt": "GoPro camera",
+    "agent3_prompt": "Beats wireless headphones"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.29296875,
+    "agent1_alignment": 0.1904296875,
+    "agent2_alignment": 0.1220703125,
+    "agent3_alignment": 0.11474609375
+  },
+  "quality_score": 0.5078125,
+  "welfare_metrics": {
+    "weighted_alignment": 0.1904296875,
+    "total_welfare": 0.1904296875
+  }
+}

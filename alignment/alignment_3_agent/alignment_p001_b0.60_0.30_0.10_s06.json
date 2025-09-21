@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "prompt_index": 1,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 6,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent/prompt_001/idx001_b1_0.60_b2_0.30_b3_0.10_s06.png",
+    "filename": "idx001_b1_0.60_b2_0.30_b3_0.10_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "People enjoying a sunny day at the beach",
+    "agent1_prompt": "Wilson volleyball",
+    "agent2_prompt": "Red Bull cooler",
+    "agent3_prompt": "Banana Boat sunscreen"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2294921875,
+    "agent1_alignment": 0.1376953125,
+    "agent2_alignment": 0.251953125,
+    "agent3_alignment": 0.1455078125
+  },
+  "quality_score": 0.50390625,
+  "welfare_metrics": {
+    "weighted_alignment": 0.17275390625,
+    "total_welfare": 0.17275390625
+  }
+}

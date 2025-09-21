@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "prompt_index": 24,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 0,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent/prompt_024/idx024_b1_0.60_b2_0.30_b3_0.10_s00.png",
+    "filename": "idx024_b1_0.60_b2_0.30_b3_0.10_s00.png"
+  },
+  "prompts": {
+    "base_prompt": "A musician performing at an outdoor festival",
+    "agent1_prompt": "Yamaha electric guitar",
+    "agent2_prompt": "Marshall amplifier",
+    "agent3_prompt": "Converse All-Star shoes"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.24609375,
+    "agent1_alignment": 0.2080078125,
+    "agent2_alignment": 0.1767578125,
+    "agent3_alignment": 0.1240234375
+  },
+  "quality_score": 0.51171875,
+  "welfare_metrics": {
+    "weighted_alignment": 0.19023437499999998,
+    "total_welfare": 0.19023437499999998
+  }
+}

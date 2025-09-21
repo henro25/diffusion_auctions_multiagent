@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "prompt_index": 5,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 6,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent/prompt_005/idx005_b1_0.60_b2_0.30_b3_0.10_s06.png",
+    "filename": "idx005_b1_0.60_b2_0.30_b3_0.10_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "A swimming pool outdoors",
+    "agent1_prompt": "Marriott Bonvoy hotel",
+    "agent2_prompt": "Ray-Ban sunglasses",
+    "agent3_prompt": "Red Cross first aid kit"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.1728515625,
+    "agent1_alignment": 0.19140625,
+    "agent2_alignment": 0.255859375,
+    "agent3_alignment": 0.103515625
+  },
+  "quality_score": 0.50390625,
+  "welfare_metrics": {
+    "weighted_alignment": 0.20195312499999998,
+    "total_welfare": 0.20195312499999998
+  }
+}

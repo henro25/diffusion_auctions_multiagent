@@ -9,7 +9,7 @@
 ## 🏗️ Architecture & Core Concepts
 
 ### Auction Mechanism
-- **3 agents** place bids (0.0-1.0) to influence final image generation
+- **2-3 agents** place bids (0.0-1.0) to influence final image generation
 - **Score Composition Algorithm:** Recursive weighted interpolation based on bid ratios
 - **Sorting:** Agents sorted by bid amount (highest to lowest)
 - **Weight Calculation:** Uses dominance ratios to determine influence
@@ -33,10 +33,13 @@ diffusion_auctions_multiagent/
 │   ├── flux_auction_pipeline.py      # FluxPipelineAuction class
 │   └── README.md                     # Pipeline documentation
 ├── scripts/                          # Main generation scripts
-│   ├── generate_images_3_agent.py    # Single-GPU script (auto-cache)
-│   ├── generate_images_3_agent_multigpu.py # Multi-GPU script
+│   ├── generate_images_3_agent.py    # 3-agent single-GPU script (auto-cache)
+│   ├── generate_images_3_agent_multigpu.py # 3-agent multi-GPU script
+│   ├── generate_images_2_agent.py    # 2-agent single-GPU script
+│   ├── generate_images_2_agent_multigpu.py # 2-agent multi-GPU script
 │   ├── multi_gpu_config.py           # Multi-GPU management
-│   └── run_with_cache.sh             # Cluster-optimized runner
+│   ├── run_with_cache.sh             # 3-agent cluster-optimized runner
+│   └── run_with_cache_2_agent.sh     # 2-agent cluster-optimized runner
 ├── helpers/                          # Utility scripts and tools
 │   ├── setup_cache.sh                # HuggingFace cache setup
 │   ├── manage_cache.py               # Cache management utility
@@ -149,8 +152,11 @@ Example: `idx000_b1_0.60_b2_0.30_b3_0.10_s00.png`
 #### Cluster/HPC Environments
 For faster model downloads on clusters:
 ```bash
-# Automatic cache setup + generation
+# Automatic cache setup + generation (3-agent)
 cd scripts && ./run_with_cache.sh
+
+# Automatic cache setup + generation (2-agent)
+cd scripts && ./run_with_cache_2_agent.sh
 
 # Manual cache management
 python helpers/manage_cache.py list
@@ -216,11 +222,15 @@ NUM_PROMPTS_TO_PROCESS = 3
 
 ### Common Commands
 ```bash
-# Run generation (standard)
+# Run generation (3-agent standard)
 cd scripts && python generate_images_3_agent.py
 
+# Run generation (2-agent standard)
+cd scripts && python generate_images_2_agent.py
+
 # Run generation (cluster-optimized)
-cd scripts && ./run_with_cache.sh
+cd scripts && ./run_with_cache.sh          # 3-agent
+cd scripts && ./run_with_cache_2_agent.sh  # 2-agent
 
 # Cache management
 python helpers/manage_cache.py list
@@ -260,5 +270,29 @@ source .venv/bin/activate
 3. **Temporal dynamics**: Bidding over multiple generation steps
 4. **Interactive bidding**: Real-time bid adjustment during generation
 
+## 🆕 Recent Updates & Repository Status
+
+### Current Branch: `gdaras`
+- **Main Branch:** `main` (for PRs)
+- **Status:** Clean working directory with recent cache infrastructure improvements
+
+### Recent Changes (Sept 2025)
+- **Added separate cache runners**: Created `run_with_cache_2_agent.sh` for dedicated 2-agent cache support
+- **Enhanced documentation**: Updated README.md and CLAUDE.md with 2-agent/3-agent separation
+- **Repository improvements**: Better organization of cache utilities and multi-agent scenarios
+
+### Current Repository State
+- **Untracked files**: `scripts/run_with_cache_2_agent.sh` (newly created)
+- **Modified files**: `README.md` (updated with new cache commands)
+- **Recent commits**:
+  - cb859ef: Adding 2 Agent Image Generation
+  - 71060d6: Generated 20 Samples Each and Zipped 3 Agent Images
+  - b9765a6: Fixing Boolean Tensor Bug 3
+
+### Key Infrastructure Additions
+1. **Separate 2-agent cache runner**: `scripts/run_with_cache_2_agent.sh`
+2. **Enhanced documentation**: Clear separation between 2-agent and 3-agent workflows
+3. **Project structure updates**: Better organization in both README.md and CLAUDE.md
+
 ---
-*Last updated: Generated during codebase cleanup and optimization*
+*Last updated: September 2025 - Cache infrastructure and 2-agent separation*
