@@ -80,6 +80,7 @@ TORCH_DTYPE = torch.bfloat16 if torch.cuda.is_available() else torch.float16
 
 # Bidding combinations for 3 agents (b1, b2, b3)
 BIDDING_COMBINATIONS_3_AGENT = [
+    (0.0, 0.0, 0.0),  # Base prompt only (no agent influence)
     (1.0, 0.0, 0.0),  # Agent 1 dominant
     # (0.0, 1.0, 0.0),  # Agent 2 dominant
     # (0.0, 0.0, 1.0),  # Agent 3 dominant
@@ -133,7 +134,7 @@ def generate_and_save_image(pipeline, data_item, index, output_dir, bids, sample
         sample_idx: Sample index for multiple sampling
 
     Returns:
-        str: Path to saved image, or None if generation failed
+        str: Path to saved image, or None if generation failed or skipped
     """
     agent1_prompt = data_item.get("agent1_prompt", "")
     agent2_prompt = data_item.get("agent2_prompt", "")
@@ -149,12 +150,22 @@ def generate_and_save_image(pipeline, data_item, index, output_dir, bids, sample
     os.makedirs(prompt_specific_output_dir, exist_ok=True)
     output_path = os.path.join(prompt_specific_output_dir, f"{filename_base}.png")
 
+    # Check if image already exists and skip if it does
+    if os.path.exists(output_path):
+        print(f"Skipping existing image: {output_path}")
+        return output_path
+
     print(
         f"Generating item {index}, sample {sample_idx}: Bids=({bid1:.2f}, {bid2:.2f}, {bid3:.2f})"
     )
-    print(
-        f"  A1: {agent1_prompt[:30]}... | A2: {agent2_prompt[:30]}... | A3: {agent3_prompt[:30]}..."
-    )
+
+    # For base prompt only (0, 0, 0), show different info
+    if bid1 == 0.0 and bid2 == 0.0 and bid3 == 0.0:
+        print(f"  Base prompt only: {base_prompt[:60]}...")
+    else:
+        print(
+            f"  A1: {agent1_prompt[:30]}... | A2: {agent2_prompt[:30]}... | A3: {agent3_prompt[:30]}..."
+        )
 
     try:
         images = pipeline(

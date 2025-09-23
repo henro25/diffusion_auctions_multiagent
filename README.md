@@ -94,8 +94,10 @@ This automatically:
 #### 3-Agent Generation
 - Generated images will be saved to `/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent/`
 - Each prompt gets its own subdirectory: `prompt_000/`, `prompt_001/`, etc.
-- Images are named with bid information: `idx000_b1_1.00_b2_0.00_b3_0.00.png`
+- Images are named with bid information: `idx000_b1_1.00_b2_0.00_b3_0.00_s00.png`
+- Base prompt only images: `idx000_b1_0.00_b2_0.00_b3_0.00_s00.png`
 - Generation log saved as `generation_log.json`
+- Automatically skips existing images to allow resuming interrupted runs
 
 #### 2-Agent Generation
 - Generated images will be saved to `/datastor1/gdaras/diffusion_auctions_multiagent/images/images_2_agent/`
@@ -150,6 +152,7 @@ The system uses a recursive score composition method:
 ### Example Bidding Scenarios
 
 #### 3-Agent Scenarios
+- `(0.0, 0.0, 0.0)`: Base prompt only (no agent influence)
 - `(1.0, 0.0, 0.0)`: Agent 1 completely dominates
 - `(0.33, 0.33, 0.33)`: All agents have equal influence
 - `(0.6, 0.3, 0.1)`: Agent 1 > Agent 2 > Agent 3 with clear hierarchy
