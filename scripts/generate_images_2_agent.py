@@ -84,7 +84,9 @@ TORCH_DTYPE = torch.bfloat16 if torch.cuda.is_available() else torch.float16
 SWEEP_VALUES = [0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0]
 
 # Generate bidding combinations automatically
-BIDDING_COMBINATIONS_2_AGENT = []
+BIDDING_COMBINATIONS_2_AGENT = [
+    (0.0, 0.0, 0.0),  # Base prompt only (no agent influence)
+]
 for b in SWEEP_VALUES:
     BIDDING_COMBINATIONS_2_AGENT.append((b, 1.0 - b, 0.0))
 
@@ -129,6 +131,11 @@ def generate_and_save_image(pipeline, data_item, index, output_dir, bids, sample
     prompt_specific_output_dir = os.path.join(output_dir, f"prompt_{index:03d}")
     os.makedirs(prompt_specific_output_dir, exist_ok=True)
     output_path = os.path.join(prompt_specific_output_dir, f"{filename_base}.png")
+
+    # Check if image already exists and skip if it does
+    if os.path.exists(output_path):
+        print(f"Skipping existing image: {output_path}")
+        return output_path
 
     print(
         f"Generating item {index}, sample {sample_idx}: Bids=({bid1:.2f}, {bid2:.2f})"
