@@ -14,21 +14,22 @@ import sys
 import torch
 from tqdm import tqdm
 
+
 # Setup HuggingFace cache before importing models
 def setup_hf_cache():
     """Setup HuggingFace cache to use local SSD instead of slow NFS."""
     # Check if cache is already configured
-    if 'HF_HOME' in os.environ:
+    if "HF_HOME" in os.environ:
         print(f"Using existing HF cache: {os.environ['HF_HOME']}")
         return
 
     # Try to find a local SSD path
-    user = os.environ.get('USER', os.environ.get('USERNAME', 'user'))
+    user = os.environ.get("USER", os.environ.get("USERNAME", "user"))
     cache_paths = [
         f"/scratch/{user}/hf-cache",
         f"/tmp/{user}/hf-cache",
         f"/dev/shm/{user}/hf-cache",
-        f"/var/tmp/{user}/hf-cache"
+        f"/var/tmp/{user}/hf-cache",
     ]
 
     cache_dir = None
@@ -43,13 +44,16 @@ def setup_hf_cache():
         os.makedirs(f"{cache_dir}/hub", exist_ok=True)
         os.makedirs(f"{cache_dir}/transformers", exist_ok=True)
 
-        os.environ['HF_HOME'] = cache_dir
-        os.environ['HF_HUB_CACHE'] = f"{cache_dir}/hub"
-        os.environ['TRANSFORMERS_CACHE'] = f"{cache_dir}/transformers"
+        os.environ["HF_HOME"] = cache_dir
+        os.environ["HF_HUB_CACHE"] = f"{cache_dir}/hub"
+        os.environ["TRANSFORMERS_CACHE"] = f"{cache_dir}/transformers"
 
         print(f"Setup HF cache at: {cache_dir}")
     else:
-        print("Warning: Could not find local SSD for cache, using default (may be slow)")
+        print(
+            "Warning: Could not find local SSD for cache, using default (may be slow)"
+        )
+
 
 # Setup cache before importing heavy libraries
 setup_hf_cache()
@@ -66,7 +70,9 @@ PROMPTS_PATH = "../prompts/prompts_3_agent.json"  # Path to prompts file
 OUTPUT_DIR = "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent"  # Output directory for generated images
 
 # Sampling configuration
-NUM_SAMPLES_PER_COMBINATION = 20  # Number of times to sample each prompt-bid combination
+NUM_SAMPLES_PER_COMBINATION = (
+    20  # Number of times to sample each prompt-bid combination
+)
 NUM_PROMPTS_TO_PROCESS = None  # Number of prompts to process (None = all prompts)
 
 # Generation parameters
@@ -78,7 +84,7 @@ TORCH_DTYPE = torch.bfloat16 if torch.cuda.is_available() else torch.float16
 BIDDING_COMBINATIONS_3_AGENT = [
     (0.0, 0.0, 0.0),  # Base prompt only (no agent influence)
     (1.0, 0.0, 0.0),  # Agent 1 dominant
-    # (0.0, 1.0, 0.0),  # Agent 2 dominant
+    # (0.0, 1.0, 0.0),  # Agent 2 dominant\
     # (0.0, 0.0, 1.0),  # Agent 3 dominant
     # (0.5, 0.5, 0.0),  # Agent 1 & 2 equal, Agent 3 none
     (0.33, 0.33, 0.33),  # All equal
