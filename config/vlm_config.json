@@ -1,0 +1,70 @@
+{
+  "primary_model": {
+    "name": "qwen2.5-vl-7b",
+    "model_id": "Qwen/Qwen2.5-VL-7B-Instruct",
+    "enabled": true,
+    "config": {
+      "torch_dtype": "bfloat16",
+      "attn_implementation": "flash_attention_2",
+      "device_map": "auto",
+      "trust_remote_code": true,
+      "min_pixels": 256,
+      "max_pixels": 1280
+    }
+  },
+  "fallback_models": [
+    {
+      "name": "internvl-1.5",
+      "model_id": "OpenGVLab/InternVL-Chat-V1-5",
+      "enabled": true,
+      "config": {
+        "torch_dtype": "bfloat16",
+        "low_cpu_mem_usage": true,
+        "use_flash_attn": true,
+        "trust_remote_code": true,
+        "device_map": "auto"
+      }
+    },
+    {
+      "name": "llava-next-13b",
+      "model_id": "llava-hf/llava-v1.6-vicuna-13b-hf",
+      "enabled": false,
+      "config": {
+        "torch_dtype": "bfloat16",
+        "device_map": "auto",
+        "trust_remote_code": true
+      }
+    }
+  ],
+  "quality_assessment": {
+    "dimensions": [
+      "overall_sharpness",
+      "visual_coherence",
+      "color_quality",
+      "composition",
+      "detail_preservation"
+    ],
+    "scale_min": 0.0,
+    "scale_max": 1.0,
+    "scale_descriptions": {
+      "0.0-0.3": "Poor quality (blurry, artifacts, poor composition)",
+      "0.3-0.5": "Below average (noticeable issues but acceptable)",
+      "0.5-0.7": "Good quality (minor issues, generally well-executed)",
+      "0.7-0.9": "High quality (excellent execution, minimal flaws)",
+      "0.9-1.0": "Exceptional quality (professional-grade, near-perfect)"
+    },
+    "prompt_template": "Please analyze this image's quality across multiple dimensions. Rate each aspect on a scale of 0.0 to 1.0:\n\n**Rating Scale:**\n- 0.0-0.3: Poor quality (blurry, artifacts, poor composition)\n- 0.3-0.5: Below average (noticeable issues but acceptable)\n- 0.5-0.7: Good quality (minor issues, generally well-executed)\n- 0.7-0.9: High quality (excellent execution, minimal flaws)\n- 0.9-1.0: Exceptional quality (professional-grade, near-perfect)\n\n**Assess these 5 dimensions:**\n1. **Overall Sharpness**: How sharp and clear is the image?\n2. **Visual Coherence**: How realistic and coherent does the image appear?\n3. **Color Quality**: How balanced and natural are the colors?\n4. **Composition**: How well-composed and aesthetically pleasing is the image?\n5. **Detail Preservation**: How well are fine details preserved?\n\n**Required JSON Response Format:**\n{\n    \"overall_sharpness\": 0.X,\n    \"visual_coherence\": 0.X,\n    \"color_quality\": 0.X,\n    \"composition\": 0.X,\n    \"detail_preservation\": 0.X,\n    \"overall_quality\": 0.X,\n    \"reasoning\": \"Brief explanation of your assessment\"\n}"
+  },
+  "processing": {
+    "batch_size": 4,
+    "max_retries": 2,
+    "timeout_seconds": 30,
+    "enable_caching": true,
+    "cache_dir": "./vlm_cache"
+  },
+  "logging": {
+    "level": "INFO",
+    "log_file": "./logs/vlm_assessment.log",
+    "enable_progress_bar": true
+  }
+}
