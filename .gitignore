@@ -100,7 +100,7 @@ generation_log.json
 # Generated images and outputs
 images/
 outputs/
-results/
+# results/
 generated/
 samples/
 *.png
