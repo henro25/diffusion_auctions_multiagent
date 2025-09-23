@@ -70,7 +70,9 @@ PROMPTS_PATH = "../prompts/prompts_3_agent.json"  # Path to prompts file
 OUTPUT_DIR = "images/images_3_agent"  # Output directory for generated images
 
 # Sampling configuration
-NUM_SAMPLES_PER_COMBINATION = 20  # Number of times to sample each prompt-bid combination
+NUM_SAMPLES_PER_COMBINATION = (
+    20  # Number of times to sample each prompt-bid combination
+)
 NUM_PROMPTS_TO_PROCESS = None  # Number of prompts to process (None = all prompts)
 
 # Generation parameters
@@ -82,7 +84,7 @@ TORCH_DTYPE = torch.bfloat16 if torch.cuda.is_available() else torch.float16
 BIDDING_COMBINATIONS_3_AGENT = [
     (0.0, 0.0, 0.0),  # Base prompt only (no agent influence)
     (1.0, 0.0, 0.0),  # Agent 1 dominant
-    # (0.0, 1.0, 0.0),  # Agent 2 dominant
+    # (0.0, 1.0, 0.0),  # Agent 2 dominant\
     # (0.0, 0.0, 1.0),  # Agent 3 dominant
     # (0.5, 0.5, 0.0),  # Agent 1 & 2 equal, Agent 3 none
     (0.33, 0.33, 0.33),  # All equal
