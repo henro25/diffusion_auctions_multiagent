@@ -47,7 +47,7 @@ conda-meta/
 # ===== JUPYTER NOTEBOOKS =====
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
-*.ipynb
+# *.ipynb
 
 # ===== OS SPECIFIC =====
 .DS_Store
@@ -103,7 +103,7 @@ outputs/
 # results/
 generated/
 samples/
-*.png
+# *.png
 *.jpg
 *.jpeg
 *.gif
