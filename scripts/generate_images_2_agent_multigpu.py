@@ -11,12 +11,55 @@ Academic Context: 4th Year research project on multi-winner auctions for generat
 
 import os
 import json
+import sys
 import torch
 from tqdm import tqdm
 
-# Import the FluxPipelineAuction class from pipelines module
-import sys
 
+# Setup HuggingFace cache before importing models
+def setup_hf_cache():
+    """Setup HuggingFace cache to use local SSD instead of slow NFS."""
+    # Check if cache is already configured
+    if "HF_HOME" in os.environ:
+        print(f"Using existing HF cache: {os.environ['HF_HOME']}")
+        return
+
+    # Try to find a local SSD path
+    user = os.environ.get("USER", os.environ.get("USERNAME", "user"))
+    cache_paths = [
+        f"/scratch/{user}/hf-cache",
+        f"/tmp/{user}/hf-cache",
+        f"/dev/shm/{user}/hf-cache",
+        f"/var/tmp/{user}/hf-cache",
+    ]
+
+    cache_dir = None
+    for path in cache_paths:
+        parent = os.path.dirname(path)
+        if os.access(parent, os.W_OK):
+            cache_dir = path
+            break
+
+    if cache_dir:
+        os.makedirs(cache_dir, exist_ok=True)
+        os.makedirs(f"{cache_dir}/hub", exist_ok=True)
+        os.makedirs(f"{cache_dir}/transformers", exist_ok=True)
+
+        os.environ["HF_HOME"] = cache_dir
+        os.environ["HF_HUB_CACHE"] = f"{cache_dir}/hub"
+        os.environ["TRANSFORMERS_CACHE"] = f"{cache_dir}/transformers"
+
+        print(f"Setup HF cache at: {cache_dir}")
+    else:
+        print(
+            "Warning: Could not find local SSD for cache, using default (may be slow)"
+        )
+
+
+# Setup cache before importing heavy libraries
+setup_hf_cache()
+
+# Import the FluxPipelineAuction class from pipelines module
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 from pipelines import FluxPipelineAuction
 
@@ -46,7 +89,9 @@ TORCH_DTYPE = torch.bfloat16 if torch.cuda.is_available() else torch.float16
 SWEEP_VALUES = [0.0, 0.1, 0.3, 0.5, 0.7, 0.9, 1.0]
 
 # Generate bidding combinations automatically
-BIDDING_COMBINATIONS_2_AGENT = []
+BIDDING_COMBINATIONS_2_AGENT = [
+    (0.0, 0.0, 0.0),  # Base prompt only (no agent influence)
+]
 for b in SWEEP_VALUES:
     BIDDING_COMBINATIONS_2_AGENT.append((b, 1.0 - b, 0.0))
 
@@ -77,9 +122,20 @@ def run_single_gpu_generation(prompts, output_dir):
         os.makedirs(prompt_specific_output_dir, exist_ok=True)
         output_path = os.path.join(prompt_specific_output_dir, f"{filename_base}.png")
 
+        # Check if image already exists and skip if it does
+        if os.path.exists(output_path):
+            print(f"Skipping existing image: {output_path}")
+            return output_path
+
         print(
             f"Generating item {index}, sample {sample_idx}: Bids=({bid1:.2f}, {bid2:.2f})"
         )
+
+        # For base prompt only (0, 0, 0), show different info
+        if bid1 == 0.0 and bid2 == 0.0 and bid3 == 0.0:
+            print(f"  Base prompt only: {base_prompt[:60]}...")
+        else:
+            print(f"  A1: {agent1_prompt[:30]}... | A2: {agent2_prompt[:30]}...")
 
         try:
             images = pipe_auction(
@@ -160,9 +216,20 @@ def run_multi_gpu_generation(prompts, output_dir):
         os.makedirs(prompt_specific_output_dir, exist_ok=True)
         output_path = os.path.join(prompt_specific_output_dir, f"{filename_base}.png")
 
+        # Check if image already exists and skip if it does
+        if os.path.exists(output_path):
+            print(f"[GPU {gpu_id}] Skipping existing image: {output_path}")
+            return output_path
+
         print(
             f"[GPU {gpu_id}] Generating item {index}, sample {sample_idx}: Bids=({bid1:.2f}, {bid2:.2f})"
         )
+
+        # For base prompt only (0, 0, 0), show different info
+        if bid1 == 0.0 and bid2 == 0.0 and bid3 == 0.0:
+            print(f"[GPU {gpu_id}]   Base prompt only: {base_prompt[:60]}...")
+        else:
+            print(f"[GPU {gpu_id}]   A1: {agent1_prompt[:30]}... | A2: {agent2_prompt[:30]}...")
 
         try:
             images = pipe_auction(
