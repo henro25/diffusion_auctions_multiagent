@@ -92,7 +92,7 @@ This automatically:
 - Generated images will be saved to `images/images_3_agent/`
 
 #### 3-Agent Generation
-- Generated images will be saved to `/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent/`
+- Generated images will be saved to `images/images_3_agent/`
 - Each prompt gets its own subdirectory: `prompt_000/`, `prompt_001/`, etc.
 - Images are named with bid information: `idx000_b1_1.00_b2_0.00_b3_0.00_s00.png`
 - Base prompt only images: `idx000_b1_0.00_b2_0.00_b3_0.00_s00.png`
@@ -100,7 +100,7 @@ This automatically:
 - Automatically skips existing images to allow resuming interrupted runs
 
 #### 2-Agent Generation
-- Generated images will be saved to `/datastor1/gdaras/diffusion_auctions_multiagent/images/images_2_agent/`
+- Generated images will be saved to `images/images_2_agent/`
 - Multi-GPU version saves to `images_2_agent_multigpu/`
 - Images are named with bid information: `idx000_b1_0.70_b2_0.30_s00.png`
 - Generation log saved as `generation_log.json`

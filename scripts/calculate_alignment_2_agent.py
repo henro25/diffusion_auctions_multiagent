@@ -80,10 +80,8 @@ DTYPE = torch.bfloat16 if torch.cuda.is_available() else torch.float16
 CACHE_DIR = os.environ.get("HF_HOME", os.path.expanduser("~/.cache/huggingface"))
 
 # Paths
-IMAGES_DIR = "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_2_agent"
-OUTPUT_DIR = (
-    "/datastor1/gdaras/diffusion_auctions_multiagent/alignment/alignment_2_agent"
-)
+IMAGES_DIR = "../images/images_2_agent"
+OUTPUT_DIR = "../alignment/alignment_2_agent"
 PROMPTS_PATH = "../prompts/prompts_2_agent.json"
 
 # CLIP Model Configuration
@@ -163,7 +161,7 @@ def calculate_clip_quality(
 
         # Probabilities over ["High quality", "Low quality"]
         logits = image_feats @ text_feats.T  # (1, 2)
-        probs = logits.softmax(dim=-1)       # (1, 2)
+        probs = logits.softmax(dim=-1)  # (1, 2)
 
         return float(probs[0, 0].item())
 
@@ -227,12 +225,15 @@ def main():
         "--sample_index", type=int, help="Specific sample index to process (optional)"
     )
     parser.add_argument(
-        "--enable_vlm", action="store_true",
-        help="Enable VLM quality assessment (requires VLM models)"
+        "--enable_vlm",
+        action="store_true",
+        help="Enable VLM quality assessment (requires VLM models)",
     )
     parser.add_argument(
-        "--vlm_config", type=str, default="../config/vlm_config.json",
-        help="Path to VLM configuration file"
+        "--vlm_config",
+        type=str,
+        default="../config/vlm_config.json",
+        help="Path to VLM configuration file",
     )
     args = parser.parse_args()
 
@@ -361,10 +362,10 @@ def main():
                 },
                 "quality_assessment": {
                     "clip_quality": clip_quality_score,
-                    "vlm_quality": vlm_quality_result
-                } if vlm_quality_result else {
-                    "clip_quality": clip_quality_score
-                },
+                    "vlm_quality": vlm_quality_result,
+                }
+                if vlm_quality_result
+                else {"clip_quality": clip_quality_score},
                 "welfare_metrics": {
                     "weighted_alignment": (
                         agent1_score * bids[0] + agent2_score * bids[1]
