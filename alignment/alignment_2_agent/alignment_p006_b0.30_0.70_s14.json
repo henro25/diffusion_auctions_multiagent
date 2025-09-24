@@ -19,7 +19,9 @@
     "agent1_alignment": 0.1650390625,
     "agent2_alignment": 0.18359375
   },
-  "quality_score": 0.515625,
+  "quality_assessment": {
+    "clip_quality": 0.515625
+  },
   "welfare_metrics": {
     "weighted_alignment": 0.17802734374999998,
     "total_welfare": 0.17802734374999998
