@@ -1,6 +1,6 @@
 torch
 accelerate
-transformers
+transformers>=4.49.0
 protobuf
 numpy
 tqdm
@@ -11,3 +11,9 @@ ipython
 seaborn
 diffusers
 sentencepiece
+
+# VLM Quality Assessment Dependencies
+qwen-vl-utils[decord]
+flash-attn>=2.0.0
+einops
+timm

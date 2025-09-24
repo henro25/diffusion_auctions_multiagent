@@ -73,6 +73,7 @@ TORCH_DTYPE = torch.bfloat16 if torch.cuda.is_available() else torch.float16
 
 # Bidding combinations (Lines 29-53)
 BIDDING_COMBINATIONS_3_AGENT = [
+    (0.0, 0.0, 0.0),      # Base prompt only (no agent influence)
     (1.0, 0.0, 0.0),      # Agent 1 dominant
     (0.33, 0.33, 0.33),   # All equal
     (0.4, 0.4, 0.2),      # A1 & A2 strong, A3 minor
@@ -113,7 +114,9 @@ BIDDING_COMBINATIONS_3_AGENT = [
 ### Output Naming Convention
 `idx{prompt_index:03d}_b1_{bid1:.2f}_b2_{bid2:.2f}_b3_{bid3:.2f}_s{sample_idx:02d}.png`
 
-Example: `idx000_b1_0.60_b2_0.30_b3_0.10_s00.png`
+Examples:
+- Base prompt only: `idx000_b1_0.00_b2_0.00_b3_0.00_s00.png`
+- Agent bidding: `idx000_b1_0.60_b2_0.30_b3_0.10_s00.png`
 
 ### Generation Log (generation_log.json)
 ```json
@@ -139,6 +142,7 @@ Example: `idx000_b1_0.60_b2_0.30_b3_0.10_s00.png`
    - Standard: `cd scripts && python generate_images_3_agent.py`
    - Cluster-optimized: `cd scripts && ./run_with_cache.sh`
 3. **Check outputs** in `images/images_3_agent/prompt_XXX/`
+4. **Resume interrupted runs**: Script automatically skips existing images, allowing safe resumption
 
 #### Multi-GPU (Production)
 1. **Configure GPUs** in `generate_images_3_agent_multigpu.py`:
@@ -182,6 +186,7 @@ NUM_PROMPTS_TO_PROCESS = 3
 ## 🧪 Testing Scenarios
 
 ### Validation Tests
+- **Base prompt only**: `(0.0, 0.0, 0.0)` should show only base prompt content with no agent influence
 - **Single agent dominance**: `(1.0, 0.0, 0.0)` should show only agent 1's content
 - **Equal influence**: `(0.33, 0.33, 0.33)` should blend all agents equally
 - **Clear hierarchy**: `(0.6, 0.3, 0.1)` should show proportional influence
