@@ -84,8 +84,8 @@ TORCH_DTYPE = torch.bfloat16 if torch.cuda.is_available() else torch.float16
 BIDDING_COMBINATIONS_3_AGENT = [
     (0.0, 0.0, 0.0),  # Base prompt only (no agent influence)
     (1.0, 0.0, 0.0),  # Agent 1 dominant
-    # (0.0, 1.0, 0.0),  # Agent 2 dominant\
-    # (0.0, 0.0, 1.0),  # Agent 3 dominant
+    (0.0, 1.0, 0.0),  # Agent 2 dominant
+    (0.0, 0.0, 1.0),  # Agent 3 dominant
     # (0.5, 0.5, 0.0),  # Agent 1 & 2 equal, Agent 3 none
     (0.33, 0.33, 0.33),  # All equal
     # (0.45, 0.45, 0.1),  # A1 & A2 strong and equal, A3 minor voice
