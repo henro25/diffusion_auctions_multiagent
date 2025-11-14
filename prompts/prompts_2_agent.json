@@ -7,12 +7,12 @@
   {
     "base_prompt": "People enjoying a sunny day at the beach",
     "agent1_prompt": "Wilson volleyball",
-    "agent2_prompt": "Red Bull cooler"
+    "agent2_prompt": "Sunscreen bottle"
   },
   {
     "base_prompt": "A person relaxing on a living-room sofa",
     "agent1_prompt": "Lay's potato chips",
-    "agent2_prompt": "M&M's candy"
+    "agent2_prompt": "Netflix remote control"
   },
   {
     "base_prompt": "A hiker resting on a mountain trail",
@@ -22,97 +22,97 @@
   {
     "base_prompt": "A professional working at a desk in a bright office",
     "agent1_prompt": "Dell monitor",
-    "agent2_prompt": "Deer Park water bottle"
+    "agent2_prompt": "Moleskine notebook"
   },
   {
-    "base_prompt": "A swimming pool outdoors",
-    "agent1_prompt": "Marriott Bonvoy hotel",
+    "base_prompt": "A swimming pool outdoors on a summer day",
+    "agent1_prompt": "Marriott hotel sign",
     "agent2_prompt": "Ray-Ban sunglasses"
   },
   {
     "base_prompt": "A woman with a tray of food at a cafeteria",
-    "agent1_prompt": "McDonald's fries",
-    "agent2_prompt": "Pepsi can"
+    "agent1_prompt": "McDonald's French fries container",
+    "agent2_prompt": "Pepsi cola cup"
   },
   {
     "base_prompt": "A person walking down a city street",
     "agent1_prompt": "Louis Vuitton handbag",
-    "agent2_prompt": "H&M storefront"
+    "agent2_prompt": "Nike Air Force 1 sneakers"
   },
   {
     "base_prompt": "Friends gathered for a movie night at home",
-    "agent1_prompt": "Doritos chips",
-    "agent2_prompt": "Coca-Cola cans"
+    "agent1_prompt": "Doritos chip bag",
+    "agent2_prompt": "Amazon Fire Stick remote"
   },
   {
     "base_prompt": "A car driving along a scenic coastal highway",
-    "agent1_prompt": "Tesla car",
-    "agent2_prompt": "ExxonMobil sign"
+    "agent1_prompt": "Tesla Model 3 vehicle",
+    "agent2_prompt": "ExxonMobil gas station sign"
   },
   {
-    "base_prompt": "Skiers waiting in a ski-lift line",
-    "agent1_prompt": "Patagonia jacket",
-    "agent2_prompt": "GoPro camera"
+    "base_prompt": "Skiers waiting in a ski-lift line at a mountain resort",
+    "agent1_prompt": "Patagonia winter jacket",
+    "agent2_prompt": "GoPro action camera"
   },
   {
-    "base_prompt": "A man waiting at a bus stop",
-    "agent1_prompt": "Adidas backpack",
-    "agent2_prompt": "Samsung Galaxy phone"
+    "base_prompt": "A person waiting at a bus stop in the city",
+    "agent1_prompt": "Adidas athletic backpack",
+    "agent2_prompt": "Samsung Galaxy smartphone"
   },
   {
     "base_prompt": "A family having dinner at home",
-    "agent1_prompt": "KitchenAid mixer",
-    "agent2_prompt": "Ikea dining table"
+    "agent1_prompt": "KitchenAid stand mixer",
+    "agent2_prompt": "Heinz tomato ketchup bottle"
   },
   {
     "base_prompt": "A student studying in a university library",
     "agent1_prompt": "MacBook Pro laptop",
-    "agent2_prompt": "Red Bull energy drink"
+    "agent2_prompt": "Highlighter marker pen"
   },
   {
     "base_prompt": "A jogger exercising in a city park",
-    "agent1_prompt": "Nike running shoes",
-    "agent2_prompt": "Apple Watch"
+    "agent1_prompt": "Nike Air Max running shoes",
+    "agent2_prompt": "Apple Watch smartwatch"
   },
   {
     "base_prompt": "A chef cooking in a restaurant kitchen",
-    "agent1_prompt": "KitchenAid stand mixer",
+    "agent1_prompt": "All-Clad stainless steel pot",
     "agent2_prompt": "Coca-Cola glass bottle"
   },
   {
     "base_prompt": "A photographer at a wedding ceremony",
-    "agent1_prompt": "Canon camera",
-    "agent2_prompt": "Canon camera bag"
+    "agent1_prompt": "Canon EOS camera",
+    "agent2_prompt": "Adobe Lightroom on computer screen"
   },
   {
     "base_prompt": "A couple shopping at a farmers market",
-    "agent1_prompt": "Whole Foods tote bag",
-    "agent2_prompt": "iPhone camera"
+    "agent1_prompt": "Whole Foods organic tote bag",
+    "agent2_prompt": "iPhone device"
   },
   {
     "base_prompt": "A teenager gaming in their bedroom",
-    "agent1_prompt": "PlayStation 5 controller",
-    "agent2_prompt": "Monster Energy drink"
+    "agent1_prompt": "PlayStation 5 game controller",
+    "agent2_prompt": "Monster Energy drink can"
   },
   {
     "base_prompt": "A businesswoman in an airport lounge",
-    "agent1_prompt": "Louis Vuitton luggage",
+    "agent1_prompt": "Samsonite rolling luggage",
     "agent2_prompt": "Starbucks coffee cup"
   },
   {
     "base_prompt": "A mechanic working in an auto garage",
-    "agent1_prompt": "Ford truck",
+    "agent1_prompt": "Ford F-150 truck",
     "agent2_prompt": "DeWalt power drill"
   },
   {
     "base_prompt": "A barista working in a trendy coffee shop",
-    "agent1_prompt": "Starbucks coffee machine",
-    "agent2_prompt": "Spotify playlist screen"
+    "agent1_prompt": "Jura coffee machine",
+    "agent2_prompt": "Levi's denim apron"
   },
   {
     "base_prompt": "A fitness trainer at a modern gym",
     "agent1_prompt": "Under Armour workout shirt",
-    "agent2_prompt": "Beats wireless headphones"
+    "agent2_prompt": "Beats by Dre wireless headphones"
   },
   {
     "base_prompt": "A doctor in a hospital break room",
@@ -120,8 +120,393 @@
     "agent2_prompt": "Starbucks coffee cup"
   },
   {
-    "base_prompt": "A musician performing at an outdoor festival",
-    "agent1_prompt": "Yamaha electric guitar",
+    "base_prompt": "A musician performing at an outdoor music festival",
+    "agent1_prompt": "Fender electric guitar",
     "agent2_prompt": "Marshall amplifier"
+  },
+  {
+    "base_prompt": "Someone texting at a modern airport terminal",
+    "agent1_prompt": "iPhone smartphone",
+    "agent2_prompt": "Away luggage suitcase"
+  },
+  {
+    "base_prompt": "A person cooking breakfast in a home kitchen",
+    "agent1_prompt": "Nespresso coffee machine",
+    "agent2_prompt": "Le Creuset cast iron pan"
+  },
+  {
+    "base_prompt": "Friends playing volleyball at a beach",
+    "agent1_prompt": "Spalding volleyball",
+    "agent2_prompt": "Lifeguard tower in background"
+  },
+  {
+    "base_prompt": "A patient visiting a dentist office",
+    "agent1_prompt": "Philips electric toothbrush",
+    "agent2_prompt": "Colgate toothpaste box"
+  },
+  {
+    "base_prompt": "Someone shopping at a hardware store",
+    "agent1_prompt": "Black+Decker drill",
+    "agent2_prompt": "Stanley toolbox"
+  },
+  {
+    "base_prompt": "A customer at a grocery store checkout counter",
+    "agent1_prompt": "Whole Foods organic produce",
+    "agent2_prompt": "Visa credit card"
+  },
+  {
+    "base_prompt": "Travelers waiting at an airport gate",
+    "agent1_prompt": "Rimowa suitcase",
+    "agent2_prompt": "Delta airline signage"
+  },
+  {
+    "base_prompt": "A person working out in a home gym",
+    "agent1_prompt": "Peloton stationary bike",
+    "agent2_prompt": "Lululemon athletic leggings"
+  },
+  {
+    "base_prompt": "Friends gathering for an outdoor picnic",
+    "agent1_prompt": "Corona beer bottles",
+    "agent2_prompt": "Yeti cooler"
+  },
+  {
+    "base_prompt": "A stylist working on a client's hair",
+    "agent1_prompt": "Dyson hair dryer",
+    "agent2_prompt": "Redken hair product bottle"
+  },
+  {
+    "base_prompt": "Someone relaxing at a spa",
+    "agent1_prompt": "Kiehl's facial cream",
+    "agent2_prompt": "Eucalyptus spa towel"
+  },
+  {
+    "base_prompt": "A chef presenting a gourmet dish",
+    "agent1_prompt": "Viking range oven",
+    "agent2_prompt": "Michelin guide rating plaque"
+  },
+  {
+    "base_prompt": "Customers browsing in a bookstore",
+    "agent1_prompt": "Barnes & Noble bookshelf",
+    "agent2_prompt": "Coffee cup on table"
+  },
+  {
+    "base_prompt": "A teenager shopping in a mall",
+    "agent1_prompt": "Forever 21 clothing rack",
+    "agent2_prompt": "Apple iPhone"
+  },
+  {
+    "base_prompt": "A person boarding a cruise ship",
+    "agent1_prompt": "Royal Caribbean cruise vessel",
+    "agent2_prompt": "Ocean view balcony"
+  },
+  {
+    "base_prompt": "Friends at a rooftop bar at night",
+    "agent1_prompt": "Hendrick's gin bottle",
+    "agent2_prompt": "Neon bar sign"
+  },
+  {
+    "base_prompt": "A gardener tending to plants",
+    "agent1_prompt": "Scotts grass seed bag",
+    "agent2_prompt": "John Deere garden tractor"
+  },
+  {
+    "base_prompt": "A person at a car wash",
+    "agent1_prompt": "Turtle Wax car polish",
+    "agent2_prompt": "Automatic car wash brushes"
+  },
+  {
+    "base_prompt": "Children playing at a playground",
+    "agent1_prompt": "Playground slide equipment",
+    "agent2_prompt": "LEGO toy blocks"
+  },
+  {
+    "base_prompt": "Someone doing laundry in a laundromat",
+    "agent1_prompt": "Tide detergent bottle",
+    "agent2_prompt": "Downy fabric softener"
+  },
+  {
+    "base_prompt": "A person at a fast food restaurant",
+    "agent1_prompt": "Chick-fil-A chicken sandwich",
+    "agent2_prompt": "Coca-Cola fountain drink"
+  },
+  {
+    "base_prompt": "Friends camping by a campfire",
+    "agent1_prompt": "Coleman camping tent",
+    "agent2_prompt": "S'mores graham crackers box"
+  },
+  {
+    "base_prompt": "A nurse at a hospital desk",
+    "agent1_prompt": "Medtronic medical equipment",
+    "agent2_prompt": "Stethoscope instrument"
+  },
+  {
+    "base_prompt": "Someone at a movie theater concession stand",
+    "agent1_prompt": "AMC Theaters logo",
+    "agent2_prompt": "Coca-Cola drink cup"
+  },
+  {
+    "base_prompt": "A person at a boxing gym",
+    "agent1_prompt": "Everlast boxing gloves",
+    "agent2_prompt": "Heavy bag punching bag"
+  },
+  {
+    "base_prompt": "Friends at a karaoke bar",
+    "agent1_prompt": "Stella Artois beer tap",
+    "agent2_prompt": "Karaoke microphone"
+  },
+  {
+    "base_prompt": "A golfer on a scenic golf course",
+    "agent1_prompt": "Callaway golf clubs",
+    "agent2_prompt": "Golf course flag pole"
+  },
+  {
+    "base_prompt": "Someone at a pet store",
+    "agent1_prompt": "Purina dog food bag",
+    "agent2_prompt": "Petsmart logo sign"
+  },
+  {
+    "base_prompt": "A person at a hair salon receiving treatment",
+    "agent1_prompt": "Olaplex hair treatment bottle",
+    "agent2_prompt": "Parlux hair salon chair"
+  },
+  {
+    "base_prompt": "Friends at a bowling alley",
+    "agent1_prompt": "Brunswick bowling ball",
+    "agent2_prompt": "Bowling lane and pins"
+  },
+  {
+    "base_prompt": "A person shopping for fitness equipment",
+    "agent1_prompt": "Bowflex home gym",
+    "agent2_prompt": "TRX suspension trainer"
+  },
+  {
+    "base_prompt": "Someone at a tattoo parlor",
+    "agent1_prompt": "Ink Master tattoo gun",
+    "agent2_prompt": "Tattoo design portfolio book"
+  },
+  {
+    "base_prompt": "A couple at a fancy restaurant",
+    "agent1_prompt": "Veuve Clicquot champagne bottle",
+    "agent2_prompt": "Fine china dinner plate"
+  },
+  {
+    "base_prompt": "A person at a yoga studio",
+    "agent1_prompt": "Lululemon yoga mat",
+    "agent2_prompt": "Yoga block prop"
+  },
+  {
+    "base_prompt": "Friends at a music concert",
+    "agent1_prompt": "Shure microphone on stage",
+    "agent2_prompt": "Light show concert stage"
+  },
+  {
+    "base_prompt": "A person browsing at a tech store",
+    "agent1_prompt": "Apple Store logo",
+    "agent2_prompt": "Samsung Galaxy display"
+  },
+  {
+    "base_prompt": "Someone at a farmer's market",
+    "agent1_prompt": "Organic apple basket",
+    "agent2_prompt": "Market vendor booth"
+  },
+  {
+    "base_prompt": "A person at a movie premiere event",
+    "agent1_prompt": "Red carpet runner",
+    "agent2_prompt": "Paparazzi camera flashes"
+  },
+  {
+    "base_prompt": "Friends at a wine tasting",
+    "agent1_prompt": "Château Bordeaux wine bottle",
+    "agent2_prompt": "Wine glass stemware"
+  },
+  {
+    "base_prompt": "Someone shopping at a sports store",
+    "agent1_prompt": "Dick's Sporting Goods logo",
+    "agent2_prompt": "Nike sneaker display"
+  },
+  {
+    "base_prompt": "A person at a dance studio",
+    "agent1_prompt": "Capezio dance pointe shoes",
+    "agent2_prompt": "Full-length dance mirror"
+  },
+  {
+    "base_prompt": "Friends at a theme park",
+    "agent1_prompt": "Disney castle backdrop",
+    "agent2_prompt": "Ferris wheel attraction"
+  },
+  {
+    "base_prompt": "Someone at a nail salon",
+    "agent1_prompt": "OPI nail polish bottle",
+    "agent2_prompt": "Manicure station and lights"
+  },
+  {
+    "base_prompt": "A person at an art gallery opening",
+    "agent1_prompt": "Modern art sculpture display",
+    "agent2_prompt": "Gallery white wall backdrop"
+  },
+  {
+    "base_prompt": "Friends at a cooking class",
+    "agent1_prompt": "Wüsthof chef's knife",
+    "agent2_prompt": "Le Creuset cookware"
+  },
+  {
+    "base_prompt": "Someone at a music store",
+    "agent1_prompt": "Fender guitar display wall",
+    "agent2_prompt": "Yamaha keyboard piano"
+  },
+  {
+    "base_prompt": "A person at an aquarium exhibit",
+    "agent1_prompt": "Aquarium glass viewing panel",
+    "agent2_prompt": "Coral reef display"
+  },
+  {
+    "base_prompt": "Friends at an ice cream parlor",
+    "agent1_prompt": "Ben & Jerry's ice cream container",
+    "agent2_prompt": "Waffle cone"
+  },
+  {
+    "base_prompt": "Someone at a toy store",
+    "agent1_prompt": "LEGO building brick display",
+    "agent2_prompt": "Hot Wheels car collection"
+  },
+  {
+    "base_prompt": "A person at a shooting range",
+    "agent1_prompt": "Smith & Wesson firearm",
+    "agent2_prompt": "Target practice paper target"
+  },
+  {
+    "base_prompt": "Friends at a jazz club",
+    "agent1_prompt": "Trumpet jazz instrument",
+    "agent2_prompt": "Intimate stage lighting"
+  },
+  {
+    "base_prompt": "Someone shopping at a furniture store",
+    "agent1_prompt": "West Elm modern furniture",
+    "agent2_prompt": "Interior design showroom"
+  },
+  {
+    "base_prompt": "A person at a car dealership",
+    "agent1_prompt": "BMW luxury sedan",
+    "agent2_prompt": "Dealership showroom floor"
+  },
+  {
+    "base_prompt": "Friends at a rooftop garden event",
+    "agent1_prompt": "Hanging garden plants",
+    "agent2_prompt": "City skyline view backdrop"
+  },
+  {
+    "base_prompt": "Someone at a luxury hotel lobby",
+    "agent1_prompt": "Ritz-Carlton entrance sign",
+    "agent2_prompt": "Crystal chandelier overhead"
+  },
+  {
+    "base_prompt": "A person at a pottery studio",
+    "agent1_prompt": "Pottery wheel equipment",
+    "agent2_prompt": "Kiln oven"
+  },
+  {
+    "base_prompt": "Friends at a vintage clothing market",
+    "agent1_prompt": "Vintage Chanel handbag",
+    "agent2_prompt": "1950s dress on mannequin"
+  },
+  {
+    "base_prompt": "Someone at a skateboard park",
+    "agent1_prompt": "Tony Hawk skateboard",
+    "agent2_prompt": "Concrete ramp obstacle"
+  },
+  {
+    "base_prompt": "A person at a photography gallery",
+    "agent1_prompt": "Framed landscape photograph",
+    "agent2_prompt": "Gallery track lighting"
+  },
+  {
+    "base_prompt": "Friends at a sushi restaurant",
+    "agent1_prompt": "Sushi platter presentation",
+    "agent2_prompt": "Sake bottle and cup"
+  },
+  {
+    "base_prompt": "Someone at a jewelry store",
+    "agent1_prompt": "Cartier diamond ring",
+    "agent2_prompt": "Glass display case showcase"
+  },
+  {
+    "base_prompt": "A person at a climbing gym",
+    "agent1_prompt": "Rock climbing wall",
+    "agent2_prompt": "Climbing harness equipment"
+  },
+  {
+    "base_prompt": "Friends at a wine bar",
+    "agent1_prompt": "Pinot Noir wine glass",
+    "agent2_prompt": "Charcuterie board platter"
+  },
+  {
+    "base_prompt": "Someone at a fish market",
+    "agent1_prompt": "Fresh salmon display",
+    "agent2_prompt": "Fish counter ice display"
+  },
+  {
+    "base_prompt": "A person at a ballet performance",
+    "agent1_prompt": "Ballet pointe shoes",
+    "agent2_prompt": "Theater stage curtain"
+  },
+  {
+    "base_prompt": "Friends at a drag show",
+    "agent1_prompt": "Sequined stage outfit",
+    "agent2_prompt": "Club stage lighting effects"
+  },
+  {
+    "base_prompt": "Someone at a vintage car show",
+    "agent1_prompt": "1967 Chevrolet Corvette",
+    "agent2_prompt": "Showroom display floor"
+  },
+  {
+    "base_prompt": "A person at a botanical garden",
+    "agent1_prompt": "Rose flower garden bed",
+    "agent2_prompt": "Garden fountain feature"
+  },
+  {
+    "base_prompt": "Friends at a dessert café",
+    "agent1_prompt": "Macarons French pastry box",
+    "agent2_prompt": "Tiramisu cake display"
+  },
+  {
+    "base_prompt": "Someone at an antique shop",
+    "agent1_prompt": "Antique pocket watch",
+    "agent2_prompt": "Victorian furniture piece"
+  },
+  {
+    "base_prompt": "A person at a film festival",
+    "agent1_prompt": "Movie reel projector",
+    "agent2_prompt": "Theater premiere seating"
+  },
+  {
+    "base_prompt": "Friends at a trivia night",
+    "agent1_prompt": "Guinness beer tap",
+    "agent2_prompt": "Trivia question board"
+  },
+  {
+    "base_prompt": "Someone at a wellness spa",
+    "agent1_prompt": "Shea Moisture spa product",
+    "agent2_prompt": "Steam room entrance"
+  },
+  {
+    "base_prompt": "A person at a street market festival",
+    "agent1_prompt": "Handmade craft vendor booth",
+    "agent2_prompt": "Festival food truck stand"
+  },
+  {
+    "base_prompt": "Friends at a dinner theater",
+    "agent1_prompt": "Broadway stage lighting",
+    "agent2_prompt": "Dinner plate setting"
+  },
+  {
+    "base_prompt": "Someone at a pottery class",
+    "agent1_prompt": "Air-dry clay material",
+    "agent2_prompt": "Artist's paintbrush set"
+  },
+  {
+    "base_prompt": "A person at a travel agency",
+    "agent1_prompt": "World map on wall",
+    "agent2_prompt": "Expedia computer screen"
   }
 ]

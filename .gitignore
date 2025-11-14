@@ -137,3 +137,5 @@ credentials.json
 # ===== DOCUMENTATION =====
 docs/_build/
 .readthedocs.yml
+
+requirements_slurm.txt
