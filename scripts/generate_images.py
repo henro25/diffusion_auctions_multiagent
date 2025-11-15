@@ -91,7 +91,7 @@ def load_pipeline(torch_dtype):
 
     pipeline = FluxPipelineAuction.from_pretrained(
         "black-forest-labs/FLUX.1-schnell",
-        torch_dtype=torch_dtype,
+        dtype=torch_dtype,
     ).to(device)
 
     return pipeline
@@ -185,8 +185,9 @@ def main():
         description="Generate images using FluxPipelineAuction with configurable agents"
     )
     parser.add_argument(
-        "config",
+        "--config",
         type=str,
+        required=True,
         help="Path to configuration JSON file",
     )
     args = parser.parse_args()

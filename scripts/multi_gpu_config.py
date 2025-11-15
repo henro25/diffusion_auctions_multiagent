@@ -86,7 +86,7 @@ class MultiGPUManager:
 
             pipeline = FluxPipelineAuction.from_pretrained(
                 model_name,
-                torch_dtype=self.torch_dtype,
+                dtype=self.torch_dtype,
             ).to(device)
 
             self.pipelines[gpu_id] = pipeline

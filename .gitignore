@@ -139,3 +139,5 @@ docs/_build/
 .readthedocs.yml
 
 requirements_slurm.txt
+deprecated/
+output/

@@ -1,6 +1,10 @@
-torch
-accelerate
+# Core ML Dependencies
+torch>=2.4.0  # PyTorch 2.5.0+ recommended for enable_gqa support
+accelerate>=0.24.0
 transformers>=4.49.0
+diffusers>=0.30.0
+
+# Supporting dependencies
 protobuf
 numpy
 tqdm
@@ -9,7 +13,6 @@ matplotlib
 pillow
 ipython
 seaborn
-diffusers
 sentencepiece
 
 # VLM Quality Assessment Dependencies
