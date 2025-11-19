@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=run_2_agent_image_gen
 #SBATCH --account=kempner_ydu_lab
-#SBATCH --partition=kempner
+#SBATCH --partition=kempner_h100
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=16

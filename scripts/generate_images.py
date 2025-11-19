@@ -205,6 +205,7 @@ def main():
     output_dir = config.get("output_dir")
     num_samples_per_combination = config.get("num_samples_per_combination", 20)
     num_prompts_to_process = config.get("num_prompts_to_process", None)
+    process_prompts_forward = config.get("process_prompts_forward", True)
     guidance_scale = config.get("guidance_scale", 10.0)
     num_inference_steps = config.get("num_inference_steps", 5)
     bidding_combinations = config.get("bidding_combinations", [])
@@ -258,6 +259,7 @@ def main():
     print(f"  - Output directory: {output_dir}")
     print(f"  - Guidance scale: {guidance_scale}")
     print(f"  - Inference steps: {num_inference_steps}")
+    print(f"  - Process prompts: {'forward (0-{}) '.format(num_items_to_process - 1) if process_prompts_forward else 'backward ({}-0) '.format(num_items_to_process - 1)}")
 
     print("\nBidding combinations:")
     for i, combo in enumerate(bidding_combinations):
@@ -272,9 +274,19 @@ def main():
 
     # Generate images
     generation_results = []
-    for i, item_data in enumerate(
-        tqdm(prompts[:num_items_to_process], desc="Processing Prompts")
-    ):
+
+    # Determine prompt order based on process_prompts_forward flag
+    prompts_to_process = prompts[:num_items_to_process]
+    if not process_prompts_forward:
+        prompts_to_process = list(reversed(prompts_to_process))
+
+    # Create enumerate with original indices
+    if process_prompts_forward:
+        prompt_items = list(enumerate(prompts_to_process))
+    else:
+        prompt_items = [(num_items_to_process - 1 - idx, item) for idx, item in enumerate(prompts_to_process)]
+
+    for i, item_data in tqdm(prompt_items, desc="Processing Prompts", total=num_items_to_process):
         for bids_tuple in bidding_combinations:
             for sample_idx in range(num_samples_per_combination):
                 generated_image_path = generate_and_save_image(

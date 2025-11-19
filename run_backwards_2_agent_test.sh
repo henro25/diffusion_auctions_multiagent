@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=run_3_agent_image_gen
+#SBATCH --job-name=run_backwards_2_agent_test
 #SBATCH --account=kempner_ydu_lab
 #SBATCH --partition=kempner_h100
 #SBATCH --nodes=1
@@ -7,9 +7,9 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --gres=gpu:1
 #SBATCH --mem=128GB
-#SBATCH --time=3-00:00:00
-#SBATCH --output=logs/%j_run_3_agent_image_gen.out
-#SBATCH --error=logs/%j_run_3_agent_image_gen.err
+#SBATCH --time=0-01:00:00
+#SBATCH --output=logs/%j_run_backwards_2_agent_test.out
+#SBATCH --error=logs/%j_run_backwards_2_agent_test.err
 #SBATCH --mail-type=END
 #SBATCH --mail-user=hhuang@college.harvard.edu
 
@@ -22,7 +22,7 @@ mamba activate diffusion_auctions
 
 cd /net/holy-isilon/ifs/rc_labs/ydu_lab/henhua/diffusion_auctions_multiagent
 
-echo "=== Running generate_images.py script for 3 agents image generation ==="
-python scripts/generate_images.py --config config/config_3_agents.json
+echo "=== Running generate_images.py script for backwards 2 agents test ==="
+python scripts/generate_images.py --config config/backwards_config_2_agents.json
 
-echo "=== generate_images.py script for 3 agents image generation completed ==="
+echo "=== generate_images.py script for backwards 2 agents test completed ==="

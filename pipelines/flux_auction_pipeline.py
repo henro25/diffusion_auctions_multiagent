@@ -19,6 +19,7 @@ import torch
 import torch.nn.functional as F
 from typing import Any, Callable, Dict, List, Optional, Union
 from copy import deepcopy
+import random
 
 from diffusers import FluxPipeline
 from diffusers.image_processor import PipelineImageInput
@@ -347,6 +348,51 @@ class FluxPipelineAuction(FluxPipeline):
                 f"Agent prompt must be string or list of strings, got {type(first_prompt)}"
             )
 
+    def _select_two_highest_bidders(self, remaining_agents):
+        """
+        Select and remove the two agents with the highest bids from remaining_agents.
+
+        If multiple agents share the same highest bid, randomly select among them.
+        If multiple agents share the same second-highest bid, randomly select among them.
+
+        This ensures symmetric probability distribution when all bids are equal,
+        preventing deterministic ordering bias.
+
+        Args:
+            remaining_agents: List of agent dicts with 'bid' key, sorted ascending
+
+        Returns:
+            Tuple of (agent_n, agent_n_minus_1) where agent_n has highest bid
+        """
+        if len(remaining_agents) < 2:
+            raise ValueError("Need at least 2 agents to select two highest bidders")
+
+        # Find the maximum bid value
+        max_bid = max(agent["bid"] for agent in remaining_agents)
+
+        # Find all agents with the maximum bid
+        max_bid_agents = [agent for agent in remaining_agents if agent["bid"] == max_bid]
+
+        # Randomly select one agent with the maximum bid
+        agent_n = random.choice(max_bid_agents)
+
+        # Remove the selected agent from remaining_agents
+        remaining_agents.remove(agent_n)
+
+        # Find the new maximum bid (second highest)
+        second_max_bid = max(agent["bid"] for agent in remaining_agents)
+
+        # Find all agents with the second maximum bid
+        second_max_bid_agents = [agent for agent in remaining_agents if agent["bid"] == second_max_bid]
+
+        # Randomly select one agent with the second maximum bid
+        agent_n_minus_1 = random.choice(second_max_bid_agents)
+
+        # Remove the selected agent from remaining_agents
+        remaining_agents.remove(agent_n_minus_1)
+
+        return agent_n, agent_n_minus_1
+
     def _organize_and_sort_agents(self, agent_prompts, agent_bids, base_prompt):
         """
         Organize agent data and sort by bid amount (ascending order).
@@ -530,9 +576,8 @@ class FluxPipelineAuction(FluxPipeline):
 
         # Iteratively combine agents from lowest to highest bid
         while len(remaining_agents) > 1:
-            # Pop the two highest bidders
-            agent_n = remaining_agents.pop()  # Highest bid
-            agent_n_minus_1 = remaining_agents.pop()  # Second highest bid
+            # Select the two highest bidders (with random selection for ties)
+            agent_n, agent_n_minus_1 = self._select_two_highest_bidders(remaining_agents)
 
             # Get the current bids (already sorted ascending)
             bid_n = agent_n["bid"]
