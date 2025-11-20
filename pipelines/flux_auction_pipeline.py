@@ -553,6 +553,7 @@ class FluxPipelineAuction(FluxPipeline):
             # All bids are essentially zero: return base prompt only
             embeds, pooled_embeds, text_ids = self.encode_prompt(
                 prompt=base_prompt,
+                prompt_2=None,
                 device=device,
                 num_images_per_prompt=1,
                 max_sequence_length=512,
@@ -602,6 +603,7 @@ class FluxPipelineAuction(FluxPipeline):
 
             embeds_n, pooled_embeds_n, text_ids_n = self.encode_prompt(
                 prompt=combined_prompt_agent_n,
+                prompt_2=None,
                 device=device,
                 num_images_per_prompt=1,
                 max_sequence_length=512,
@@ -629,6 +631,7 @@ class FluxPipelineAuction(FluxPipeline):
             # Encode the combined prompt for this iteration
             embeds_shared, pooled_embeds_shared, text_ids_shared = self.encode_prompt(
                 prompt=combined_prompt_with_base,
+                prompt_2=None,
                 device=device,
                 num_images_per_prompt=1,
                 max_sequence_length=512,
