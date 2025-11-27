@@ -1,0 +1,21 @@
+{
+  "num_agents": 3,
+  "prompts_path": "prompts/agent_prompts.json",
+  "images_dir": "output/images_3_agents",
+  "output_dir": "quality/quality_laion_3_agents",
+  "num_samples_per_combination": 20,
+  "num_prompts_to_process": 200,
+  "process_prompts_forward": true,
+  "bidding_combinations": [
+    [0.0, 0.0, 0.0],
+    [1.0, 0.0, 0.0],
+    [0.0, 1.0, 0.0],
+    [0.0, 0.0, 1.0],
+    [0.33, 0.33, 0.33],
+    [0.5, 0.5, 0.0],
+    [0.6, 0.3, 0.1],
+    [0.6, 0.2, 0.2],
+    [0.4, 0.4, 0.2],
+    [0.5, 0.3, 0.2]
+  ]
+}

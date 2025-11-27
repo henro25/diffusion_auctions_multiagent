@@ -1,0 +1,19 @@
+{
+  "num_agents": 2,
+  "prompts_path": "prompts/agent_prompts.json",
+  "images_dir": "output/images_2_agents",
+  "output_dir": "quality/quality_laion_2_agents",
+  "num_samples_per_combination": 20,
+  "num_prompts_to_process": 200,
+  "process_prompts_forward": true,
+  "bidding_combinations": [
+    [0.0, 0.0],
+    [1.0, 0.0],
+    [0.1, 0.9],
+    [0.9, 0.1],
+    [0.0, 1.0],
+    [0.5, 0.5],
+    [0.7, 0.3],
+    [0.3, 0.7]
+  ]
+}

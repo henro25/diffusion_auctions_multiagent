@@ -1,0 +1,19 @@
+{
+  "num_agents": 5,
+  "prompts_path": "prompts/agent_prompts.json",
+  "images_dir": "output/images_5_agents",
+  "output_dir": "alignment/alignment_clip_5_agents",
+  "num_samples_per_combination": 20,
+  "num_prompts_to_process": 200,
+  "process_prompts_forward": false,
+  "bidding_combinations": [
+    [0.0, 0.0, 0.0, 0.0, 0.0],
+    [1.0, 0.0, 0.0, 0.0, 0.0],
+    [0.2, 0.2, 0.2, 0.2, 0.2],
+    [0.4, 0.3, 0.2, 0.05, 0.05],
+    [0.5, 0.25, 0.15, 0.07, 0.03],
+    [0.3, 0.3, 0.2, 0.1, 0.1],
+    [0.6, 0.2, 0.1, 0.05, 0.05],
+    [0.25, 0.25, 0.25, 0.15, 0.1]
+  ]
+}
