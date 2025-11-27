@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 198,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_2_agents/prompt_198/idx198_b1_0.30_b2_0.70_s07.png",
+    "filename": "idx198_b1_0.30_b2_0.70_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a glassblowing studio",
+    "agent1_prompt": "CB2 side table",
+    "agent2_prompt": "Southwest flight"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.881637573242188,
+    "agent1_alignment": 16.786664962768555,
+    "agent2_alignment": 17.20611000061035
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.080276489257812,
+    "total_welfare": 17.080276489257812
+  }
+}

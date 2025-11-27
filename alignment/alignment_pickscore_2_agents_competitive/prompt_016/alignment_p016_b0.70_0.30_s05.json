@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 16,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_2_agents_competitive/prompt_016/idx016_b1_0.70_b2_0.30_s05.png",
+    "filename": "idx016_b1_0.70_b2_0.30_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "A person wearing running shorts during a marathon",
+    "agent1_prompt": "Nike running shorts",
+    "agent2_prompt": "Adidas running shorts"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.641996383666992,
+    "agent1_alignment": 19.605497360229492,
+    "agent2_alignment": 20.172048568725586
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.775462722778318,
+    "total_welfare": 19.775462722778318
+  }
+}

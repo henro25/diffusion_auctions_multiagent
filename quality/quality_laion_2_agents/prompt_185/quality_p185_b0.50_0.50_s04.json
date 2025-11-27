@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 185,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_2_agents/prompt_185/idx185_b1_0.50_b2_0.50_s04.png",
+    "filename": "idx185_b1_0.50_b2_0.50_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a boat marina",
+    "agent1_prompt": "La-Z-Boy recliner",
+    "agent2_prompt": "Michelin tire"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.96995735168457
+  }
+}

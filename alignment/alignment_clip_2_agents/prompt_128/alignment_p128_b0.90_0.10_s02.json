@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 128,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_2_agents/prompt_128/idx128_b1_0.90_b2_0.10_s02.png",
+    "filename": "idx128_b1_0.90_b2_0.10_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a car wash",
+    "agent1_prompt": "REI sleeping bag",
+    "agent2_prompt": "Snapple iced tea"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.1845703125,
+    "agent1_alignment": 0.2109375,
+    "agent2_alignment": 0.12890625
+  },
+  "quality_assessment": {
+    "clip_quality": 0.51171875
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.202734375,
+    "total_welfare": 0.202734375
+  }
+}

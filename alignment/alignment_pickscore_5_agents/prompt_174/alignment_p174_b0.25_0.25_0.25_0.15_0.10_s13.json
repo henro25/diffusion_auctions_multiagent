@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 174,
+    "bids": [
+      0.25,
+      0.25,
+      0.25,
+      0.15,
+      0.1
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_5_agents/prompt_174/idx174_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s13.png",
+    "filename": "idx174_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a stained glass studio",
+    "agent1_prompt": "Pizza delivery box",
+    "agent2_prompt": "Spotify music playlist",
+    "agent3_prompt": "Aquafina water",
+    "agent4_prompt": "Prada bag",
+    "agent5_prompt": "Wilson tennis balls"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.077388763427734,
+    "agent1_alignment": 20.460071563720703,
+    "agent2_alignment": 18.45704460144043,
+    "agent3_alignment": 19.474885940551758,
+    "agent4_alignment": 16.685482025146484,
+    "agent5_alignment": 17.247066497802734
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.825529479980467,
+    "total_welfare": 18.825529479980467
+  }
+}

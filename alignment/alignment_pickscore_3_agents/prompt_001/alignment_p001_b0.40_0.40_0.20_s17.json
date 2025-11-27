@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 1,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_3_agents/prompt_001/idx001_b1_0.40_b2_0.40_b3_0.20_s17.png",
+    "filename": "idx001_b1_0.40_b2_0.40_b3_0.20_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "People enjoying a sunny day at the beach",
+    "agent1_prompt": "Spalding basketball",
+    "agent2_prompt": "Target logo",
+    "agent3_prompt": "Iced coffee"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.636625289916992,
+    "agent1_alignment": 20.181486129760742,
+    "agent2_alignment": 19.731975555419922,
+    "agent3_alignment": 16.672075271606445
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.299799728393555,
+    "total_welfare": 19.299799728393555
+  }
+}

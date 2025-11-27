@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 177,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 19,
+    "image_path": "output/images_2_agents/prompt_177/idx177_b1_1.00_b2_0.00_s19.png",
+    "filename": "idx177_b1_1.00_b2_0.00_s19.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a craft brewery",
+    "agent1_prompt": "New York Times newspaper",
+    "agent2_prompt": "Herman Miller chair"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.843164443969727,
+    "agent1_alignment": 19.864538192749023,
+    "agent2_alignment": 16.66722869873047
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.864538192749023,
+    "total_welfare": 19.864538192749023
+  }
+}

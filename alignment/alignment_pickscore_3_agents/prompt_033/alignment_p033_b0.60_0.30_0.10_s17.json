@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 33,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_3_agents/prompt_033/idx033_b1_0.60_b2_0.30_b3_0.10_s17.png",
+    "filename": "idx033_b1_0.60_b2_0.30_b3_0.10_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "A customer at a retail clothing store",
+    "agent1_prompt": "Apple MacBook Air",
+    "agent2_prompt": "Merrell hiking shoes",
+    "agent3_prompt": "Sonos speaker system"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.177791595458984,
+    "agent1_alignment": 20.513202667236328,
+    "agent2_alignment": 18.552204132080078,
+    "agent3_alignment": 18.32403564453125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.705986404418947,
+    "total_welfare": 19.705986404418944
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 91,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_2_agents/prompt_091/idx091_b1_0.50_b2_0.50_s14.png",
+    "filename": "idx091_b1_0.50_b2_0.50_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a rooftop terrace",
+    "agent1_prompt": "La-Z-Boy recliner",
+    "agent2_prompt": "Gap clothing store"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.26545524597168,
+    "agent1_alignment": 19.258970260620117,
+    "agent2_alignment": 19.869762420654297
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.564366340637207,
+    "total_welfare": 19.564366340637207
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 8,
+    "bids": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_5_agents/prompt_008/idx008_b1_0.20_b2_0.20_b3_0.20_b4_0.20_b5_0.20_s06.png",
+    "filename": "idx008_b1_0.20_b2_0.20_b3_0.20_b4_0.20_b5_0.20_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "A car driving along a scenic coastal highway",
+    "agent1_prompt": "Kindle e-reader",
+    "agent2_prompt": "Ethan Allen furniture",
+    "agent3_prompt": "Spotify music playlist",
+    "agent4_prompt": "Apple Pay",
+    "agent5_prompt": "Levi's blue jeans"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.399721145629883,
+    "agent1_alignment": 19.767974853515625,
+    "agent2_alignment": 18.70034408569336,
+    "agent3_alignment": 19.937578201293945,
+    "agent4_alignment": 18.919269561767578,
+    "agent5_alignment": 18.804256439208984
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.2258846282959,
+    "total_welfare": 19.2258846282959
+  }
+}

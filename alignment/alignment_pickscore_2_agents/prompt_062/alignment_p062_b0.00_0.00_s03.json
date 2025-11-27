@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 62,
+    "bids": [
+      0.0,
+      0.0
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_2_agents/prompt_062/idx062_b1_0.00_b2_0.00_s03.png",
+    "filename": "idx062_b1_0.00_b2_0.00_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a grocery store deli counter",
+    "agent1_prompt": "Philips light bulb",
+    "agent2_prompt": "Cappuccino drink"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.74648094177246,
+    "agent1_alignment": 19.020341873168945,
+    "agent2_alignment": 17.819374084472656
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

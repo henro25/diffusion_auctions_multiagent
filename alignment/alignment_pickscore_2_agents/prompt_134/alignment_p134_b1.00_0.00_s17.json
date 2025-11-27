@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 134,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_2_agents/prompt_134/idx134_b1_1.00_b2_0.00_s17.png",
+    "filename": "idx134_b1_1.00_b2_0.00_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a veterinary clinic",
+    "agent1_prompt": "Rocket Mortgage",
+    "agent2_prompt": "French press pot"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.51675033569336,
+    "agent1_alignment": 17.961071014404297,
+    "agent2_alignment": 16.502578735351562
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.961071014404297,
+    "total_welfare": 17.961071014404297
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 128,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_2_agents/prompt_128/idx128_b1_0.50_b2_0.50_s05.png",
+    "filename": "idx128_b1_0.50_b2_0.50_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a car wash",
+    "agent1_prompt": "REI sleeping bag",
+    "agent2_prompt": "Snapple iced tea"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 7.358259677886963
+  }
+}

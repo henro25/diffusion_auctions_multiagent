@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 18,
+    "bids": [
+      0.0,
+      1.0
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_2_agents/prompt_018/idx018_b1_0.00_b2_1.00_s16.png",
+    "filename": "idx018_b1_0.00_b2_1.00_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "A doctor examining a patient in a medical clinic",
+    "agent1_prompt": "Biscotti cookie",
+    "agent2_prompt": "Samsung refrigerator"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.248046875,
+    "agent1_alignment": 0.1005859375,
+    "agent2_alignment": 0.2373046875
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.2373046875,
+    "total_welfare": 0.2373046875
+  }
+}

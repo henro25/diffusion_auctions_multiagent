@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 173,
+    "bids": [
+      0.4,
+      0.3,
+      0.2,
+      0.05,
+      0.05
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_5_agents/prompt_173/idx173_b1_0.40_b2_0.30_b3_0.20_b4_0.05_b5_0.05_s07.png",
+    "filename": "idx173_b1_0.40_b2_0.30_b3_0.20_b4_0.05_b5_0.05_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a legal office waiting",
+    "agent1_prompt": "Bosch dishwasher",
+    "agent2_prompt": "Wells Fargo check",
+    "agent3_prompt": "Asics running shoe",
+    "agent4_prompt": "Room & Board",
+    "agent5_prompt": "Timberland boots"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.867416381835938,
+    "agent1_alignment": 17.794973373413086,
+    "agent2_alignment": 20.839954376220703,
+    "agent3_alignment": 17.425565719604492,
+    "agent4_alignment": 18.795860290527344,
+    "agent5_alignment": 18.178768157958984
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.70382022857666,
+    "total_welfare": 18.70382022857666
+  }
+}

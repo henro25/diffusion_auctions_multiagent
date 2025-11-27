@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 196,
+    "bids": [
+      0.6,
+      0.2,
+      0.1,
+      0.05,
+      0.05
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_5_agents/prompt_196/idx196_b1_0.60_b2_0.20_b3_0.10_b4_0.05_b5_0.05_s06.png",
+    "filename": "idx196_b1_0.60_b2_0.20_b3_0.10_b4_0.05_b5_0.05_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "Person at a karaoke lounge",
+    "agent1_prompt": "Best Buy store",
+    "agent2_prompt": "Budweiser beer can",
+    "agent3_prompt": "Prada bag",
+    "agent4_prompt": "Restoration Hardware piece",
+    "agent5_prompt": "Puma athletic gear"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.211044311523438,
+    "agent1_alignment": 18.826248168945312,
+    "agent2_alignment": 18.43253517150879,
+    "agent3_alignment": 16.172454833984375,
+    "agent4_alignment": 17.119895935058594,
+    "agent5_alignment": 17.73392677307129
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.34219255447388,
+    "total_welfare": 18.34219255447388
+  }
+}

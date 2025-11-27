@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 2,
+    "bids": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 15,
+    "image_path": "output/images_10_agents/prompt_002/idx002_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_s15.png",
+    "filename": "idx002_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_s15.png"
+  },
+  "prompts": {
+    "base_prompt": "A person relaxing on a living-room sofa",
+    "agent1_prompt": "Clinique skincare",
+    "agent2_prompt": "Hulu series",
+    "agent3_prompt": "Nest thermostat",
+    "agent4_prompt": "YouTube channel",
+    "agent5_prompt": "Article sofa",
+    "agent6_prompt": "iPhone smartphone",
+    "agent7_prompt": "Macy's department",
+    "agent8_prompt": "Osprey pack",
+    "agent9_prompt": "Cappuccino drink",
+    "agent10_prompt": "Corona beer bottle"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.689489364624023,
+    "agent1_alignment": 18.49763298034668,
+    "agent2_alignment": 19.616044998168945,
+    "agent3_alignment": 18.335124969482422,
+    "agent4_alignment": 18.094268798828125,
+    "agent5_alignment": 19.751680374145508,
+    "agent6_alignment": 18.797365188598633,
+    "agent7_alignment": 17.732624053955078,
+    "agent8_alignment": 18.99262046813965,
+    "agent9_alignment": 17.341493606567383,
+    "agent10_alignment": 18.7431583404541
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

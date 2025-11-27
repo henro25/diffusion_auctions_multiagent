@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 157,
+    "bids": [
+      0.5,
+      0.25,
+      0.15,
+      0.07,
+      0.03
+    ],
+    "sample_index": 12,
+    "image_path": "output/images_5_agents/prompt_157/idx157_b1_0.50_b2_0.25_b3_0.15_b4_0.07_b5_0.03_s12.png",
+    "filename": "idx157_b1_0.50_b2_0.25_b3_0.15_b4_0.07_b5_0.03_s12.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a paint and sip class",
+    "agent1_prompt": "Cheetos snack",
+    "agent2_prompt": "Tesla Model 3",
+    "agent3_prompt": "Coleman cooler",
+    "agent4_prompt": "Coffee foam art",
+    "agent5_prompt": "Dyson vacuum"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.996288299560547,
+    "agent1_alignment": 18.648418426513672,
+    "agent2_alignment": 19.166616439819336,
+    "agent3_alignment": 17.785865783691406,
+    "agent4_alignment": 18.298616409301758,
+    "agent5_alignment": 19.61271858215332
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.653027896881106,
+    "total_welfare": 18.653027896881106
+  }
+}

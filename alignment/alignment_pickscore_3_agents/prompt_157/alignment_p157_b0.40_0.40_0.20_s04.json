@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 157,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_3_agents/prompt_157/idx157_b1_0.40_b2_0.40_b3_0.20_s04.png",
+    "filename": "idx157_b1_0.40_b2_0.40_b3_0.20_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a paint and sip class",
+    "agent1_prompt": "Cheetos snack",
+    "agent2_prompt": "Tesla Model 3",
+    "agent3_prompt": "Coleman cooler"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.546085357666016,
+    "agent1_alignment": 20.141408920288086,
+    "agent2_alignment": 17.438552856445312,
+    "agent3_alignment": 18.460060119628906
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.723996734619142,
+    "total_welfare": 18.723996734619142
+  }
+}

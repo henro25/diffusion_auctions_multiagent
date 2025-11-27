@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 104,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_2_agents/prompt_104/idx104_b1_0.70_b2_0.30_s04.png",
+    "filename": "idx104_b1_0.70_b2_0.30_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at an insurance office",
+    "agent1_prompt": "CVS pharmacy",
+    "agent2_prompt": "Evian water bottle"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.39149284362793,
+    "agent1_alignment": 19.480575561523438,
+    "agent2_alignment": 19.811792373657227
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.57994060516357,
+    "total_welfare": 19.57994060516357
+  }
+}

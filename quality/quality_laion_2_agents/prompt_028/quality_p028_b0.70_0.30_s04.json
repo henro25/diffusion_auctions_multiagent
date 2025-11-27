@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 28,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_2_agents/prompt_028/idx028_b1_0.70_b2_0.30_s04.png",
+    "filename": "idx028_b1_0.70_b2_0.30_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone working on a laptop at a home office",
+    "agent1_prompt": "YouTube channel",
+    "agent2_prompt": "Fanta orange soda"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.710505485534668
+  }
+}

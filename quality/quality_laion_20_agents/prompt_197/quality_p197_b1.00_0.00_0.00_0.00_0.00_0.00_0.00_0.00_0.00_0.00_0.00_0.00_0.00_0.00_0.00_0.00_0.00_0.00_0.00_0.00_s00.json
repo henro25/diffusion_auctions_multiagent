@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "prompt_index": 197,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 0,
+    "image_path": "output/images_20_agents/prompt_197/idx197_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_b11_0.00_b12_0.00_b13_0.00_b14_0.00_b15_0.00_b16_0.00_b17_0.00_b18_0.00_b19_0.00_b20_0.00_s00.png",
+    "filename": "idx197_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_b11_0.00_b12_0.00_b13_0.00_b14_0.00_b15_0.00_b16_0.00_b17_0.00_b18_0.00_b19_0.00_b20_0.00_s00.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a horseback riding stable",
+    "agent1_prompt": "Revlon cosmetics",
+    "agent2_prompt": "Sony headphones",
+    "agent3_prompt": "Dyson Supersonic dryer",
+    "agent4_prompt": "Substack newsletter",
+    "agent5_prompt": "Stripe payment",
+    "agent6_prompt": "Vitamix blender",
+    "agent7_prompt": "Under Armour shorts",
+    "agent8_prompt": "Hulu series",
+    "agent9_prompt": "McDonald's burger",
+    "agent10_prompt": "PayPal logo",
+    "agent11_prompt": "Trader Joe's bags",
+    "agent12_prompt": "La-Z-Boy recliner",
+    "agent13_prompt": "Regal Cinemas",
+    "agent14_prompt": "French press pot",
+    "agent15_prompt": "Budweiser beer can",
+    "agent16_prompt": "Goodyear tire",
+    "agent17_prompt": "Enterprise car",
+    "agent18_prompt": "Gucci loafers",
+    "agent19_prompt": "Camelback water pack",
+    "agent20_prompt": "TikTok app"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.014767646789551
+  }
+}

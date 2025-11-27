@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 129,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_2_agents/prompt_129/idx129_b1_0.10_b2_0.90_s13.png",
+    "filename": "idx129_b1_0.10_b2_0.90_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a kitchen appliance store",
+    "agent1_prompt": "Fanta orange soda",
+    "agent2_prompt": "Yeti cooler"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.9512434005737305
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 14,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_5_agents/prompt_014/idx014_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s08.png",
+    "filename": "idx014_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "A teenager gaming in their bedroom",
+    "agent1_prompt": "Gucci loafers",
+    "agent2_prompt": "Doritos tortilla chips",
+    "agent3_prompt": "Fitbit tracker",
+    "agent4_prompt": "Fanta orange soda",
+    "agent5_prompt": "Dyson hair dryer"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.666656494140625,
+    "agent1_alignment": 18.604724884033203,
+    "agent2_alignment": 17.33935546875,
+    "agent3_alignment": 18.328750610351562,
+    "agent4_alignment": 17.845802307128906,
+    "agent5_alignment": 18.812131881713867
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.604724884033203,
+    "total_welfare": 18.604724884033203
+  }
+}

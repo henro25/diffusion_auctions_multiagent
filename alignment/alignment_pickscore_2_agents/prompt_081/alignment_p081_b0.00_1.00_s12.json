@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 81,
+    "bids": [
+      0.0,
+      1.0
+    ],
+    "sample_index": 12,
+    "image_path": "output/images_2_agents/prompt_081/idx081_b1_0.00_b2_1.00_s12.png",
+    "filename": "idx081_b1_0.00_b2_1.00_s12.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a jewelry store",
+    "agent1_prompt": "Polo Ralph Lauren shirt",
+    "agent2_prompt": "Sprite lemon-lime"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.724477767944336,
+    "agent1_alignment": 17.657907485961914,
+    "agent2_alignment": 20.5930233001709
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.5930233001709,
+    "total_welfare": 20.5930233001709
+  }
+}

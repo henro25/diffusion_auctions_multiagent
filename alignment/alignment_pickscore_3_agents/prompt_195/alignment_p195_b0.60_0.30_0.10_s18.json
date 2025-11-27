@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 195,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_3_agents/prompt_195/idx195_b1_0.60_b2_0.30_b3_0.10_s18.png",
+    "filename": "idx195_b1_0.60_b2_0.30_b3_0.10_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "A group at a outdoor festival",
+    "agent1_prompt": "Herman Miller chair",
+    "agent2_prompt": "Biscotti cookie",
+    "agent3_prompt": "Ramen noodle packet"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.87180519104004,
+    "agent1_alignment": 17.221376419067383,
+    "agent2_alignment": 19.427942276000977,
+    "agent3_alignment": 18.497303009033203
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.010938835144046,
+    "total_welfare": 18.010938835144042
+  }
+}

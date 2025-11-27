@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 43,
+    "bids": [
+      0.33,
+      0.33,
+      0.33
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_3_agents/prompt_043/idx043_b1_0.33_b2_0.33_b3_0.33_s01.png",
+    "filename": "idx043_b1_0.33_b2_0.33_b3_0.33_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a car service station",
+    "agent1_prompt": "Ramen noodle packet",
+    "agent2_prompt": "Pottery Barn shelving",
+    "agent3_prompt": "Kelty tent"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.597139358520508,
+    "agent1_alignment": 19.674148559570312,
+    "agent2_alignment": 15.739574432373047,
+    "agent3_alignment": 17.981550216674805
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.798424402872723,
+    "total_welfare": 17.620440158843994
+  }
+}

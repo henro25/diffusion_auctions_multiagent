@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 15,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_2_agents_competitive/prompt_015/idx015_b1_0.10_b2_0.90_s04.png",
+    "filename": "idx015_b1_0.10_b2_0.90_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "A customer carrying a fast food bag on a city street",
+    "agent1_prompt": "McDonald's bag",
+    "agent2_prompt": "Burger King bag"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.322265625,
+    "agent1_alignment": 0.2353515625,
+    "agent2_alignment": 0.3125
+  },
+  "quality_assessment": {
+    "clip_quality": 0.51171875
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.30478515625,
+    "total_welfare": 0.30478515625
+  }
+}

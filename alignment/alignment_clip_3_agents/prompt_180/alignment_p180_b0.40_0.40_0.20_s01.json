@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "prompt_index": 180,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_3_agents/prompt_180/idx180_b1_0.40_b2_0.40_b3_0.20_s01.png",
+    "filename": "idx180_b1_0.40_b2_0.40_b3_0.20_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone getting a haircut",
+    "agent1_prompt": "Kraft cheese slice",
+    "agent2_prompt": "Pantene hair care",
+    "agent3_prompt": "Champagne bottle"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.1708984375,
+    "agent1_alignment": 0.1875,
+    "agent2_alignment": 0.197265625,
+    "agent3_alignment": 0.134765625
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.18085937500000002,
+    "total_welfare": 0.18085937500000002
+  }
+}

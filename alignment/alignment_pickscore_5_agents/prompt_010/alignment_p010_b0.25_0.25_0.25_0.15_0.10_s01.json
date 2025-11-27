@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 10,
+    "bids": [
+      0.25,
+      0.25,
+      0.25,
+      0.15,
+      0.1
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_5_agents/prompt_010/idx010_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s01.png",
+    "filename": "idx010_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "A man waiting at a bus stop",
+    "agent1_prompt": "Oakley sunglasses",
+    "agent2_prompt": "BMW sedan",
+    "agent3_prompt": "Google Pay",
+    "agent4_prompt": "Instant Pot appliance",
+    "agent5_prompt": "Coleman cooler"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.104843139648438,
+    "agent1_alignment": 19.417680740356445,
+    "agent2_alignment": 19.63957977294922,
+    "agent3_alignment": 18.850101470947266,
+    "agent4_alignment": 19.14141082763672,
+    "agent5_alignment": 18.502782821655273
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.198330402374268,
+    "total_welfare": 19.198330402374268
+  }
+}

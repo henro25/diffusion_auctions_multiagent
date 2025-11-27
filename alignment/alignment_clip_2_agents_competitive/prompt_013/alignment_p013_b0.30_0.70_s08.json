@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 13,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_2_agents_competitive/prompt_013/idx013_b1_0.30_b2_0.70_s08.png",
+    "filename": "idx013_b1_0.30_b2_0.70_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "A person wearing a baseball cap at a sports game",
+    "agent1_prompt": "New York Yankees cap",
+    "agent2_prompt": "Boston Red Sox cap"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.314453125,
+    "agent1_alignment": 0.263671875,
+    "agent2_alignment": 0.25
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.2541015625,
+    "total_welfare": 0.2541015625
+  }
+}

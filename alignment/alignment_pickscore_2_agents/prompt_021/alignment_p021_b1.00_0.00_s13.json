@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 21,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_2_agents/prompt_021/idx021_b1_1.00_b2_0.00_s13.png",
+    "filename": "idx021_b1_1.00_b2_0.00_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "A person jogging in a city park",
+    "agent1_prompt": "Wonder Bread loaf",
+    "agent2_prompt": "TD Bank"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.2462100982666,
+    "agent1_alignment": 19.351444244384766,
+    "agent2_alignment": 18.203968048095703
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.351444244384766,
+    "total_welfare": 19.351444244384766
+  }
+}

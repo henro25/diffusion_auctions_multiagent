@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 144,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_2_agents/prompt_144/idx144_b1_0.30_b2_0.70_s09.png",
+    "filename": "idx144_b1_0.30_b2_0.70_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a software store",
+    "agent1_prompt": "Nutella spread jar",
+    "agent2_prompt": "Magazine stack"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.487892150878906,
+    "agent1_alignment": 20.315853118896484,
+    "agent2_alignment": 19.684232711791992
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.873718833923338,
+    "total_welfare": 19.873718833923338
+  }
+}

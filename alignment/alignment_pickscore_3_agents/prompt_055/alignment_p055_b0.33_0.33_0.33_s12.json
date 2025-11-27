@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 55,
+    "bids": [
+      0.33,
+      0.33,
+      0.33
+    ],
+    "sample_index": 12,
+    "image_path": "output/images_3_agents/prompt_055/idx055_b1_0.33_b2_0.33_b3_0.33_s12.png",
+    "filename": "idx055_b1_0.33_b2_0.33_b3_0.33_s12.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a nail salon getting manicure",
+    "agent1_prompt": "Visa credit card",
+    "agent2_prompt": "IHG hotel",
+    "agent3_prompt": "Instant Pot cooker"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.811798095703125,
+    "agent1_alignment": 19.12616729736328,
+    "agent2_alignment": 17.864320755004883,
+    "agent3_alignment": 20.703998565673828
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.231495539347332,
+    "total_welfare": 19.039180583953858
+  }
+}

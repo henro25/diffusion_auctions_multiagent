@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 12,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_2_agents_competitive/prompt_012/idx012_b1_1.00_b2_0.00_s04.png",
+    "filename": "idx012_b1_1.00_b2_0.00_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone using a smartphone at a coffee shop",
+    "agent1_prompt": "iPhone smartphone",
+    "agent2_prompt": "Samsung Galaxy phone"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.252897262573242
+  }
+}

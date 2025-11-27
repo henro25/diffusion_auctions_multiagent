@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "prompt_index": 3,
+    "bids": [
+      0.15,
+      0.12,
+      0.1,
+      0.08,
+      0.07,
+      0.06,
+      0.05,
+      0.05,
+      0.04,
+      0.04,
+      0.03,
+      0.03,
+      0.02,
+      0.02,
+      0.02,
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_20_agents/prompt_003/idx003_b1_0.15_b2_0.12_b3_0.10_b4_0.08_b5_0.07_b6_0.06_b7_0.05_b8_0.05_b9_0.04_b10_0.04_b11_0.03_b12_0.03_b13_0.02_b14_0.02_b15_0.02_b16_0.01_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s18.png",
+    "filename": "idx003_b1_0.15_b2_0.12_b3_0.10_b4_0.08_b5_0.07_b6_0.06_b7_0.05_b8_0.05_b9_0.04_b10_0.04_b11_0.03_b12_0.03_b13_0.02_b14_0.02_b15_0.02_b16_0.01_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "A hiker resting on a mountain trail",
+    "agent1_prompt": "Keen boots",
+    "agent2_prompt": "Jura espresso machine",
+    "agent3_prompt": "Cold brew concentrate",
+    "agent4_prompt": "SoFi loan",
+    "agent5_prompt": "Ashley Furniture",
+    "agent6_prompt": "Dyson vacuum",
+    "agent7_prompt": "IKEA chair",
+    "agent8_prompt": "Salomon ski boots",
+    "agent9_prompt": "Passport booklet",
+    "agent10_prompt": "Fortnite game",
+    "agent11_prompt": "Yeti cooler",
+    "agent12_prompt": "Gillette razor",
+    "agent13_prompt": "Gap clothing store",
+    "agent14_prompt": "Harley-Davidson motorcycle",
+    "agent15_prompt": "Levi's blue jeans",
+    "agent16_prompt": "Deli turkey slice",
+    "agent17_prompt": "Corona beer bottle",
+    "agent18_prompt": "Regal Cinemas",
+    "agent19_prompt": "Apple MacBook Air",
+    "agent20_prompt": "Newspaper headline"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.889963150024414
+  }
+}

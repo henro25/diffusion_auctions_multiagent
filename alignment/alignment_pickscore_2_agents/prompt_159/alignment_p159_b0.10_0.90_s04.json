@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 159,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_2_agents/prompt_159/idx159_b1_0.10_b2_0.90_s04.png",
+    "filename": "idx159_b1_0.10_b2_0.90_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a plant nursery",
+    "agent1_prompt": "Asics running shoe",
+    "agent2_prompt": "Sephora beauty"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.45909881591797,
+    "agent1_alignment": 17.609947204589844,
+    "agent2_alignment": 20.71527862548828
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.40474548339844,
+    "total_welfare": 20.40474548339844
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 166,
+    "bids": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_5_agents/prompt_166/idx166_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s17.png",
+    "filename": "idx166_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a outdoor archery range",
+    "agent1_prompt": "Converse Chuck Taylor",
+    "agent2_prompt": "Sonos speaker system",
+    "agent3_prompt": "Tresemm\u00e9 shampoo",
+    "agent4_prompt": "Puma athletic gear",
+    "agent5_prompt": "Kroger supermarket"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.839250564575195
+  }
+}

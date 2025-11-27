@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 178,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_2_agents/prompt_178/idx178_b1_1.00_b2_0.00_s08.png",
+    "filename": "idx178_b1_1.00_b2_0.00_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a natural history museum",
+    "agent1_prompt": "Best Buy store",
+    "agent2_prompt": "Coach handbag"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.48328161239624
+  }
+}

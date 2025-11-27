@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 98,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_2_agents/prompt_098/idx098_b1_0.70_b2_0.30_s05.png",
+    "filename": "idx098_b1_0.70_b2_0.30_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a post office mailing package",
+    "agent1_prompt": "Sprite lemon-lime",
+    "agent2_prompt": "Jif peanut butter"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.279945373535156,
+    "agent1_alignment": 19.321388244628906,
+    "agent2_alignment": 19.4676513671875
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.365267181396483,
+    "total_welfare": 19.365267181396483
+  }
+}

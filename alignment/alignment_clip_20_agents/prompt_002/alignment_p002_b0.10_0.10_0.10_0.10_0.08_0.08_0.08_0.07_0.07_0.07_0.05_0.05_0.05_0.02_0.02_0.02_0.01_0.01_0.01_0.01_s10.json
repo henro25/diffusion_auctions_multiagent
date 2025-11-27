@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 2,
+    "bids": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.08,
+      0.08,
+      0.08,
+      0.07,
+      0.07,
+      0.07,
+      0.05,
+      0.05,
+      0.05,
+      0.02,
+      0.02,
+      0.02,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "sample_index": 10,
+    "image_path": "output/images_20_agents/prompt_002/idx002_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.08_b6_0.08_b7_0.08_b8_0.07_b9_0.07_b10_0.07_b11_0.05_b12_0.05_b13_0.05_b14_0.02_b15_0.02_b16_0.02_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s10.png",
+    "filename": "idx002_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.08_b6_0.08_b7_0.08_b8_0.07_b9_0.07_b10_0.07_b11_0.05_b12_0.05_b13_0.05_b14_0.02_b15_0.02_b16_0.02_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s10.png"
+  },
+  "prompts": {
+    "base_prompt": "A person relaxing on a living-room sofa",
+    "agent1_prompt": "Clinique skincare",
+    "agent2_prompt": "Hulu series",
+    "agent3_prompt": "Nest thermostat",
+    "agent4_prompt": "YouTube channel",
+    "agent5_prompt": "Article sofa",
+    "agent6_prompt": "iPhone smartphone",
+    "agent7_prompt": "Macy's department",
+    "agent8_prompt": "Osprey pack",
+    "agent9_prompt": "Cappuccino drink",
+    "agent10_prompt": "Corona beer bottle",
+    "agent11_prompt": "Google Pay",
+    "agent12_prompt": "Chevrolet Silverado",
+    "agent13_prompt": "Pottery Barn decorations",
+    "agent14_prompt": "Luggage suitcase",
+    "agent15_prompt": "Subway sandwich",
+    "agent16_prompt": "Hydroflask water bottle",
+    "agent17_prompt": "Nike running shoes",
+    "agent18_prompt": "Timberland boots",
+    "agent19_prompt": "Oakley sunglasses",
+    "agent20_prompt": "Hotel lobby"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.20703125,
+    "agent1_alignment": 0.11181640625,
+    "agent2_alignment": 0.1611328125,
+    "agent3_alignment": 0.197265625,
+    "agent4_alignment": 0.13671875,
+    "agent5_alignment": 0.1748046875,
+    "agent6_alignment": 0.1767578125,
+    "agent7_alignment": 0.11669921875,
+    "agent8_alignment": 0.11865234375,
+    "agent9_alignment": 0.146484375,
+    "agent10_alignment": 0.2333984375,
+    "agent11_alignment": 0.1845703125,
+    "agent12_alignment": 0.123046875,
+    "agent13_alignment": 0.10986328125,
+    "agent14_alignment": 0.1142578125,
+    "agent15_alignment": 0.1396484375,
+    "agent16_alignment": 0.1181640625,
+    "agent17_alignment": 0.0908203125,
+    "agent18_alignment": 0.08056640625,
+    "agent19_alignment": 0.10400390625,
+    "agent20_alignment": 0.11962890625
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.1502885298295454,
+    "total_welfare": 0.1653173828125
+  }
+}

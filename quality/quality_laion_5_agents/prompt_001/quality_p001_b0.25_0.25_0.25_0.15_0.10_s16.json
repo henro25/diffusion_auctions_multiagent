@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 1,
+    "bids": [
+      0.25,
+      0.25,
+      0.25,
+      0.15,
+      0.1
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_5_agents/prompt_001/idx001_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s16.png",
+    "filename": "idx001_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "People enjoying a sunny day at the beach",
+    "agent1_prompt": "Spalding basketball",
+    "agent2_prompt": "Target logo",
+    "agent3_prompt": "Iced coffee",
+    "agent4_prompt": "Tempur-Pedic mattress",
+    "agent5_prompt": "Mobil 1 motor oil"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 4.844821929931641
+  }
+}

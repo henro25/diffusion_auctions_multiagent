@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 29,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 0,
+    "image_path": "output/images_5_agents/prompt_029/idx029_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s00.png",
+    "filename": "idx029_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s00.png"
+  },
+  "prompts": {
+    "base_prompt": "A group of people at a music concert",
+    "agent1_prompt": "Camelback water pack",
+    "agent2_prompt": "Merrell hiking shoes",
+    "agent3_prompt": "Keurig coffee maker",
+    "agent4_prompt": "Rolex watch",
+    "agent5_prompt": "Stella Artois draft"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.937664031982422,
+    "agent1_alignment": 20.146915435791016,
+    "agent2_alignment": 18.284467697143555,
+    "agent3_alignment": 17.368894577026367,
+    "agent4_alignment": 17.459306716918945,
+    "agent5_alignment": 18.96066665649414
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.146915435791016,
+    "total_welfare": 20.146915435791016
+  }
+}

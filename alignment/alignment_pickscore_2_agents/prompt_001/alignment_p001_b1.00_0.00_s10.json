@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 1,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 10,
+    "image_path": "output/images_2_agents/prompt_001/idx001_b1_1.00_b2_0.00_s10.png",
+    "filename": "idx001_b1_1.00_b2_0.00_s10.png"
+  },
+  "prompts": {
+    "base_prompt": "People enjoying a sunny day at the beach",
+    "agent1_prompt": "Spalding basketball",
+    "agent2_prompt": "Target logo"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.980012893676758,
+    "agent1_alignment": 19.68426513671875,
+    "agent2_alignment": 17.337932586669922
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.68426513671875,
+    "total_welfare": 19.68426513671875
+  }
+}

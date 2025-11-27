@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 9,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 37,
+    "image_path": "output/images_2_agents/prompt_009/idx009_b1_0.10_b2_0.90_s37.png",
+    "filename": "idx009_b1_0.10_b2_0.90_s37.png"
+  },
+  "prompts": {
+    "base_prompt": "Skiers waiting in a ski-lift line",
+    "agent1_prompt": "Tresemm\u00e9 shampoo",
+    "agent2_prompt": "Knoll furniture"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.271484375,
+    "agent1_alignment": 0.09228515625,
+    "agent2_alignment": 0.1298828125
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.126123046875,
+    "total_welfare": 0.126123046875
+  }
+}

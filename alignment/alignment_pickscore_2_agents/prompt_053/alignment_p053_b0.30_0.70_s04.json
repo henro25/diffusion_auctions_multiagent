@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 53,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_2_agents/prompt_053/idx053_b1_0.30_b2_0.70_s04.png",
+    "filename": "idx053_b1_0.30_b2_0.70_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a karaoke bar singing",
+    "agent1_prompt": "Venmo app",
+    "agent2_prompt": "Herman Miller desk"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.863954544067383,
+    "agent1_alignment": 18.26605796813965,
+    "agent2_alignment": 17.58940315246582
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.792399597167968,
+    "total_welfare": 17.792399597167968
+  }
+}

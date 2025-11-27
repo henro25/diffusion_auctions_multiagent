@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 153,
+    "bids": [
+      0.25,
+      0.25,
+      0.25,
+      0.15,
+      0.1
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_5_agents/prompt_153/idx153_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s17.png",
+    "filename": "idx153_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a restaurant counter",
+    "agent1_prompt": "Audi A4",
+    "agent2_prompt": "Campbell's soup can",
+    "agent3_prompt": "Spotify music playlist",
+    "agent4_prompt": "MAC lipstick",
+    "agent5_prompt": "Twitter feed"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.45965576171875,
+    "agent1_alignment": 18.182476043701172,
+    "agent2_alignment": 18.737274169921875,
+    "agent3_alignment": 19.25369644165039,
+    "agent4_alignment": 18.173381805419922,
+    "agent5_alignment": 18.464900970458984
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.615859031677246,
+    "total_welfare": 18.615859031677246
+  }
+}

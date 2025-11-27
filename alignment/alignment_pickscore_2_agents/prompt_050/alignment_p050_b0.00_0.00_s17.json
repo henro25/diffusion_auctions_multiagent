@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 50,
+    "bids": [
+      0.0,
+      0.0
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_2_agents/prompt_050/idx050_b1_0.00_b2_0.00_s17.png",
+    "filename": "idx050_b1_0.00_b2_0.00_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "People at a market selecting fresh produce",
+    "agent1_prompt": "Instant Pot cooker",
+    "agent2_prompt": "Ethan Allen furniture"
+  },
+  "alignment_scores": {
+    "base_alignment": 24.689517974853516,
+    "agent1_alignment": 18.116024017333984,
+    "agent2_alignment": 18.561857223510742
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

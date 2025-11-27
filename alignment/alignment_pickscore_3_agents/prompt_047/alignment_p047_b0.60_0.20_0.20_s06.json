@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 47,
+    "bids": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_3_agents/prompt_047/idx047_b1_0.60_b2_0.20_b3_0.20_s06.png",
+    "filename": "idx047_b1_0.60_b2_0.20_b3_0.20_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends hanging out at a sports bar",
+    "agent1_prompt": "Amazon Prime video",
+    "agent2_prompt": "Pizza delivery box",
+    "agent3_prompt": "Gap clothing store"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.425418853759766,
+    "agent1_alignment": 18.06006622314453,
+    "agent2_alignment": 19.12305450439453,
+    "agent3_alignment": 19.024444580078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.465539550781248,
+    "total_welfare": 18.465539550781248
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "prompt_index": 195,
+    "bids": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_10_agents/prompt_195/idx195_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.10_b6_0.10_b7_0.10_b8_0.10_b9_0.10_b10_0.10_s14.png",
+    "filename": "idx195_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.10_b6_0.10_b7_0.10_b8_0.10_b9_0.10_b10_0.10_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "A group at a outdoor festival",
+    "agent1_prompt": "Herman Miller chair",
+    "agent2_prompt": "Biscotti cookie",
+    "agent3_prompt": "Ramen noodle packet",
+    "agent4_prompt": "CVS pharmacy",
+    "agent5_prompt": "Everlast boxing gloves",
+    "agent6_prompt": "Evian water bottle",
+    "agent7_prompt": "Range Rover vehicle",
+    "agent8_prompt": "Medium article",
+    "agent9_prompt": "MAC lipstick",
+    "agent10_prompt": "DJI drone"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.540988922119141
+  }
+}

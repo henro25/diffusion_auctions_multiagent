@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 77,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_2_agents/prompt_077/idx077_b1_0.10_b2_0.90_s06.png",
+    "filename": "idx077_b1_0.10_b2_0.90_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a home improvement store",
+    "agent1_prompt": "Dell monitor",
+    "agent2_prompt": "Budweiser beer can"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.845558166503906,
+    "agent1_alignment": 17.34134292602539,
+    "agent2_alignment": 20.90879249572754
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.552047538757325,
+    "total_welfare": 20.552047538757325
+  }
+}

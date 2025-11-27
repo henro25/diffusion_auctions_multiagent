@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 23,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_2_agents_competitive/prompt_023/idx023_b1_0.50_b2_0.50_s07.png",
+    "filename": "idx023_b1_0.50_b2_0.50_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone drinking a sports drink after a workout",
+    "agent1_prompt": "Gatorade bottle",
+    "agent2_prompt": "Powerade bottle"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2451171875,
+    "agent1_alignment": 0.216796875,
+    "agent2_alignment": 0.212890625
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.21484375,
+    "total_welfare": 0.21484375
+  }
+}

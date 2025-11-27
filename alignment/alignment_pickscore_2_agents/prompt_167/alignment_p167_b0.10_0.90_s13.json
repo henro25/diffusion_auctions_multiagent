@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 167,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_2_agents/prompt_167/idx167_b1_0.10_b2_0.90_s13.png",
+    "filename": "idx167_b1_0.10_b2_0.90_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a financial advisor office",
+    "agent1_prompt": "Jif peanut butter",
+    "agent2_prompt": "Wall Street Journal"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.569427490234375,
+    "agent1_alignment": 17.29844093322754,
+    "agent2_alignment": 20.7230281829834
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.380569458007812,
+    "total_welfare": 20.380569458007812
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 176,
+    "bids": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_3_agents/prompt_176/idx176_b1_0.50_b2_0.50_b3_0.00_s14.png",
+    "filename": "idx176_b1_0.50_b2_0.50_b3_0.00_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a outdoor rooftop gathering",
+    "agent1_prompt": "Microsoft Surface laptop",
+    "agent2_prompt": "Pottery Barn shelving",
+    "agent3_prompt": "Amazon Prime video"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.175432205200195,
+    "agent1_alignment": 19.120264053344727,
+    "agent2_alignment": 17.094873428344727,
+    "agent3_alignment": 18.762672424316406
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.107568740844727,
+    "total_welfare": 18.107568740844727
+  }
+}

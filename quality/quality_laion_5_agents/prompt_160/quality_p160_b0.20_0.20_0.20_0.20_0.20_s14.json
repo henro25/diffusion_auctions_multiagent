@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 160,
+    "bids": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_5_agents/prompt_160/idx160_b1_0.20_b2_0.20_b3_0.20_b4_0.20_b5_0.20_s14.png",
+    "filename": "idx160_b1_0.20_b2_0.20_b3_0.20_b4_0.20_b5_0.20_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a outdoor picnic area",
+    "agent1_prompt": "Ray-Ban sunglasses",
+    "agent2_prompt": "PetSmart store",
+    "agent3_prompt": "Peet's Coffee mug",
+    "agent4_prompt": "YouTube video",
+    "agent5_prompt": "New York Times newspaper"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.697809219360352
+  }
+}

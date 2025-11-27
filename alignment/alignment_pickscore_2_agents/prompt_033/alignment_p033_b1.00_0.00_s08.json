@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 33,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_2_agents/prompt_033/idx033_b1_1.00_b2_0.00_s08.png",
+    "filename": "idx033_b1_1.00_b2_0.00_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "A customer at a retail clothing store",
+    "agent1_prompt": "Apple MacBook Air",
+    "agent2_prompt": "Merrell hiking shoes"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.463193893432617,
+    "agent1_alignment": 19.667943954467773,
+    "agent2_alignment": 17.91397476196289
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.667943954467773,
+    "total_welfare": 19.667943954467773
+  }
+}

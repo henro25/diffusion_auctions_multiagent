@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 18,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_2_agents_competitive/prompt_018/idx018_b1_0.10_b2_0.90_s16.png",
+    "filename": "idx018_b1_0.10_b2_0.90_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "A person wearing a winter jacket in a snowy setting",
+    "agent1_prompt": "Canada Goose jacket",
+    "agent2_prompt": "North Face jacket"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.889392852783203,
+    "agent1_alignment": 20.61142921447754,
+    "agent2_alignment": 20.732425689697266
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.720326042175294,
+    "total_welfare": 20.720326042175294
+  }
+}

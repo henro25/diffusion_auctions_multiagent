@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 5,
+    "bids": [
+      0.0,
+      1.0
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_2_agents_competitive/prompt_005/idx005_b1_0.00_b2_1.00_s11.png",
+    "filename": "idx005_b1_0.00_b2_1.00_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "A driver filling up their car at a gas station",
+    "agent1_prompt": "Shell gas station",
+    "agent2_prompt": "Chevron gas station"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.28074073791504,
+    "agent1_alignment": 20.846263885498047,
+    "agent2_alignment": 20.25838851928711
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.25838851928711,
+    "total_welfare": 20.25838851928711
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 10,
+    "bids": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_10_agents/prompt_010/idx010_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_s04.png",
+    "filename": "idx010_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "A man waiting at a bus stop",
+    "agent1_prompt": "Oakley sunglasses",
+    "agent2_prompt": "BMW sedan",
+    "agent3_prompt": "Google Pay",
+    "agent4_prompt": "Instant Pot appliance",
+    "agent5_prompt": "Coleman cooler",
+    "agent6_prompt": "Yonex tennis racket",
+    "agent7_prompt": "Macy's department",
+    "agent8_prompt": "iPad device",
+    "agent9_prompt": "Kindle e-reader",
+    "agent10_prompt": "Dyson vacuum"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.08683967590332,
+    "agent1_alignment": 18.61255645751953,
+    "agent2_alignment": 17.778234481811523,
+    "agent3_alignment": 18.3870906829834,
+    "agent4_alignment": 17.919540405273438,
+    "agent5_alignment": 18.01278305053711,
+    "agent6_alignment": 18.123931884765625,
+    "agent7_alignment": 18.473705291748047,
+    "agent8_alignment": 18.90212059020996,
+    "agent9_alignment": 18.992996215820312,
+    "agent10_alignment": 19.788175582885742
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

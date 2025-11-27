@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 27,
+    "bids": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_5_agents/prompt_027/idx027_b1_0.20_b2_0.20_b3_0.20_b4_0.20_b5_0.20_s09.png",
+    "filename": "idx027_b1_0.20_b2_0.20_b3_0.20_b4_0.20_b5_0.20_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "A photographer taking pictures at a wedding",
+    "agent1_prompt": "Ethan Allen furniture",
+    "agent2_prompt": "Ben & Jerry's ice cream",
+    "agent3_prompt": "Whole Foods market",
+    "agent4_prompt": "Under Armour shorts",
+    "agent5_prompt": "Lexus ES"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.442283630371094,
+    "agent1_alignment": 17.951393127441406,
+    "agent2_alignment": 18.057939529418945,
+    "agent3_alignment": 16.749164581298828,
+    "agent4_alignment": 15.4977445602417,
+    "agent5_alignment": 19.12635612487793
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.47651958465576,
+    "total_welfare": 17.47651958465576
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 28,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 10,
+    "image_path": "output/images_2_agents/prompt_028/idx028_b1_0.10_b2_0.90_s10.png",
+    "filename": "idx028_b1_0.10_b2_0.90_s10.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone working on a laptop at a home office",
+    "agent1_prompt": "YouTube channel",
+    "agent2_prompt": "Fanta orange soda"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.849327087402344,
+    "agent1_alignment": 17.92858123779297,
+    "agent2_alignment": 20.50768280029297
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.24977264404297,
+    "total_welfare": 20.24977264404297
+  }
+}

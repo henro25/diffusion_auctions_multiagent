@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 194,
+    "bids": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_5_agents/prompt_194/idx194_b1_0.20_b2_0.20_b3_0.20_b4_0.20_b5_0.20_s05.png",
+    "filename": "idx194_b1_0.20_b2_0.20_b3_0.20_b4_0.20_b5_0.20_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a climbing wall",
+    "agent1_prompt": "Substack newsletter",
+    "agent2_prompt": "NYX makeup",
+    "agent3_prompt": "YouTube video",
+    "agent4_prompt": "Booking.com",
+    "agent5_prompt": "Callaway golf clubs"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 3.5646584033966064
+  }
+}

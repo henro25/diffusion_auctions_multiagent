@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "prompt_index": 172,
+    "bids": [
+      0.25,
+      0.25,
+      0.25,
+      0.15,
+      0.1
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_5_agents/prompt_172/idx172_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s09.png",
+    "filename": "idx172_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a outdoor zip-lining course",
+    "agent1_prompt": "Adidas athletic shirt",
+    "agent2_prompt": "Gatorade sports drink",
+    "agent3_prompt": "Keen boots",
+    "agent4_prompt": "Michael Kors watch",
+    "agent5_prompt": "IKEA furniture piece"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.275390625,
+    "agent1_alignment": 0.1220703125,
+    "agent2_alignment": 0.166015625,
+    "agent3_alignment": 0.12109375,
+    "agent4_alignment": 0.04150390625,
+    "agent5_alignment": 0.07666015625
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.1161865234375,
+    "total_welfare": 0.1161865234375
+  }
+}

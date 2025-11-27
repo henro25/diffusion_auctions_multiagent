@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 9,
+    "bids": [
+      0.2,
+      0.12,
+      0.1,
+      0.08,
+      0.07,
+      0.06,
+      0.05,
+      0.04,
+      0.03,
+      0.03,
+      0.03,
+      0.02,
+      0.02,
+      0.02,
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_20_agents/prompt_009/idx009_b1_0.20_b2_0.12_b3_0.10_b4_0.08_b5_0.07_b6_0.06_b7_0.05_b8_0.04_b9_0.03_b10_0.03_b11_0.03_b12_0.02_b13_0.02_b14_0.02_b15_0.01_b16_0.01_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s04.png",
+    "filename": "idx009_b1_0.20_b2_0.12_b3_0.10_b4_0.08_b5_0.07_b6_0.06_b7_0.05_b8_0.04_b9_0.03_b10_0.03_b11_0.03_b12_0.02_b13_0.02_b14_0.02_b15_0.01_b16_0.01_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "Skiers waiting in a ski-lift line",
+    "agent1_prompt": "Tresemm\u00e9 shampoo",
+    "agent2_prompt": "Knoll furniture",
+    "agent3_prompt": "Aquafina water",
+    "agent4_prompt": "Robinhood app",
+    "agent5_prompt": "Trader Joe's bags",
+    "agent6_prompt": "Coffee grinder",
+    "agent7_prompt": "Nintendo Switch",
+    "agent8_prompt": "Mobil 1 motor oil",
+    "agent9_prompt": "Instagram story",
+    "agent10_prompt": "American Airlines",
+    "agent11_prompt": "Instant Pot cooker",
+    "agent12_prompt": "Sony headphones",
+    "agent13_prompt": "Converse Chuck Taylor",
+    "agent14_prompt": "Sprite lemon-lime",
+    "agent15_prompt": "Audi A4",
+    "agent16_prompt": "Airbnb listing",
+    "agent17_prompt": "Deli turkey slice",
+    "agent18_prompt": "Salomon hiking boots",
+    "agent19_prompt": "TaylorMade golf balls",
+    "agent20_prompt": "Kelty tent"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2470703125,
+    "agent1_alignment": 0.12060546875,
+    "agent2_alignment": 0.06884765625,
+    "agent3_alignment": 0.1416015625,
+    "agent4_alignment": 0.0927734375,
+    "agent5_alignment": 0.1708984375,
+    "agent6_alignment": 0.1005859375,
+    "agent7_alignment": 0.07470703125,
+    "agent8_alignment": 0.076171875,
+    "agent9_alignment": 0.1015625,
+    "agent10_alignment": 0.130859375,
+    "agent11_alignment": 0.1259765625,
+    "agent12_alignment": 0.0810546875,
+    "agent13_alignment": 0.04150390625,
+    "agent14_alignment": 0.09130859375,
+    "agent15_alignment": 0.04443359375,
+    "agent16_alignment": 0.1259765625,
+    "agent17_alignment": 0.0810546875,
+    "agent18_alignment": 0.0947265625,
+    "agent19_alignment": 0.1015625,
+    "agent20_alignment": 0.0703125
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.10640330981182793,
+    "total_welfare": 0.09895507812500001
+  }
+}

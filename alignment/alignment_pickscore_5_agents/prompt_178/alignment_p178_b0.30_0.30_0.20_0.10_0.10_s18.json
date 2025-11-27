@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 178,
+    "bids": [
+      0.3,
+      0.3,
+      0.2,
+      0.1,
+      0.1
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_5_agents/prompt_178/idx178_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s18.png",
+    "filename": "idx178_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a natural history museum",
+    "agent1_prompt": "Best Buy store",
+    "agent2_prompt": "Coach handbag",
+    "agent3_prompt": "American Airlines",
+    "agent4_prompt": "TaylorMade golf balls",
+    "agent5_prompt": "Boarding pass"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.43452262878418,
+    "agent1_alignment": 19.875104904174805,
+    "agent2_alignment": 17.165863037109375,
+    "agent3_alignment": 16.79411506652832,
+    "agent4_alignment": 17.61666488647461,
+    "agent5_alignment": 17.16096305847168
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.948876190185544,
+    "total_welfare": 17.948876190185544
+  }
+}

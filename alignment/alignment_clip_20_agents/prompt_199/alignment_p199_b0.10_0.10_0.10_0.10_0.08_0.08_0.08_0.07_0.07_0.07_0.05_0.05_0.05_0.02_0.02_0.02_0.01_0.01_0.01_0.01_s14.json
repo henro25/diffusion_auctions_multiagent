@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 199,
+    "bids": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.08,
+      0.08,
+      0.08,
+      0.07,
+      0.07,
+      0.07,
+      0.05,
+      0.05,
+      0.05,
+      0.02,
+      0.02,
+      0.02,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_20_agents/prompt_199/idx199_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.08_b6_0.08_b7_0.08_b8_0.07_b9_0.07_b10_0.07_b11_0.05_b12_0.05_b13_0.05_b14_0.02_b15_0.02_b16_0.02_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s14.png",
+    "filename": "idx199_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.08_b6_0.08_b7_0.08_b8_0.07_b9_0.07_b10_0.07_b11_0.05_b12_0.05_b13_0.05_b14_0.02_b15_0.02_b16_0.02_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a community center",
+    "agent1_prompt": "Samsung refrigerator",
+    "agent2_prompt": "Microsoft Surface laptop",
+    "agent3_prompt": "New Balance shoes",
+    "agent4_prompt": "YouTube video",
+    "agent5_prompt": "Instagram story",
+    "agent6_prompt": "Vitra chair",
+    "agent7_prompt": "Enterprise car",
+    "agent8_prompt": "Jeep Wrangler",
+    "agent9_prompt": "Converse Chuck Taylor",
+    "agent10_prompt": "Barnes & Noble books",
+    "agent11_prompt": "Aquafina water",
+    "agent12_prompt": "TaylorMade golf balls",
+    "agent13_prompt": "Latte beverage",
+    "agent14_prompt": "Bose speaker",
+    "agent15_prompt": "Bank of America",
+    "agent16_prompt": "Dyson Supersonic dryer",
+    "agent17_prompt": "Iced coffee",
+    "agent18_prompt": "Bosch dishwasher",
+    "agent19_prompt": "Arc'teryx gear",
+    "agent20_prompt": "Ramen noodle packet"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.1875,
+    "agent1_alignment": 0.0751953125,
+    "agent2_alignment": 0.1376953125,
+    "agent3_alignment": 0.06689453125,
+    "agent4_alignment": 0.1240234375,
+    "agent5_alignment": 0.1162109375,
+    "agent6_alignment": 0.140625,
+    "agent7_alignment": 0.1337890625,
+    "agent8_alignment": 0.091796875,
+    "agent9_alignment": 0.0634765625,
+    "agent10_alignment": 0.0732421875,
+    "agent11_alignment": 0.0751953125,
+    "agent12_alignment": 0.038330078125,
+    "agent13_alignment": 0.0751953125,
+    "agent14_alignment": 0.1201171875,
+    "agent15_alignment": 0.12451171875,
+    "agent16_alignment": 0.1142578125,
+    "agent17_alignment": 0.0712890625,
+    "agent18_alignment": 0.10595703125,
+    "agent19_alignment": 0.09912109375,
+    "agent20_alignment": 0.0537109375
+  },
+  "quality_assessment": {
+    "clip_quality": 0.50390625
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0977650035511363,
+    "total_welfare": 0.10754150390624997
+  }
+}

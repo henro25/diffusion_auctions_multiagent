@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "prompt_index": 4,
+    "bids": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.08,
+      0.08,
+      0.08,
+      0.07,
+      0.07,
+      0.07,
+      0.05,
+      0.05,
+      0.05,
+      0.02,
+      0.02,
+      0.02,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_20_agents/prompt_004/idx004_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.08_b6_0.08_b7_0.08_b8_0.07_b9_0.07_b10_0.07_b11_0.05_b12_0.05_b13_0.05_b14_0.02_b15_0.02_b16_0.02_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s05.png",
+    "filename": "idx004_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.08_b6_0.08_b7_0.08_b8_0.07_b9_0.07_b10_0.07_b11_0.05_b12_0.05_b13_0.05_b14_0.02_b15_0.02_b16_0.02_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "A professional working at a desk in a bright office",
+    "agent1_prompt": "Wine glass",
+    "agent2_prompt": "Chromecast dongle",
+    "agent3_prompt": "Coleman cooler",
+    "agent4_prompt": "USM Haller",
+    "agent5_prompt": "Hyatt resort",
+    "agent6_prompt": "Nest thermostat",
+    "agent7_prompt": "Wells Fargo check",
+    "agent8_prompt": "CVS pharmacy",
+    "agent9_prompt": "Hydroflask water bottle",
+    "agent10_prompt": "Steam gaming platform",
+    "agent11_prompt": "Salomon ski boots",
+    "agent12_prompt": "Audi A4",
+    "agent13_prompt": "Ben & Jerry's ice cream",
+    "agent14_prompt": "Nespresso machine",
+    "agent15_prompt": "Cold brew concentrate",
+    "agent16_prompt": "Dove body wash",
+    "agent17_prompt": "Podcast logo",
+    "agent18_prompt": "Louis Vuitton handbag",
+    "agent19_prompt": "Shark steam mop",
+    "agent20_prompt": "Michelin tire"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.4556779861450195
+  }
+}

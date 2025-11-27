@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 44,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_2_agents/prompt_044/idx044_b1_0.50_b2_0.50_s05.png",
+    "filename": "idx044_b1_0.50_b2_0.50_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a casual outdoor gathering",
+    "agent1_prompt": "Amazon Prime video",
+    "agent2_prompt": "Magazine cover"
+  },
+  "alignment_scores": {
+    "base_alignment": 17.97719383239746,
+    "agent1_alignment": 19.311763763427734,
+    "agent2_alignment": 19.654224395751953
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.482994079589844,
+    "total_welfare": 19.482994079589844
+  }
+}

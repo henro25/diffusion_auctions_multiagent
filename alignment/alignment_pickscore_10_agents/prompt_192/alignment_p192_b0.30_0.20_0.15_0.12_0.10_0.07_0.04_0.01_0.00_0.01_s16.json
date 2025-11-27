@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 192,
+    "bids": [
+      0.3,
+      0.2,
+      0.15,
+      0.12,
+      0.1,
+      0.07,
+      0.04,
+      0.01,
+      0.0,
+      0.01
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_10_agents/prompt_192/idx192_b1_0.30_b2_0.20_b3_0.15_b4_0.12_b5_0.10_b6_0.07_b7_0.04_b8_0.01_b9_0.00_b10_0.01_s16.png",
+    "filename": "idx192_b1_0.30_b2_0.20_b3_0.15_b4_0.12_b5_0.10_b6_0.07_b7_0.04_b8_0.01_b9_0.00_b10_0.01_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a art gallery opening",
+    "agent1_prompt": "GHD hair straightener",
+    "agent2_prompt": "Goodyear tire",
+    "agent3_prompt": "ASOS online",
+    "agent4_prompt": "Nike Air Force shoes",
+    "agent5_prompt": "Nike running shoes",
+    "agent6_prompt": "Cold brew concentrate",
+    "agent7_prompt": "Yeti cooler",
+    "agent8_prompt": "Chase bank card",
+    "agent9_prompt": "Oakley sunglasses",
+    "agent10_prompt": "iPhone smartphone"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.38570213317871,
+    "agent1_alignment": 17.617847442626953,
+    "agent2_alignment": 19.86744499206543,
+    "agent3_alignment": 18.052059173583984,
+    "agent4_alignment": 17.529434204101562,
+    "agent5_alignment": 16.875280380249023,
+    "agent6_alignment": 17.74338150024414,
+    "agent7_alignment": 17.404226303100586,
+    "agent8_alignment": 18.668289184570312,
+    "agent9_alignment": 17.479984283447266,
+    "agent10_alignment": 18.479482650756836
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.067395725250247,
+    "total_welfare": 18.067395725250247
+  }
+}

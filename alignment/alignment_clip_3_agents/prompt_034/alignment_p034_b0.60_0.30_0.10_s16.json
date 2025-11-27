@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "prompt_index": 34,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_3_agents/prompt_034/idx034_b1_0.60_b2_0.30_b3_0.10_s16.png",
+    "filename": "idx034_b1_0.60_b2_0.30_b3_0.10_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone taking a break at a workplace",
+    "agent1_prompt": "Netflix streaming",
+    "agent2_prompt": "Ben & Jerry's ice cream",
+    "agent3_prompt": "Arc'teryx backpack"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.185546875,
+    "agent1_alignment": 0.21875,
+    "agent2_alignment": 0.197265625,
+    "agent3_alignment": 0.05908203125
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.19633789062500004,
+    "total_welfare": 0.196337890625
+  }
+}

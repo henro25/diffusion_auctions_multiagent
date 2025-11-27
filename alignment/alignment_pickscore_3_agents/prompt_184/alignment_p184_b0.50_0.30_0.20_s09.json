@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 184,
+    "bids": [
+      0.5,
+      0.3,
+      0.2
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_3_agents/prompt_184/idx184_b1_0.50_b2_0.30_b3_0.20_s09.png",
+    "filename": "idx184_b1_0.50_b2_0.30_b3_0.20_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a car rental agency",
+    "agent1_prompt": "Article sofa",
+    "agent2_prompt": "Espresso shot",
+    "agent3_prompt": "Biscotti cookie"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.330902099609375,
+    "agent1_alignment": 19.450597763061523,
+    "agent2_alignment": 18.917043685913086,
+    "agent3_alignment": 18.81002426147461
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.162416839599608,
+    "total_welfare": 19.162416839599608
+  }
+}

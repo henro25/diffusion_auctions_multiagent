@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 41,
+    "bids": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_3_agents/prompt_041/idx041_b1_0.50_b2_0.50_b3_0.00_s02.png",
+    "filename": "idx041_b1_0.50_b2_0.50_b3_0.00_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone getting a massage at a spa",
+    "agent1_prompt": "Ethan Allen furniture",
+    "agent2_prompt": "Boarding pass",
+    "agent3_prompt": "LendingClub platform"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.19809341430664,
+    "agent1_alignment": 19.375749588012695,
+    "agent2_alignment": 16.579679489135742,
+    "agent3_alignment": 16.842796325683594
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.97771453857422,
+    "total_welfare": 17.97771453857422
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 198,
+    "bids": [
+      0.0,
+      0.0
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_2_agents/prompt_198/idx198_b1_0.00_b2_0.00_s02.png",
+    "filename": "idx198_b1_0.00_b2_0.00_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a glassblowing studio",
+    "agent1_prompt": "CB2 side table",
+    "agent2_prompt": "Southwest flight"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.648852825164795
+  }
+}

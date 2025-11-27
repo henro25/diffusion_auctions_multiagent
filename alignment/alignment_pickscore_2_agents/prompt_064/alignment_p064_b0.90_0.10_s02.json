@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 64,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_2_agents/prompt_064/idx064_b1_0.90_b2_0.10_s02.png",
+    "filename": "idx064_b1_0.90_b2_0.10_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a beach volleyball game",
+    "agent1_prompt": "Stripe payment",
+    "agent2_prompt": "Toyota Camry"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.710229873657227,
+    "agent1_alignment": 20.489242553710938,
+    "agent2_alignment": 16.90384292602539
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.13070259094238,
+    "total_welfare": 20.13070259094238
+  }
+}

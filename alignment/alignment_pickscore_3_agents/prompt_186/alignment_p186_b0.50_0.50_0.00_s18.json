@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 186,
+    "bids": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_3_agents/prompt_186/idx186_b1_0.50_b2_0.50_b3_0.00_s18.png",
+    "filename": "idx186_b1_0.50_b2_0.50_b3_0.00_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a batting cage",
+    "agent1_prompt": "Spotify music playlist",
+    "agent2_prompt": "Adidas Superstar sneakers",
+    "agent3_prompt": "DJI drone"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.658329010009766,
+    "agent1_alignment": 18.80792808532715,
+    "agent2_alignment": 18.403654098510742,
+    "agent3_alignment": 18.331226348876953
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.605791091918945,
+    "total_welfare": 18.605791091918945
+  }
+}

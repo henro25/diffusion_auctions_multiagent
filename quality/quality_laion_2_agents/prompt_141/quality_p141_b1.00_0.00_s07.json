@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 141,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_2_agents/prompt_141/idx141_b1_1.00_b2_0.00_s07.png",
+    "filename": "idx141_b1_1.00_b2_0.00_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a garden center",
+    "agent1_prompt": "PetSmart store",
+    "agent2_prompt": "Stella Artois draft"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 4.9921722412109375
+  }
+}

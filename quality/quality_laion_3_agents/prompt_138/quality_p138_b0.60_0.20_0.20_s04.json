@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "prompt_index": 138,
+    "bids": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_3_agents/prompt_138/idx138_b1_0.60_b2_0.20_b3_0.20_s04.png",
+    "filename": "idx138_b1_0.60_b2_0.20_b3_0.20_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a health and wellness center",
+    "agent1_prompt": "Canon EOS camera",
+    "agent2_prompt": "Amazon Prime video",
+    "agent3_prompt": "Vitamix blender"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.069355487823486
+  }
+}

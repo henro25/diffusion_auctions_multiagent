@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 16,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 12,
+    "image_path": "output/images_5_agents/prompt_016/idx016_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s12.png",
+    "filename": "idx016_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s12.png"
+  },
+  "prompts": {
+    "base_prompt": "A mechanic working in an auto garage",
+    "agent1_prompt": "Subway sandwich",
+    "agent2_prompt": "Apple Pay",
+    "agent3_prompt": "Hulu series",
+    "agent4_prompt": "Pepsi can",
+    "agent5_prompt": "Garmin GPS"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.612504959106445,
+    "agent1_alignment": 20.79332160949707,
+    "agent2_alignment": 18.29637908935547,
+    "agent3_alignment": 18.98493194580078,
+    "agent4_alignment": 18.335004806518555,
+    "agent5_alignment": 18.945514678955078
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.79332160949707,
+    "total_welfare": 20.79332160949707
+  }
+}

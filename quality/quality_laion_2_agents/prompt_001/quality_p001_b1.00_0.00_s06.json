@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 1,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_2_agents/prompt_001/idx001_b1_1.00_b2_0.00_s06.png",
+    "filename": "idx001_b1_1.00_b2_0.00_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "People enjoying a sunny day at the beach",
+    "agent1_prompt": "Spalding basketball",
+    "agent2_prompt": "Target logo"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.889897346496582
+  }
+}

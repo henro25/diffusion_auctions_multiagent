@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 125,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_3_agents/prompt_125/idx125_b1_0.40_b2_0.40_b3_0.20_s11.png",
+    "filename": "idx125_b1_0.40_b2_0.40_b3_0.20_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a coffee roastery",
+    "agent1_prompt": "Boarding pass",
+    "agent2_prompt": "Lipton tea bag",
+    "agent3_prompt": "Xbox Series X"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.89420509338379,
+    "agent1_alignment": 17.85702133178711,
+    "agent2_alignment": 20.58380126953125,
+    "agent3_alignment": 16.69370460510254
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.715069961547854,
+    "total_welfare": 18.715069961547854
+  }
+}

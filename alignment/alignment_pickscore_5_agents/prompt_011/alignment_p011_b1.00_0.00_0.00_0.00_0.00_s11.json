@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 11,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_5_agents/prompt_011/idx011_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s11.png",
+    "filename": "idx011_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "A student studying in a university library",
+    "agent1_prompt": "Aquafina water",
+    "agent2_prompt": "CeraVe moisturizer",
+    "agent3_prompt": "Coleman camping tent",
+    "agent4_prompt": "Wayfair furniture",
+    "agent5_prompt": "Kiehl's facial cream"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.774837493896484,
+    "agent1_alignment": 18.516258239746094,
+    "agent2_alignment": 17.313352584838867,
+    "agent3_alignment": 17.678497314453125,
+    "agent4_alignment": 17.92922592163086,
+    "agent5_alignment": 17.35928726196289
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.516258239746094,
+    "total_welfare": 18.516258239746094
+  }
+}

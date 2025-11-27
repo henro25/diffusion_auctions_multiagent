@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "prompt_index": 192,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_20_agents/prompt_192/idx192_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_b11_0.00_b12_0.00_b13_0.00_b14_0.00_b15_0.00_b16_0.00_b17_0.00_b18_0.00_b19_0.00_b20_0.00_s08.png",
+    "filename": "idx192_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_b11_0.00_b12_0.00_b13_0.00_b14_0.00_b15_0.00_b16_0.00_b17_0.00_b18_0.00_b19_0.00_b20_0.00_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a art gallery opening",
+    "agent1_prompt": "GHD hair straightener",
+    "agent2_prompt": "Goodyear tire",
+    "agent3_prompt": "ASOS online",
+    "agent4_prompt": "Nike Air Force shoes",
+    "agent5_prompt": "Nike running shoes",
+    "agent6_prompt": "Cold brew concentrate",
+    "agent7_prompt": "Yeti cooler",
+    "agent8_prompt": "Chase bank card",
+    "agent9_prompt": "Oakley sunglasses",
+    "agent10_prompt": "iPhone smartphone",
+    "agent11_prompt": "Hertz rental",
+    "agent12_prompt": "Lipton tea bag",
+    "agent13_prompt": "Herman Miller desk",
+    "agent14_prompt": "Marriott key card",
+    "agent15_prompt": "Costco warehouse",
+    "agent16_prompt": "USA Today paper",
+    "agent17_prompt": "Shark steam mop",
+    "agent18_prompt": "Netflix streaming",
+    "agent19_prompt": "McDonald's burger",
+    "agent20_prompt": "Comic book"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 4.045262336730957
+  }
+}

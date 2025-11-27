@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 31,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_2_agents/prompt_031/idx031_b1_0.90_b2_0.10_s07.png",
+    "filename": "idx031_b1_0.90_b2_0.10_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone packing luggage for a trip",
+    "agent1_prompt": "Samsung refrigerator",
+    "agent2_prompt": "Stella Artois draft"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.524478912353516,
+    "agent1_alignment": 21.194429397583008,
+    "agent2_alignment": 19.15908432006836
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.990894889831544,
+    "total_welfare": 20.990894889831544
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 180,
+    "bids": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_5_agents/prompt_180/idx180_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s04.png",
+    "filename": "idx180_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone getting a haircut",
+    "agent1_prompt": "Kraft cheese slice",
+    "agent2_prompt": "Pantene hair care",
+    "agent3_prompt": "Champagne bottle",
+    "agent4_prompt": "Deuter backpack",
+    "agent5_prompt": "Mercedes-Benz car"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.769479751586914,
+    "agent1_alignment": 16.970964431762695,
+    "agent2_alignment": 19.009084701538086,
+    "agent3_alignment": 16.458171844482422,
+    "agent4_alignment": 17.58837890625,
+    "agent5_alignment": 17.0157413482666
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

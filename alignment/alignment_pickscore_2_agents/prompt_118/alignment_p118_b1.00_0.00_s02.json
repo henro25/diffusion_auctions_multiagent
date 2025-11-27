@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 118,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_2_agents/prompt_118/idx118_b1_1.00_b2_0.00_s02.png",
+    "filename": "idx118_b1_1.00_b2_0.00_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a game arcade",
+    "agent1_prompt": "SoFi loan",
+    "agent2_prompt": "Neutrogena sunscreen"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.210582733154297,
+    "agent1_alignment": 19.675153732299805,
+    "agent2_alignment": 17.78335952758789
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.675153732299805,
+    "total_welfare": 19.675153732299805
+  }
+}

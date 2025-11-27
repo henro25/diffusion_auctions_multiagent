@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "prompt_index": 194,
+    "bids": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.08,
+      0.08,
+      0.08,
+      0.07,
+      0.07,
+      0.07,
+      0.05,
+      0.05,
+      0.05,
+      0.02,
+      0.02,
+      0.02,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_20_agents/prompt_194/idx194_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.08_b6_0.08_b7_0.08_b8_0.07_b9_0.07_b10_0.07_b11_0.05_b12_0.05_b13_0.05_b14_0.02_b15_0.02_b16_0.02_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s14.png",
+    "filename": "idx194_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.08_b6_0.08_b7_0.08_b8_0.07_b9_0.07_b10_0.07_b11_0.05_b12_0.05_b13_0.05_b14_0.02_b15_0.02_b16_0.02_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a climbing wall",
+    "agent1_prompt": "Substack newsletter",
+    "agent2_prompt": "NYX makeup",
+    "agent3_prompt": "YouTube video",
+    "agent4_prompt": "Booking.com",
+    "agent5_prompt": "Callaway golf clubs",
+    "agent6_prompt": "DJI drone",
+    "agent7_prompt": "Lexus ES",
+    "agent8_prompt": "TikTok app",
+    "agent9_prompt": "Audi A4",
+    "agent10_prompt": "CVS pharmacy",
+    "agent11_prompt": "Samsung refrigerator",
+    "agent12_prompt": "Osprey pack",
+    "agent13_prompt": "Sprite lemon-lime",
+    "agent14_prompt": "Mastercard payment",
+    "agent15_prompt": "Doritos tortilla chips",
+    "agent16_prompt": "Michael Kors watch",
+    "agent17_prompt": "Keurig coffee maker",
+    "agent18_prompt": "Ethan Allen furniture",
+    "agent19_prompt": "Rocket Mortgage",
+    "agent20_prompt": "AirPods headphones"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 2.3766138553619385
+  }
+}

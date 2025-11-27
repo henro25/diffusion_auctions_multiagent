@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 18,
+    "bids": [
+      0.35,
+      0.15,
+      0.12,
+      0.1,
+      0.08,
+      0.07,
+      0.05,
+      0.04,
+      0.02,
+      0.02
+    ],
+    "sample_index": 10,
+    "image_path": "output/images_10_agents/prompt_018/idx018_b1_0.35_b2_0.15_b3_0.12_b4_0.10_b5_0.08_b6_0.07_b7_0.05_b8_0.04_b9_0.02_b10_0.02_s10.png",
+    "filename": "idx018_b1_0.35_b2_0.15_b3_0.12_b4_0.10_b5_0.08_b6_0.07_b7_0.05_b8_0.04_b9_0.02_b10_0.02_s10.png"
+  },
+  "prompts": {
+    "base_prompt": "A doctor examining a patient in a medical clinic",
+    "agent1_prompt": "Biscotti cookie",
+    "agent2_prompt": "Samsung refrigerator",
+    "agent3_prompt": "Louis Vuitton handbag",
+    "agent4_prompt": "Audi A4",
+    "agent5_prompt": "Osprey pack",
+    "agent6_prompt": "Coca-Cola bottle",
+    "agent7_prompt": "Magazine stack",
+    "agent8_prompt": "LendingClub platform",
+    "agent9_prompt": "Rocket Mortgage",
+    "agent10_prompt": "Kroger supermarket"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.467491149902344,
+    "agent1_alignment": 18.524911880493164,
+    "agent2_alignment": 18.07633399963379,
+    "agent3_alignment": 18.088340759277344,
+    "agent4_alignment": 17.470163345336914,
+    "agent5_alignment": 18.77417755126953,
+    "agent6_alignment": 18.47704315185547,
+    "agent7_alignment": 18.295778274536133,
+    "agent8_alignment": 16.89370346069336,
+    "agent9_alignment": 17.570158004760742,
+    "agent10_alignment": 16.6209774017334
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.182473468780522,
+    "total_welfare": 18.182473468780522
+  }
+}

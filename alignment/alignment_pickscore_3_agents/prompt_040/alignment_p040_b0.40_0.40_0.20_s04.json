@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 40,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_3_agents/prompt_040/idx040_b1_0.40_b2_0.40_b3_0.20_s04.png",
+    "filename": "idx040_b1_0.40_b2_0.40_b3_0.20_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "A person reading on a park bench",
+    "agent1_prompt": "Magazine cover",
+    "agent2_prompt": "Bosch dishwasher",
+    "agent3_prompt": "Rocket Mortgage"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.853919982910156,
+    "agent1_alignment": 19.451278686523438,
+    "agent2_alignment": 19.19469451904297,
+    "agent3_alignment": 18.42572021484375
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.143533325195314,
+    "total_welfare": 19.143533325195314
+  }
+}

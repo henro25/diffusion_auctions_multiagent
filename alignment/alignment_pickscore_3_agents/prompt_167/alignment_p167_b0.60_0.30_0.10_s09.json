@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 167,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_3_agents/prompt_167/idx167_b1_0.60_b2_0.30_b3_0.10_s09.png",
+    "filename": "idx167_b1_0.60_b2_0.30_b3_0.10_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a financial advisor office",
+    "agent1_prompt": "Jif peanut butter",
+    "agent2_prompt": "Wall Street Journal",
+    "agent3_prompt": "REI backpack"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.232952117919922,
+    "agent1_alignment": 18.846391677856445,
+    "agent2_alignment": 18.429706573486328,
+    "agent3_alignment": 17.365718841552734
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.573318862915045,
+    "total_welfare": 18.57331886291504
+  }
+}

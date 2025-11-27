@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 6,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 33,
+    "image_path": "output/images_2_agents/prompt_006/idx006_b1_0.10_b2_0.90_s33.png",
+    "filename": "idx006_b1_0.10_b2_0.90_s33.png"
+  },
+  "prompts": {
+    "base_prompt": "A person walking down a city street",
+    "agent1_prompt": "Bang & Olufsen speaker",
+    "agent2_prompt": "Big Agnes sleeping bag"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.140003204345703,
+    "agent1_alignment": 19.057594299316406,
+    "agent2_alignment": 19.883329391479492
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.800755882263186,
+    "total_welfare": 19.800755882263186
+  }
+}

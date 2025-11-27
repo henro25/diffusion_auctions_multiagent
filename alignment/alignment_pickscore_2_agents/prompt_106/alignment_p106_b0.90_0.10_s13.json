@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 106,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_2_agents/prompt_106/idx106_b1_0.90_b2_0.10_s13.png",
+    "filename": "idx106_b1_0.90_b2_0.10_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a rock climbing gym",
+    "agent1_prompt": "YouTube channel",
+    "agent2_prompt": "Salomon ski boots"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.6095027923584,
+    "agent1_alignment": 17.8988094329834,
+    "agent2_alignment": 17.879541397094727
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.896882629394533,
+    "total_welfare": 17.896882629394533
+  }
+}

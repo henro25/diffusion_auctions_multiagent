@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 34,
+    "bids": [
+      0.0,
+      0.0
+    ],
+    "sample_index": 15,
+    "image_path": "output/images_2_agents/prompt_034/idx034_b1_0.00_b2_0.00_s15.png",
+    "filename": "idx034_b1_0.00_b2_0.00_s15.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone taking a break at a workplace",
+    "agent1_prompt": "Netflix streaming",
+    "agent2_prompt": "Ben & Jerry's ice cream"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.372169494628906,
+    "agent1_alignment": 18.65376853942871,
+    "agent2_alignment": 17.721832275390625
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

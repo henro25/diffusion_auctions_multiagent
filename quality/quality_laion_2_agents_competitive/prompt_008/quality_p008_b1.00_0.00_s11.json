@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 8,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_2_agents_competitive/prompt_008/idx008_b1_1.00_b2_0.00_s11.png",
+    "filename": "idx008_b1_1.00_b2_0.00_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "A customer holding a shopping bag from a clothing store",
+    "agent1_prompt": "Zara shopping bag",
+    "agent2_prompt": "H&M shopping bag"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.067591190338135
+  }
+}

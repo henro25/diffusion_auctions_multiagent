@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 4,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_2_agents_competitive/prompt_004/idx004_b1_0.10_b2_0.90_s02.png",
+    "filename": "idx004_b1_0.10_b2_0.90_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone drinking from a water bottle during a yoga class",
+    "agent1_prompt": "Hydro Flask water bottle",
+    "agent2_prompt": "Yeti water bottle"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.298828125,
+    "agent1_alignment": 0.2314453125,
+    "agent2_alignment": 0.22265625
+  },
+  "quality_assessment": {
+    "clip_quality": 0.51171875
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.22353515625000003,
+    "total_welfare": 0.22353515625000003
+  }
+}

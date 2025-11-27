@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 139,
+    "bids": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_3_agents/prompt_139/idx139_b1_0.00_b2_0.00_b3_1.00_s13.png",
+    "filename": "idx139_b1_0.00_b2_0.00_b3_1.00_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a movie premiere",
+    "agent1_prompt": "Columbia hiking boots",
+    "agent2_prompt": "CB2 side table",
+    "agent3_prompt": "Sonos speaker system"
+  },
+  "alignment_scores": {
+    "base_alignment": 24.033279418945312,
+    "agent1_alignment": 16.853496551513672,
+    "agent2_alignment": 16.4680233001709,
+    "agent3_alignment": 19.339237213134766
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.339237213134766,
+    "total_welfare": 19.339237213134766
+  }
+}

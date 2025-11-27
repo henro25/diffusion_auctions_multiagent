@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 80,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_2_agents/prompt_080/idx080_b1_0.10_b2_0.90_s01.png",
+    "filename": "idx080_b1_0.10_b2_0.90_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a pet grooming salon",
+    "agent1_prompt": "MAC lipstick",
+    "agent2_prompt": "Dyson vacuum"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.85431480407715,
+    "agent1_alignment": 17.006759643554688,
+    "agent2_alignment": 21.046110153198242
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.64217510223389,
+    "total_welfare": 20.64217510223389
+  }
+}

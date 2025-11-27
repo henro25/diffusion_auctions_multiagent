@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "prompt_index": 195,
+    "bids": [
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_20_agents/prompt_195/idx195_b1_0.05_b2_0.05_b3_0.05_b4_0.05_b5_0.05_b6_0.05_b7_0.05_b8_0.05_b9_0.05_b10_0.05_b11_0.05_b12_0.05_b13_0.05_b14_0.05_b15_0.05_b16_0.05_b17_0.05_b18_0.05_b19_0.05_b20_0.05_s14.png",
+    "filename": "idx195_b1_0.05_b2_0.05_b3_0.05_b4_0.05_b5_0.05_b6_0.05_b7_0.05_b8_0.05_b9_0.05_b10_0.05_b11_0.05_b12_0.05_b13_0.05_b14_0.05_b15_0.05_b16_0.05_b17_0.05_b18_0.05_b19_0.05_b20_0.05_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "A group at a outdoor festival",
+    "agent1_prompt": "Herman Miller chair",
+    "agent2_prompt": "Biscotti cookie",
+    "agent3_prompt": "Ramen noodle packet",
+    "agent4_prompt": "CVS pharmacy",
+    "agent5_prompt": "Everlast boxing gloves",
+    "agent6_prompt": "Evian water bottle",
+    "agent7_prompt": "Range Rover vehicle",
+    "agent8_prompt": "Medium article",
+    "agent9_prompt": "MAC lipstick",
+    "agent10_prompt": "DJI drone",
+    "agent11_prompt": "Polo Ralph Lauren shirt",
+    "agent12_prompt": "Chromecast dongle",
+    "agent13_prompt": "Rocket Mortgage",
+    "agent14_prompt": "ASOS online",
+    "agent15_prompt": "Instant Pot appliance",
+    "agent16_prompt": "Coca-Cola bottle",
+    "agent17_prompt": "Lyft rideshare",
+    "agent18_prompt": "Pottery Barn shelving",
+    "agent19_prompt": "GoPro camera",
+    "agent20_prompt": "Twitch streaming"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 7.026381492614746
+  }
+}

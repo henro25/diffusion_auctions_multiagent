@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 18,
+    "bids": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_3_agents/prompt_018/idx018_b1_1.00_b2_0.00_b3_0.00_s13.png",
+    "filename": "idx018_b1_1.00_b2_0.00_b3_0.00_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "A doctor examining a patient in a medical clinic",
+    "agent1_prompt": "Biscotti cookie",
+    "agent2_prompt": "Samsung refrigerator",
+    "agent3_prompt": "Louis Vuitton handbag"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.782278060913086,
+    "agent1_alignment": 19.686132431030273,
+    "agent2_alignment": 16.779802322387695,
+    "agent3_alignment": 17.25050926208496
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.686132431030273,
+    "total_welfare": 19.686132431030273
+  }
+}

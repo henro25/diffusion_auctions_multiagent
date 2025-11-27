@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 147,
+    "bids": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_3_agents/prompt_147/idx147_b1_0.50_b2_0.50_b3_0.00_s02.png",
+    "filename": "idx147_b1_0.50_b2_0.50_b3_0.00_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a computer repair shop",
+    "agent1_prompt": "AMC Theaters",
+    "agent2_prompt": "Podcast logo",
+    "agent3_prompt": "Google Pixel phone"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.55849838256836,
+    "agent1_alignment": 20.1070499420166,
+    "agent2_alignment": 20.25849151611328,
+    "agent3_alignment": 17.303892135620117
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.18277072906494,
+    "total_welfare": 20.18277072906494
+  }
+}

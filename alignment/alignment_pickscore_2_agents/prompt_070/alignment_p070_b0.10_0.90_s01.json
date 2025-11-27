@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 70,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_2_agents/prompt_070/idx070_b1_0.10_b2_0.90_s01.png",
+    "filename": "idx070_b1_0.10_b2_0.90_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends playing video games together",
+    "agent1_prompt": "AutoZone parts",
+    "agent2_prompt": "Mercedes-Benz car"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.902490615844727,
+    "agent1_alignment": 19.876258850097656,
+    "agent2_alignment": 20.19900131225586
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.16672706604004,
+    "total_welfare": 20.16672706604004
+  }
+}

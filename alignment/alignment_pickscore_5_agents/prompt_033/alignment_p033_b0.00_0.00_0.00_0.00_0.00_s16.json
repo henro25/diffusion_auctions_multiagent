@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 33,
+    "bids": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_5_agents/prompt_033/idx033_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s16.png",
+    "filename": "idx033_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "A customer at a retail clothing store",
+    "agent1_prompt": "Apple MacBook Air",
+    "agent2_prompt": "Merrell hiking shoes",
+    "agent3_prompt": "Sonos speaker system",
+    "agent4_prompt": "CB2 side table",
+    "agent5_prompt": "Olaplex hair treatment"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.197105407714844,
+    "agent1_alignment": 16.297229766845703,
+    "agent2_alignment": 17.875070571899414,
+    "agent3_alignment": 17.45269012451172,
+    "agent4_alignment": 15.312708854675293,
+    "agent5_alignment": 18.54450225830078
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

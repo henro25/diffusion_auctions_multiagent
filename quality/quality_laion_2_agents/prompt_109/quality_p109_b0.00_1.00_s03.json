@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 109,
+    "bids": [
+      0.0,
+      1.0
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_2_agents/prompt_109/idx109_b1_0.00_b2_1.00_s03.png",
+    "filename": "idx109_b1_0.00_b2_1.00_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at an outdoor yoga class",
+    "agent1_prompt": "Gillette razor",
+    "agent2_prompt": "Substack newsletter"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 7.209542274475098
+  }
+}

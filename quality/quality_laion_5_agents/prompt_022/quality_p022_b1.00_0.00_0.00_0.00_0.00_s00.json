@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 22,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 0,
+    "image_path": "output/images_5_agents/prompt_022/idx022_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s00.png",
+    "filename": "idx022_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s00.png"
+  },
+  "prompts": {
+    "base_prompt": "Customers waiting in line at a coffee shop",
+    "agent1_prompt": "Shell fuel",
+    "agent2_prompt": "Jura espresso machine",
+    "agent3_prompt": "HBO Max show",
+    "agent4_prompt": "Cheetos snack",
+    "agent5_prompt": "Microsoft Surface laptop"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.684142112731934
+  }
+}

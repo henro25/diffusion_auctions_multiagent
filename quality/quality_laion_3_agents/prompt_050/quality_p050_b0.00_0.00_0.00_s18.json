@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "prompt_index": 50,
+    "bids": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_3_agents/prompt_050/idx050_b1_0.00_b2_0.00_b3_0.00_s18.png",
+    "filename": "idx050_b1_0.00_b2_0.00_b3_0.00_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "People at a market selecting fresh produce",
+    "agent1_prompt": "Instant Pot cooker",
+    "agent2_prompt": "Ethan Allen furniture",
+    "agent3_prompt": "Osprey pack"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.624745845794678
+  }
+}

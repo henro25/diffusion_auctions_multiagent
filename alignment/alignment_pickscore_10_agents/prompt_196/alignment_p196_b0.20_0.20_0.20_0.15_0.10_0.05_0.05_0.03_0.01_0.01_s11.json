@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 196,
+    "bids": [
+      0.2,
+      0.2,
+      0.2,
+      0.15,
+      0.1,
+      0.05,
+      0.05,
+      0.03,
+      0.01,
+      0.01
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_10_agents/prompt_196/idx196_b1_0.20_b2_0.20_b3_0.20_b4_0.15_b5_0.10_b6_0.05_b7_0.05_b8_0.03_b9_0.01_b10_0.01_s11.png",
+    "filename": "idx196_b1_0.20_b2_0.20_b3_0.20_b4_0.15_b5_0.10_b6_0.05_b7_0.05_b8_0.03_b9_0.01_b10_0.01_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "Person at a karaoke lounge",
+    "agent1_prompt": "Best Buy store",
+    "agent2_prompt": "Budweiser beer can",
+    "agent3_prompt": "Prada bag",
+    "agent4_prompt": "Restoration Hardware piece",
+    "agent5_prompt": "Puma athletic gear",
+    "agent6_prompt": "Nespresso machine",
+    "agent7_prompt": "Chromecast dongle",
+    "agent8_prompt": "Spotify music playlist",
+    "agent9_prompt": "Big Agnes sleeping bag",
+    "agent10_prompt": "Salomon ski boots"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.363140106201172,
+    "agent1_alignment": 18.173095703125,
+    "agent2_alignment": 18.82610511779785,
+    "agent3_alignment": 16.92394256591797,
+    "agent4_alignment": 17.088977813720703,
+    "agent5_alignment": 17.685138702392578,
+    "agent6_alignment": 17.47184944152832,
+    "agent7_alignment": 17.245651245117188,
+    "agent8_alignment": 18.229808807373047,
+    "agent9_alignment": 17.428129196166992,
+    "agent10_alignment": 17.233015060424805
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.74586996078491,
+    "total_welfare": 17.745869960784912
+  }
+}

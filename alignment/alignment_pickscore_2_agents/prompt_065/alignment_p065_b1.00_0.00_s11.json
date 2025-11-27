@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 65,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_2_agents/prompt_065/idx065_b1_1.00_b2_0.00_s11.png",
+    "filename": "idx065_b1_1.00_b2_0.00_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a bank making a transaction",
+    "agent1_prompt": "Coach handbag",
+    "agent2_prompt": "North Face jacket"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.959360122680664,
+    "agent1_alignment": 19.17521095275879,
+    "agent2_alignment": 18.490083694458008
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.17521095275879,
+    "total_welfare": 19.17521095275879
+  }
+}

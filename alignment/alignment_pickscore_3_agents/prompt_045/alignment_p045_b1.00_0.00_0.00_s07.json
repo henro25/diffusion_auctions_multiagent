@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 45,
+    "bids": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_3_agents/prompt_045/idx045_b1_1.00_b2_0.00_b3_0.00_s07.png",
+    "filename": "idx045_b1_1.00_b2_0.00_b3_0.00_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone shopping for electronics",
+    "agent1_prompt": "Barista apron",
+    "agent2_prompt": "Espresso shot",
+    "agent3_prompt": "Marmot coat"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.112537384033203,
+    "agent1_alignment": 20.73279571533203,
+    "agent2_alignment": 19.492229461669922,
+    "agent3_alignment": 17.430116653442383
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.73279571533203,
+    "total_welfare": 20.73279571533203
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 113,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 10,
+    "image_path": "output/images_2_agents/prompt_113/idx113_b1_0.50_b2_0.50_s10.png",
+    "filename": "idx113_b1_0.50_b2_0.50_s10.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a university campus",
+    "agent1_prompt": "Wayfair furniture",
+    "agent2_prompt": "Mercedes-Benz car"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.18853759765625,
+    "agent1_alignment": 19.807558059692383,
+    "agent2_alignment": 19.980562210083008
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.894060134887695,
+    "total_welfare": 19.894060134887695
+  }
+}

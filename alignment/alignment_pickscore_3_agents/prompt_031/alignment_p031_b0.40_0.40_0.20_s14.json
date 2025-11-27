@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 31,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_3_agents/prompt_031/idx031_b1_0.40_b2_0.40_b3_0.20_s14.png",
+    "filename": "idx031_b1_0.40_b2_0.40_b3_0.20_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone packing luggage for a trip",
+    "agent1_prompt": "Samsung refrigerator",
+    "agent2_prompt": "Stella Artois draft",
+    "agent3_prompt": "Cryptocurrency symbol"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.57283592224121,
+    "agent1_alignment": 20.158231735229492,
+    "agent2_alignment": 19.67510223388672,
+    "agent3_alignment": 16.352230072021484
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.203779602050783,
+    "total_welfare": 19.203779602050783
+  }
+}

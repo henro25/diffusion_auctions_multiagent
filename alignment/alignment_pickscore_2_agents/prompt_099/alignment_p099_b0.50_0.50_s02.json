@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 99,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_2_agents/prompt_099/idx099_b1_0.50_b2_0.50_s02.png",
+    "filename": "idx099_b1_0.50_b2_0.50_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a museum gift shop",
+    "agent1_prompt": "Merrell hiking shoes",
+    "agent2_prompt": "Keurig coffee maker"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.038875579833984,
+    "agent1_alignment": 19.979665756225586,
+    "agent2_alignment": 18.444637298583984
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.212151527404785,
+    "total_welfare": 19.212151527404785
+  }
+}

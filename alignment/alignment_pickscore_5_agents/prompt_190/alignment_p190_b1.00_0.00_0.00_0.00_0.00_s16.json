@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 190,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_5_agents/prompt_190/idx190_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s16.png",
+    "filename": "idx190_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a murder mystery party",
+    "agent1_prompt": "Ben & Jerry's ice cream",
+    "agent2_prompt": "Whole Foods market",
+    "agent3_prompt": "Callaway golf clubs",
+    "agent4_prompt": "Goodyear tire",
+    "agent5_prompt": "Medium article"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.11009407043457,
+    "agent1_alignment": 19.81075668334961,
+    "agent2_alignment": 17.58330726623535,
+    "agent3_alignment": 17.801002502441406,
+    "agent4_alignment": 17.81080436706543,
+    "agent5_alignment": 19.898273468017578
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.81075668334961,
+    "total_welfare": 19.81075668334961
+  }
+}

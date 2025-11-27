@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 181,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_2_agents/prompt_181/idx181_b1_0.10_b2_0.90_s13.png",
+    "filename": "idx181_b1_0.10_b2_0.90_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "A group at a outdoor bbq",
+    "agent1_prompt": "Nespresso machine",
+    "agent2_prompt": "Design Within Reach"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.267266273498535
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 159,
+    "bids": [
+      0.6,
+      0.2,
+      0.1,
+      0.05,
+      0.05
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_5_agents/prompt_159/idx159_b1_0.60_b2_0.20_b3_0.10_b4_0.05_b5_0.05_s08.png",
+    "filename": "idx159_b1_0.60_b2_0.20_b3_0.10_b4_0.05_b5_0.05_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a plant nursery",
+    "agent1_prompt": "Asics running shoe",
+    "agent2_prompt": "Sephora beauty",
+    "agent3_prompt": "Chevrolet Silverado",
+    "agent4_prompt": "Porsche 911",
+    "agent5_prompt": "Nutella spread jar"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.604433059692383,
+    "agent1_alignment": 20.35984230041504,
+    "agent2_alignment": 18.265016555786133,
+    "agent3_alignment": 16.4023380279541,
+    "agent4_alignment": 16.952720642089844,
+    "agent5_alignment": 16.99416732788086
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.206486892700195,
+    "total_welfare": 19.206486892700195
+  }
+}

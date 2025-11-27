@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 20,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 22,
+    "image_path": "output/images_2_agents/prompt_020/idx020_b1_0.30_b2_0.70_s22.png",
+    "filename": "idx020_b1_0.30_b2_0.70_s22.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends enjoying dinner at a nice restaurant",
+    "agent1_prompt": "Vans slip-on shoes",
+    "agent2_prompt": "Urban Decay eyeshadow"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.12406349182129,
+    "agent1_alignment": 17.376354217529297,
+    "agent2_alignment": 16.639598846435547
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 16.86062545776367,
+    "total_welfare": 16.86062545776367
+  }
+}

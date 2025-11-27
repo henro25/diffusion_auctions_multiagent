@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 68,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_2_agents/prompt_068/idx068_b1_0.90_b2_0.10_s17.png",
+    "filename": "idx068_b1_0.90_b2_0.10_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a pharmacy picking up medicine",
+    "agent1_prompt": "Philips light bulb",
+    "agent2_prompt": "Audi A4"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.3367977142334,
+    "agent1_alignment": 17.95160484313965,
+    "agent2_alignment": 16.310821533203125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.787526512146,
+    "total_welfare": 17.787526512146
+  }
+}

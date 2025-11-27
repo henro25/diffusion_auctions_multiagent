@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 8,
+    "bids": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.08,
+      0.08,
+      0.08,
+      0.07,
+      0.07,
+      0.07,
+      0.05,
+      0.05,
+      0.05,
+      0.02,
+      0.02,
+      0.02,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_20_agents/prompt_008/idx008_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.08_b6_0.08_b7_0.08_b8_0.07_b9_0.07_b10_0.07_b11_0.05_b12_0.05_b13_0.05_b14_0.02_b15_0.02_b16_0.02_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s07.png",
+    "filename": "idx008_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.08_b6_0.08_b7_0.08_b8_0.07_b9_0.07_b10_0.07_b11_0.05_b12_0.05_b13_0.05_b14_0.02_b15_0.02_b16_0.02_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "A car driving along a scenic coastal highway",
+    "agent1_prompt": "Kindle e-reader",
+    "agent2_prompt": "Ethan Allen furniture",
+    "agent3_prompt": "Spotify music playlist",
+    "agent4_prompt": "Apple Pay",
+    "agent5_prompt": "Levi's blue jeans",
+    "agent6_prompt": "Netflix streaming",
+    "agent7_prompt": "Snickers candy bar",
+    "agent8_prompt": "Enterprise car",
+    "agent9_prompt": "Design Within Reach",
+    "agent10_prompt": "Instant Pot appliance",
+    "agent11_prompt": "TaylorMade golf balls",
+    "agent12_prompt": "Home Depot sign",
+    "agent13_prompt": "Lipton tea bag",
+    "agent14_prompt": "GHD hair straightener",
+    "agent15_prompt": "Shell fuel",
+    "agent16_prompt": "Google Pixel phone",
+    "agent17_prompt": "All-Clad cookware",
+    "agent18_prompt": "PayPal logo",
+    "agent19_prompt": "Arc'teryx gear",
+    "agent20_prompt": "Coach handbag"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2255859375,
+    "agent1_alignment": 0.2109375,
+    "agent2_alignment": 0.08203125,
+    "agent3_alignment": 0.12890625,
+    "agent4_alignment": 0.150390625,
+    "agent5_alignment": 0.115234375,
+    "agent6_alignment": 0.150390625,
+    "agent7_alignment": 0.130859375,
+    "agent8_alignment": 0.1865234375,
+    "agent9_alignment": 0.1708984375,
+    "agent10_alignment": 0.09814453125,
+    "agent11_alignment": 0.0908203125,
+    "agent12_alignment": 0.08349609375,
+    "agent13_alignment": 0.1142578125,
+    "agent14_alignment": 0.0986328125,
+    "agent15_alignment": 0.1435546875,
+    "agent16_alignment": 0.185546875,
+    "agent17_alignment": 0.0654296875,
+    "agent18_alignment": 0.1123046875,
+    "agent19_alignment": 0.09619140625,
+    "agent20_alignment": 0.07421875
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.13390891335227273,
+    "total_welfare": 0.14729980468750004
+  }
+}

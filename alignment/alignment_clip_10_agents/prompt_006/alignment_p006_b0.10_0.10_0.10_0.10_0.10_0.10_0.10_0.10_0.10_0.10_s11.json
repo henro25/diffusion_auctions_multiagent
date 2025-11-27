@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "prompt_index": 6,
+    "bids": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_10_agents/prompt_006/idx006_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.10_b6_0.10_b7_0.10_b8_0.10_b9_0.10_b10_0.10_s11.png",
+    "filename": "idx006_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.10_b6_0.10_b7_0.10_b8_0.10_b9_0.10_b10_0.10_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "A person walking down a city street",
+    "agent1_prompt": "Bang & Olufsen speaker",
+    "agent2_prompt": "Big Agnes sleeping bag",
+    "agent3_prompt": "USM Haller",
+    "agent4_prompt": "Fitbit tracker",
+    "agent5_prompt": "Biscotti cookie",
+    "agent6_prompt": "Columbia jacket",
+    "agent7_prompt": "Dell monitor",
+    "agent8_prompt": "Citibank card",
+    "agent9_prompt": "Design Within Reach",
+    "agent10_prompt": "Magazine cover"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.1884765625,
+    "agent1_alignment": 0.1796875,
+    "agent2_alignment": 0.1455078125,
+    "agent3_alignment": 0.09423828125,
+    "agent4_alignment": 0.1318359375,
+    "agent5_alignment": 0.138671875,
+    "agent6_alignment": 0.1708984375,
+    "agent7_alignment": 0.12060546875,
+    "agent8_alignment": 0.150390625,
+    "agent9_alignment": 0.2216796875,
+    "agent10_alignment": 0.20703125
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.15605468750000004,
+    "total_welfare": 0.1560546875
+  }
+}

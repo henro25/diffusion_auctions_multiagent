@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 14,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_2_agents_competitive/prompt_014/idx014_b1_0.50_b2_0.50_s14.png",
+    "filename": "idx014_b1_0.50_b2_0.50_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone drinking from a coffee cup in an office meeting",
+    "agent1_prompt": "Starbucks coffee cup",
+    "agent2_prompt": "Dunkin coffee cup"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.22409439086914,
+    "agent1_alignment": 20.68072509765625,
+    "agent2_alignment": 19.13685417175293
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.90878963470459,
+    "total_welfare": 19.90878963470459
+  }
+}

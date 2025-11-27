@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 8,
+    "bids": [
+      0.35,
+      0.15,
+      0.12,
+      0.1,
+      0.08,
+      0.07,
+      0.05,
+      0.04,
+      0.02,
+      0.02
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_10_agents/prompt_008/idx008_b1_0.35_b2_0.15_b3_0.12_b4_0.10_b5_0.08_b6_0.07_b7_0.05_b8_0.04_b9_0.02_b10_0.02_s01.png",
+    "filename": "idx008_b1_0.35_b2_0.15_b3_0.12_b4_0.10_b5_0.08_b6_0.07_b7_0.05_b8_0.04_b9_0.02_b10_0.02_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "A car driving along a scenic coastal highway",
+    "agent1_prompt": "Kindle e-reader",
+    "agent2_prompt": "Ethan Allen furniture",
+    "agent3_prompt": "Spotify music playlist",
+    "agent4_prompt": "Apple Pay",
+    "agent5_prompt": "Levi's blue jeans",
+    "agent6_prompt": "Netflix streaming",
+    "agent7_prompt": "Snickers candy bar",
+    "agent8_prompt": "Enterprise car",
+    "agent9_prompt": "Design Within Reach",
+    "agent10_prompt": "Instant Pot appliance"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.085811614990234,
+    "agent1_alignment": 21.67380142211914,
+    "agent2_alignment": 18.17382049560547,
+    "agent3_alignment": 18.94820213317871,
+    "agent4_alignment": 18.057641983032227,
+    "agent5_alignment": 18.168325424194336,
+    "agent6_alignment": 18.764053344726562,
+    "agent7_alignment": 18.61800193786621,
+    "agent8_alignment": 18.10021209716797,
+    "agent9_alignment": 18.267189025878906,
+    "agent10_alignment": 17.98429298400879
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.53834001541138,
+    "total_welfare": 19.53834001541138
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 73,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 19,
+    "image_path": "output/images_2_agents/prompt_073/idx073_b1_1.00_b2_0.00_s19.png",
+    "filename": "idx073_b1_1.00_b2_0.00_s19.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a skating rink",
+    "agent1_prompt": "Nike running shoes",
+    "agent2_prompt": "Pottery Barn decorations"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.45723533630371,
+    "agent1_alignment": 17.036266326904297,
+    "agent2_alignment": 16.267663955688477
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.036266326904297,
+    "total_welfare": 17.036266326904297
+  }
+}

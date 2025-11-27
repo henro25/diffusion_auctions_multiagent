@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 93,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 12,
+    "image_path": "output/images_2_agents/prompt_093/idx093_b1_0.50_b2_0.50_s12.png",
+    "filename": "idx093_b1_0.50_b2_0.50_s12.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a tattoo parlor",
+    "agent1_prompt": "Expedia booking",
+    "agent2_prompt": "Chase bank card"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.595075607299805,
+    "agent1_alignment": 19.591548919677734,
+    "agent2_alignment": 21.554061889648438
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.572805404663086,
+    "total_welfare": 20.572805404663086
+  }
+}

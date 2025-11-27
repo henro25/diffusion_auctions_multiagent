@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 83,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_2_agents/prompt_083/idx083_b1_1.00_b2_0.00_s06.png",
+    "filename": "idx083_b1_1.00_b2_0.00_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a movie theater concession stand",
+    "agent1_prompt": "Barista apron",
+    "agent2_prompt": "Microsoft Surface laptop"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.681846618652344,
+    "agent1_alignment": 20.594608306884766,
+    "agent2_alignment": 16.837575912475586
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.594608306884766,
+    "total_welfare": 20.594608306884766
+  }
+}

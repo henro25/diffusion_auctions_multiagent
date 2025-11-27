@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 189,
+    "bids": [
+      0.25,
+      0.25,
+      0.25,
+      0.15,
+      0.1
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_5_agents/prompt_189/idx189_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s01.png",
+    "filename": "idx189_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "Person at a indoor ice skating",
+    "agent1_prompt": "Chevrolet Silverado",
+    "agent2_prompt": "AMC Theaters",
+    "agent3_prompt": "Restoration Hardware piece",
+    "agent4_prompt": "TD Bank",
+    "agent5_prompt": "Latte beverage"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.816194534301758,
+    "agent1_alignment": 17.999738693237305,
+    "agent2_alignment": 19.46645736694336,
+    "agent3_alignment": 18.047216415405273,
+    "agent4_alignment": 18.540132522583008,
+    "agent5_alignment": 17.877979278564453
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.44717092514038,
+    "total_welfare": 18.44717092514038
+  }
+}

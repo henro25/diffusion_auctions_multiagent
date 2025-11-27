@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 180,
+    "bids": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_10_agents/prompt_180/idx180_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_s11.png",
+    "filename": "idx180_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone getting a haircut",
+    "agent1_prompt": "Kraft cheese slice",
+    "agent2_prompt": "Pantene hair care",
+    "agent3_prompt": "Champagne bottle",
+    "agent4_prompt": "Deuter backpack",
+    "agent5_prompt": "Mercedes-Benz car",
+    "agent6_prompt": "Polo Ralph Lauren shirt",
+    "agent7_prompt": "Monster energy drink",
+    "agent8_prompt": "Magazine stack",
+    "agent9_prompt": "CeraVe moisturizer",
+    "agent10_prompt": "Latte beverage"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.82221221923828,
+    "agent1_alignment": 16.904571533203125,
+    "agent2_alignment": 18.957305908203125,
+    "agent3_alignment": 16.515443801879883,
+    "agent4_alignment": 17.386837005615234,
+    "agent5_alignment": 16.74618148803711,
+    "agent6_alignment": 16.153003692626953,
+    "agent7_alignment": 17.11199378967285,
+    "agent8_alignment": 17.667936325073242,
+    "agent9_alignment": 17.484506607055664,
+    "agent10_alignment": 17.087675094604492
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

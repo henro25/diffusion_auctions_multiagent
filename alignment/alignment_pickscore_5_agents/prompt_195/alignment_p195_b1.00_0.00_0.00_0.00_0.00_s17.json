@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 195,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_5_agents/prompt_195/idx195_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s17.png",
+    "filename": "idx195_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "A group at a outdoor festival",
+    "agent1_prompt": "Herman Miller chair",
+    "agent2_prompt": "Biscotti cookie",
+    "agent3_prompt": "Ramen noodle packet",
+    "agent4_prompt": "CVS pharmacy",
+    "agent5_prompt": "Everlast boxing gloves"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.19508934020996,
+    "agent1_alignment": 18.81100082397461,
+    "agent2_alignment": 18.144908905029297,
+    "agent3_alignment": 18.228242874145508,
+    "agent4_alignment": 18.3494873046875,
+    "agent5_alignment": 17.388410568237305
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.81100082397461,
+    "total_welfare": 18.81100082397461
+  }
+}

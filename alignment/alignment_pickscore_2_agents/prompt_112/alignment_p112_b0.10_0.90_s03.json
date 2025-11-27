@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 112,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_2_agents/prompt_112/idx112_b1_0.10_b2_0.90_s03.png",
+    "filename": "idx112_b1_0.10_b2_0.90_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a comedy show",
+    "agent1_prompt": "Apple Music app",
+    "agent2_prompt": "DJI drone"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.316482543945312,
+    "agent1_alignment": 17.094850540161133,
+    "agent2_alignment": 20.329721450805664
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.00623435974121,
+    "total_welfare": 20.00623435974121
+  }
+}

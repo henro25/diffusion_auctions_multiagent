@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 19,
+    "bids": [
+      0.33,
+      0.33,
+      0.33
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_3_agents/prompt_019/idx019_b1_0.33_b2_0.33_b3_0.33_s18.png",
+    "filename": "idx019_b1_0.33_b2_0.33_b3_0.33_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone shopping for groceries at a supermarket",
+    "agent1_prompt": "Google Pay",
+    "agent2_prompt": "Clinique skincare",
+    "agent3_prompt": "Uber ride"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.48044776916504,
+    "agent1_alignment": 19.821762084960938,
+    "agent2_alignment": 19.097421646118164,
+    "agent3_alignment": 19.709924697875977
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.543036142985024,
+    "total_welfare": 19.347605781555174
+  }
+}

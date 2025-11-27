@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 36,
+    "bids": [
+      0.0,
+      1.0
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_2_agents/prompt_036/idx036_b1_0.00_b2_1.00_s18.png",
+    "filename": "idx036_b1_0.00_b2_1.00_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "A person exercising on gym equipment",
+    "agent1_prompt": "Spalding basketball",
+    "agent2_prompt": "Olaplex hair treatment"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.739336013793945,
+    "agent1_alignment": 17.380983352661133,
+    "agent2_alignment": 20.86907386779785
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.86907386779785,
+    "total_welfare": 20.86907386779785
+  }
+}

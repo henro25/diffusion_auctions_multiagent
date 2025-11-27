@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 163,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_2_agents/prompt_163/idx163_b1_0.10_b2_0.90_s11.png",
+    "filename": "idx163_b1_0.10_b2_0.90_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a scuba diving shop",
+    "agent1_prompt": "Dove body wash",
+    "agent2_prompt": "Deli turkey slice"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.815107345581055
+  }
+}

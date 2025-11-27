@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 49,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_2_agents/prompt_049/idx049_b1_0.70_b2_0.30_s02.png",
+    "filename": "idx049_b1_0.70_b2_0.30_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone gardening in a backyard",
+    "agent1_prompt": "Movie ticket stub",
+    "agent2_prompt": "Aquafina water"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.021806716918945,
+    "agent1_alignment": 20.358861923217773,
+    "agent2_alignment": 20.234214782714844
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.321467781066893,
+    "total_welfare": 20.321467781066893
+  }
+}

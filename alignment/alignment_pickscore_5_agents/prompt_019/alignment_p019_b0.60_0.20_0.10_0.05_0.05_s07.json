@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 19,
+    "bids": [
+      0.6,
+      0.2,
+      0.1,
+      0.05,
+      0.05
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_5_agents/prompt_019/idx019_b1_0.60_b2_0.20_b3_0.10_b4_0.05_b5_0.05_s07.png",
+    "filename": "idx019_b1_0.60_b2_0.20_b3_0.10_b4_0.05_b5_0.05_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone shopping for groceries at a supermarket",
+    "agent1_prompt": "Google Pay",
+    "agent2_prompt": "Clinique skincare",
+    "agent3_prompt": "Uber ride",
+    "agent4_prompt": "Campbell's soup can",
+    "agent5_prompt": "Michelin tire"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.178842544555664,
+    "agent1_alignment": 19.332937240600586,
+    "agent2_alignment": 17.815271377563477,
+    "agent3_alignment": 18.003488540649414,
+    "agent4_alignment": 17.578758239746094,
+    "agent5_alignment": 16.536623001098633
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.668934535980227,
+    "total_welfare": 18.668934535980227
+  }
+}

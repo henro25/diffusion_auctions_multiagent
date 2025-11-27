@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 170,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_2_agents/prompt_170/idx170_b1_0.90_b2_0.10_s06.png",
+    "filename": "idx170_b1_0.90_b2_0.10_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a wedding dress boutique",
+    "agent1_prompt": "Pottery Barn shelving",
+    "agent2_prompt": "Keen boots"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.36452293395996,
+    "agent1_alignment": 18.83668327331543,
+    "agent2_alignment": 18.25299072265625
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.778314018249514,
+    "total_welfare": 18.778314018249514
+  }
+}

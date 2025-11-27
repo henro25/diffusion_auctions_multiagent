@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 87,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_2_agents/prompt_087/idx087_b1_0.70_b2_0.30_s11.png",
+    "filename": "idx087_b1_0.70_b2_0.30_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a toy store",
+    "agent1_prompt": "Colgate toothpaste",
+    "agent2_prompt": "Coach handbag"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.94269371032715,
+    "agent1_alignment": 21.194005966186523,
+    "agent2_alignment": 16.445125579833984
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.76934185028076,
+    "total_welfare": 19.76934185028076
+  }
+}

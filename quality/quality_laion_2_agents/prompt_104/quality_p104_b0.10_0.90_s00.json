@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 104,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 0,
+    "image_path": "output/images_2_agents/prompt_104/idx104_b1_0.10_b2_0.90_s00.png",
+    "filename": "idx104_b1_0.10_b2_0.90_s00.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at an insurance office",
+    "agent1_prompt": "CVS pharmacy",
+    "agent2_prompt": "Evian water bottle"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.614758491516113
+  }
+}

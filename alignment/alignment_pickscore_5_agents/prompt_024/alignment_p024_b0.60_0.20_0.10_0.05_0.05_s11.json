@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 24,
+    "bids": [
+      0.6,
+      0.2,
+      0.1,
+      0.05,
+      0.05
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_5_agents/prompt_024/idx024_b1_0.60_b2_0.20_b3_0.10_b4_0.05_b5_0.05_s11.png",
+    "filename": "idx024_b1_0.60_b2_0.20_b3_0.10_b4_0.05_b5_0.05_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone browsing books in a public library",
+    "agent1_prompt": "Est\u00e9e Lauder moisturizer",
+    "agent2_prompt": "IKEA furniture piece",
+    "agent3_prompt": "West Elm table",
+    "agent4_prompt": "Rocket Mortgage",
+    "agent5_prompt": "Campbell's soup can"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.80042266845703,
+    "agent1_alignment": 17.7005558013916,
+    "agent2_alignment": 17.89218521118164,
+    "agent3_alignment": 16.372514724731445,
+    "agent4_alignment": 17.455486297607422,
+    "agent5_alignment": 17.907955169677734
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.604194068908694,
+    "total_welfare": 17.604194068908694
+  }
+}

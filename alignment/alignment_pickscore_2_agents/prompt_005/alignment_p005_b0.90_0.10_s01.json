@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 5,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_2_agents/prompt_005/idx005_b1_0.90_b2_0.10_s01.png",
+    "filename": "idx005_b1_0.90_b2_0.10_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "A woman with a tray of food at a cafeteria",
+    "agent1_prompt": "Shell fuel",
+    "agent2_prompt": "Peet's Coffee mug"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.265756607055664,
+    "agent1_alignment": 20.308780670166016,
+    "agent2_alignment": 17.45819664001465
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.02372226715088,
+    "total_welfare": 20.02372226715088
+  }
+}

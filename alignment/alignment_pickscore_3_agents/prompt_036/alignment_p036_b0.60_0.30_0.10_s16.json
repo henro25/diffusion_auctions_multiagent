@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 36,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_3_agents/prompt_036/idx036_b1_0.60_b2_0.30_b3_0.10_s16.png",
+    "filename": "idx036_b1_0.60_b2_0.30_b3_0.10_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "A person exercising on gym equipment",
+    "agent1_prompt": "Spalding basketball",
+    "agent2_prompt": "Olaplex hair treatment",
+    "agent3_prompt": "Gap clothing store"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.809810638427734,
+    "agent1_alignment": 19.1997127532959,
+    "agent2_alignment": 19.999980926513672,
+    "agent3_alignment": 16.894367218017578
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.2092586517334,
+    "total_welfare": 19.209258651733396
+  }
+}

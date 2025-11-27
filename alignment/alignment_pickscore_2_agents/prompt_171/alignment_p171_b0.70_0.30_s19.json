@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 171,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 19,
+    "image_path": "output/images_2_agents/prompt_171/idx171_b1_0.70_b2_0.30_s19.png",
+    "filename": "idx171_b1_0.70_b2_0.30_s19.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a woodworking shop",
+    "agent1_prompt": "Spalding basketball",
+    "agent2_prompt": "Mastercard payment"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.275991439819336,
+    "agent1_alignment": 18.713218688964844,
+    "agent2_alignment": 18.486557006835938
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.64522018432617,
+    "total_welfare": 18.64522018432617
+  }
+}

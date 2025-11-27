@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 180,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 19,
+    "image_path": "output/images_2_agents/prompt_180/idx180_b1_0.10_b2_0.90_s19.png",
+    "filename": "idx180_b1_0.10_b2_0.90_s19.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone getting a haircut",
+    "agent1_prompt": "Kraft cheese slice",
+    "agent2_prompt": "Pantene hair care"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.269018173217773,
+    "agent1_alignment": 17.314838409423828,
+    "agent2_alignment": 21.4498233795166
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 21.036324882507323,
+    "total_welfare": 21.036324882507323
+  }
+}

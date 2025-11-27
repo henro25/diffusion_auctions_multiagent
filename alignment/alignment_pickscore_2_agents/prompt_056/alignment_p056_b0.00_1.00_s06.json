@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 56,
+    "bids": [
+      0.0,
+      1.0
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_2_agents/prompt_056/idx056_b1_0.00_b2_1.00_s06.png",
+    "filename": "idx056_b1_0.00_b2_1.00_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "A group at a wine tasting event",
+    "agent1_prompt": "Discord voice chat",
+    "agent2_prompt": "BMW sedan"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.521942138671875,
+    "agent1_alignment": 16.976003646850586,
+    "agent2_alignment": 20.352415084838867
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.352415084838867,
+    "total_welfare": 20.352415084838867
+  }
+}

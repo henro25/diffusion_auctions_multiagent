@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 51,
+    "bids": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_3_agents/prompt_051/idx051_b1_1.00_b2_0.00_b3_0.00_s05.png",
+    "filename": "idx051_b1_1.00_b2_0.00_b3_0.00_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at an art museum viewing exhibits",
+    "agent1_prompt": "Canon EOS camera",
+    "agent2_prompt": "Audi A4",
+    "agent3_prompt": "Wall Street Journal"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.580583572387695,
+    "agent1_alignment": 20.613555908203125,
+    "agent2_alignment": 17.628602981567383,
+    "agent3_alignment": 17.61199378967285
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.613555908203125,
+    "total_welfare": 20.613555908203125
+  }
+}

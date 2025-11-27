@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 28,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 12,
+    "image_path": "output/images_3_agents/prompt_028/idx028_b1_0.60_b2_0.30_b3_0.10_s12.png",
+    "filename": "idx028_b1_0.60_b2_0.30_b3_0.10_s12.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone working on a laptop at a home office",
+    "agent1_prompt": "YouTube channel",
+    "agent2_prompt": "Fanta orange soda",
+    "agent3_prompt": "Pottery Barn decorations"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.694320678710938,
+    "agent1_alignment": 18.95798110961914,
+    "agent2_alignment": 20.177114486694336,
+    "agent3_alignment": 15.642955780029297
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.99221858978272,
+    "total_welfare": 18.992218589782716
+  }
+}

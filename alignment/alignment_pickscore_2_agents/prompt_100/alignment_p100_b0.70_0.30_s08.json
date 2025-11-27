@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 100,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_2_agents/prompt_100/idx100_b1_0.70_b2_0.30_s08.png",
+    "filename": "idx100_b1_0.70_b2_0.30_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a mini golf course",
+    "agent1_prompt": "REI sleeping bag",
+    "agent2_prompt": "TaylorMade golf balls"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.103879928588867,
+    "agent1_alignment": 20.847618103027344,
+    "agent2_alignment": 18.605682373046875
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.175037384033203,
+    "total_welfare": 20.175037384033203
+  }
+}

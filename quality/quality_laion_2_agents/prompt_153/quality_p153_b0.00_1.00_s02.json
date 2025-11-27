@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 153,
+    "bids": [
+      0.0,
+      1.0
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_2_agents/prompt_153/idx153_b1_0.00_b2_1.00_s02.png",
+    "filename": "idx153_b1_0.00_b2_1.00_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a restaurant counter",
+    "agent1_prompt": "Audi A4",
+    "agent2_prompt": "Campbell's soup can"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.979255676269531
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 199,
+    "bids": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_3_agents/prompt_199/idx199_b1_0.00_b2_0.00_b3_0.00_s04.png",
+    "filename": "idx199_b1_0.00_b2_0.00_b3_0.00_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a community center",
+    "agent1_prompt": "Samsung refrigerator",
+    "agent2_prompt": "Microsoft Surface laptop",
+    "agent3_prompt": "New Balance shoes"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.755512237548828,
+    "agent1_alignment": 17.382732391357422,
+    "agent2_alignment": 17.064481735229492,
+    "agent3_alignment": 17.686172485351562
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

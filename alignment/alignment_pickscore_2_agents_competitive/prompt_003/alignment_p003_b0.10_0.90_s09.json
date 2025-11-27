@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 3,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_2_agents_competitive/prompt_003/idx003_b1_0.10_b2_0.90_s09.png",
+    "filename": "idx003_b1_0.10_b2_0.90_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "A person wearing a smartwatch while exercising at the gym",
+    "agent1_prompt": "Apple Watch",
+    "agent2_prompt": "Samsung Galaxy Watch"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.202035903930664,
+    "agent1_alignment": 20.903675079345703,
+    "agent2_alignment": 20.155920028686523
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.230695533752442,
+    "total_welfare": 20.230695533752442
+  }
+}

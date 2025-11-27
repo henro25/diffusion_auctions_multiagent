@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 32,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_2_agents/prompt_032/idx032_b1_0.70_b2_0.30_s11.png",
+    "filename": "idx032_b1_0.70_b2_0.30_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends having a picnic in a park",
+    "agent1_prompt": "Pepsi can",
+    "agent2_prompt": "Marriott key card"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.459501266479492,
+    "agent1_alignment": 21.465404510498047,
+    "agent2_alignment": 17.972169876098633
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.41743412017822,
+    "total_welfare": 20.41743412017822
+  }
+}

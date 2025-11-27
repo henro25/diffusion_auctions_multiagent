@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 186,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 12,
+    "image_path": "output/images_2_agents/prompt_186/idx186_b1_0.70_b2_0.30_s12.png",
+    "filename": "idx186_b1_0.70_b2_0.30_s12.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a batting cage",
+    "agent1_prompt": "Spotify music playlist",
+    "agent2_prompt": "Adidas Superstar sneakers"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.731388092041016,
+    "agent1_alignment": 19.85133171081543,
+    "agent2_alignment": 17.47266960144043
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.13773307800293,
+    "total_welfare": 19.13773307800293
+  }
+}

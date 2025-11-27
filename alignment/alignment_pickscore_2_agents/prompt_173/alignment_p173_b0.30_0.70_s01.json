@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 173,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_2_agents/prompt_173/idx173_b1_0.30_b2_0.70_s01.png",
+    "filename": "idx173_b1_0.30_b2_0.70_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a legal office waiting",
+    "agent1_prompt": "Bosch dishwasher",
+    "agent2_prompt": "Wells Fargo check"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.00237464904785,
+    "agent1_alignment": 16.6563663482666,
+    "agent2_alignment": 21.395702362060547
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.97390155792236,
+    "total_welfare": 19.97390155792236
+  }
+}

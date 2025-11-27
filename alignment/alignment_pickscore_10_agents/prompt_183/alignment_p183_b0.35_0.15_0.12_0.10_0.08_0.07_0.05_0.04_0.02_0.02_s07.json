@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 183,
+    "bids": [
+      0.35,
+      0.15,
+      0.12,
+      0.1,
+      0.08,
+      0.07,
+      0.05,
+      0.04,
+      0.02,
+      0.02
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_10_agents/prompt_183/idx183_b1_0.35_b2_0.15_b3_0.12_b4_0.10_b5_0.08_b6_0.07_b7_0.05_b8_0.04_b9_0.02_b10_0.02_s07.png",
+    "filename": "idx183_b1_0.35_b2_0.15_b3_0.12_b4_0.10_b5_0.08_b6_0.07_b7_0.05_b8_0.04_b9_0.02_b10_0.02_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a escape room adventure",
+    "agent1_prompt": "Champagne bottle",
+    "agent2_prompt": "Jura espresso machine",
+    "agent3_prompt": "PetSmart store",
+    "agent4_prompt": "TaylorMade golf balls",
+    "agent5_prompt": "BMW sedan",
+    "agent6_prompt": "Dyson vacuum",
+    "agent7_prompt": "Coffee bean bag",
+    "agent8_prompt": "Passport booklet",
+    "agent9_prompt": "CeraVe moisturizer",
+    "agent10_prompt": "GoPro camera"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.191650390625,
+    "agent1_alignment": 17.018993377685547,
+    "agent2_alignment": 17.416954040527344,
+    "agent3_alignment": 19.718236923217773,
+    "agent4_alignment": 17.404369354248047,
+    "agent5_alignment": 16.492780685424805,
+    "agent6_alignment": 19.041423797607422,
+    "agent7_alignment": 17.29000473022461,
+    "agent8_alignment": 17.35020637512207,
+    "agent9_alignment": 16.89759635925293,
+    "agent10_alignment": 17.96570587158203
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.583912811279298,
+    "total_welfare": 17.583912811279298
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 72,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_2_agents/prompt_072/idx072_b1_0.90_b2_0.10_s05.png",
+    "filename": "idx072_b1_0.90_b2_0.10_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a beauty supply store",
+    "agent1_prompt": "Wilson volleyball",
+    "agent2_prompt": "Doritos tortilla chips"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.871295928955078,
+    "agent1_alignment": 19.78775978088379,
+    "agent2_alignment": 17.422000885009766
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.551183891296386,
+    "total_welfare": 19.551183891296386
+  }
+}

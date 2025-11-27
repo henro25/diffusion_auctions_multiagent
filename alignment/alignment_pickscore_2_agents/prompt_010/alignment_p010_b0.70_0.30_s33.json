@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 10,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 33,
+    "image_path": "output/images_2_agents/prompt_010/idx010_b1_0.70_b2_0.30_s33.png",
+    "filename": "idx010_b1_0.70_b2_0.30_s33.png"
+  },
+  "prompts": {
+    "base_prompt": "A man waiting at a bus stop",
+    "agent1_prompt": "Oakley sunglasses",
+    "agent2_prompt": "BMW sedan"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.344444274902344,
+    "agent1_alignment": 20.843830108642578,
+    "agent2_alignment": 18.553760528564453
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.15680923461914,
+    "total_welfare": 20.15680923461914
+  }
+}

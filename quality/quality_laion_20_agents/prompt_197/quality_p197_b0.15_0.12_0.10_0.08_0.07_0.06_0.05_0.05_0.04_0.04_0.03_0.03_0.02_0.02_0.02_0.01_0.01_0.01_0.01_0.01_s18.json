@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "prompt_index": 197,
+    "bids": [
+      0.15,
+      0.12,
+      0.1,
+      0.08,
+      0.07,
+      0.06,
+      0.05,
+      0.05,
+      0.04,
+      0.04,
+      0.03,
+      0.03,
+      0.02,
+      0.02,
+      0.02,
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_20_agents/prompt_197/idx197_b1_0.15_b2_0.12_b3_0.10_b4_0.08_b5_0.07_b6_0.06_b7_0.05_b8_0.05_b9_0.04_b10_0.04_b11_0.03_b12_0.03_b13_0.02_b14_0.02_b15_0.02_b16_0.01_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s18.png",
+    "filename": "idx197_b1_0.15_b2_0.12_b3_0.10_b4_0.08_b5_0.07_b6_0.06_b7_0.05_b8_0.05_b9_0.04_b10_0.04_b11_0.03_b12_0.03_b13_0.02_b14_0.02_b15_0.02_b16_0.01_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a horseback riding stable",
+    "agent1_prompt": "Revlon cosmetics",
+    "agent2_prompt": "Sony headphones",
+    "agent3_prompt": "Dyson Supersonic dryer",
+    "agent4_prompt": "Substack newsletter",
+    "agent5_prompt": "Stripe payment",
+    "agent6_prompt": "Vitamix blender",
+    "agent7_prompt": "Under Armour shorts",
+    "agent8_prompt": "Hulu series",
+    "agent9_prompt": "McDonald's burger",
+    "agent10_prompt": "PayPal logo",
+    "agent11_prompt": "Trader Joe's bags",
+    "agent12_prompt": "La-Z-Boy recliner",
+    "agent13_prompt": "Regal Cinemas",
+    "agent14_prompt": "French press pot",
+    "agent15_prompt": "Budweiser beer can",
+    "agent16_prompt": "Goodyear tire",
+    "agent17_prompt": "Enterprise car",
+    "agent18_prompt": "Gucci loafers",
+    "agent19_prompt": "Camelback water pack",
+    "agent20_prompt": "TikTok app"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.157249927520752
+  }
+}

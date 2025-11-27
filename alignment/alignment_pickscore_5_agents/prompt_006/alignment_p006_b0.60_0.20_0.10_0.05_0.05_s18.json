@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 6,
+    "bids": [
+      0.6,
+      0.2,
+      0.1,
+      0.05,
+      0.05
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_5_agents/prompt_006/idx006_b1_0.60_b2_0.20_b3_0.10_b4_0.05_b5_0.05_s18.png",
+    "filename": "idx006_b1_0.60_b2_0.20_b3_0.10_b4_0.05_b5_0.05_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "A person walking down a city street",
+    "agent1_prompt": "Bang & Olufsen speaker",
+    "agent2_prompt": "Big Agnes sleeping bag",
+    "agent3_prompt": "USM Haller",
+    "agent4_prompt": "Fitbit tracker",
+    "agent5_prompt": "Biscotti cookie"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.726329803466797,
+    "agent1_alignment": 20.119001388549805,
+    "agent2_alignment": 18.97043228149414,
+    "agent3_alignment": 19.542041778564453,
+    "agent4_alignment": 19.06303596496582,
+    "agent5_alignment": 18.194547653198242
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.682570648193362,
+    "total_welfare": 19.682570648193362
+  }
+}

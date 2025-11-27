@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 89,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 12,
+    "image_path": "output/images_2_agents/prompt_089/idx089_b1_1.00_b2_0.00_s12.png",
+    "filename": "idx089_b1_1.00_b2_0.00_s12.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a laundromat doing laundry",
+    "agent1_prompt": "Walgreens pharmacy",
+    "agent2_prompt": "Est\u00e9e Lauder moisturizer"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.15760040283203,
+    "agent1_alignment": 19.614471435546875,
+    "agent2_alignment": 16.528013229370117
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.614471435546875,
+    "total_welfare": 19.614471435546875
+  }
+}

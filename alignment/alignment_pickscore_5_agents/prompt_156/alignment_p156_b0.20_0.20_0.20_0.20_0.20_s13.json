@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 156,
+    "bids": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_5_agents/prompt_156/idx156_b1_0.20_b2_0.20_b3_0.20_b4_0.20_b5_0.20_s13.png",
+    "filename": "idx156_b1_0.20_b2_0.20_b3_0.20_b4_0.20_b5_0.20_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at an electronics repair shop",
+    "agent1_prompt": "Citibank card",
+    "agent2_prompt": "Passport booklet",
+    "agent3_prompt": "Tempur-Pedic mattress",
+    "agent4_prompt": "Arc'teryx backpack",
+    "agent5_prompt": "Target logo"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.213266372680664,
+    "agent1_alignment": 19.02162742614746,
+    "agent2_alignment": 18.607633590698242,
+    "agent3_alignment": 17.902027130126953,
+    "agent4_alignment": 17.649639129638672,
+    "agent5_alignment": 18.728551864624023
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.381895828247067,
+    "total_welfare": 18.381895828247067
+  }
+}

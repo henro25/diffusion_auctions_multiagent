@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 177,
+    "bids": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_3_agents/prompt_177/idx177_b1_0.00_b2_0.00_b3_0.00_s03.png",
+    "filename": "idx177_b1_0.00_b2_0.00_b3_0.00_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a craft brewery",
+    "agent1_prompt": "New York Times newspaper",
+    "agent2_prompt": "Herman Miller chair",
+    "agent3_prompt": "Lipton tea bag"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.367023468017578,
+    "agent1_alignment": 16.985769271850586,
+    "agent2_alignment": 16.710594177246094,
+    "agent3_alignment": 17.83104133605957
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

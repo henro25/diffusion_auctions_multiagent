@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 185,
+    "bids": [
+      0.35,
+      0.15,
+      0.12,
+      0.1,
+      0.08,
+      0.07,
+      0.05,
+      0.04,
+      0.02,
+      0.02
+    ],
+    "sample_index": 10,
+    "image_path": "output/images_10_agents/prompt_185/idx185_b1_0.35_b2_0.15_b3_0.12_b4_0.10_b5_0.08_b6_0.07_b7_0.05_b8_0.04_b9_0.02_b10_0.02_s10.png",
+    "filename": "idx185_b1_0.35_b2_0.15_b3_0.12_b4_0.10_b5_0.08_b6_0.07_b7_0.05_b8_0.04_b9_0.02_b10_0.02_s10.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a boat marina",
+    "agent1_prompt": "La-Z-Boy recliner",
+    "agent2_prompt": "Michelin tire",
+    "agent3_prompt": "Philips light bulb",
+    "agent4_prompt": "Regal Cinemas",
+    "agent5_prompt": "Macy's department",
+    "agent6_prompt": "Asics running shoe",
+    "agent7_prompt": "DJI drone",
+    "agent8_prompt": "Monster energy drink",
+    "agent9_prompt": "AMC Theaters",
+    "agent10_prompt": "Dyson Supersonic dryer"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.064815521240234,
+    "agent1_alignment": 20.27490997314453,
+    "agent2_alignment": 19.39981460571289,
+    "agent3_alignment": 19.149105072021484,
+    "agent4_alignment": 19.083406448364258,
+    "agent5_alignment": 18.49110984802246,
+    "agent6_alignment": 17.889142990112305,
+    "agent7_alignment": 18.550565719604492,
+    "agent8_alignment": 18.38364028930664,
+    "agent9_alignment": 18.80146598815918,
+    "agent10_alignment": 18.87006950378418
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.360257339477535,
+    "total_welfare": 19.360257339477535
+  }
+}

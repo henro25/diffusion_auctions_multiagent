@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 191,
+    "bids": [
+      0.4,
+      0.3,
+      0.2,
+      0.05,
+      0.05
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_5_agents/prompt_191/idx191_b1_0.40_b2_0.30_b3_0.20_b4_0.05_b5_0.05_s06.png",
+    "filename": "idx191_b1_0.40_b2_0.30_b3_0.20_b4_0.05_b5_0.05_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a plant nursery",
+    "agent1_prompt": "Jeep Wrangler",
+    "agent2_prompt": "Gatorade sports drink",
+    "agent3_prompt": "Blog post",
+    "agent4_prompt": "iPad device",
+    "agent5_prompt": "REI backpack"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.464160919189453,
+    "agent1_alignment": 18.61566925048828,
+    "agent2_alignment": 18.507339477539062,
+    "agent3_alignment": 19.72764778137207,
+    "agent4_alignment": 18.759782791137695,
+    "agent5_alignment": 18.44729995727539
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.8043532371521,
+    "total_welfare": 18.8043532371521
+  }
+}

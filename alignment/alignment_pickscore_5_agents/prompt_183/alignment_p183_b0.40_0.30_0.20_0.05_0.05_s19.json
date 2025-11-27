@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 183,
+    "bids": [
+      0.4,
+      0.3,
+      0.2,
+      0.05,
+      0.05
+    ],
+    "sample_index": 19,
+    "image_path": "output/images_5_agents/prompt_183/idx183_b1_0.40_b2_0.30_b3_0.20_b4_0.05_b5_0.05_s19.png",
+    "filename": "idx183_b1_0.40_b2_0.30_b3_0.20_b4_0.05_b5_0.05_s19.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a escape room adventure",
+    "agent1_prompt": "Champagne bottle",
+    "agent2_prompt": "Jura espresso machine",
+    "agent3_prompt": "PetSmart store",
+    "agent4_prompt": "TaylorMade golf balls",
+    "agent5_prompt": "BMW sedan"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.107637405395508,
+    "agent1_alignment": 19.587810516357422,
+    "agent2_alignment": 18.40850257873535,
+    "agent3_alignment": 19.44442367553711,
+    "agent4_alignment": 17.122325897216797,
+    "agent5_alignment": 16.862812042236328
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.945816612243654,
+    "total_welfare": 18.945816612243654
+  }
+}

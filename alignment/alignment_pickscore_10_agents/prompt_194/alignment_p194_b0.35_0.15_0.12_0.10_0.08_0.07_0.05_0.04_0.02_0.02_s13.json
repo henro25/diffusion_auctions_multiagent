@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 194,
+    "bids": [
+      0.35,
+      0.15,
+      0.12,
+      0.1,
+      0.08,
+      0.07,
+      0.05,
+      0.04,
+      0.02,
+      0.02
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_10_agents/prompt_194/idx194_b1_0.35_b2_0.15_b3_0.12_b4_0.10_b5_0.08_b6_0.07_b7_0.05_b8_0.04_b9_0.02_b10_0.02_s13.png",
+    "filename": "idx194_b1_0.35_b2_0.15_b3_0.12_b4_0.10_b5_0.08_b6_0.07_b7_0.05_b8_0.04_b9_0.02_b10_0.02_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a climbing wall",
+    "agent1_prompt": "Substack newsletter",
+    "agent2_prompt": "NYX makeup",
+    "agent3_prompt": "YouTube video",
+    "agent4_prompt": "Booking.com",
+    "agent5_prompt": "Callaway golf clubs",
+    "agent6_prompt": "DJI drone",
+    "agent7_prompt": "Lexus ES",
+    "agent8_prompt": "TikTok app",
+    "agent9_prompt": "Audi A4",
+    "agent10_prompt": "CVS pharmacy"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.18357276916504,
+    "agent1_alignment": 17.865135192871094,
+    "agent2_alignment": 16.994646072387695,
+    "agent3_alignment": 19.31874656677246,
+    "agent4_alignment": 17.898576736450195,
+    "agent5_alignment": 17.819599151611328,
+    "agent6_alignment": 17.967348098754883,
+    "agent7_alignment": 15.538925170898438,
+    "agent8_alignment": 18.324935913085938,
+    "agent9_alignment": 16.6640567779541,
+    "agent10_alignment": 17.852371215820312
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.793656044006347,
+    "total_welfare": 17.793656044006347
+  }
+}

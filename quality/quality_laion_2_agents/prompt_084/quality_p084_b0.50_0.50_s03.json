@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 84,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_2_agents/prompt_084/idx084_b1_0.50_b2_0.50_s03.png",
+    "filename": "idx084_b1_0.50_b2_0.50_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a vintage clothing store",
+    "agent1_prompt": "HP laptop",
+    "agent2_prompt": "ExxonMobil gas"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.098156929016113
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "prompt_index": 13,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_10_agents/prompt_013/idx013_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_s04.png",
+    "filename": "idx013_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "A couple shopping at a farmers market",
+    "agent1_prompt": "Costco warehouse",
+    "agent2_prompt": "Expedia booking",
+    "agent3_prompt": "Sprite lemon-lime",
+    "agent4_prompt": "Peet's Coffee mug",
+    "agent5_prompt": "Pandora radio",
+    "agent6_prompt": "Apple Watch",
+    "agent7_prompt": "Shell fuel",
+    "agent8_prompt": "Design Within Reach",
+    "agent9_prompt": "IKEA furniture piece",
+    "agent10_prompt": "Yeti cooler"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.817750930786133
+  }
+}

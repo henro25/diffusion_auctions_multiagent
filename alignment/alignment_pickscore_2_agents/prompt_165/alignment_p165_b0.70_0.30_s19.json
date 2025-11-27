@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 165,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 19,
+    "image_path": "output/images_2_agents/prompt_165/idx165_b1_0.70_b2_0.30_s19.png",
+    "filename": "idx165_b1_0.70_b2_0.30_s19.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a fabric store",
+    "agent1_prompt": "Kelty tent",
+    "agent2_prompt": "Philips light bulb"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.50820541381836,
+    "agent1_alignment": 20.39914894104004,
+    "agent2_alignment": 18.108783721923828
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.712039375305174,
+    "total_welfare": 19.712039375305174
+  }
+}

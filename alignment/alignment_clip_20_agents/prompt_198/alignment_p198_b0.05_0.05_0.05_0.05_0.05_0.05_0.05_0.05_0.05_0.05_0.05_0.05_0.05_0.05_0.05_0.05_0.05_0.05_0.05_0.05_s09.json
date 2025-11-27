@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 198,
+    "bids": [
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_20_agents/prompt_198/idx198_b1_0.05_b2_0.05_b3_0.05_b4_0.05_b5_0.05_b6_0.05_b7_0.05_b8_0.05_b9_0.05_b10_0.05_b11_0.05_b12_0.05_b13_0.05_b14_0.05_b15_0.05_b16_0.05_b17_0.05_b18_0.05_b19_0.05_b20_0.05_s09.png",
+    "filename": "idx198_b1_0.05_b2_0.05_b3_0.05_b4_0.05_b5_0.05_b6_0.05_b7_0.05_b8_0.05_b9_0.05_b10_0.05_b11_0.05_b12_0.05_b13_0.05_b14_0.05_b15_0.05_b16_0.05_b17_0.05_b18_0.05_b19_0.05_b20_0.05_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a glassblowing studio",
+    "agent1_prompt": "CB2 side table",
+    "agent2_prompt": "Southwest flight",
+    "agent3_prompt": "Kroger supermarket",
+    "agent4_prompt": "Clinique skincare",
+    "agent5_prompt": "Fanta orange soda",
+    "agent6_prompt": "Ray-Ban sunglasses",
+    "agent7_prompt": "Echo Dot",
+    "agent8_prompt": "Pizza delivery box",
+    "agent9_prompt": "Garmin GPS",
+    "agent10_prompt": "Best Buy store",
+    "agent11_prompt": "Polo Ralph Lauren shirt",
+    "agent12_prompt": "Keurig coffee maker",
+    "agent13_prompt": "Samsung refrigerator",
+    "agent14_prompt": "Steam gaming platform",
+    "agent15_prompt": "Champagne bottle",
+    "agent16_prompt": "TikTok app",
+    "agent17_prompt": "Yonex tennis racket",
+    "agent18_prompt": "Fitbit smartwatch",
+    "agent19_prompt": "Visa credit card",
+    "agent20_prompt": "Honda Civic"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.1708984375,
+    "agent1_alignment": 0.09326171875,
+    "agent2_alignment": 0.0830078125,
+    "agent3_alignment": 0.11962890625,
+    "agent4_alignment": 0.12060546875,
+    "agent5_alignment": 0.1005859375,
+    "agent6_alignment": 0.08642578125,
+    "agent7_alignment": 0.1748046875,
+    "agent8_alignment": 0.08837890625,
+    "agent9_alignment": 0.12060546875,
+    "agent10_alignment": 0.1552734375,
+    "agent11_alignment": 0.051025390625,
+    "agent12_alignment": 0.1572265625,
+    "agent13_alignment": 0.1708984375,
+    "agent14_alignment": 0.138671875,
+    "agent15_alignment": 0.197265625,
+    "agent16_alignment": 0.126953125,
+    "agent17_alignment": 0.0703125,
+    "agent18_alignment": 0.09716796875,
+    "agent19_alignment": 0.1337890625,
+    "agent20_alignment": 0.08837890625
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.11871337890624994,
+    "total_welfare": 0.11871337890624997
+  }
+}

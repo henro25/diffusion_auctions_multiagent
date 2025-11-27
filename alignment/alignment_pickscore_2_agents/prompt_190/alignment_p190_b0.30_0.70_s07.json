@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 190,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_2_agents/prompt_190/idx190_b1_0.30_b2_0.70_s07.png",
+    "filename": "idx190_b1_0.30_b2_0.70_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a murder mystery party",
+    "agent1_prompt": "Ben & Jerry's ice cream",
+    "agent2_prompt": "Whole Foods market"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.15532684326172,
+    "agent1_alignment": 19.041240692138672,
+    "agent2_alignment": 19.243192672729492
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.182607078552245,
+    "total_welfare": 19.182607078552245
+  }
+}

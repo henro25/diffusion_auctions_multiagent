@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 161,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_5_agents/prompt_161/idx161_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s17.png",
+    "filename": "idx161_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a tax preparation office",
+    "agent1_prompt": "Chevrolet Silverado",
+    "agent2_prompt": "American Airlines",
+    "agent3_prompt": "Big Agnes sleeping bag",
+    "agent4_prompt": "CVS pharmacy",
+    "agent5_prompt": "American Airlines"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.625728607177734,
+    "agent1_alignment": 19.17171287536621,
+    "agent2_alignment": 17.939449310302734,
+    "agent3_alignment": 17.39790153503418,
+    "agent4_alignment": 19.07966423034668,
+    "agent5_alignment": 17.939449310302734
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.17171287536621,
+    "total_welfare": 19.17171287536621
+  }
+}

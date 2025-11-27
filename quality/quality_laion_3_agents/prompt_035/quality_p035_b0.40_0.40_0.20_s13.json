@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "prompt_index": 35,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_3_agents/prompt_035/idx035_b1_0.40_b2_0.40_b3_0.20_s13.png",
+    "filename": "idx035_b1_0.40_b2_0.40_b3_0.20_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "A group of people waiting for a train",
+    "agent1_prompt": "Keurig coffee maker",
+    "agent2_prompt": "Columbia hiking boots",
+    "agent3_prompt": "AutoZone parts"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.266744613647461
+  }
+}

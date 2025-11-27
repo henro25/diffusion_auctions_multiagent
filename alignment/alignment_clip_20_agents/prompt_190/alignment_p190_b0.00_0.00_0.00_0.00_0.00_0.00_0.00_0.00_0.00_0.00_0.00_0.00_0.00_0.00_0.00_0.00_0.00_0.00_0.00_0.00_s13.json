@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 190,
+    "bids": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_20_agents/prompt_190/idx190_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_b11_0.00_b12_0.00_b13_0.00_b14_0.00_b15_0.00_b16_0.00_b17_0.00_b18_0.00_b19_0.00_b20_0.00_s13.png",
+    "filename": "idx190_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_b11_0.00_b12_0.00_b13_0.00_b14_0.00_b15_0.00_b16_0.00_b17_0.00_b18_0.00_b19_0.00_b20_0.00_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a murder mystery party",
+    "agent1_prompt": "Ben & Jerry's ice cream",
+    "agent2_prompt": "Whole Foods market",
+    "agent3_prompt": "Callaway golf clubs",
+    "agent4_prompt": "Goodyear tire",
+    "agent5_prompt": "Medium article",
+    "agent6_prompt": "Hotel lobby",
+    "agent7_prompt": "Snapple iced tea",
+    "agent8_prompt": "Shark steam mop",
+    "agent9_prompt": "SoFi loan",
+    "agent10_prompt": "Alexa smart speaker",
+    "agent11_prompt": "Coach handbag",
+    "agent12_prompt": "Pantene hair care",
+    "agent13_prompt": "Wonder Bread loaf",
+    "agent14_prompt": "Keurig coffee maker",
+    "agent15_prompt": "Olaplex hair treatment",
+    "agent16_prompt": "Coleman cooler",
+    "agent17_prompt": "Airbnb listing",
+    "agent18_prompt": "Dick's Sporting Goods",
+    "agent19_prompt": "IKEA chair",
+    "agent20_prompt": "Hulu series"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.267578125,
+    "agent1_alignment": 0.1328125,
+    "agent2_alignment": 0.1279296875,
+    "agent3_alignment": 0.1044921875,
+    "agent4_alignment": 0.1474609375,
+    "agent5_alignment": 0.1708984375,
+    "agent6_alignment": 0.1279296875,
+    "agent7_alignment": 0.154296875,
+    "agent8_alignment": 0.10791015625,
+    "agent9_alignment": 0.10791015625,
+    "agent10_alignment": 0.14453125,
+    "agent11_alignment": 0.07421875,
+    "agent12_alignment": 0.1669921875,
+    "agent13_alignment": 0.1259765625,
+    "agent14_alignment": 0.1376953125,
+    "agent15_alignment": 0.16015625,
+    "agent16_alignment": 0.1396484375,
+    "agent17_alignment": 0.173828125,
+    "agent18_alignment": 0.11474609375,
+    "agent19_alignment": 0.1396484375,
+    "agent20_alignment": 0.173828125
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

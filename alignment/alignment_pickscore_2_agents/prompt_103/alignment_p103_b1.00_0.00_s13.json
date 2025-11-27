@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 103,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_2_agents/prompt_103/idx103_b1_1.00_b2_0.00_s13.png",
+    "filename": "idx103_b1_1.00_b2_0.00_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at an outdoor movie night",
+    "agent1_prompt": "Visa credit card",
+    "agent2_prompt": "Nest thermostat"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.18410301208496,
+    "agent1_alignment": 18.44544219970703,
+    "agent2_alignment": 17.628597259521484
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.44544219970703,
+    "total_welfare": 18.44544219970703
+  }
+}

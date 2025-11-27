@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 140,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_2_agents/prompt_140/idx140_b1_0.50_b2_0.50_s11.png",
+    "filename": "idx140_b1_0.50_b2_0.50_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a car inspection station",
+    "agent1_prompt": "Medium article",
+    "agent2_prompt": "Columbia jacket"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.034241676330566
+  }
+}

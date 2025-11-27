@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 135,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_3_agents/prompt_135/idx135_b1_0.40_b2_0.40_b3_0.20_s03.png",
+    "filename": "idx135_b1_0.40_b2_0.40_b3_0.20_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a discount department store",
+    "agent1_prompt": "La-Z-Boy recliner",
+    "agent2_prompt": "Bose speaker",
+    "agent3_prompt": "Lyft rideshare"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.547903060913086,
+    "agent1_alignment": 18.711898803710938,
+    "agent2_alignment": 19.124465942382812,
+    "agent3_alignment": 19.30731964111328
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.996009826660156,
+    "total_welfare": 18.996009826660156
+  }
+}

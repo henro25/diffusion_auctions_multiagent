@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 63,
+    "bids": [
+      0.0,
+      0.0
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_2_agents/prompt_063/idx063_b1_0.00_b2_0.00_s17.png",
+    "filename": "idx063_b1_0.00_b2_0.00_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "A person trying on clothes in a fitting room",
+    "agent1_prompt": "Nest thermostat",
+    "agent2_prompt": "New Balance shoes"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.198177337646484,
+    "agent1_alignment": 17.109540939331055,
+    "agent2_alignment": 17.535127639770508
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

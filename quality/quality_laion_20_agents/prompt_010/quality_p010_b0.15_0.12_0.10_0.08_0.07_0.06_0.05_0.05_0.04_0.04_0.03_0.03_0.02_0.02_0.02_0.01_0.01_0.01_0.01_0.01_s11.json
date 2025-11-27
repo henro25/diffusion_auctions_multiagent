@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "prompt_index": 10,
+    "bids": [
+      0.15,
+      0.12,
+      0.1,
+      0.08,
+      0.07,
+      0.06,
+      0.05,
+      0.05,
+      0.04,
+      0.04,
+      0.03,
+      0.03,
+      0.02,
+      0.02,
+      0.02,
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_20_agents/prompt_010/idx010_b1_0.15_b2_0.12_b3_0.10_b4_0.08_b5_0.07_b6_0.06_b7_0.05_b8_0.05_b9_0.04_b10_0.04_b11_0.03_b12_0.03_b13_0.02_b14_0.02_b15_0.02_b16_0.01_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s11.png",
+    "filename": "idx010_b1_0.15_b2_0.12_b3_0.10_b4_0.08_b5_0.07_b6_0.06_b7_0.05_b8_0.05_b9_0.04_b10_0.04_b11_0.03_b12_0.03_b13_0.02_b14_0.02_b15_0.02_b16_0.01_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "A man waiting at a bus stop",
+    "agent1_prompt": "Oakley sunglasses",
+    "agent2_prompt": "BMW sedan",
+    "agent3_prompt": "Google Pay",
+    "agent4_prompt": "Instant Pot appliance",
+    "agent5_prompt": "Coleman cooler",
+    "agent6_prompt": "Yonex tennis racket",
+    "agent7_prompt": "Macy's department",
+    "agent8_prompt": "iPad device",
+    "agent9_prompt": "Kindle e-reader",
+    "agent10_prompt": "Dyson vacuum",
+    "agent11_prompt": "Steelcase office chair",
+    "agent12_prompt": "Gregory pack",
+    "agent13_prompt": "La-Z-Boy recliner",
+    "agent14_prompt": "Marriott key card",
+    "agent15_prompt": "Hulu series",
+    "agent16_prompt": "Champagne bottle",
+    "agent17_prompt": "Redken hair care",
+    "agent18_prompt": "Instagram story",
+    "agent19_prompt": "Visa credit card",
+    "agent20_prompt": "Oreo cookie package"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.939722061157227
+  }
+}

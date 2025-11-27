@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "prompt_index": 148,
+    "bids": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_3_agents/prompt_148/idx148_b1_0.00_b2_0.00_b3_1.00_s01.png",
+    "filename": "idx148_b1_0.00_b2_0.00_b3_1.00_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a backyard swimming pool",
+    "agent1_prompt": "Mobil 1 motor oil",
+    "agent2_prompt": "Stella Artois draft",
+    "agent3_prompt": "Dyson hair dryer"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 3.586899757385254
+  }
+}

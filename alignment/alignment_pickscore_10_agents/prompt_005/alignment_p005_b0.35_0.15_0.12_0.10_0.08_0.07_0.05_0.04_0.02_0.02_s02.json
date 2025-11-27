@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 5,
+    "bids": [
+      0.35,
+      0.15,
+      0.12,
+      0.1,
+      0.08,
+      0.07,
+      0.05,
+      0.04,
+      0.02,
+      0.02
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_10_agents/prompt_005/idx005_b1_0.35_b2_0.15_b3_0.12_b4_0.10_b5_0.08_b6_0.07_b7_0.05_b8_0.04_b9_0.02_b10_0.02_s02.png",
+    "filename": "idx005_b1_0.35_b2_0.15_b3_0.12_b4_0.10_b5_0.08_b6_0.07_b7_0.05_b8_0.04_b9_0.02_b10_0.02_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "A woman with a tray of food at a cafeteria",
+    "agent1_prompt": "Shell fuel",
+    "agent2_prompt": "Peet's Coffee mug",
+    "agent3_prompt": "USA Today paper",
+    "agent4_prompt": "Prada bag",
+    "agent5_prompt": "Kroger supermarket",
+    "agent6_prompt": "Yeti cooler",
+    "agent7_prompt": "Fitbit smartwatch",
+    "agent8_prompt": "Wells Fargo check",
+    "agent9_prompt": "Marriott key card",
+    "agent10_prompt": "Regal Cinemas"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.970033645629883,
+    "agent1_alignment": 19.232622146606445,
+    "agent2_alignment": 17.842914581298828,
+    "agent3_alignment": 18.063026428222656,
+    "agent4_alignment": 17.94584846496582,
+    "agent5_alignment": 18.057506561279297,
+    "agent6_alignment": 17.937816619873047,
+    "agent7_alignment": 17.77984046936035,
+    "agent8_alignment": 18.052284240722656,
+    "agent9_alignment": 16.886402130126953,
+    "agent10_alignment": 19.172395706176758
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.402509994506833,
+    "total_welfare": 18.402509994506833
+  }
+}

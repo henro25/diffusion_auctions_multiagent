@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 29,
+    "bids": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_3_agents/prompt_029/idx029_b1_1.00_b2_0.00_b3_0.00_s13.png",
+    "filename": "idx029_b1_1.00_b2_0.00_b3_0.00_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "A group of people at a music concert",
+    "agent1_prompt": "Camelback water pack",
+    "agent2_prompt": "Merrell hiking shoes",
+    "agent3_prompt": "Keurig coffee maker"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.6076717376709,
+    "agent1_alignment": 20.073837280273438,
+    "agent2_alignment": 18.41887092590332,
+    "agent3_alignment": 17.43597412109375
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.073837280273438,
+    "total_welfare": 20.073837280273438
+  }
+}

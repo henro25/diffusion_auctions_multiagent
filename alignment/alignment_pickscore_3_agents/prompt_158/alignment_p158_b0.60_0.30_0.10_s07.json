@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 158,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_3_agents/prompt_158/idx158_b1_0.60_b2_0.30_b3_0.10_s07.png",
+    "filename": "idx158_b1_0.60_b2_0.30_b3_0.10_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a mattress store",
+    "agent1_prompt": "Wine glass",
+    "agent2_prompt": "Cappuccino drink",
+    "agent3_prompt": "Hilton Hotel"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.557416915893555,
+    "agent1_alignment": 20.658960342407227,
+    "agent2_alignment": 19.224884033203125,
+    "agent3_alignment": 18.79092025756836
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.041933441162115,
+    "total_welfare": 20.04193344116211
+  }
+}

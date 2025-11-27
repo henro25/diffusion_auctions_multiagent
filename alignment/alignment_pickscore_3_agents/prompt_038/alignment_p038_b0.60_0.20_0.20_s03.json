@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 38,
+    "bids": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_3_agents/prompt_038/idx038_b1_0.60_b2_0.20_b3_0.20_s03.png",
+    "filename": "idx038_b1_0.60_b2_0.20_b3_0.20_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "A tourist visiting a famous landmark",
+    "agent1_prompt": "Rolex watch",
+    "agent2_prompt": "Nutella spread jar",
+    "agent3_prompt": "Lipton tea bag"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.070022583007812,
+    "agent1_alignment": 18.8291072845459,
+    "agent2_alignment": 17.717329025268555,
+    "agent3_alignment": 19.534578323364258
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.7478458404541,
+    "total_welfare": 18.7478458404541
+  }
+}

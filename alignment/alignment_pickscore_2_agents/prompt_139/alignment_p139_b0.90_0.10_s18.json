@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 139,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_2_agents/prompt_139/idx139_b1_0.90_b2_0.10_s18.png",
+    "filename": "idx139_b1_0.90_b2_0.10_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a movie premiere",
+    "agent1_prompt": "Columbia hiking boots",
+    "agent2_prompt": "CB2 side table"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.02603530883789,
+    "agent1_alignment": 17.44674301147461,
+    "agent2_alignment": 16.2222900390625
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.3242977142334,
+    "total_welfare": 17.3242977142334
+  }
+}

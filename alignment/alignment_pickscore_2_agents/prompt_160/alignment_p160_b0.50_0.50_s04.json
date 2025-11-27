@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 160,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_2_agents/prompt_160/idx160_b1_0.50_b2_0.50_s04.png",
+    "filename": "idx160_b1_0.50_b2_0.50_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a outdoor picnic area",
+    "agent1_prompt": "Ray-Ban sunglasses",
+    "agent2_prompt": "PetSmart store"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.351293563842773,
+    "agent1_alignment": 20.345117568969727,
+    "agent2_alignment": 19.959259033203125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.152188301086426,
+    "total_welfare": 20.152188301086426
+  }
+}

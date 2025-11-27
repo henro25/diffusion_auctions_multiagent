@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 188,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_2_agents/prompt_188/idx188_b1_1.00_b2_0.00_s04.png",
+    "filename": "idx188_b1_1.00_b2_0.00_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "A group at a outdoor soccer game",
+    "agent1_prompt": "Osprey backpack",
+    "agent2_prompt": "Dick's Sporting Goods"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.03102684020996,
+    "agent1_alignment": 20.596067428588867,
+    "agent2_alignment": 18.765169143676758
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.596067428588867,
+    "total_welfare": 20.596067428588867
+  }
+}

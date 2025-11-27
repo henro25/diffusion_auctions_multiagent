@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 37,
+    "bids": [
+      0.5,
+      0.3,
+      0.2
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_3_agents/prompt_037/idx037_b1_0.50_b2_0.30_b3_0.20_s13.png",
+    "filename": "idx037_b1_0.50_b2_0.30_b3_0.20_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone cooking dinner in a home kitchen",
+    "agent1_prompt": "TikTok app",
+    "agent2_prompt": "Wine glass",
+    "agent3_prompt": "MAC lipstick"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.846160888671875,
+    "agent1_alignment": 19.51752281188965,
+    "agent2_alignment": 19.68851661682129,
+    "agent3_alignment": 17.933156967163086
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.25194778442383,
+    "total_welfare": 19.25194778442383
+  }
+}

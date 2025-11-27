@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 162,
+    "bids": [
+      0.5,
+      0.25,
+      0.15,
+      0.07,
+      0.03
+    ],
+    "sample_index": 0,
+    "image_path": "output/images_5_agents/prompt_162/idx162_b1_0.50_b2_0.25_b3_0.15_b4_0.07_b5_0.03_s00.png",
+    "filename": "idx162_b1_0.50_b2_0.25_b3_0.15_b4_0.07_b5_0.03_s00.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a glassblowing studio",
+    "agent1_prompt": "Knoll furniture",
+    "agent2_prompt": "Coleman camping tent",
+    "agent3_prompt": "Gap clothing store",
+    "agent4_prompt": "Prada bag",
+    "agent5_prompt": "Dyson Supersonic dryer"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.023759841918945,
+    "agent1_alignment": 18.62551498413086,
+    "agent2_alignment": 19.631763458251953,
+    "agent3_alignment": 17.289236068725586,
+    "agent4_alignment": 16.78497314453125,
+    "agent5_alignment": 18.88404655456543
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.555553283691403,
+    "total_welfare": 18.555553283691403
+  }
+}

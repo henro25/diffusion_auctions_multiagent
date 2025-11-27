@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 43,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_2_agents/prompt_043/idx043_b1_1.00_b2_0.00_s13.png",
+    "filename": "idx043_b1_1.00_b2_0.00_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a car service station",
+    "agent1_prompt": "Ramen noodle packet",
+    "agent2_prompt": "Pottery Barn shelving"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.967605590820312,
+    "agent1_alignment": 20.45262908935547,
+    "agent2_alignment": 14.688985824584961
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.45262908935547,
+    "total_welfare": 20.45262908935547
+  }
+}

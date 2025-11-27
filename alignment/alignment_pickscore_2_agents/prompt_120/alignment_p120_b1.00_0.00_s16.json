@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 120,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_2_agents/prompt_120/idx120_b1_1.00_b2_0.00_s16.png",
+    "filename": "idx120_b1_1.00_b2_0.00_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a gift shop",
+    "agent1_prompt": "Espresso cup",
+    "agent2_prompt": "IKEA chair"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.29343032836914,
+    "agent1_alignment": 19.25262451171875,
+    "agent2_alignment": 17.02228546142578
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.25262451171875,
+    "total_welfare": 19.25262451171875
+  }
+}

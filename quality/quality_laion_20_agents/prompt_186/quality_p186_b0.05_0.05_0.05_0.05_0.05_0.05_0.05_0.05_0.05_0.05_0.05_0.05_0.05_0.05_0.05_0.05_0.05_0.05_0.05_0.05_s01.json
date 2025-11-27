@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "prompt_index": 186,
+    "bids": [
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_20_agents/prompt_186/idx186_b1_0.05_b2_0.05_b3_0.05_b4_0.05_b5_0.05_b6_0.05_b7_0.05_b8_0.05_b9_0.05_b10_0.05_b11_0.05_b12_0.05_b13_0.05_b14_0.05_b15_0.05_b16_0.05_b17_0.05_b18_0.05_b19_0.05_b20_0.05_s01.png",
+    "filename": "idx186_b1_0.05_b2_0.05_b3_0.05_b4_0.05_b5_0.05_b6_0.05_b7_0.05_b8_0.05_b9_0.05_b10_0.05_b11_0.05_b12_0.05_b13_0.05_b14_0.05_b15_0.05_b16_0.05_b17_0.05_b18_0.05_b19_0.05_b20_0.05_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a batting cage",
+    "agent1_prompt": "Spotify music playlist",
+    "agent2_prompt": "Adidas Superstar sneakers",
+    "agent3_prompt": "DJI drone",
+    "agent4_prompt": "USM Haller",
+    "agent5_prompt": "Amazon Prime logo",
+    "agent6_prompt": "Spalding basketball",
+    "agent7_prompt": "Sonos speaker system",
+    "agent8_prompt": "Expedia booking",
+    "agent9_prompt": "Xbox Series X",
+    "agent10_prompt": "Corona beer bottle",
+    "agent11_prompt": "Dyson hair dryer",
+    "agent12_prompt": "Camelback water pack",
+    "agent13_prompt": "Barista apron",
+    "agent14_prompt": "Honda Civic",
+    "agent15_prompt": "Stripe payment",
+    "agent16_prompt": "YouTube channel",
+    "agent17_prompt": "Est\u00e9e Lauder moisturizer",
+    "agent18_prompt": "Steelcase office chair",
+    "agent19_prompt": "TaylorMade golf balls",
+    "agent20_prompt": "Bacon strips"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.657966613769531
+  }
+}

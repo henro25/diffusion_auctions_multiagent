@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 179,
+    "bids": [
+      0.4,
+      0.3,
+      0.2,
+      0.05,
+      0.05
+    ],
+    "sample_index": 0,
+    "image_path": "output/images_5_agents/prompt_179/idx179_b1_0.40_b2_0.30_b3_0.20_b4_0.05_b5_0.05_s00.png",
+    "filename": "idx179_b1_0.40_b2_0.30_b3_0.20_b4_0.05_b5_0.05_s00.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a wine tasting event",
+    "agent1_prompt": "Steam gaming platform",
+    "agent2_prompt": "Tempur-Pedic mattress",
+    "agent3_prompt": "Jeep Wrangler",
+    "agent4_prompt": "Osprey backpack",
+    "agent5_prompt": "Rocket Mortgage"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.3675594329834,
+    "agent1_alignment": 18.614355087280273,
+    "agent2_alignment": 19.944631576538086,
+    "agent3_alignment": 17.95278549194336,
+    "agent4_alignment": 19.034706115722656,
+    "agent5_alignment": 18.488422393798828
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.895845031738283,
+    "total_welfare": 18.895845031738283
+  }
+}

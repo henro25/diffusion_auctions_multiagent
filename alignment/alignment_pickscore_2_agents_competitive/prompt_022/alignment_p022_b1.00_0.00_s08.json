@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 22,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_2_agents_competitive/prompt_022/idx022_b1_1.00_b2_0.00_s08.png",
+    "filename": "idx022_b1_1.00_b2_0.00_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "A person wearing a hoodie at a college campus",
+    "agent1_prompt": "Champion hoodie",
+    "agent2_prompt": "Nike hoodie"
+  },
+  "alignment_scores": {
+    "base_alignment": 24.296306610107422,
+    "agent1_alignment": 20.95716667175293,
+    "agent2_alignment": 19.424598693847656
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.95716667175293,
+    "total_welfare": 20.95716667175293
+  }
+}

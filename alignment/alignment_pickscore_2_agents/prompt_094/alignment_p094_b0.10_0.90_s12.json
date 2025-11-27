@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 94,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 12,
+    "image_path": "output/images_2_agents/prompt_094/idx094_b1_0.10_b2_0.90_s12.png",
+    "filename": "idx094_b1_0.10_b2_0.90_s12.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at an escape room",
+    "agent1_prompt": "Blue Bottle coffee",
+    "agent2_prompt": "Orange juice carton"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.007326126098633,
+    "agent1_alignment": 19.228309631347656,
+    "agent2_alignment": 20.20107650756836
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.10379981994629,
+    "total_welfare": 20.10379981994629
+  }
+}

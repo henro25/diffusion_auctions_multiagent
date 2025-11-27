@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 167,
+    "bids": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_5_agents/prompt_167/idx167_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s04.png",
+    "filename": "idx167_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a financial advisor office",
+    "agent1_prompt": "Jif peanut butter",
+    "agent2_prompt": "Wall Street Journal",
+    "agent3_prompt": "REI backpack",
+    "agent4_prompt": "Delta airline",
+    "agent5_prompt": "Ford F-150 truck"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.655712127685547,
+    "agent1_alignment": 18.163158416748047,
+    "agent2_alignment": 18.494169235229492,
+    "agent3_alignment": 18.186941146850586,
+    "agent4_alignment": 18.946006774902344,
+    "agent5_alignment": 18.288631439208984
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

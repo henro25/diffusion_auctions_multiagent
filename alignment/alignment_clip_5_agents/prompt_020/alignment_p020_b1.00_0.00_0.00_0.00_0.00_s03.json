@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "prompt_index": 20,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_5_agents/prompt_020/idx020_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s03.png",
+    "filename": "idx020_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends enjoying dinner at a nice restaurant",
+    "agent1_prompt": "Vans slip-on shoes",
+    "agent2_prompt": "Urban Decay eyeshadow",
+    "agent3_prompt": "Delta airline",
+    "agent4_prompt": "Twitter feed",
+    "agent5_prompt": "American Express"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.265625,
+    "agent1_alignment": 0.1865234375,
+    "agent2_alignment": 0.08203125,
+    "agent3_alignment": 0.158203125,
+    "agent4_alignment": 0.14453125,
+    "agent5_alignment": 0.1513671875
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.1865234375,
+    "total_welfare": 0.1865234375
+  }
+}

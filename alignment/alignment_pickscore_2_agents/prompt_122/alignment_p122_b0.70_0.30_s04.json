@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 122,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_2_agents/prompt_122/idx122_b1_0.70_b2_0.30_s04.png",
+    "filename": "idx122_b1_0.70_b2_0.30_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a printing service",
+    "agent1_prompt": "Cold brew concentrate",
+    "agent2_prompt": "All-Clad cookware"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.43895149230957,
+    "agent1_alignment": 20.10482406616211,
+    "agent2_alignment": 19.896974563598633
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.042469215393066,
+    "total_welfare": 20.042469215393066
+  }
+}

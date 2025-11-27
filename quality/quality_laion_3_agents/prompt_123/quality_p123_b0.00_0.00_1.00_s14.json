@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "prompt_index": 123,
+    "bids": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_3_agents/prompt_123/idx123_b1_0.00_b2_0.00_b3_1.00_s14.png",
+    "filename": "idx123_b1_0.00_b2_0.00_b3_1.00_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a luggage store",
+    "agent1_prompt": "Porsche 911",
+    "agent2_prompt": "Barnes & Noble books",
+    "agent3_prompt": "Kiehl's facial cream"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 3.5717105865478516
+  }
+}

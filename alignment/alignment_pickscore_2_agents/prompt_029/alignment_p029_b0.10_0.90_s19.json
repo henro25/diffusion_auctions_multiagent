@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 29,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 19,
+    "image_path": "output/images_2_agents/prompt_029/idx029_b1_0.10_b2_0.90_s19.png",
+    "filename": "idx029_b1_0.10_b2_0.90_s19.png"
+  },
+  "prompts": {
+    "base_prompt": "A group of people at a music concert",
+    "agent1_prompt": "Camelback water pack",
+    "agent2_prompt": "Merrell hiking shoes"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.632070541381836,
+    "agent1_alignment": 18.232860565185547,
+    "agent2_alignment": 19.263944625854492
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.160836219787598,
+    "total_welfare": 19.160836219787598
+  }
+}

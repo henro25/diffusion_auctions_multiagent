@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 199,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 12,
+    "image_path": "output/images_10_agents/prompt_199/idx199_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_s12.png",
+    "filename": "idx199_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_s12.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a community center",
+    "agent1_prompt": "Samsung refrigerator",
+    "agent2_prompt": "Microsoft Surface laptop",
+    "agent3_prompt": "New Balance shoes",
+    "agent4_prompt": "YouTube video",
+    "agent5_prompt": "Instagram story",
+    "agent6_prompt": "Vitra chair",
+    "agent7_prompt": "Enterprise car",
+    "agent8_prompt": "Jeep Wrangler",
+    "agent9_prompt": "Converse Chuck Taylor",
+    "agent10_prompt": "Barnes & Noble books"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.25560188293457,
+    "agent1_alignment": 21.657920837402344,
+    "agent2_alignment": 17.317249298095703,
+    "agent3_alignment": 18.364349365234375,
+    "agent4_alignment": 18.732641220092773,
+    "agent5_alignment": 20.35382843017578,
+    "agent6_alignment": 18.593400955200195,
+    "agent7_alignment": 18.76515769958496,
+    "agent8_alignment": 17.839143753051758,
+    "agent9_alignment": 19.065671920776367,
+    "agent10_alignment": 18.53070068359375
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 21.657920837402344,
+    "total_welfare": 21.657920837402344
+  }
+}

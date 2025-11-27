@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 179,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_2_agents/prompt_179/idx179_b1_0.70_b2_0.30_s02.png",
+    "filename": "idx179_b1_0.70_b2_0.30_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a wine tasting event",
+    "agent1_prompt": "Steam gaming platform",
+    "agent2_prompt": "Tempur-Pedic mattress"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.022361755371094,
+    "agent1_alignment": 18.19937515258789,
+    "agent2_alignment": 18.824504852294922
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.3869140625,
+    "total_welfare": 18.3869140625
+  }
+}

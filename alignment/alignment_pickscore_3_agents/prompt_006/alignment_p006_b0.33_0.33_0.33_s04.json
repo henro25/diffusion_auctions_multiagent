@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 6,
+    "bids": [
+      0.33,
+      0.33,
+      0.33
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_3_agents/prompt_006/idx006_b1_0.33_b2_0.33_b3_0.33_s04.png",
+    "filename": "idx006_b1_0.33_b2_0.33_b3_0.33_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "A person walking down a city street",
+    "agent1_prompt": "Bang & Olufsen speaker",
+    "agent2_prompt": "Big Agnes sleeping bag",
+    "agent3_prompt": "USM Haller"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.51790428161621,
+    "agent1_alignment": 19.38715362548828,
+    "agent2_alignment": 19.964401245117188,
+    "agent3_alignment": 19.82131576538086
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.72429021199544,
+    "total_welfare": 19.52704730987549
+  }
+}

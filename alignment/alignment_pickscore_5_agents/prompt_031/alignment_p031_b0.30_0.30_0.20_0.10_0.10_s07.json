@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 31,
+    "bids": [
+      0.3,
+      0.3,
+      0.2,
+      0.1,
+      0.1
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_5_agents/prompt_031/idx031_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s07.png",
+    "filename": "idx031_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone packing luggage for a trip",
+    "agent1_prompt": "Samsung refrigerator",
+    "agent2_prompt": "Stella Artois draft",
+    "agent3_prompt": "Cryptocurrency symbol",
+    "agent4_prompt": "Salomon ski boots",
+    "agent5_prompt": "GoPro camera"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.565185546875,
+    "agent1_alignment": 18.843894958496094,
+    "agent2_alignment": 19.134166717529297,
+    "agent3_alignment": 19.406814575195312,
+    "agent4_alignment": 17.224090576171875,
+    "agent5_alignment": 17.991228103637695
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.796313285827637,
+    "total_welfare": 18.796313285827637
+  }
+}

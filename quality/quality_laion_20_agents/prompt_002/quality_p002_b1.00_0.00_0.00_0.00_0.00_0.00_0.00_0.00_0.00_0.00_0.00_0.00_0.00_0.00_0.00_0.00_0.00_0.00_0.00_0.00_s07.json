@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "prompt_index": 2,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_20_agents/prompt_002/idx002_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_b11_0.00_b12_0.00_b13_0.00_b14_0.00_b15_0.00_b16_0.00_b17_0.00_b18_0.00_b19_0.00_b20_0.00_s07.png",
+    "filename": "idx002_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_b11_0.00_b12_0.00_b13_0.00_b14_0.00_b15_0.00_b16_0.00_b17_0.00_b18_0.00_b19_0.00_b20_0.00_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "A person relaxing on a living-room sofa",
+    "agent1_prompt": "Clinique skincare",
+    "agent2_prompt": "Hulu series",
+    "agent3_prompt": "Nest thermostat",
+    "agent4_prompt": "YouTube channel",
+    "agent5_prompt": "Article sofa",
+    "agent6_prompt": "iPhone smartphone",
+    "agent7_prompt": "Macy's department",
+    "agent8_prompt": "Osprey pack",
+    "agent9_prompt": "Cappuccino drink",
+    "agent10_prompt": "Corona beer bottle",
+    "agent11_prompt": "Google Pay",
+    "agent12_prompt": "Chevrolet Silverado",
+    "agent13_prompt": "Pottery Barn decorations",
+    "agent14_prompt": "Luggage suitcase",
+    "agent15_prompt": "Subway sandwich",
+    "agent16_prompt": "Hydroflask water bottle",
+    "agent17_prompt": "Nike running shoes",
+    "agent18_prompt": "Timberland boots",
+    "agent19_prompt": "Oakley sunglasses",
+    "agent20_prompt": "Hotel lobby"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.653962135314941
+  }
+}

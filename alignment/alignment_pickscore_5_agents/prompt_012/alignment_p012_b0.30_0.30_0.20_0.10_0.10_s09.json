@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 12,
+    "bids": [
+      0.3,
+      0.3,
+      0.2,
+      0.1,
+      0.1
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_5_agents/prompt_012/idx012_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s09.png",
+    "filename": "idx012_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "A chef cooking in a restaurant kitchen",
+    "agent1_prompt": "Ford F-150 truck",
+    "agent2_prompt": "Wells Fargo check",
+    "agent3_prompt": "Coffee table",
+    "agent4_prompt": "Lexus ES",
+    "agent5_prompt": "Fitbit smartwatch"
+  },
+  "alignment_scores": {
+    "base_alignment": 17.858409881591797,
+    "agent1_alignment": 19.034862518310547,
+    "agent2_alignment": 20.860654830932617,
+    "agent3_alignment": 17.30656623840332,
+    "agent4_alignment": 18.129392623901367,
+    "agent5_alignment": 17.919727325439453
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.034880447387696,
+    "total_welfare": 19.034880447387696
+  }
+}

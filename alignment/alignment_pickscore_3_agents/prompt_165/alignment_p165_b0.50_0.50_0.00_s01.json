@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 165,
+    "bids": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_3_agents/prompt_165/idx165_b1_0.50_b2_0.50_b3_0.00_s01.png",
+    "filename": "idx165_b1_0.50_b2_0.50_b3_0.00_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a fabric store",
+    "agent1_prompt": "Kelty tent",
+    "agent2_prompt": "Philips light bulb",
+    "agent3_prompt": "Nutella spread jar"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.447107315063477,
+    "agent1_alignment": 19.863584518432617,
+    "agent2_alignment": 20.223817825317383,
+    "agent3_alignment": 17.325654983520508
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.043701171875,
+    "total_welfare": 20.043701171875
+  }
+}

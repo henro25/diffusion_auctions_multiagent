@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 34,
+    "bids": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "sample_index": 15,
+    "image_path": "output/images_5_agents/prompt_034/idx034_b1_0.20_b2_0.20_b3_0.20_b4_0.20_b5_0.20_s15.png",
+    "filename": "idx034_b1_0.20_b2_0.20_b3_0.20_b4_0.20_b5_0.20_s15.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone taking a break at a workplace",
+    "agent1_prompt": "Netflix streaming",
+    "agent2_prompt": "Ben & Jerry's ice cream",
+    "agent3_prompt": "Arc'teryx backpack",
+    "agent4_prompt": "PetSmart store",
+    "agent5_prompt": "Bang & Olufsen speaker"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.17310333251953,
+    "agent1_alignment": 19.076868057250977,
+    "agent2_alignment": 19.22824478149414,
+    "agent3_alignment": 18.789518356323242,
+    "agent4_alignment": 19.19028663635254,
+    "agent5_alignment": 20.143922805786133
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.285768127441408,
+    "total_welfare": 19.285768127441408
+  }
+}

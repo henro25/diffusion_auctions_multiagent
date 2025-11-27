@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 197,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 0,
+    "image_path": "output/images_2_agents/prompt_197/idx197_b1_0.90_b2_0.10_s00.png",
+    "filename": "idx197_b1_0.90_b2_0.10_s00.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a horseback riding stable",
+    "agent1_prompt": "Revlon cosmetics",
+    "agent2_prompt": "Sony headphones"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.429346084594727,
+    "agent1_alignment": 17.297954559326172,
+    "agent2_alignment": 17.44009017944336
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.31216812133789,
+    "total_welfare": 17.31216812133789
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 11,
+    "bids": [
+      0.25,
+      0.2,
+      0.15,
+      0.12,
+      0.1,
+      0.08,
+      0.05,
+      0.03,
+      0.01,
+      0.01
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_10_agents/prompt_011/idx011_b1_0.25_b2_0.20_b3_0.15_b4_0.12_b5_0.10_b6_0.08_b7_0.05_b8_0.03_b9_0.01_b10_0.01_s06.png",
+    "filename": "idx011_b1_0.25_b2_0.20_b3_0.15_b4_0.12_b5_0.10_b6_0.08_b7_0.05_b8_0.03_b9_0.01_b10_0.01_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "A student studying in a university library",
+    "agent1_prompt": "Aquafina water",
+    "agent2_prompt": "CeraVe moisturizer",
+    "agent3_prompt": "Coleman camping tent",
+    "agent4_prompt": "Wayfair furniture",
+    "agent5_prompt": "Kiehl's facial cream",
+    "agent6_prompt": "New Balance shoes",
+    "agent7_prompt": "Walgreens pharmacy",
+    "agent8_prompt": "HBO Max show",
+    "agent9_prompt": "Tropicana juice",
+    "agent10_prompt": "Book cover"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.68586540222168,
+    "agent1_alignment": 18.7846736907959,
+    "agent2_alignment": 18.078781127929688,
+    "agent3_alignment": 19.262243270874023,
+    "agent4_alignment": 18.801776885986328,
+    "agent5_alignment": 18.69187355041504,
+    "agent6_alignment": 17.955989837646484,
+    "agent7_alignment": 18.90869903564453,
+    "agent8_alignment": 19.28117561340332,
+    "agent9_alignment": 18.455129623413086,
+    "agent10_alignment": 18.03864097595215
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.651948833465575,
+    "total_welfare": 18.651948833465575
+  }
+}

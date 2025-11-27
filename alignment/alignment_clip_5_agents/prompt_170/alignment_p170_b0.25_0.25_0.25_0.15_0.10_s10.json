@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "prompt_index": 170,
+    "bids": [
+      0.25,
+      0.25,
+      0.25,
+      0.15,
+      0.1
+    ],
+    "sample_index": 10,
+    "image_path": "output/images_5_agents/prompt_170/idx170_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s10.png",
+    "filename": "idx170_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s10.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a wedding dress boutique",
+    "agent1_prompt": "Pottery Barn shelving",
+    "agent2_prompt": "Keen boots",
+    "agent3_prompt": "Ray-Ban sunglasses",
+    "agent4_prompt": "Bosch dishwasher",
+    "agent5_prompt": "Venmo app"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.23046875,
+    "agent1_alignment": 0.09912109375,
+    "agent2_alignment": 0.1005859375,
+    "agent3_alignment": 0.15234375,
+    "agent4_alignment": 0.08203125,
+    "agent5_alignment": 0.1513671875
+  },
+  "quality_assessment": {
+    "clip_quality": 0.498046875
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.1154541015625,
+    "total_welfare": 0.1154541015625
+  }
+}

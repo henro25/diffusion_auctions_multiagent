@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 134,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_3_agents/prompt_134/idx134_b1_0.60_b2_0.30_b3_0.10_s05.png",
+    "filename": "idx134_b1_0.60_b2_0.30_b3_0.10_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a veterinary clinic",
+    "agent1_prompt": "Rocket Mortgage",
+    "agent2_prompt": "French press pot",
+    "agent3_prompt": "Chevrolet Silverado"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.734525680541992,
+    "agent1_alignment": 17.61590576171875,
+    "agent2_alignment": 19.152873992919922,
+    "agent3_alignment": 16.3126163482666
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.94666728973389,
+    "total_welfare": 17.946667289733888
+  }
+}

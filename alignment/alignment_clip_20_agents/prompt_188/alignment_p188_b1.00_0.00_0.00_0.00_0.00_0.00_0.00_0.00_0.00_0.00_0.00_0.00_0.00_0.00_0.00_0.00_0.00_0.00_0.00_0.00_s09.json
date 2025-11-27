@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 188,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_20_agents/prompt_188/idx188_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_b11_0.00_b12_0.00_b13_0.00_b14_0.00_b15_0.00_b16_0.00_b17_0.00_b18_0.00_b19_0.00_b20_0.00_s09.png",
+    "filename": "idx188_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_b11_0.00_b12_0.00_b13_0.00_b14_0.00_b15_0.00_b16_0.00_b17_0.00_b18_0.00_b19_0.00_b20_0.00_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "A group at a outdoor soccer game",
+    "agent1_prompt": "Osprey backpack",
+    "agent2_prompt": "Dick's Sporting Goods",
+    "agent3_prompt": "Coffee foam art",
+    "agent4_prompt": "USM Haller",
+    "agent5_prompt": "Columbia jacket",
+    "agent6_prompt": "Amazon book",
+    "agent7_prompt": "Lowe's store",
+    "agent8_prompt": "Arizona tea",
+    "agent9_prompt": "AirPods headphones",
+    "agent10_prompt": "Patagonia hiking pants",
+    "agent11_prompt": "Range Rover vehicle",
+    "agent12_prompt": "Rocket Mortgage",
+    "agent13_prompt": "Iced coffee",
+    "agent14_prompt": "Nintendo Switch",
+    "agent15_prompt": "Southwest flight",
+    "agent16_prompt": "McDonald's burger",
+    "agent17_prompt": "Tempur-Pedic mattress",
+    "agent18_prompt": "Oreo cookie package",
+    "agent19_prompt": "Booking.com",
+    "agent20_prompt": "Dove body wash"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.224609375,
+    "agent1_alignment": 0.1669921875,
+    "agent2_alignment": 0.134765625,
+    "agent3_alignment": 0.031982421875,
+    "agent4_alignment": 0.10595703125,
+    "agent5_alignment": 0.138671875,
+    "agent6_alignment": 0.09814453125,
+    "agent7_alignment": 0.07470703125,
+    "agent8_alignment": 0.07470703125,
+    "agent9_alignment": 0.1015625,
+    "agent10_alignment": 0.07080078125,
+    "agent11_alignment": 0.0859375,
+    "agent12_alignment": 0.095703125,
+    "agent13_alignment": 0.09619140625,
+    "agent14_alignment": 0.11279296875,
+    "agent15_alignment": 0.11279296875,
+    "agent16_alignment": 0.08251953125,
+    "agent17_alignment": 0.07177734375,
+    "agent18_alignment": 0.1201171875,
+    "agent19_alignment": 0.119140625,
+    "agent20_alignment": 0.05908203125
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.1669921875,
+    "total_welfare": 0.1669921875
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 30,
+    "bids": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_3_agents/prompt_030/idx030_b1_0.50_b2_0.50_b3_0.00_s11.png",
+    "filename": "idx030_b1_0.50_b2_0.50_b3_0.00_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "A person relaxing at a swimming pool",
+    "agent1_prompt": "Fitbit smartwatch",
+    "agent2_prompt": "Blue Bottle coffee",
+    "agent3_prompt": "Toyota Camry"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.12550163269043,
+    "agent1_alignment": 19.6549072265625,
+    "agent2_alignment": 19.927900314331055,
+    "agent3_alignment": 17.290462493896484
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.791403770446777,
+    "total_welfare": 19.791403770446777
+  }
+}

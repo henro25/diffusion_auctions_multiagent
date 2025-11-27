@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 10,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_2_agents_competitive/prompt_010/idx010_b1_0.70_b2_0.30_s07.png",
+    "filename": "idx010_b1_0.70_b2_0.30_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone drinking an energy drink at a skateboard park",
+    "agent1_prompt": "Red Bull can",
+    "agent2_prompt": "Monster Energy can"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.444433212280273,
+    "agent1_alignment": 20.028738021850586,
+    "agent2_alignment": 19.008447647094727
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.722650909423827,
+    "total_welfare": 19.722650909423827
+  }
+}

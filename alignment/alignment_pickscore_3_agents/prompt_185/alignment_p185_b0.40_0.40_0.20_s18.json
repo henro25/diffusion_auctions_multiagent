@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 185,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_3_agents/prompt_185/idx185_b1_0.40_b2_0.40_b3_0.20_s18.png",
+    "filename": "idx185_b1_0.40_b2_0.40_b3_0.20_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a boat marina",
+    "agent1_prompt": "La-Z-Boy recliner",
+    "agent2_prompt": "Michelin tire",
+    "agent3_prompt": "Philips light bulb"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.558828353881836,
+    "agent1_alignment": 20.370439529418945,
+    "agent2_alignment": 20.21013641357422,
+    "agent3_alignment": 19.280824661254883
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.08839530944824,
+    "total_welfare": 20.08839530944824
+  }
+}

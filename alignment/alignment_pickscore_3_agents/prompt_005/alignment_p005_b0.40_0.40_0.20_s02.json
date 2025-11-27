@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 5,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_3_agents/prompt_005/idx005_b1_0.40_b2_0.40_b3_0.20_s02.png",
+    "filename": "idx005_b1_0.40_b2_0.40_b3_0.20_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "A woman with a tray of food at a cafeteria",
+    "agent1_prompt": "Shell fuel",
+    "agent2_prompt": "Peet's Coffee mug",
+    "agent3_prompt": "USA Today paper"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.267480850219727,
+    "agent1_alignment": 19.075796127319336,
+    "agent2_alignment": 18.697153091430664,
+    "agent3_alignment": 17.15155792236328
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.539491271972658,
+    "total_welfare": 18.539491271972658
+  }
+}

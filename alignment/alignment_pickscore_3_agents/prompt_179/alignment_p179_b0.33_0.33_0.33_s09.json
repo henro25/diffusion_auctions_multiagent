@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 179,
+    "bids": [
+      0.33,
+      0.33,
+      0.33
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_3_agents/prompt_179/idx179_b1_0.33_b2_0.33_b3_0.33_s09.png",
+    "filename": "idx179_b1_0.33_b2_0.33_b3_0.33_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a wine tasting event",
+    "agent1_prompt": "Steam gaming platform",
+    "agent2_prompt": "Tempur-Pedic mattress",
+    "agent3_prompt": "Jeep Wrangler"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.8336124420166,
+    "agent1_alignment": 18.996625900268555,
+    "agent2_alignment": 20.112773895263672,
+    "agent3_alignment": 18.467931747436523
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.19244384765625,
+    "total_welfare": 19.000519409179688
+  }
+}

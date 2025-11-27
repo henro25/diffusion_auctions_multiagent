@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 178,
+    "bids": [
+      0.2,
+      0.2,
+      0.2,
+      0.15,
+      0.1,
+      0.05,
+      0.05,
+      0.03,
+      0.01,
+      0.01
+    ],
+    "sample_index": 15,
+    "image_path": "output/images_10_agents/prompt_178/idx178_b1_0.20_b2_0.20_b3_0.20_b4_0.15_b5_0.10_b6_0.05_b7_0.05_b8_0.03_b9_0.01_b10_0.01_s15.png",
+    "filename": "idx178_b1_0.20_b2_0.20_b3_0.20_b4_0.15_b5_0.10_b6_0.05_b7_0.05_b8_0.03_b9_0.01_b10_0.01_s15.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a natural history museum",
+    "agent1_prompt": "Best Buy store",
+    "agent2_prompt": "Coach handbag",
+    "agent3_prompt": "American Airlines",
+    "agent4_prompt": "TaylorMade golf balls",
+    "agent5_prompt": "Boarding pass",
+    "agent6_prompt": "Big Agnes sleeping bag",
+    "agent7_prompt": "Starbucks coffee cup",
+    "agent8_prompt": "Mercedes-Benz car",
+    "agent9_prompt": "Mobil 1 motor oil",
+    "agent10_prompt": "Square Cash"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.823036193847656,
+    "agent1_alignment": 18.49536895751953,
+    "agent2_alignment": 19.362939834594727,
+    "agent3_alignment": 17.402559280395508,
+    "agent4_alignment": 17.076990127563477,
+    "agent5_alignment": 17.901121139526367,
+    "agent6_alignment": 17.894290924072266,
+    "agent7_alignment": 18.187719345092773,
+    "agent8_alignment": 17.736522674560547,
+    "agent9_alignment": 18.15781593322754,
+    "agent10_alignment": 19.643169403076172
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.118040294647216,
+    "total_welfare": 18.11804029464722
+  }
+}

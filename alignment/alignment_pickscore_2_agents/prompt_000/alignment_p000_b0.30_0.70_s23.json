@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 0,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 23,
+    "image_path": "output/images_2_agents/prompt_000/idx000_b1_0.30_b2_0.70_s23.png",
+    "filename": "idx000_b1_0.30_b2_0.70_s23.png"
+  },
+  "prompts": {
+    "base_prompt": "Two friends chatting over coffee at a cafe",
+    "agent1_prompt": "Cappuccino drink",
+    "agent2_prompt": "Microsoft Surface laptop"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.433094024658203,
+    "agent1_alignment": 18.343223571777344,
+    "agent2_alignment": 19.989532470703125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.49563980102539,
+    "total_welfare": 19.49563980102539
+  }
+}

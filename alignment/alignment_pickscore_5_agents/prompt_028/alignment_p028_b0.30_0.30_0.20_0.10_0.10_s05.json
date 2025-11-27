@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 28,
+    "bids": [
+      0.3,
+      0.3,
+      0.2,
+      0.1,
+      0.1
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_5_agents/prompt_028/idx028_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s05.png",
+    "filename": "idx028_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone working on a laptop at a home office",
+    "agent1_prompt": "YouTube channel",
+    "agent2_prompt": "Fanta orange soda",
+    "agent3_prompt": "Pottery Barn decorations",
+    "agent4_prompt": "Dunkin coffee",
+    "agent5_prompt": "Wayfair furniture"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.895320892333984,
+    "agent1_alignment": 19.095928192138672,
+    "agent2_alignment": 20.03419303894043,
+    "agent3_alignment": 17.166959762573242,
+    "agent4_alignment": 19.757787704467773,
+    "agent5_alignment": 19.607006072998047
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.108907699584964,
+    "total_welfare": 19.108907699584964
+  }
+}

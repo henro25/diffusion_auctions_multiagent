@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 7,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_2_agents/prompt_007/idx007_b1_0.90_b2_0.10_s09.png",
+    "filename": "idx007_b1_0.90_b2_0.10_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends gathered for a movie night at home",
+    "agent1_prompt": "Vaseline lip balm",
+    "agent2_prompt": "CVS pharmacy"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.29637336730957,
+    "agent1_alignment": 20.259845733642578,
+    "agent2_alignment": 17.385086059570312
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.97236976623535,
+    "total_welfare": 19.97236976623535
+  }
+}

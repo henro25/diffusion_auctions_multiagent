@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 35,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_2_agents/prompt_035/idx035_b1_0.50_b2_0.50_s02.png",
+    "filename": "idx035_b1_0.50_b2_0.50_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "A group of people waiting for a train",
+    "agent1_prompt": "Keurig coffee maker",
+    "agent2_prompt": "Columbia hiking boots"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.57356834411621,
+    "agent1_alignment": 19.407630920410156,
+    "agent2_alignment": 19.650840759277344
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.52923583984375,
+    "total_welfare": 19.52923583984375
+  }
+}

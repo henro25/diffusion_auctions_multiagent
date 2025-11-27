@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 37,
+    "bids": [
+      0.3,
+      0.3,
+      0.2,
+      0.1,
+      0.1
+    ],
+    "sample_index": 10,
+    "image_path": "output/images_5_agents/prompt_037/idx037_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s10.png",
+    "filename": "idx037_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s10.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone cooking dinner in a home kitchen",
+    "agent1_prompt": "TikTok app",
+    "agent2_prompt": "Wine glass",
+    "agent3_prompt": "MAC lipstick",
+    "agent4_prompt": "Osprey pack",
+    "agent5_prompt": "Delta airline"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.11328125,
+    "agent1_alignment": 20.12849235534668,
+    "agent2_alignment": 18.426347732543945,
+    "agent3_alignment": 17.169435501098633,
+    "agent4_alignment": 18.63020896911621,
+    "agent5_alignment": 18.523969650268555
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.715756988525392,
+    "total_welfare": 18.715756988525392
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 49,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_3_agents/prompt_049/idx049_b1_0.60_b2_0.30_b3_0.10_s05.png",
+    "filename": "idx049_b1_0.60_b2_0.30_b3_0.10_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone gardening in a backyard",
+    "agent1_prompt": "Movie ticket stub",
+    "agent2_prompt": "Aquafina water",
+    "agent3_prompt": "Wayfair furniture"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.376441955566406,
+    "agent1_alignment": 19.754053115844727,
+    "agent2_alignment": 19.123945236206055,
+    "agent3_alignment": 17.9775333404541
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.387368774414067,
+    "total_welfare": 19.387368774414064
+  }
+}

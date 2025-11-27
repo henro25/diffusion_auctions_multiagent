@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 44,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_3_agents/prompt_044/idx044_b1_0.40_b2_0.40_b3_0.20_s17.png",
+    "filename": "idx044_b1_0.40_b2_0.40_b3_0.20_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a casual outdoor gathering",
+    "agent1_prompt": "Amazon Prime video",
+    "agent2_prompt": "Magazine cover",
+    "agent3_prompt": "Hyatt resort"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.439878463745117,
+    "agent1_alignment": 18.29796028137207,
+    "agent2_alignment": 20.22300910949707,
+    "agent3_alignment": 18.99139404296875
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.206666564941408,
+    "total_welfare": 19.206666564941408
+  }
+}

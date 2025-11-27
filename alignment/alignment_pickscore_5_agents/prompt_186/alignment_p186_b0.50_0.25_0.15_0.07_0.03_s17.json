@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 186,
+    "bids": [
+      0.5,
+      0.25,
+      0.15,
+      0.07,
+      0.03
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_5_agents/prompt_186/idx186_b1_0.50_b2_0.25_b3_0.15_b4_0.07_b5_0.03_s17.png",
+    "filename": "idx186_b1_0.50_b2_0.25_b3_0.15_b4_0.07_b5_0.03_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a batting cage",
+    "agent1_prompt": "Spotify music playlist",
+    "agent2_prompt": "Adidas Superstar sneakers",
+    "agent3_prompt": "DJI drone",
+    "agent4_prompt": "USM Haller",
+    "agent5_prompt": "Amazon Prime logo"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.483854293823242,
+    "agent1_alignment": 19.557294845581055,
+    "agent2_alignment": 18.7330265045166,
+    "agent3_alignment": 18.62340545654297,
+    "agent4_alignment": 18.942678451538086,
+    "agent5_alignment": 16.929973602294922
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.089301567077634,
+    "total_welfare": 19.089301567077634
+  }
+}

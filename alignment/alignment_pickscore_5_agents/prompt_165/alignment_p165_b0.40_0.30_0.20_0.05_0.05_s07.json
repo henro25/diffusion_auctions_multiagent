@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 165,
+    "bids": [
+      0.4,
+      0.3,
+      0.2,
+      0.05,
+      0.05
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_5_agents/prompt_165/idx165_b1_0.40_b2_0.30_b3_0.20_b4_0.05_b5_0.05_s07.png",
+    "filename": "idx165_b1_0.40_b2_0.30_b3_0.20_b4_0.05_b5_0.05_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a fabric store",
+    "agent1_prompt": "Kelty tent",
+    "agent2_prompt": "Philips light bulb",
+    "agent3_prompt": "Nutella spread jar",
+    "agent4_prompt": "Budweiser beer can",
+    "agent5_prompt": "YouTube channel"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.476476669311523,
+    "agent1_alignment": 19.743764877319336,
+    "agent2_alignment": 20.177326202392578,
+    "agent3_alignment": 19.01531410217285,
+    "agent4_alignment": 17.52216339111328,
+    "agent5_alignment": 18.258378982543945
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.54279375076294,
+    "total_welfare": 19.54279375076294
+  }
+}

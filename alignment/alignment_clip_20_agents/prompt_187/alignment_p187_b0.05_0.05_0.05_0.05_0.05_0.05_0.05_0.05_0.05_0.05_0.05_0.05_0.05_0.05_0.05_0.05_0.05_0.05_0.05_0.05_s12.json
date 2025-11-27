@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 187,
+    "bids": [
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "sample_index": 12,
+    "image_path": "output/images_20_agents/prompt_187/idx187_b1_0.05_b2_0.05_b3_0.05_b4_0.05_b5_0.05_b6_0.05_b7_0.05_b8_0.05_b9_0.05_b10_0.05_b11_0.05_b12_0.05_b13_0.05_b14_0.05_b15_0.05_b16_0.05_b17_0.05_b18_0.05_b19_0.05_b20_0.05_s12.png",
+    "filename": "idx187_b1_0.05_b2_0.05_b3_0.05_b4_0.05_b5_0.05_b6_0.05_b7_0.05_b8_0.05_b9_0.05_b10_0.05_b11_0.05_b12_0.05_b13_0.05_b14_0.05_b15_0.05_b16_0.05_b17_0.05_b18_0.05_b19_0.05_b20_0.05_s12.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a laser tag venue",
+    "agent1_prompt": "Coleman cooler",
+    "agent2_prompt": "Nike Air Force shoes",
+    "agent3_prompt": "AirPods headphones",
+    "agent4_prompt": "McDonald's burger",
+    "agent5_prompt": "Room & Board",
+    "agent6_prompt": "American Express",
+    "agent7_prompt": "Vitra chair",
+    "agent8_prompt": "Coleman camping tent",
+    "agent9_prompt": "Hotel lobby",
+    "agent10_prompt": "Blog post",
+    "agent11_prompt": "Shark steam mop",
+    "agent12_prompt": "Arizona tea",
+    "agent13_prompt": "Shell fuel",
+    "agent14_prompt": "Macy's department",
+    "agent15_prompt": "Levi's blue jeans",
+    "agent16_prompt": "Target logo",
+    "agent17_prompt": "Disney Plus logo",
+    "agent18_prompt": "Wilson tennis balls",
+    "agent19_prompt": "Urban Decay eyeshadow",
+    "agent20_prompt": "Coffee bean bag"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.1787109375,
+    "agent1_alignment": 0.197265625,
+    "agent2_alignment": 0.0869140625,
+    "agent3_alignment": 0.0751953125,
+    "agent4_alignment": 0.05615234375,
+    "agent5_alignment": 0.095703125,
+    "agent6_alignment": 0.10009765625,
+    "agent7_alignment": 0.0625,
+    "agent8_alignment": 0.1025390625,
+    "agent9_alignment": 0.09521484375,
+    "agent10_alignment": 0.12890625,
+    "agent11_alignment": 0.049560546875,
+    "agent12_alignment": 0.07666015625,
+    "agent13_alignment": 0.10009765625,
+    "agent14_alignment": 0.1015625,
+    "agent15_alignment": 0.12890625,
+    "agent16_alignment": 0.095703125,
+    "agent17_alignment": 0.10791015625,
+    "agent18_alignment": 0.1513671875,
+    "agent19_alignment": 0.038330078125,
+    "agent20_alignment": 0.1005859375
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.09755859374999999,
+    "total_welfare": 0.09755859375000002
+  }
+}

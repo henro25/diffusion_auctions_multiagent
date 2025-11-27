@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 161,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_3_agents/prompt_161/idx161_b1_0.60_b2_0.30_b3_0.10_s13.png",
+    "filename": "idx161_b1_0.60_b2_0.30_b3_0.10_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a tax preparation office",
+    "agent1_prompt": "Chevrolet Silverado",
+    "agent2_prompt": "American Airlines",
+    "agent3_prompt": "Big Agnes sleeping bag"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.907136917114258,
+    "agent1_alignment": 20.451614379882812,
+    "agent2_alignment": 17.975330352783203,
+    "agent3_alignment": 17.784011840820312
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.441968917846683,
+    "total_welfare": 19.44196891784668
+  }
+}

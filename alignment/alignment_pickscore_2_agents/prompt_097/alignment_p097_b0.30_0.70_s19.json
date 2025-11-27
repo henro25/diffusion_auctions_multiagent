@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 97,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 19,
+    "image_path": "output/images_2_agents/prompt_097/idx097_b1_0.30_b2_0.70_s19.png",
+    "filename": "idx097_b1_0.30_b2_0.70_s19.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at an outdoor beer garden",
+    "agent1_prompt": "Blog post",
+    "agent2_prompt": "Le Creuset pot"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.551727294921875,
+    "agent1_alignment": 19.893369674682617,
+    "agent2_alignment": 19.76761817932129
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.805343627929688,
+    "total_welfare": 19.805343627929688
+  }
+}

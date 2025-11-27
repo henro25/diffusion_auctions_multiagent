@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 101,
+    "bids": [
+      0.0,
+      1.0
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_2_agents/prompt_101/idx101_b1_0.00_b2_1.00_s05.png",
+    "filename": "idx101_b1_0.00_b2_1.00_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a car rental counter",
+    "agent1_prompt": "American Express",
+    "agent2_prompt": "Vitra chair"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.249300003051758,
+    "agent1_alignment": 16.914596557617188,
+    "agent2_alignment": 20.46917152404785
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.46917152404785,
+    "total_welfare": 20.46917152404785
+  }
+}

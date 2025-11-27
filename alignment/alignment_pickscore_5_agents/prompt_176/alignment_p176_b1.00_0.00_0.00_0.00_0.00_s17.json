@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 176,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_5_agents/prompt_176/idx176_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s17.png",
+    "filename": "idx176_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a outdoor rooftop gathering",
+    "agent1_prompt": "Microsoft Surface laptop",
+    "agent2_prompt": "Pottery Barn shelving",
+    "agent3_prompt": "Amazon Prime video",
+    "agent4_prompt": "Adidas Superstar sneakers",
+    "agent5_prompt": "Logitech wireless mouse"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.10056495666504,
+    "agent1_alignment": 18.691986083984375,
+    "agent2_alignment": 16.771644592285156,
+    "agent3_alignment": 18.53634262084961,
+    "agent4_alignment": 17.65900421142578,
+    "agent5_alignment": 19.332998275756836
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.691986083984375,
+    "total_welfare": 18.691986083984375
+  }
+}

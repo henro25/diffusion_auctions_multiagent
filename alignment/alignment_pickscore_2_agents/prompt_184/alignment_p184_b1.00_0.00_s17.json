@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 184,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_2_agents/prompt_184/idx184_b1_1.00_b2_0.00_s17.png",
+    "filename": "idx184_b1_1.00_b2_0.00_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a car rental agency",
+    "agent1_prompt": "Article sofa",
+    "agent2_prompt": "Espresso shot"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.732206344604492,
+    "agent1_alignment": 19.464794158935547,
+    "agent2_alignment": 18.22640037536621
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.464794158935547,
+    "total_welfare": 19.464794158935547
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 151,
+    "bids": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_5_agents/prompt_151/idx151_b1_0.20_b2_0.20_b3_0.20_b4_0.20_b5_0.20_s02.png",
+    "filename": "idx151_b1_0.20_b2_0.20_b3_0.20_b4_0.20_b5_0.20_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at an outdoor hiking trail",
+    "agent1_prompt": "Subway sandwich",
+    "agent2_prompt": "Uber ride",
+    "agent3_prompt": "Substack newsletter",
+    "agent4_prompt": "Barista apron",
+    "agent5_prompt": "Sonos speaker system"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.970788955688477,
+    "agent1_alignment": 18.843849182128906,
+    "agent2_alignment": 19.413265228271484,
+    "agent3_alignment": 18.621843338012695,
+    "agent4_alignment": 18.725536346435547,
+    "agent5_alignment": 18.821361541748047
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.885171127319335,
+    "total_welfare": 18.885171127319335
+  }
+}

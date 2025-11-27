@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 52,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_2_agents/prompt_052/idx052_b1_1.00_b2_0.00_s07.png",
+    "filename": "idx052_b1_1.00_b2_0.00_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone working out at a CrossFit gym",
+    "agent1_prompt": "Sonos speaker system",
+    "agent2_prompt": "Airbnb listing"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.25715446472168,
+    "agent1_alignment": 19.249990463256836,
+    "agent2_alignment": 18.400836944580078
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.249990463256836,
+    "total_welfare": 19.249990463256836
+  }
+}

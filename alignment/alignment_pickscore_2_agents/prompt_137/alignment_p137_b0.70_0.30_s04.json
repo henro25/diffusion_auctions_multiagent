@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 137,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_2_agents/prompt_137/idx137_b1_0.70_b2_0.30_s04.png",
+    "filename": "idx137_b1_0.70_b2_0.30_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at an outdoor market stand",
+    "agent1_prompt": "American Airlines",
+    "agent2_prompt": "Hydroflask water bottle"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.694246292114258,
+    "agent1_alignment": 16.945724487304688,
+    "agent2_alignment": 19.142948150634766
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.60489158630371,
+    "total_welfare": 17.60489158630371
+  }
+}

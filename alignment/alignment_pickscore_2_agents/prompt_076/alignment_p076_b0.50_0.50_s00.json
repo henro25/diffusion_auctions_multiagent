@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 76,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 0,
+    "image_path": "output/images_2_agents/prompt_076/idx076_b1_0.50_b2_0.50_s00.png",
+    "filename": "idx076_b1_0.50_b2_0.50_s00.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a theme park",
+    "agent1_prompt": "Merrell hiking shoes",
+    "agent2_prompt": "Timberland boots"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.74778938293457,
+    "agent1_alignment": 19.650596618652344,
+    "agent2_alignment": 19.682424545288086
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.666510581970215,
+    "total_welfare": 19.666510581970215
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 152,
+    "bids": [
+      0.5,
+      0.25,
+      0.15,
+      0.07,
+      0.03
+    ],
+    "sample_index": 12,
+    "image_path": "output/images_5_agents/prompt_152/idx152_b1_0.50_b2_0.25_b3_0.15_b4_0.07_b5_0.03_s12.png",
+    "filename": "idx152_b1_0.50_b2_0.25_b3_0.15_b4_0.07_b5_0.03_s12.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a print shop",
+    "agent1_prompt": "Nintendo Switch",
+    "agent2_prompt": "Osprey backpack",
+    "agent3_prompt": "Magazine cover",
+    "agent4_prompt": "Apple MacBook Air",
+    "agent5_prompt": "PayPal logo"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.14649200439453,
+    "agent1_alignment": 20.502605438232422,
+    "agent2_alignment": 19.812955856323242,
+    "agent3_alignment": 19.117046356201172,
+    "agent4_alignment": 17.759313583374023,
+    "agent5_alignment": 17.444499969482422
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.83858558654785,
+    "total_welfare": 19.83858558654785
+  }
+}

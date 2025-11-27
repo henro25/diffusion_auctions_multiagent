@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "prompt_index": 3,
+    "bids": [
+      0.3,
+      0.2,
+      0.15,
+      0.12,
+      0.1,
+      0.07,
+      0.04,
+      0.01,
+      0.0,
+      0.01
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_10_agents/prompt_003/idx003_b1_0.30_b2_0.20_b3_0.15_b4_0.12_b5_0.10_b6_0.07_b7_0.04_b8_0.01_b9_0.00_b10_0.01_s09.png",
+    "filename": "idx003_b1_0.30_b2_0.20_b3_0.15_b4_0.12_b5_0.10_b6_0.07_b7_0.04_b8_0.01_b9_0.00_b10_0.01_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "A hiker resting on a mountain trail",
+    "agent1_prompt": "Keen boots",
+    "agent2_prompt": "Jura espresso machine",
+    "agent3_prompt": "Cold brew concentrate",
+    "agent4_prompt": "SoFi loan",
+    "agent5_prompt": "Ashley Furniture",
+    "agent6_prompt": "Dyson vacuum",
+    "agent7_prompt": "IKEA chair",
+    "agent8_prompt": "Salomon ski boots",
+    "agent9_prompt": "Passport booklet",
+    "agent10_prompt": "Fortnite game"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.1865234375,
+    "agent1_alignment": 0.2138671875,
+    "agent2_alignment": 0.1845703125,
+    "agent3_alignment": 0.197265625,
+    "agent4_alignment": 0.142578125,
+    "agent5_alignment": 0.1025390625,
+    "agent6_alignment": 0.14453125,
+    "agent7_alignment": 0.1396484375,
+    "agent8_alignment": 0.1630859375,
+    "agent9_alignment": 0.1318359375,
+    "agent10_alignment": 0.111328125
+  },
+  "quality_assessment": {
+    "clip_quality": 0.50390625
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.176474609375,
+    "total_welfare": 0.176474609375
+  }
+}

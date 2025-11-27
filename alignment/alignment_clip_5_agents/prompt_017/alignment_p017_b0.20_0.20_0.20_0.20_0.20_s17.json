@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "prompt_index": 17,
+    "bids": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_5_agents/prompt_017/idx017_b1_0.20_b2_0.20_b3_0.20_b4_0.20_b5_0.20_s17.png",
+    "filename": "idx017_b1_0.20_b2_0.20_b3_0.20_b4_0.20_b5_0.20_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "A fitness trainer at a modern gym",
+    "agent1_prompt": "Wall Street Journal",
+    "agent2_prompt": "Aquafina water",
+    "agent3_prompt": "Prada bag",
+    "agent4_prompt": "Ethan Allen furniture",
+    "agent5_prompt": "Lyft rideshare"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.24609375,
+    "agent1_alignment": 0.11279296875,
+    "agent2_alignment": 0.146484375,
+    "agent3_alignment": 0.1533203125,
+    "agent4_alignment": 0.0576171875,
+    "agent5_alignment": 0.2275390625
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.13955078125,
+    "total_welfare": 0.13955078125
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 122,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_3_agents/prompt_122/idx122_b1_0.40_b2_0.40_b3_0.20_s05.png",
+    "filename": "idx122_b1_0.40_b2_0.40_b3_0.20_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a printing service",
+    "agent1_prompt": "Cold brew concentrate",
+    "agent2_prompt": "All-Clad cookware",
+    "agent3_prompt": "Apple Pay"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.535907745361328,
+    "agent1_alignment": 20.03565788269043,
+    "agent2_alignment": 20.723430633544922,
+    "agent3_alignment": 17.36839485168457
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.777314376831058,
+    "total_welfare": 19.777314376831058
+  }
+}

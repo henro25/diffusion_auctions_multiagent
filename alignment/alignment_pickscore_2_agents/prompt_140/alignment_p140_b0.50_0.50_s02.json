@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 140,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_2_agents/prompt_140/idx140_b1_0.50_b2_0.50_s02.png",
+    "filename": "idx140_b1_0.50_b2_0.50_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a car inspection station",
+    "agent1_prompt": "Medium article",
+    "agent2_prompt": "Columbia jacket"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.969446182250977,
+    "agent1_alignment": 20.813310623168945,
+    "agent2_alignment": 19.089738845825195
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.95152473449707,
+    "total_welfare": 19.95152473449707
+  }
+}

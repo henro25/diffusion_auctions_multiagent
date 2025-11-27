@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 20,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 19,
+    "image_path": "output/images_2_agents_competitive/prompt_020/idx020_b1_1.00_b2_0.00_s19.png",
+    "filename": "idx020_b1_1.00_b2_0.00_s19.png"
+  },
+  "prompts": {
+    "base_prompt": "A person wearing a fitness tracker at a cycling class",
+    "agent1_prompt": "Fitbit tracker",
+    "agent2_prompt": "Garmin tracker"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.549320220947266,
+    "agent1_alignment": 21.047155380249023,
+    "agent2_alignment": 21.247455596923828
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 21.047155380249023,
+    "total_welfare": 21.047155380249023
+  }
+}

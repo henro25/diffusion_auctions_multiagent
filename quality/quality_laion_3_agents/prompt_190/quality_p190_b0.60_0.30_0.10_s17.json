@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "prompt_index": 190,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_3_agents/prompt_190/idx190_b1_0.60_b2_0.30_b3_0.10_s17.png",
+    "filename": "idx190_b1_0.60_b2_0.30_b3_0.10_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a murder mystery party",
+    "agent1_prompt": "Ben & Jerry's ice cream",
+    "agent2_prompt": "Whole Foods market",
+    "agent3_prompt": "Callaway golf clubs"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.956360816955566
+  }
+}

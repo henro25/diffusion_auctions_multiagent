@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "prompt_index": 155,
+    "bids": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 12,
+    "image_path": "output/images_3_agents/prompt_155/idx155_b1_0.00_b2_0.00_b3_0.00_s12.png",
+    "filename": "idx155_b1_0.00_b2_0.00_b3_0.00_s12.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone browsing a thrift store",
+    "agent1_prompt": "Hay furniture",
+    "agent2_prompt": "Among Us game",
+    "agent3_prompt": "Arc'teryx gear"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.275390625,
+    "agent1_alignment": 0.1376953125,
+    "agent2_alignment": 0.126953125,
+    "agent3_alignment": 0.1328125
+  },
+  "quality_assessment": {
+    "clip_quality": 0.50390625
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

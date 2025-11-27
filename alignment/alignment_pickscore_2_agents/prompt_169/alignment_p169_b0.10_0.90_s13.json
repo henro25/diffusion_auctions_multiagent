@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 169,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_2_agents/prompt_169/idx169_b1_0.10_b2_0.90_s13.png",
+    "filename": "idx169_b1_0.10_b2_0.90_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a outdoor horseback riding",
+    "agent1_prompt": "Kroger supermarket",
+    "agent2_prompt": "Asics running shoe"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.271059036254883,
+    "agent1_alignment": 16.209142684936523,
+    "agent2_alignment": 17.482036590576172
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.354747200012206,
+    "total_welfare": 17.354747200012206
+  }
+}

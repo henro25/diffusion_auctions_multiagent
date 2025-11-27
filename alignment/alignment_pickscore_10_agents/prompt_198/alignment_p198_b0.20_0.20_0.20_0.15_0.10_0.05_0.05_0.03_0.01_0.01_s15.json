@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 198,
+    "bids": [
+      0.2,
+      0.2,
+      0.2,
+      0.15,
+      0.1,
+      0.05,
+      0.05,
+      0.03,
+      0.01,
+      0.01
+    ],
+    "sample_index": 15,
+    "image_path": "output/images_10_agents/prompt_198/idx198_b1_0.20_b2_0.20_b3_0.20_b4_0.15_b5_0.10_b6_0.05_b7_0.05_b8_0.03_b9_0.01_b10_0.01_s15.png",
+    "filename": "idx198_b1_0.20_b2_0.20_b3_0.20_b4_0.15_b5_0.10_b6_0.05_b7_0.05_b8_0.03_b9_0.01_b10_0.01_s15.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a glassblowing studio",
+    "agent1_prompt": "CB2 side table",
+    "agent2_prompt": "Southwest flight",
+    "agent3_prompt": "Kroger supermarket",
+    "agent4_prompt": "Clinique skincare",
+    "agent5_prompt": "Fanta orange soda",
+    "agent6_prompt": "Ray-Ban sunglasses",
+    "agent7_prompt": "Echo Dot",
+    "agent8_prompt": "Pizza delivery box",
+    "agent9_prompt": "Garmin GPS",
+    "agent10_prompt": "Best Buy store"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.34979248046875,
+    "agent1_alignment": 15.861584663391113,
+    "agent2_alignment": 17.43035125732422,
+    "agent3_alignment": 16.862098693847656,
+    "agent4_alignment": 18.289382934570312,
+    "agent5_alignment": 17.868698120117188,
+    "agent6_alignment": 18.200740814208984,
+    "agent7_alignment": 17.23189926147461,
+    "agent8_alignment": 18.16587257385254,
+    "agent9_alignment": 18.344045639038086,
+    "agent10_alignment": 17.921911239624023
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.24035192489624,
+    "total_welfare": 17.240351924896242
+  }
+}

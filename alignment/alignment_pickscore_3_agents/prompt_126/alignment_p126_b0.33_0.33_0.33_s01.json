@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 126,
+    "bids": [
+      0.33,
+      0.33,
+      0.33
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_3_agents/prompt_126/idx126_b1_0.33_b2_0.33_b3_0.33_s01.png",
+    "filename": "idx126_b1_0.33_b2_0.33_b3_0.33_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a frame shop",
+    "agent1_prompt": "Sushi platter",
+    "agent2_prompt": "Kelty tent",
+    "agent3_prompt": "Callaway golf clubs"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.070575714111328,
+    "agent1_alignment": 18.519287109375,
+    "agent2_alignment": 19.30579376220703,
+    "agent3_alignment": 18.92310333251953
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.91606140136719,
+    "total_welfare": 18.726900787353518
+  }
+}

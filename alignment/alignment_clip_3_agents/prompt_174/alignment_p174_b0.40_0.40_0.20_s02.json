@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "prompt_index": 174,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_3_agents/prompt_174/idx174_b1_0.40_b2_0.40_b3_0.20_s02.png",
+    "filename": "idx174_b1_0.40_b2_0.40_b3_0.20_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a stained glass studio",
+    "agent1_prompt": "Pizza delivery box",
+    "agent2_prompt": "Spotify music playlist",
+    "agent3_prompt": "Aquafina water"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.28125,
+    "agent1_alignment": 0.2109375,
+    "agent2_alignment": 0.11767578125,
+    "agent3_alignment": 0.15234375
+  },
+  "quality_assessment": {
+    "clip_quality": 0.51171875
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.1619140625,
+    "total_welfare": 0.1619140625
+  }
+}

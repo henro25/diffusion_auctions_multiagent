@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 13,
+    "bids": [
+      0.25,
+      0.25,
+      0.25,
+      0.15,
+      0.1
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_5_agents/prompt_013/idx013_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s18.png",
+    "filename": "idx013_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "A couple shopping at a farmers market",
+    "agent1_prompt": "Costco warehouse",
+    "agent2_prompt": "Expedia booking",
+    "agent3_prompt": "Sprite lemon-lime",
+    "agent4_prompt": "Peet's Coffee mug",
+    "agent5_prompt": "Pandora radio"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.17407989501953,
+    "agent1_alignment": 19.1817569732666,
+    "agent2_alignment": 19.36084747314453,
+    "agent3_alignment": 20.217002868652344,
+    "agent4_alignment": 17.879640579223633,
+    "agent5_alignment": 17.805326461791992
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.152380561828615,
+    "total_welfare": 19.152380561828615
+  }
+}

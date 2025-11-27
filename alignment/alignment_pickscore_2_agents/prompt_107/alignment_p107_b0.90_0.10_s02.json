@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 107,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_2_agents/prompt_107/idx107_b1_0.90_b2_0.10_s02.png",
+    "filename": "idx107_b1_0.90_b2_0.10_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a bakery counter",
+    "agent1_prompt": "Among Us game",
+    "agent2_prompt": "Bank of America"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.231887817382812,
+    "agent1_alignment": 20.405515670776367,
+    "agent2_alignment": 17.667505264282227
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.131714630126954,
+    "total_welfare": 20.131714630126954
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "prompt_index": 7,
+    "bids": [
+      0.6,
+      0.2,
+      0.1,
+      0.05,
+      0.05
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_5_agents/prompt_007/idx007_b1_0.60_b2_0.20_b3_0.10_b4_0.05_b5_0.05_s05.png",
+    "filename": "idx007_b1_0.60_b2_0.20_b3_0.10_b4_0.05_b5_0.05_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends gathered for a movie night at home",
+    "agent1_prompt": "Vaseline lip balm",
+    "agent2_prompt": "CVS pharmacy",
+    "agent3_prompt": "Dell monitor",
+    "agent4_prompt": "La-Z-Boy recliner",
+    "agent5_prompt": "Wells Fargo check"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.263671875,
+    "agent1_alignment": 0.228515625,
+    "agent2_alignment": 0.158203125,
+    "agent3_alignment": 0.0986328125,
+    "agent4_alignment": 0.08837890625,
+    "agent5_alignment": 0.0908203125
+  },
+  "quality_assessment": {
+    "clip_quality": 0.50390625
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.18757324218750002,
+    "total_welfare": 0.18757324218750002
+  }
+}

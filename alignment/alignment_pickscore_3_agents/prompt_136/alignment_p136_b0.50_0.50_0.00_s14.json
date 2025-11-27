@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 136,
+    "bids": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_3_agents/prompt_136/idx136_b1_0.50_b2_0.50_b3_0.00_s14.png",
+    "filename": "idx136_b1_0.50_b2_0.50_b3_0.00_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a picnic table in park",
+    "agent1_prompt": "LendingClub platform",
+    "agent2_prompt": "Coleman cooler",
+    "agent3_prompt": "Evian water bottle"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.11857032775879,
+    "agent1_alignment": 19.67455291748047,
+    "agent2_alignment": 20.43174171447754,
+    "agent3_alignment": 18.80545425415039
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.053147315979004,
+    "total_welfare": 20.053147315979004
+  }
+}

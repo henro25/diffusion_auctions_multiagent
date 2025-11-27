@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 155,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 0,
+    "image_path": "output/images_2_agents/prompt_155/idx155_b1_0.50_b2_0.50_s00.png",
+    "filename": "idx155_b1_0.50_b2_0.50_s00.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone browsing a thrift store",
+    "agent1_prompt": "Hay furniture",
+    "agent2_prompt": "Among Us game"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.28125,
+    "agent1_alignment": 0.2197265625,
+    "agent2_alignment": 0.177734375
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.19873046875,
+    "total_welfare": 0.19873046875
+  }
+}

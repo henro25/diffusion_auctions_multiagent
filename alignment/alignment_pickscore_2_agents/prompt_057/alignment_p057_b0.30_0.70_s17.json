@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 57,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_2_agents/prompt_057/idx057_b1_0.30_b2_0.70_s17.png",
+    "filename": "idx057_b1_0.30_b2_0.70_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a hotel check-in counter",
+    "agent1_prompt": "Google Pay",
+    "agent2_prompt": "Tesla Model 3"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.59502601623535,
+    "agent1_alignment": 19.623937606811523,
+    "agent2_alignment": 19.77753257751465
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.73145408630371,
+    "total_welfare": 19.73145408630371
+  }
+}

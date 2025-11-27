@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 150,
+    "bids": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "sample_index": 10,
+    "image_path": "output/images_3_agents/prompt_150/idx150_b1_0.60_b2_0.20_b3_0.20_s10.png",
+    "filename": "idx150_b1_0.60_b2_0.20_b3_0.20_s10.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a trophy shop",
+    "agent1_prompt": "Book cover",
+    "agent2_prompt": "Patagonia vest",
+    "agent3_prompt": "HBO Max show"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.640399932861328,
+    "agent1_alignment": 18.069618225097656,
+    "agent2_alignment": 17.83710479736328,
+    "agent3_alignment": 19.109966278076172
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.231185150146484,
+    "total_welfare": 18.231185150146484
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 192,
+    "bids": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_3_agents/prompt_192/idx192_b1_0.00_b2_0.00_b3_0.00_s13.png",
+    "filename": "idx192_b1_0.00_b2_0.00_b3_0.00_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a art gallery opening",
+    "agent1_prompt": "GHD hair straightener",
+    "agent2_prompt": "Goodyear tire",
+    "agent3_prompt": "ASOS online"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.28486442565918,
+    "agent1_alignment": 17.106595993041992,
+    "agent2_alignment": 17.884939193725586,
+    "agent3_alignment": 17.36363410949707
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 193,
+    "bids": [
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_20_agents/prompt_193/idx193_b1_0.05_b2_0.05_b3_0.05_b4_0.05_b5_0.05_b6_0.05_b7_0.05_b8_0.05_b9_0.05_b10_0.05_b11_0.05_b12_0.05_b13_0.05_b14_0.05_b15_0.05_b16_0.05_b17_0.05_b18_0.05_b19_0.05_b20_0.05_s07.png",
+    "filename": "idx193_b1_0.05_b2_0.05_b3_0.05_b4_0.05_b5_0.05_b6_0.05_b7_0.05_b8_0.05_b9_0.05_b10_0.05_b11_0.05_b12_0.05_b13_0.05_b14_0.05_b15_0.05_b16_0.05_b17_0.05_b18_0.05_b19_0.05_b20_0.05_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a outdoor concert",
+    "agent1_prompt": "DJI drone",
+    "agent2_prompt": "Wine glass",
+    "agent3_prompt": "Airbnb listing",
+    "agent4_prompt": "Nike running shoes",
+    "agent5_prompt": "Square Cash",
+    "agent6_prompt": "Biscotti cookie",
+    "agent7_prompt": "Tropicana juice",
+    "agent8_prompt": "Latte beverage",
+    "agent9_prompt": "North Face jacket",
+    "agent10_prompt": "Podcast logo",
+    "agent11_prompt": "PetSmart store",
+    "agent12_prompt": "Pandora radio",
+    "agent13_prompt": "Sony headphones",
+    "agent14_prompt": "Shark steam mop",
+    "agent15_prompt": "IKEA furniture piece",
+    "agent16_prompt": "Harley-Davidson motorcycle",
+    "agent17_prompt": "Restoration Hardware piece",
+    "agent18_prompt": "Gillette razor",
+    "agent19_prompt": "Booking.com",
+    "agent20_prompt": "Espresso cup"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.185546875,
+    "agent1_alignment": 0.1923828125,
+    "agent2_alignment": 0.09033203125,
+    "agent3_alignment": 0.12890625,
+    "agent4_alignment": 0.0732421875,
+    "agent5_alignment": 0.10693359375,
+    "agent6_alignment": 0.05859375,
+    "agent7_alignment": 0.078125,
+    "agent8_alignment": 0.09326171875,
+    "agent9_alignment": 0.050537109375,
+    "agent10_alignment": 0.134765625,
+    "agent11_alignment": 0.07421875,
+    "agent12_alignment": 0.12353515625,
+    "agent13_alignment": 0.10546875,
+    "agent14_alignment": 0.09765625,
+    "agent15_alignment": 0.056884765625,
+    "agent16_alignment": 0.1396484375,
+    "agent17_alignment": 0.08349609375,
+    "agent18_alignment": 0.1357421875,
+    "agent19_alignment": 0.11767578125,
+    "agent20_alignment": 0.09912109375
+  },
+  "quality_assessment": {
+    "clip_quality": 0.51171875
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.1020263671875,
+    "total_welfare": 0.10202636718750002
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 192,
+    "bids": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 0,
+    "image_path": "output/images_5_agents/prompt_192/idx192_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s00.png",
+    "filename": "idx192_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s00.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a art gallery opening",
+    "agent1_prompt": "GHD hair straightener",
+    "agent2_prompt": "Goodyear tire",
+    "agent3_prompt": "ASOS online",
+    "agent4_prompt": "Nike Air Force shoes",
+    "agent5_prompt": "Nike running shoes"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.495302200317383,
+    "agent1_alignment": 16.8685302734375,
+    "agent2_alignment": 17.555580139160156,
+    "agent3_alignment": 17.48499870300293,
+    "agent4_alignment": 16.46980857849121,
+    "agent5_alignment": 15.911824226379395
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

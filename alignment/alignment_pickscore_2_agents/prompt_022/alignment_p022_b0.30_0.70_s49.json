@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 22,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 49,
+    "image_path": "output/images_2_agents/prompt_022/idx022_b1_0.30_b2_0.70_s49.png",
+    "filename": "idx022_b1_0.30_b2_0.70_s49.png"
+  },
+  "prompts": {
+    "base_prompt": "Customers waiting in line at a coffee shop",
+    "agent1_prompt": "Shell fuel",
+    "agent2_prompt": "Jura espresso machine"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.590288162231445,
+    "agent1_alignment": 20.508949279785156,
+    "agent2_alignment": 19.169347763061523
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.571228218078613,
+    "total_welfare": 19.571228218078613
+  }
+}

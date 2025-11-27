@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 61,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_2_agents/prompt_061/idx061_b1_1.00_b2_0.00_s04.png",
+    "filename": "idx061_b1_1.00_b2_0.00_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at an outdoor concert festival",
+    "agent1_prompt": "Deli turkey slice",
+    "agent2_prompt": "Latte beverage"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.269227981567383,
+    "agent1_alignment": 19.55007553100586,
+    "agent2_alignment": 17.749530792236328
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.55007553100586,
+    "total_welfare": 19.55007553100586
+  }
+}

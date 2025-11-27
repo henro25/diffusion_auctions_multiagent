@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 178,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_3_agents/prompt_178/idx178_b1_0.40_b2_0.40_b3_0.20_s17.png",
+    "filename": "idx178_b1_0.40_b2_0.40_b3_0.20_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a natural history museum",
+    "agent1_prompt": "Best Buy store",
+    "agent2_prompt": "Coach handbag",
+    "agent3_prompt": "American Airlines"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.6422176361084,
+    "agent1_alignment": 19.68562126159668,
+    "agent2_alignment": 19.332271575927734,
+    "agent3_alignment": 17.431041717529297
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.093365478515626,
+    "total_welfare": 19.093365478515626
+  }
+}

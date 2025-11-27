@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 109,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_2_agents/prompt_109/idx109_b1_1.00_b2_0.00_s01.png",
+    "filename": "idx109_b1_1.00_b2_0.00_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at an outdoor yoga class",
+    "agent1_prompt": "Gillette razor",
+    "agent2_prompt": "Substack newsletter"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.73249053955078,
+    "agent1_alignment": 19.74338722229004,
+    "agent2_alignment": 17.29296112060547
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.74338722229004,
+    "total_welfare": 19.74338722229004
+  }
+}

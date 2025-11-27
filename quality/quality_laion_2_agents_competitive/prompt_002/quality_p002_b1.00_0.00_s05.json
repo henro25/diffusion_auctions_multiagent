@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 2,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_2_agents_competitive/prompt_002/idx002_b1_1.00_b2_0.00_s05.png",
+    "filename": "idx002_b1_1.00_b2_0.00_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "A customer paying with a credit card at a retail checkout",
+    "agent1_prompt": "Visa credit card",
+    "agent2_prompt": "Mastercard credit card"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.480657577514648
+  }
+}

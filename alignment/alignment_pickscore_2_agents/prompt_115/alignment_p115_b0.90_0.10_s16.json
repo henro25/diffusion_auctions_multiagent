@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 115,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_2_agents/prompt_115/idx115_b1_0.90_b2_0.10_s16.png",
+    "filename": "idx115_b1_0.90_b2_0.10_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at an outdoor food festival",
+    "agent1_prompt": "Philips light bulb",
+    "agent2_prompt": "Discover card"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.340242385864258,
+    "agent1_alignment": 20.29236602783203,
+    "agent2_alignment": 19.00667381286621
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.163796806335448,
+    "total_welfare": 20.163796806335448
+  }
+}

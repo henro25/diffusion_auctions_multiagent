@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 183,
+    "bids": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_3_agents/prompt_183/idx183_b1_0.00_b2_0.00_b3_1.00_s07.png",
+    "filename": "idx183_b1_0.00_b2_0.00_b3_1.00_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a escape room adventure",
+    "agent1_prompt": "Champagne bottle",
+    "agent2_prompt": "Jura espresso machine",
+    "agent3_prompt": "PetSmart store"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.666406631469727,
+    "agent1_alignment": 16.77556800842285,
+    "agent2_alignment": 16.763778686523438,
+    "agent3_alignment": 20.904512405395508
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.904512405395508,
+    "total_welfare": 20.904512405395508
+  }
+}

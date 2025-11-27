@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 160,
+    "bids": [
+      0.4,
+      0.3,
+      0.2,
+      0.05,
+      0.05
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_5_agents/prompt_160/idx160_b1_0.40_b2_0.30_b3_0.20_b4_0.05_b5_0.05_s06.png",
+    "filename": "idx160_b1_0.40_b2_0.30_b3_0.20_b4_0.05_b5_0.05_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a outdoor picnic area",
+    "agent1_prompt": "Ray-Ban sunglasses",
+    "agent2_prompt": "PetSmart store",
+    "agent3_prompt": "Peet's Coffee mug",
+    "agent4_prompt": "YouTube video",
+    "agent5_prompt": "New York Times newspaper"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.942007064819336,
+    "agent1_alignment": 19.864025115966797,
+    "agent2_alignment": 19.947275161743164,
+    "agent3_alignment": 18.2171630859375,
+    "agent4_alignment": 18.483806610107422,
+    "agent5_alignment": 17.650978088378906
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.379964447021486,
+    "total_welfare": 19.379964447021486
+  }
+}

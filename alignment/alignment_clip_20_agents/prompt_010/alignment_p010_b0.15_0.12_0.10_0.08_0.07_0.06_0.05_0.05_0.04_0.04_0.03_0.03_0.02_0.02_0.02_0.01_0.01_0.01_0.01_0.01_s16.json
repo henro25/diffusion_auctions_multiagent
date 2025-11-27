@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 10,
+    "bids": [
+      0.15,
+      0.12,
+      0.1,
+      0.08,
+      0.07,
+      0.06,
+      0.05,
+      0.05,
+      0.04,
+      0.04,
+      0.03,
+      0.03,
+      0.02,
+      0.02,
+      0.02,
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_20_agents/prompt_010/idx010_b1_0.15_b2_0.12_b3_0.10_b4_0.08_b5_0.07_b6_0.06_b7_0.05_b8_0.05_b9_0.04_b10_0.04_b11_0.03_b12_0.03_b13_0.02_b14_0.02_b15_0.02_b16_0.01_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s16.png",
+    "filename": "idx010_b1_0.15_b2_0.12_b3_0.10_b4_0.08_b5_0.07_b6_0.06_b7_0.05_b8_0.05_b9_0.04_b10_0.04_b11_0.03_b12_0.03_b13_0.02_b14_0.02_b15_0.02_b16_0.01_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "A man waiting at a bus stop",
+    "agent1_prompt": "Oakley sunglasses",
+    "agent2_prompt": "BMW sedan",
+    "agent3_prompt": "Google Pay",
+    "agent4_prompt": "Instant Pot appliance",
+    "agent5_prompt": "Coleman cooler",
+    "agent6_prompt": "Yonex tennis racket",
+    "agent7_prompt": "Macy's department",
+    "agent8_prompt": "iPad device",
+    "agent9_prompt": "Kindle e-reader",
+    "agent10_prompt": "Dyson vacuum",
+    "agent11_prompt": "Steelcase office chair",
+    "agent12_prompt": "Gregory pack",
+    "agent13_prompt": "La-Z-Boy recliner",
+    "agent14_prompt": "Marriott key card",
+    "agent15_prompt": "Hulu series",
+    "agent16_prompt": "Champagne bottle",
+    "agent17_prompt": "Redken hair care",
+    "agent18_prompt": "Instagram story",
+    "agent19_prompt": "Visa credit card",
+    "agent20_prompt": "Oreo cookie package"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2060546875,
+    "agent1_alignment": 0.14453125,
+    "agent2_alignment": 0.099609375,
+    "agent3_alignment": 0.154296875,
+    "agent4_alignment": 0.1474609375,
+    "agent5_alignment": 0.2109375,
+    "agent6_alignment": 0.1083984375,
+    "agent7_alignment": 0.10107421875,
+    "agent8_alignment": 0.11279296875,
+    "agent9_alignment": 0.0908203125,
+    "agent10_alignment": 0.1513671875,
+    "agent11_alignment": 0.09716796875,
+    "agent12_alignment": 0.1708984375,
+    "agent13_alignment": 0.078125,
+    "agent14_alignment": 0.07958984375,
+    "agent15_alignment": 0.12060546875,
+    "agent16_alignment": 0.125,
+    "agent17_alignment": 0.12890625,
+    "agent18_alignment": 0.11376953125,
+    "agent19_alignment": 0.12060546875,
+    "agent20_alignment": 0.1044921875
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.13123214885752682,
+    "total_welfare": 0.12204589843749998
+  }
+}

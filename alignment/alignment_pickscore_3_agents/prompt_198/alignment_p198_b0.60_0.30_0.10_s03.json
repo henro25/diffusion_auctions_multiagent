@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 198,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_3_agents/prompt_198/idx198_b1_0.60_b2_0.30_b3_0.10_s03.png",
+    "filename": "idx198_b1_0.60_b2_0.30_b3_0.10_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a glassblowing studio",
+    "agent1_prompt": "CB2 side table",
+    "agent2_prompt": "Southwest flight",
+    "agent3_prompt": "Kroger supermarket"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.640214920043945,
+    "agent1_alignment": 16.974950790405273,
+    "agent2_alignment": 16.044185638427734,
+    "agent3_alignment": 15.492775917053223
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 16.54750375747681,
+    "total_welfare": 16.547503757476807
+  }
+}

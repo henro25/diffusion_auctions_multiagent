@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 20,
+    "bids": [
+      0.0,
+      1.0
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_2_agents_competitive/prompt_020/idx020_b1_0.00_b2_1.00_s03.png",
+    "filename": "idx020_b1_0.00_b2_1.00_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "A person wearing a fitness tracker at a cycling class",
+    "agent1_prompt": "Fitbit tracker",
+    "agent2_prompt": "Garmin tracker"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.775574207305908
+  }
+}

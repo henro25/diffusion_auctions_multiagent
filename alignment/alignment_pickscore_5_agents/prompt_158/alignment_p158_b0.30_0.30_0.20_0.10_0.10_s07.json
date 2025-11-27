@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 158,
+    "bids": [
+      0.3,
+      0.3,
+      0.2,
+      0.1,
+      0.1
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_5_agents/prompt_158/idx158_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s07.png",
+    "filename": "idx158_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a mattress store",
+    "agent1_prompt": "Wine glass",
+    "agent2_prompt": "Cappuccino drink",
+    "agent3_prompt": "Hilton Hotel",
+    "agent4_prompt": "GoPro action camera",
+    "agent5_prompt": "Wall Street Journal"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.12572479248047,
+    "agent1_alignment": 19.911575317382812,
+    "agent2_alignment": 18.011688232421875,
+    "agent3_alignment": 18.754976272583008,
+    "agent4_alignment": 18.59881019592285,
+    "agent5_alignment": 17.85919761657715
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.773775100708008,
+    "total_welfare": 18.773775100708008
+  }
+}

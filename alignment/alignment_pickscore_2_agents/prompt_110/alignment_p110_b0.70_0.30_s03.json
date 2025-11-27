@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 110,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_2_agents/prompt_110/idx110_b1_0.70_b2_0.30_s03.png",
+    "filename": "idx110_b1_0.70_b2_0.30_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a health food store",
+    "agent1_prompt": "Medium article",
+    "agent2_prompt": "Citibank card"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.890300750732422,
+    "agent1_alignment": 19.69061279296875,
+    "agent2_alignment": 19.216203689575195
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.54829006195068,
+    "total_welfare": 19.54829006195068
+  }
+}

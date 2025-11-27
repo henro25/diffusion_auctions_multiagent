@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 82,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_2_agents/prompt_082/idx082_b1_0.90_b2_0.10_s18.png",
+    "filename": "idx082_b1_0.90_b2_0.10_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a cooking class",
+    "agent1_prompt": "NYX makeup",
+    "agent2_prompt": "Campbell's soup can"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.76776885986328,
+    "agent1_alignment": 17.968313217163086,
+    "agent2_alignment": 17.573766708374023
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.92885856628418,
+    "total_welfare": 17.92885856628418
+  }
+}

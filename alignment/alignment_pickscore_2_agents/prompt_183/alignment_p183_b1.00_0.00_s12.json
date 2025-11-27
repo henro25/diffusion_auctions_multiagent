@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 183,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 12,
+    "image_path": "output/images_2_agents/prompt_183/idx183_b1_1.00_b2_0.00_s12.png",
+    "filename": "idx183_b1_1.00_b2_0.00_s12.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a escape room adventure",
+    "agent1_prompt": "Champagne bottle",
+    "agent2_prompt": "Jura espresso machine"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.224851608276367,
+    "agent1_alignment": 20.033533096313477,
+    "agent2_alignment": 16.863874435424805
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.033533096313477,
+    "total_welfare": 20.033533096313477
+  }
+}

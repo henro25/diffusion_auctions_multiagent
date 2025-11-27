@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 0,
+    "bids": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_10_agents/prompt_000/idx000_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.10_b6_0.10_b7_0.10_b8_0.10_b9_0.10_b10_0.10_s07.png",
+    "filename": "idx000_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.10_b6_0.10_b7_0.10_b8_0.10_b9_0.10_b10_0.10_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Two friends chatting over coffee at a cafe",
+    "agent1_prompt": "Cappuccino drink",
+    "agent2_prompt": "Microsoft Surface laptop",
+    "agent3_prompt": "USM Haller",
+    "agent4_prompt": "Marriott key card",
+    "agent5_prompt": "Ben & Jerry's ice cream",
+    "agent6_prompt": "Magazine cover",
+    "agent7_prompt": "Ray-Ban sunglasses",
+    "agent8_prompt": "Fanta orange soda",
+    "agent9_prompt": "Barnes & Noble books",
+    "agent10_prompt": "Gillette razor"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.163665771484375,
+    "agent1_alignment": 18.947162628173828,
+    "agent2_alignment": 16.79087257385254,
+    "agent3_alignment": 20.050172805786133,
+    "agent4_alignment": 17.5199031829834,
+    "agent5_alignment": 19.66240692138672,
+    "agent6_alignment": 19.112428665161133,
+    "agent7_alignment": 19.71205711364746,
+    "agent8_alignment": 19.53748893737793,
+    "agent9_alignment": 18.896366119384766,
+    "agent10_alignment": 19.5189208984375
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.974777984619145,
+    "total_welfare": 18.97477798461914
+  }
+}

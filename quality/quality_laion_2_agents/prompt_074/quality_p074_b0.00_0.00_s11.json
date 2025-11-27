@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 74,
+    "bids": [
+      0.0,
+      0.0
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_2_agents/prompt_074/idx074_b1_0.00_b2_0.00_s11.png",
+    "filename": "idx074_b1_0.00_b2_0.00_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a bookstore cafe",
+    "agent1_prompt": "Biscotti cookie",
+    "agent2_prompt": "Steelcase office chair"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.792845726013184
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 111,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_2_agents/prompt_111/idx111_b1_0.30_b2_0.70_s06.png",
+    "filename": "idx111_b1_0.30_b2_0.70_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at an antique shop",
+    "agent1_prompt": "Samsung Galaxy tablet",
+    "agent2_prompt": "Apple Watch"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.16954803466797,
+    "agent1_alignment": 19.18236541748047,
+    "agent2_alignment": 19.913991928100586
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.69450397491455,
+    "total_welfare": 19.69450397491455
+  }
+}

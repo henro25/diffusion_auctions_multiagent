@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 19,
+    "bids": [
+      0.3,
+      0.2,
+      0.15,
+      0.12,
+      0.1,
+      0.07,
+      0.04,
+      0.01,
+      0.0,
+      0.01
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_10_agents/prompt_019/idx019_b1_0.30_b2_0.20_b3_0.15_b4_0.12_b5_0.10_b6_0.07_b7_0.04_b8_0.01_b9_0.00_b10_0.01_s07.png",
+    "filename": "idx019_b1_0.30_b2_0.20_b3_0.15_b4_0.12_b5_0.10_b6_0.07_b7_0.04_b8_0.01_b9_0.00_b10_0.01_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone shopping for groceries at a supermarket",
+    "agent1_prompt": "Google Pay",
+    "agent2_prompt": "Clinique skincare",
+    "agent3_prompt": "Uber ride",
+    "agent4_prompt": "Campbell's soup can",
+    "agent5_prompt": "Michelin tire",
+    "agent6_prompt": "Fortnite game",
+    "agent7_prompt": "Hydroflask water bottle",
+    "agent8_prompt": "Coffee bean bag",
+    "agent9_prompt": "Apple Watch",
+    "agent10_prompt": "TaylorMade golf balls"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.813636779785156,
+    "agent1_alignment": 19.759166717529297,
+    "agent2_alignment": 17.58585548400879,
+    "agent3_alignment": 18.288110733032227,
+    "agent4_alignment": 18.247364044189453,
+    "agent5_alignment": 17.05006217956543,
+    "agent6_alignment": 18.448087692260742,
+    "agent7_alignment": 16.753829956054688,
+    "agent8_alignment": 18.068700790405273,
+    "agent9_alignment": 18.040672302246094,
+    "agent10_alignment": 16.81448745727539
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.3931788444519,
+    "total_welfare": 18.3931788444519
+  }
+}

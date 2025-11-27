@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 170,
+    "bids": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "sample_index": 15,
+    "image_path": "output/images_3_agents/prompt_170/idx170_b1_0.00_b2_1.00_b3_0.00_s15.png",
+    "filename": "idx170_b1_0.00_b2_1.00_b3_0.00_s15.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a wedding dress boutique",
+    "agent1_prompt": "Pottery Barn shelving",
+    "agent2_prompt": "Keen boots",
+    "agent3_prompt": "Ray-Ban sunglasses"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.135221481323242,
+    "agent1_alignment": 16.83448028564453,
+    "agent2_alignment": 18.5731143951416,
+    "agent3_alignment": 17.211275100708008
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.5731143951416,
+    "total_welfare": 18.5731143951416
+  }
+}

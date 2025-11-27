@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 141,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_3_agents/prompt_141/idx141_b1_0.40_b2_0.40_b3_0.20_s08.png",
+    "filename": "idx141_b1_0.40_b2_0.40_b3_0.20_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a garden center",
+    "agent1_prompt": "PetSmart store",
+    "agent2_prompt": "Stella Artois draft",
+    "agent3_prompt": "REI backpack"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.564908981323242,
+    "agent1_alignment": 20.21090316772461,
+    "agent2_alignment": 20.389862060546875,
+    "agent3_alignment": 17.804407119750977
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.801187515258793,
+    "total_welfare": 19.801187515258793
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 119,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_2_agents/prompt_119/idx119_b1_0.70_b2_0.30_s01.png",
+    "filename": "idx119_b1_0.70_b2_0.30_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a florist shop",
+    "agent1_prompt": "GHD hair straightener",
+    "agent2_prompt": "Lay's potato chips"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.7695255279541,
+    "agent1_alignment": 19.5887451171875,
+    "agent2_alignment": 19.303537368774414
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.503182792663573,
+    "total_welfare": 19.503182792663573
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 25,
+    "bids": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_5_agents/prompt_025/idx025_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s05.png",
+    "filename": "idx025_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "A hairdresser styling a client's hair",
+    "agent1_prompt": "Prada bag",
+    "agent2_prompt": "Campbell's soup can",
+    "agent3_prompt": "Magazine cover",
+    "agent4_prompt": "Harley-Davidson motorcycle",
+    "agent5_prompt": "Gatorade sports drink"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.06593894958496,
+    "agent1_alignment": 16.79366111755371,
+    "agent2_alignment": 16.6879940032959,
+    "agent3_alignment": 17.995464324951172,
+    "agent4_alignment": 16.19941520690918,
+    "agent5_alignment": 16.541366577148438
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 181,
+    "bids": [
+      0.3,
+      0.3,
+      0.2,
+      0.1,
+      0.1
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_5_agents/prompt_181/idx181_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s17.png",
+    "filename": "idx181_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "A group at a outdoor bbq",
+    "agent1_prompt": "Nespresso machine",
+    "agent2_prompt": "Design Within Reach",
+    "agent3_prompt": "Columbia jacket",
+    "agent4_prompt": "Turtle Wax car polish",
+    "agent5_prompt": "Philips light bulb"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.710378646850586,
+    "agent1_alignment": 19.55938148498535,
+    "agent2_alignment": 18.82501792907715,
+    "agent3_alignment": 17.330673217773438,
+    "agent4_alignment": 18.537965774536133,
+    "agent5_alignment": 18.352127075195312
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.67046375274658,
+    "total_welfare": 18.67046375274658
+  }
+}

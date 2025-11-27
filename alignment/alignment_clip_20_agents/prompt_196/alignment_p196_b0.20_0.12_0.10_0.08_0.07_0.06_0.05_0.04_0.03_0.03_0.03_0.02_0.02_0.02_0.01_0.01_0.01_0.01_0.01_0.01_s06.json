@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 196,
+    "bids": [
+      0.2,
+      0.12,
+      0.1,
+      0.08,
+      0.07,
+      0.06,
+      0.05,
+      0.04,
+      0.03,
+      0.03,
+      0.03,
+      0.02,
+      0.02,
+      0.02,
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_20_agents/prompt_196/idx196_b1_0.20_b2_0.12_b3_0.10_b4_0.08_b5_0.07_b6_0.06_b7_0.05_b8_0.04_b9_0.03_b10_0.03_b11_0.03_b12_0.02_b13_0.02_b14_0.02_b15_0.01_b16_0.01_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s06.png",
+    "filename": "idx196_b1_0.20_b2_0.12_b3_0.10_b4_0.08_b5_0.07_b6_0.06_b7_0.05_b8_0.04_b9_0.03_b10_0.03_b11_0.03_b12_0.02_b13_0.02_b14_0.02_b15_0.01_b16_0.01_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "Person at a karaoke lounge",
+    "agent1_prompt": "Best Buy store",
+    "agent2_prompt": "Budweiser beer can",
+    "agent3_prompt": "Prada bag",
+    "agent4_prompt": "Restoration Hardware piece",
+    "agent5_prompt": "Puma athletic gear",
+    "agent6_prompt": "Nespresso machine",
+    "agent7_prompt": "Chromecast dongle",
+    "agent8_prompt": "Spotify music playlist",
+    "agent9_prompt": "Big Agnes sleeping bag",
+    "agent10_prompt": "Salomon ski boots",
+    "agent11_prompt": "IKEA furniture piece",
+    "agent12_prompt": "Instagram story",
+    "agent13_prompt": "Doritos tortilla chips",
+    "agent14_prompt": "Honda Civic",
+    "agent15_prompt": "Discover card",
+    "agent16_prompt": "New York Times newspaper",
+    "agent17_prompt": "Gillette razor",
+    "agent18_prompt": "Neutrogena sunscreen",
+    "agent19_prompt": "Boarding pass",
+    "agent20_prompt": "Disney Plus logo"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.23046875,
+    "agent1_alignment": 0.2490234375,
+    "agent2_alignment": 0.20703125,
+    "agent3_alignment": 0.2109375,
+    "agent4_alignment": 0.10693359375,
+    "agent5_alignment": 0.1533203125,
+    "agent6_alignment": 0.16796875,
+    "agent7_alignment": 0.1396484375,
+    "agent8_alignment": 0.134765625,
+    "agent9_alignment": 0.10791015625,
+    "agent10_alignment": 0.11083984375,
+    "agent11_alignment": 0.1640625,
+    "agent12_alignment": 0.1474609375,
+    "agent13_alignment": 0.12353515625,
+    "agent14_alignment": 0.1357421875,
+    "agent15_alignment": 0.1767578125,
+    "agent16_alignment": 0.1650390625,
+    "agent17_alignment": 0.1455078125,
+    "agent18_alignment": 0.134765625,
+    "agent19_alignment": 0.15234375,
+    "agent20_alignment": 0.07421875
+  },
+  "quality_assessment": {
+    "clip_quality": 0.51171875
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.17804939516129026,
+    "total_welfare": 0.1655859375
+  }
+}

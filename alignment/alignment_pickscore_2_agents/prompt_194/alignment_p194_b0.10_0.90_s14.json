@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 194,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_2_agents/prompt_194/idx194_b1_0.10_b2_0.90_s14.png",
+    "filename": "idx194_b1_0.10_b2_0.90_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a climbing wall",
+    "agent1_prompt": "Substack newsletter",
+    "agent2_prompt": "NYX makeup"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.64855194091797,
+    "agent1_alignment": 17.986833572387695,
+    "agent2_alignment": 20.104225158691406
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.892486000061034,
+    "total_welfare": 19.892486000061034
+  }
+}

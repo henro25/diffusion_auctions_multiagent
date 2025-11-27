@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 7,
+    "bids": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_3_agents/prompt_007/idx007_b1_0.50_b2_0.50_b3_0.00_s17.png",
+    "filename": "idx007_b1_0.50_b2_0.50_b3_0.00_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends gathered for a movie night at home",
+    "agent1_prompt": "Vaseline lip balm",
+    "agent2_prompt": "CVS pharmacy",
+    "agent3_prompt": "Dell monitor"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.172391891479492,
+    "agent1_alignment": 19.848276138305664,
+    "agent2_alignment": 17.98314094543457,
+    "agent3_alignment": 18.450157165527344
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.915708541870117,
+    "total_welfare": 18.915708541870117
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 181,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_10_agents/prompt_181/idx181_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_s06.png",
+    "filename": "idx181_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "A group at a outdoor bbq",
+    "agent1_prompt": "Nespresso machine",
+    "agent2_prompt": "Design Within Reach",
+    "agent3_prompt": "Columbia jacket",
+    "agent4_prompt": "Turtle Wax car polish",
+    "agent5_prompt": "Philips light bulb",
+    "agent6_prompt": "Ben & Jerry's ice cream",
+    "agent7_prompt": "Philips light bulb",
+    "agent8_prompt": "CVS pharmacy",
+    "agent9_prompt": "Arc'teryx gear",
+    "agent10_prompt": "Barnes & Noble books"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.18209457397461,
+    "agent1_alignment": 20.782499313354492,
+    "agent2_alignment": 18.421960830688477,
+    "agent3_alignment": 17.144338607788086,
+    "agent4_alignment": 18.373626708984375,
+    "agent5_alignment": 18.26851463317871,
+    "agent6_alignment": 17.9378662109375,
+    "agent7_alignment": 18.26851463317871,
+    "agent8_alignment": 17.760900497436523,
+    "agent9_alignment": 18.021060943603516,
+    "agent10_alignment": 18.13897132873535
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.782499313354492,
+    "total_welfare": 20.782499313354492
+  }
+}

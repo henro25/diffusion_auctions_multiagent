@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 15,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_2_agents/prompt_015/idx015_b1_1.00_b2_0.00_s08.png",
+    "filename": "idx015_b1_1.00_b2_0.00_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "A businesswoman in an airport lounge",
+    "agent1_prompt": "Macy's department",
+    "agent2_prompt": "Dyson hair dryer"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.317785263061523,
+    "agent1_alignment": 20.422508239746094,
+    "agent2_alignment": 19.644840240478516
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.422508239746094,
+    "total_welfare": 20.422508239746094
+  }
+}

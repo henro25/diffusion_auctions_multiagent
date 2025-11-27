@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 182,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_2_agents/prompt_182/idx182_b1_0.50_b2_0.50_s06.png",
+    "filename": "idx182_b1_0.50_b2_0.50_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "Person at a mall food court",
+    "agent1_prompt": "Airbnb listing",
+    "agent2_prompt": "Toyota Camry"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 4.480266571044922
+  }
+}

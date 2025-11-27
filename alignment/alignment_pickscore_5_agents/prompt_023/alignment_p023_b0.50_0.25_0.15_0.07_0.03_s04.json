@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 23,
+    "bids": [
+      0.5,
+      0.25,
+      0.15,
+      0.07,
+      0.03
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_5_agents/prompt_023/idx023_b1_0.50_b2_0.25_b3_0.15_b4_0.07_b5_0.03_s04.png",
+    "filename": "idx023_b1_0.50_b2_0.25_b3_0.15_b4_0.07_b5_0.03_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "A family having breakfast in their kitchen",
+    "agent1_prompt": "Old Spice deodorant",
+    "agent2_prompt": "Design Within Reach",
+    "agent3_prompt": "PlayStation 5",
+    "agent4_prompt": "Gucci loafers",
+    "agent5_prompt": "DJI drone"
+  },
+  "alignment_scores": {
+    "base_alignment": 24.019418716430664,
+    "agent1_alignment": 19.725685119628906,
+    "agent2_alignment": 18.52312660217285,
+    "agent3_alignment": 17.241331100463867,
+    "agent4_alignment": 17.9886417388916,
+    "agent5_alignment": 17.924205780029297
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.876754970550536,
+    "total_welfare": 18.876754970550536
+  }
+}

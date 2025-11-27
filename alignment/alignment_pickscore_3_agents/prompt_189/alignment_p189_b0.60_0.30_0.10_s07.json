@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 189,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_3_agents/prompt_189/idx189_b1_0.60_b2_0.30_b3_0.10_s07.png",
+    "filename": "idx189_b1_0.60_b2_0.30_b3_0.10_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Person at a indoor ice skating",
+    "agent1_prompt": "Chevrolet Silverado",
+    "agent2_prompt": "AMC Theaters",
+    "agent3_prompt": "Restoration Hardware piece"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.432371139526367,
+    "agent1_alignment": 20.604990005493164,
+    "agent2_alignment": 19.515005111694336,
+    "agent3_alignment": 17.79383659362793
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.996879196166994,
+    "total_welfare": 19.99687919616699
+  }
+}

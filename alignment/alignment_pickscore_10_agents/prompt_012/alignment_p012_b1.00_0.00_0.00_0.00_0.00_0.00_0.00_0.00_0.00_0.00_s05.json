@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 12,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_10_agents/prompt_012/idx012_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_s05.png",
+    "filename": "idx012_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "A chef cooking in a restaurant kitchen",
+    "agent1_prompt": "Ford F-150 truck",
+    "agent2_prompt": "Wells Fargo check",
+    "agent3_prompt": "Coffee table",
+    "agent4_prompt": "Lexus ES",
+    "agent5_prompt": "Fitbit smartwatch",
+    "agent6_prompt": "AMC Theaters",
+    "agent7_prompt": "Trader Joe's bags",
+    "agent8_prompt": "Aquafina water",
+    "agent9_prompt": "Herman Miller desk",
+    "agent10_prompt": "Hertz rental"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.232402801513672,
+    "agent1_alignment": 19.120161056518555,
+    "agent2_alignment": 18.762136459350586,
+    "agent3_alignment": 16.4805965423584,
+    "agent4_alignment": 18.131290435791016,
+    "agent5_alignment": 18.122570037841797,
+    "agent6_alignment": 18.333362579345703,
+    "agent7_alignment": 15.8919677734375,
+    "agent8_alignment": 18.26416778564453,
+    "agent9_alignment": 17.099767684936523,
+    "agent10_alignment": 19.023027420043945
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.120161056518555,
+    "total_welfare": 19.120161056518555
+  }
+}

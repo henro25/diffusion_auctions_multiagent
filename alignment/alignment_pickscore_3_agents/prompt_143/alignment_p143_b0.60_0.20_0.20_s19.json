@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 143,
+    "bids": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "sample_index": 19,
+    "image_path": "output/images_3_agents/prompt_143/idx143_b1_0.60_b2_0.20_b3_0.20_s19.png",
+    "filename": "idx143_b1_0.60_b2_0.20_b3_0.20_s19.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a laundry service counter",
+    "agent1_prompt": "Camelback water pack",
+    "agent2_prompt": "Starbucks coffee cup",
+    "agent3_prompt": "Snapple iced tea"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.512182235717773,
+    "agent1_alignment": 19.709903717041016,
+    "agent2_alignment": 19.168262481689453,
+    "agent3_alignment": 19.456056594848633
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.550806045532227,
+    "total_welfare": 19.550806045532227
+  }
+}

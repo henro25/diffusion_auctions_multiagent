@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 7,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_2_agents_competitive/prompt_007/idx007_b1_0.30_b2_0.70_s17.png",
+    "filename": "idx007_b1_0.30_b2_0.70_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone wearing sunglasses at an outdoor cafe",
+    "agent1_prompt": "Ray-Ban sunglasses",
+    "agent2_prompt": "Oakley sunglasses"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.101343154907227,
+    "agent1_alignment": 20.94854736328125,
+    "agent2_alignment": 20.60052490234375
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.704931640625,
+    "total_welfare": 20.704931640625
+  }
+}

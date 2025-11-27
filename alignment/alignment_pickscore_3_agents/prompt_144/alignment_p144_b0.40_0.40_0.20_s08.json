@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 144,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_3_agents/prompt_144/idx144_b1_0.40_b2_0.40_b3_0.20_s08.png",
+    "filename": "idx144_b1_0.40_b2_0.40_b3_0.20_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a software store",
+    "agent1_prompt": "Nutella spread jar",
+    "agent2_prompt": "Magazine stack",
+    "agent3_prompt": "MAC lipstick"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.327238082885742,
+    "agent1_alignment": 21.067642211914062,
+    "agent2_alignment": 20.455198287963867,
+    "agent3_alignment": 16.954130172729492
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.999962234497072,
+    "total_welfare": 19.999962234497072
+  }
+}

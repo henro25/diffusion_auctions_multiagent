@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 194,
+    "bids": [
+      0.25,
+      0.25,
+      0.25,
+      0.15,
+      0.1
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_5_agents/prompt_194/idx194_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s02.png",
+    "filename": "idx194_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a climbing wall",
+    "agent1_prompt": "Substack newsletter",
+    "agent2_prompt": "NYX makeup",
+    "agent3_prompt": "YouTube video",
+    "agent4_prompt": "Booking.com",
+    "agent5_prompt": "Callaway golf clubs"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.39460563659668,
+    "agent1_alignment": 17.36372184753418,
+    "agent2_alignment": 17.857404708862305,
+    "agent3_alignment": 18.662572860717773,
+    "agent4_alignment": 17.82832145690918,
+    "agent5_alignment": 17.359615325927734
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.881134605407716,
+    "total_welfare": 17.881134605407716
+  }
+}

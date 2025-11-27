@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 140,
+    "bids": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_3_agents/prompt_140/idx140_b1_0.00_b2_0.00_b3_1.00_s13.png",
+    "filename": "idx140_b1_0.00_b2_0.00_b3_1.00_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a car inspection station",
+    "agent1_prompt": "Medium article",
+    "agent2_prompt": "Columbia jacket",
+    "agent3_prompt": "Espresso shot"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.993427276611328,
+    "agent1_alignment": 20.291759490966797,
+    "agent2_alignment": 17.802825927734375,
+    "agent3_alignment": 19.26807403564453
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.26807403564453,
+    "total_welfare": 19.26807403564453
+  }
+}

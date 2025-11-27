@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 45,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_2_agents/prompt_045/idx045_b1_0.70_b2_0.30_s04.png",
+    "filename": "idx045_b1_0.70_b2_0.30_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone shopping for electronics",
+    "agent1_prompt": "Barista apron",
+    "agent2_prompt": "Espresso shot"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.958003997802734,
+    "agent1_alignment": 21.455883026123047,
+    "agent2_alignment": 20.002220153808594
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 21.01978416442871,
+    "total_welfare": 21.01978416442871
+  }
+}

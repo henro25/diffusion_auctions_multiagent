@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 85,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_2_agents/prompt_085/idx085_b1_0.10_b2_0.90_s09.png",
+    "filename": "idx085_b1_0.10_b2_0.90_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at an outdoor camping site",
+    "agent1_prompt": "Heineken beer",
+    "agent2_prompt": "Discord voice chat"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.42527961730957,
+    "agent1_alignment": 18.8914794921875,
+    "agent2_alignment": 17.601404190063477
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.730411720275878,
+    "total_welfare": 17.730411720275878
+  }
+}

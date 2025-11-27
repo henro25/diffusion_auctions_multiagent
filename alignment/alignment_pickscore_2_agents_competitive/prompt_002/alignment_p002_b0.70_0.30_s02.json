@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 2,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_2_agents_competitive/prompt_002/idx002_b1_0.70_b2_0.30_s02.png",
+    "filename": "idx002_b1_0.70_b2_0.30_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "A customer paying with a credit card at a retail checkout",
+    "agent1_prompt": "Visa credit card",
+    "agent2_prompt": "Mastercard credit card"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.01181411743164,
+    "agent1_alignment": 21.056499481201172,
+    "agent2_alignment": 20.111141204833984
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.772891998291016,
+    "total_welfare": 20.772891998291016
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 157,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_2_agents/prompt_157/idx157_b1_0.50_b2_0.50_s18.png",
+    "filename": "idx157_b1_0.50_b2_0.50_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a paint and sip class",
+    "agent1_prompt": "Cheetos snack",
+    "agent2_prompt": "Tesla Model 3"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.47150230407715,
+    "agent1_alignment": 19.91722297668457,
+    "agent2_alignment": 19.3295955657959
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.623409271240234,
+    "total_welfare": 19.623409271240234
+  }
+}

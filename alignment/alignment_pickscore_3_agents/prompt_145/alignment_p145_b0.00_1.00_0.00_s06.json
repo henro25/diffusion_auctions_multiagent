@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 145,
+    "bids": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_3_agents/prompt_145/idx145_b1_0.00_b2_1.00_b3_0.00_s06.png",
+    "filename": "idx145_b1_0.00_b2_1.00_b3_0.00_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at an outdoor festival ground",
+    "agent1_prompt": "Wall Street Journal",
+    "agent2_prompt": "KitchenAid mixer",
+    "agent3_prompt": "CVS pharmacy"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.423931121826172,
+    "agent1_alignment": 17.354944229125977,
+    "agent2_alignment": 20.427122116088867,
+    "agent3_alignment": 17.30540657043457
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.427122116088867,
+    "total_welfare": 20.427122116088867
+  }
+}

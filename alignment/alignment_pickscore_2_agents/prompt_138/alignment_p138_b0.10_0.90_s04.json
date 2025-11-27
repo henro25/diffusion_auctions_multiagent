@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 138,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_2_agents/prompt_138/idx138_b1_0.10_b2_0.90_s04.png",
+    "filename": "idx138_b1_0.10_b2_0.90_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a health and wellness center",
+    "agent1_prompt": "Canon EOS camera",
+    "agent2_prompt": "Amazon Prime video"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.168087005615234,
+    "agent1_alignment": 16.983644485473633,
+    "agent2_alignment": 16.478370666503906
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 16.52889804840088,
+    "total_welfare": 16.52889804840088
+  }
+}

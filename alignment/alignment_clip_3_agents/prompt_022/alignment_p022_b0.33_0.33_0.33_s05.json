@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "prompt_index": 22,
+    "bids": [
+      0.33,
+      0.33,
+      0.33
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_3_agents/prompt_022/idx022_b1_0.33_b2_0.33_b3_0.33_s05.png",
+    "filename": "idx022_b1_0.33_b2_0.33_b3_0.33_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "Customers waiting in line at a coffee shop",
+    "agent1_prompt": "Shell fuel",
+    "agent2_prompt": "Jura espresso machine",
+    "agent3_prompt": "HBO Max show"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2421875,
+    "agent1_alignment": 0.2412109375,
+    "agent2_alignment": 0.162109375,
+    "agent3_alignment": 0.15234375
+  },
+  "quality_assessment": {
+    "clip_quality": 0.51171875
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.1852213541666667,
+    "total_welfare": 0.18336914062500004
+  }
+}

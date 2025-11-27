@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 30,
+    "bids": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_5_agents/prompt_030/idx030_b1_0.20_b2_0.20_b3_0.20_b4_0.20_b5_0.20_s13.png",
+    "filename": "idx030_b1_0.20_b2_0.20_b3_0.20_b4_0.20_b5_0.20_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "A person relaxing at a swimming pool",
+    "agent1_prompt": "Fitbit smartwatch",
+    "agent2_prompt": "Blue Bottle coffee",
+    "agent3_prompt": "Toyota Camry",
+    "agent4_prompt": "TikTok app",
+    "agent5_prompt": "Spotify music playlist"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.541465759277344,
+    "agent1_alignment": 18.42229461669922,
+    "agent2_alignment": 18.891700744628906,
+    "agent3_alignment": 16.879196166992188,
+    "agent4_alignment": 17.70323371887207,
+    "agent5_alignment": 18.55111312866211
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.0895076751709,
+    "total_welfare": 18.0895076751709
+  }
+}

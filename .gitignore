@@ -141,9 +141,6 @@ docs/_build/
 requirements_slurm.txt
 deprecated/
 output/
-alignment/
-results/
-quality/
 
 alignment*.sh
 quality*.sh

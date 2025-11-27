@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 75,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_2_agents/prompt_075/idx075_b1_0.90_b2_0.10_s01.png",
+    "filename": "idx075_b1_0.90_b2_0.10_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a dry cleaning shop",
+    "agent1_prompt": "Hilton Hotel",
+    "agent2_prompt": "Mobil 1 motor oil"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.653510093688965
+  }
+}

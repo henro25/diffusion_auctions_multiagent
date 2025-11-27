@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 55,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_2_agents/prompt_055/idx055_b1_0.50_b2_0.50_s08.png",
+    "filename": "idx055_b1_0.50_b2_0.50_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a nail salon getting manicure",
+    "agent1_prompt": "Visa credit card",
+    "agent2_prompt": "IHG hotel"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.057865142822266,
+    "agent1_alignment": 20.997343063354492,
+    "agent2_alignment": 18.986251831054688
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.99179744720459,
+    "total_welfare": 19.99179744720459
+  }
+}

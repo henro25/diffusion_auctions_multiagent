@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 149,
+    "bids": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_3_agents/prompt_149/idx149_b1_0.00_b2_0.00_b3_1.00_s17.png",
+    "filename": "idx149_b1_0.00_b2_0.00_b3_1.00_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a hardware store",
+    "agent1_prompt": "Evian water bottle",
+    "agent2_prompt": "Jeep Wrangler",
+    "agent3_prompt": "Samsung Galaxy tablet"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.767322540283203,
+    "agent1_alignment": 17.125099182128906,
+    "agent2_alignment": 16.878223419189453,
+    "agent3_alignment": 20.829740524291992
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.829740524291992,
+    "total_welfare": 20.829740524291992
+  }
+}

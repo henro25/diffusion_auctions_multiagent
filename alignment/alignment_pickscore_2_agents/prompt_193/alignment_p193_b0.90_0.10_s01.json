@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 193,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_2_agents/prompt_193/idx193_b1_0.90_b2_0.10_s01.png",
+    "filename": "idx193_b1_0.90_b2_0.10_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a outdoor concert",
+    "agent1_prompt": "DJI drone",
+    "agent2_prompt": "Wine glass"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.804214477539062,
+    "agent1_alignment": 21.50415802001953,
+    "agent2_alignment": 17.0460205078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 21.05834426879883,
+    "total_welfare": 21.05834426879883
+  }
+}

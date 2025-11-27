@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 0,
+    "bids": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_3_agents/prompt_000/idx000_b1_0.50_b2_0.50_b3_0.00_s18.png",
+    "filename": "idx000_b1_0.50_b2_0.50_b3_0.00_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "Two friends chatting over coffee at a cafe",
+    "agent1_prompt": "Cappuccino drink",
+    "agent2_prompt": "Microsoft Surface laptop",
+    "agent3_prompt": "USM Haller"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.146909713745117,
+    "agent1_alignment": 19.4091854095459,
+    "agent2_alignment": 20.883071899414062,
+    "agent3_alignment": 19.870084762573242
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.14612865447998,
+    "total_welfare": 20.14612865447998
+  }
+}

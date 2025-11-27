@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 84,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 12,
+    "image_path": "output/images_2_agents/prompt_084/idx084_b1_0.10_b2_0.90_s12.png",
+    "filename": "idx084_b1_0.10_b2_0.90_s12.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a vintage clothing store",
+    "agent1_prompt": "HP laptop",
+    "agent2_prompt": "ExxonMobil gas"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.82855224609375,
+    "agent1_alignment": 17.02166748046875,
+    "agent2_alignment": 19.488235473632812
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.241578674316408,
+    "total_welfare": 19.241578674316408
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 19,
+    "bids": [
+      0.0,
+      1.0
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_2_agents_competitive/prompt_019/idx019_b1_0.00_b2_1.00_s03.png",
+    "filename": "idx019_b1_0.00_b2_1.00_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone drinking orange juice at breakfast",
+    "agent1_prompt": "Tropicana orange juice",
+    "agent2_prompt": "Minute Maid orange juice"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.592863082885742,
+    "agent1_alignment": 19.677135467529297,
+    "agent2_alignment": 20.320341110229492
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.320341110229492,
+    "total_welfare": 20.320341110229492
+  }
+}

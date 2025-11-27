@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 187,
+    "bids": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_10_agents/prompt_187/idx187_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.10_b6_0.10_b7_0.10_b8_0.10_b9_0.10_b10_0.10_s11.png",
+    "filename": "idx187_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.10_b6_0.10_b7_0.10_b8_0.10_b9_0.10_b10_0.10_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a laser tag venue",
+    "agent1_prompt": "Coleman cooler",
+    "agent2_prompt": "Nike Air Force shoes",
+    "agent3_prompt": "AirPods headphones",
+    "agent4_prompt": "McDonald's burger",
+    "agent5_prompt": "Room & Board",
+    "agent6_prompt": "American Express",
+    "agent7_prompt": "Vitra chair",
+    "agent8_prompt": "Coleman camping tent",
+    "agent9_prompt": "Hotel lobby",
+    "agent10_prompt": "Blog post"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.7261905670166,
+    "agent1_alignment": 17.6041202545166,
+    "agent2_alignment": 16.879364013671875,
+    "agent3_alignment": 17.427515029907227,
+    "agent4_alignment": 16.71624755859375,
+    "agent5_alignment": 18.633220672607422,
+    "agent6_alignment": 16.09791374206543,
+    "agent7_alignment": 18.460674285888672,
+    "agent8_alignment": 20.15851593017578,
+    "agent9_alignment": 17.853673934936523,
+    "agent10_alignment": 18.680837631225586
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.85120830535889,
+    "total_welfare": 17.851208305358888
+  }
+}

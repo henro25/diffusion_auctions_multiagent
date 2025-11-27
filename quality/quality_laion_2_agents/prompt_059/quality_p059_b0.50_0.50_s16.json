@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 59,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_2_agents/prompt_059/idx059_b1_0.50_b2_0.50_s16.png",
+    "filename": "idx059_b1_0.50_b2_0.50_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a dentist office waiting",
+    "agent1_prompt": "YouTube channel",
+    "agent2_prompt": "Coffee grinder"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.931580543518066
+  }
+}

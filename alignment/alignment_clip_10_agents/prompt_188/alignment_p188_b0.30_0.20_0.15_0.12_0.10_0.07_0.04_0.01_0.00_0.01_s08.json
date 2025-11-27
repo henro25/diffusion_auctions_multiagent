@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "prompt_index": 188,
+    "bids": [
+      0.3,
+      0.2,
+      0.15,
+      0.12,
+      0.1,
+      0.07,
+      0.04,
+      0.01,
+      0.0,
+      0.01
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_10_agents/prompt_188/idx188_b1_0.30_b2_0.20_b3_0.15_b4_0.12_b5_0.10_b6_0.07_b7_0.04_b8_0.01_b9_0.00_b10_0.01_s08.png",
+    "filename": "idx188_b1_0.30_b2_0.20_b3_0.15_b4_0.12_b5_0.10_b6_0.07_b7_0.04_b8_0.01_b9_0.00_b10_0.01_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "A group at a outdoor soccer game",
+    "agent1_prompt": "Osprey backpack",
+    "agent2_prompt": "Dick's Sporting Goods",
+    "agent3_prompt": "Coffee foam art",
+    "agent4_prompt": "USM Haller",
+    "agent5_prompt": "Columbia jacket",
+    "agent6_prompt": "Amazon book",
+    "agent7_prompt": "Lowe's store",
+    "agent8_prompt": "Arizona tea",
+    "agent9_prompt": "AirPods headphones",
+    "agent10_prompt": "Patagonia hiking pants"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2138671875,
+    "agent1_alignment": 0.2099609375,
+    "agent2_alignment": 0.1552734375,
+    "agent3_alignment": 0.01953125,
+    "agent4_alignment": 0.119140625,
+    "agent5_alignment": 0.1484375,
+    "agent6_alignment": 0.09130859375,
+    "agent7_alignment": 0.10498046875,
+    "agent8_alignment": 0.048095703125,
+    "agent9_alignment": 0.0849609375,
+    "agent10_alignment": 0.13671875
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.13855224609375,
+    "total_welfare": 0.13855224609375
+  }
+}

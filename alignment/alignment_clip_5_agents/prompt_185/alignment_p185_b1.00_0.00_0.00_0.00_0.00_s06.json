@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "prompt_index": 185,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_5_agents/prompt_185/idx185_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s06.png",
+    "filename": "idx185_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a boat marina",
+    "agent1_prompt": "La-Z-Boy recliner",
+    "agent2_prompt": "Michelin tire",
+    "agent3_prompt": "Philips light bulb",
+    "agent4_prompt": "Regal Cinemas",
+    "agent5_prompt": "Macy's department"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.1982421875,
+    "agent1_alignment": 0.1923828125,
+    "agent2_alignment": 0.1201171875,
+    "agent3_alignment": 0.11767578125,
+    "agent4_alignment": 0.06884765625,
+    "agent5_alignment": 0.07373046875
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.1923828125,
+    "total_welfare": 0.1923828125
+  }
+}

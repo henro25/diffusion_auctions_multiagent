@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "prompt_index": 187,
+    "bids": [
+      0.2,
+      0.12,
+      0.1,
+      0.08,
+      0.07,
+      0.06,
+      0.05,
+      0.04,
+      0.03,
+      0.03,
+      0.03,
+      0.02,
+      0.02,
+      0.02,
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_20_agents/prompt_187/idx187_b1_0.20_b2_0.12_b3_0.10_b4_0.08_b5_0.07_b6_0.06_b7_0.05_b8_0.04_b9_0.03_b10_0.03_b11_0.03_b12_0.02_b13_0.02_b14_0.02_b15_0.01_b16_0.01_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s01.png",
+    "filename": "idx187_b1_0.20_b2_0.12_b3_0.10_b4_0.08_b5_0.07_b6_0.06_b7_0.05_b8_0.04_b9_0.03_b10_0.03_b11_0.03_b12_0.02_b13_0.02_b14_0.02_b15_0.01_b16_0.01_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a laser tag venue",
+    "agent1_prompt": "Coleman cooler",
+    "agent2_prompt": "Nike Air Force shoes",
+    "agent3_prompt": "AirPods headphones",
+    "agent4_prompt": "McDonald's burger",
+    "agent5_prompt": "Room & Board",
+    "agent6_prompt": "American Express",
+    "agent7_prompt": "Vitra chair",
+    "agent8_prompt": "Coleman camping tent",
+    "agent9_prompt": "Hotel lobby",
+    "agent10_prompt": "Blog post",
+    "agent11_prompt": "Shark steam mop",
+    "agent12_prompt": "Arizona tea",
+    "agent13_prompt": "Shell fuel",
+    "agent14_prompt": "Macy's department",
+    "agent15_prompt": "Levi's blue jeans",
+    "agent16_prompt": "Target logo",
+    "agent17_prompt": "Disney Plus logo",
+    "agent18_prompt": "Wilson tennis balls",
+    "agent19_prompt": "Urban Decay eyeshadow",
+    "agent20_prompt": "Coffee bean bag"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.700982093811035
+  }
+}

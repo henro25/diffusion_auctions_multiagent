@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 66,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_2_agents/prompt_066/idx066_b1_1.00_b2_0.00_s13.png",
+    "filename": "idx066_b1_1.00_b2_0.00_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at an amusement park",
+    "agent1_prompt": "Walgreens pharmacy",
+    "agent2_prompt": "Louis Vuitton handbag"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.588476181030273,
+    "agent1_alignment": 19.341066360473633,
+    "agent2_alignment": 17.753549575805664
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.341066360473633,
+    "total_welfare": 19.341066360473633
+  }
+}

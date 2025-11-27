@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 158,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 10,
+    "image_path": "output/images_2_agents/prompt_158/idx158_b1_0.50_b2_0.50_s10.png",
+    "filename": "idx158_b1_0.50_b2_0.50_s10.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a mattress store",
+    "agent1_prompt": "Wine glass",
+    "agent2_prompt": "Cappuccino drink"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.286270141601562,
+    "agent1_alignment": 19.870441436767578,
+    "agent2_alignment": 18.24292755126953
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.056684494018555,
+    "total_welfare": 19.056684494018555
+  }
+}

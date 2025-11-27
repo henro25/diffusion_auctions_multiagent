@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 26,
+    "bids": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_3_agents/prompt_026/idx026_b1_1.00_b2_0.00_b3_0.00_s09.png",
+    "filename": "idx026_b1_1.00_b2_0.00_b3_0.00_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends meeting at a shopping mall",
+    "agent1_prompt": "Heinz ketchup",
+    "agent2_prompt": "Among Us game",
+    "agent3_prompt": "Starbucks coffee cup"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.7048282623291,
+    "agent1_alignment": 19.58746910095215,
+    "agent2_alignment": 19.24283218383789,
+    "agent3_alignment": 18.375822067260742
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.58746910095215,
+    "total_welfare": 19.58746910095215
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 15,
+    "bids": [
+      0.3,
+      0.3,
+      0.2,
+      0.1,
+      0.1
+    ],
+    "sample_index": 0,
+    "image_path": "output/images_5_agents/prompt_015/idx015_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s00.png",
+    "filename": "idx015_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s00.png"
+  },
+  "prompts": {
+    "base_prompt": "A businesswoman in an airport lounge",
+    "agent1_prompt": "Macy's department",
+    "agent2_prompt": "Dyson hair dryer",
+    "agent3_prompt": "Chromecast dongle",
+    "agent4_prompt": "Cold brew concentrate",
+    "agent5_prompt": "Coffee foam art"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.379592895507812,
+    "agent1_alignment": 19.299272537231445,
+    "agent2_alignment": 20.050254821777344,
+    "agent3_alignment": 18.87258529663086,
+    "agent4_alignment": 19.329917907714844,
+    "agent5_alignment": 19.40265464782715
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.45263252258301,
+    "total_welfare": 19.45263252258301
+  }
+}

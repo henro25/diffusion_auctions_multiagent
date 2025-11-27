@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 166,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_3_agents/prompt_166/idx166_b1_0.60_b2_0.30_b3_0.10_s07.png",
+    "filename": "idx166_b1_0.60_b2_0.30_b3_0.10_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a outdoor archery range",
+    "agent1_prompt": "Converse Chuck Taylor",
+    "agent2_prompt": "Sonos speaker system",
+    "agent3_prompt": "Tresemm\u00e9 shampoo"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.850875854492188,
+    "agent1_alignment": 17.263887405395508,
+    "agent2_alignment": 16.540639877319336,
+    "agent3_alignment": 16.372840881347656
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 16.957808494567875,
+    "total_welfare": 16.95780849456787
+  }
+}

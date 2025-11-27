@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "prompt_index": 21,
+    "bids": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 3,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_3_agent/prompt_021/idx021_b1_1.00_b2_0.00_b3_0.00_s03.png",
+    "filename": "idx021_b1_1.00_b2_0.00_b3_0.00_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "A barista working in a trendy coffee shop",
+    "agent1_prompt": "Starbucks coffee machine",
+    "agent2_prompt": "Spotify playlist screen",
+    "agent3_prompt": "Levi's denim apron"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.283203125,
+    "agent1_alignment": 0.2333984375,
+    "agent2_alignment": 0.1376953125,
+    "agent3_alignment": 0.1689453125
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.2333984375,
+    "total_welfare": 0.2333984375
+  }
+}

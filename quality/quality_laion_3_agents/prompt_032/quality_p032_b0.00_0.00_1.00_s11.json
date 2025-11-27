@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "prompt_index": 32,
+    "bids": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_3_agents/prompt_032/idx032_b1_0.00_b2_0.00_b3_1.00_s11.png",
+    "filename": "idx032_b1_0.00_b2_0.00_b3_1.00_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends having a picnic in a park",
+    "agent1_prompt": "Pepsi can",
+    "agent2_prompt": "Marriott key card",
+    "agent3_prompt": "Coach handbag"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.464317798614502
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 142,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_2_agents/prompt_142/idx142_b1_1.00_b2_0.00_s11.png",
+    "filename": "idx142_b1_1.00_b2_0.00_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at an outdoor concert pavilion",
+    "agent1_prompt": "Article sofa",
+    "agent2_prompt": "Ben & Jerry's ice cream"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.441410064697266,
+    "agent1_alignment": 19.308034896850586,
+    "agent2_alignment": 18.464977264404297
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.308034896850586,
+    "total_welfare": 19.308034896850586
+  }
+}

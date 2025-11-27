@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 4,
+    "bids": [
+      0.15,
+      0.12,
+      0.1,
+      0.08,
+      0.07,
+      0.06,
+      0.05,
+      0.05,
+      0.04,
+      0.04,
+      0.03,
+      0.03,
+      0.02,
+      0.02,
+      0.02,
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_20_agents/prompt_004/idx004_b1_0.15_b2_0.12_b3_0.10_b4_0.08_b5_0.07_b6_0.06_b7_0.05_b8_0.05_b9_0.04_b10_0.04_b11_0.03_b12_0.03_b13_0.02_b14_0.02_b15_0.02_b16_0.01_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s14.png",
+    "filename": "idx004_b1_0.15_b2_0.12_b3_0.10_b4_0.08_b5_0.07_b6_0.06_b7_0.05_b8_0.05_b9_0.04_b10_0.04_b11_0.03_b12_0.03_b13_0.02_b14_0.02_b15_0.02_b16_0.01_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "A professional working at a desk in a bright office",
+    "agent1_prompt": "Wine glass",
+    "agent2_prompt": "Chromecast dongle",
+    "agent3_prompt": "Coleman cooler",
+    "agent4_prompt": "USM Haller",
+    "agent5_prompt": "Hyatt resort",
+    "agent6_prompt": "Nest thermostat",
+    "agent7_prompt": "Wells Fargo check",
+    "agent8_prompt": "CVS pharmacy",
+    "agent9_prompt": "Hydroflask water bottle",
+    "agent10_prompt": "Steam gaming platform",
+    "agent11_prompt": "Salomon ski boots",
+    "agent12_prompt": "Audi A4",
+    "agent13_prompt": "Ben & Jerry's ice cream",
+    "agent14_prompt": "Nespresso machine",
+    "agent15_prompt": "Cold brew concentrate",
+    "agent16_prompt": "Dove body wash",
+    "agent17_prompt": "Podcast logo",
+    "agent18_prompt": "Louis Vuitton handbag",
+    "agent19_prompt": "Shark steam mop",
+    "agent20_prompt": "Michelin tire"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2490234375,
+    "agent1_alignment": 0.1982421875,
+    "agent2_alignment": 0.10791015625,
+    "agent3_alignment": 0.119140625,
+    "agent4_alignment": 0.154296875,
+    "agent5_alignment": 0.1298828125,
+    "agent6_alignment": 0.11962890625,
+    "agent7_alignment": 0.091796875,
+    "agent8_alignment": 0.09326171875,
+    "agent9_alignment": 0.15625,
+    "agent10_alignment": 0.12890625,
+    "agent11_alignment": 0.1005859375,
+    "agent12_alignment": 0.08935546875,
+    "agent13_alignment": 0.06640625,
+    "agent14_alignment": 0.130859375,
+    "agent15_alignment": 0.13671875,
+    "agent16_alignment": 0.1005859375,
+    "agent17_alignment": 0.10595703125,
+    "agent18_alignment": 0.0693359375,
+    "agent19_alignment": 0.1279296875,
+    "agent20_alignment": 0.10302734375
+  },
+  "quality_assessment": {
+    "clip_quality": 0.51171875
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.13044984879032256,
+    "total_welfare": 0.12131835937500003
+  }
+}

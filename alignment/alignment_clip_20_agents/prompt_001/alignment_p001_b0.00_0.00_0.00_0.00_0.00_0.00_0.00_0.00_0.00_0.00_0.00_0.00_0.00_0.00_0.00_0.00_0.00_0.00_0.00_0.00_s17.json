@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 1,
+    "bids": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_20_agents/prompt_001/idx001_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_b11_0.00_b12_0.00_b13_0.00_b14_0.00_b15_0.00_b16_0.00_b17_0.00_b18_0.00_b19_0.00_b20_0.00_s17.png",
+    "filename": "idx001_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_b11_0.00_b12_0.00_b13_0.00_b14_0.00_b15_0.00_b16_0.00_b17_0.00_b18_0.00_b19_0.00_b20_0.00_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "People enjoying a sunny day at the beach",
+    "agent1_prompt": "Spalding basketball",
+    "agent2_prompt": "Target logo",
+    "agent3_prompt": "Iced coffee",
+    "agent4_prompt": "Tempur-Pedic mattress",
+    "agent5_prompt": "Mobil 1 motor oil",
+    "agent6_prompt": "DJI drone",
+    "agent7_prompt": "Dell monitor",
+    "agent8_prompt": "Movie ticket stub",
+    "agent9_prompt": "ASOS online",
+    "agent10_prompt": "Corona beer bottle",
+    "agent11_prompt": "Blog post",
+    "agent12_prompt": "Gillette razor",
+    "agent13_prompt": "Bacon strips",
+    "agent14_prompt": "IHG hotel",
+    "agent15_prompt": "Lipton tea bag",
+    "agent16_prompt": "Ashley Furniture",
+    "agent17_prompt": "Michael Kors watch",
+    "agent18_prompt": "Barista apron",
+    "agent19_prompt": "Tempur-Pedic mattress",
+    "agent20_prompt": "Citibank card"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2392578125,
+    "agent1_alignment": 0.08154296875,
+    "agent2_alignment": 0.0986328125,
+    "agent3_alignment": 0.1337890625,
+    "agent4_alignment": 0.11865234375,
+    "agent5_alignment": 0.11279296875,
+    "agent6_alignment": 0.15625,
+    "agent7_alignment": 0.12353515625,
+    "agent8_alignment": 0.083984375,
+    "agent9_alignment": 0.126953125,
+    "agent10_alignment": 0.1474609375,
+    "agent11_alignment": 0.1806640625,
+    "agent12_alignment": 0.12353515625,
+    "agent13_alignment": 0.11474609375,
+    "agent14_alignment": 0.146484375,
+    "agent15_alignment": 0.12255859375,
+    "agent16_alignment": 0.10009765625,
+    "agent17_alignment": 0.09130859375,
+    "agent18_alignment": 0.10400390625,
+    "agent19_alignment": 0.11865234375,
+    "agent20_alignment": 0.1357421875
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

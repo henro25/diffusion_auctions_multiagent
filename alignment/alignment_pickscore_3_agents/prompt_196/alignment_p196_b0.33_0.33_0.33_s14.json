@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 196,
+    "bids": [
+      0.33,
+      0.33,
+      0.33
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_3_agents/prompt_196/idx196_b1_0.33_b2_0.33_b3_0.33_s14.png",
+    "filename": "idx196_b1_0.33_b2_0.33_b3_0.33_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "Person at a karaoke lounge",
+    "agent1_prompt": "Best Buy store",
+    "agent2_prompt": "Budweiser beer can",
+    "agent3_prompt": "Prada bag"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.071414947509766,
+    "agent1_alignment": 18.071584701538086,
+    "agent2_alignment": 19.282968521118164,
+    "agent3_alignment": 16.535572052001953
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.963375091552734,
+    "total_welfare": 17.783741340637206
+  }
+}

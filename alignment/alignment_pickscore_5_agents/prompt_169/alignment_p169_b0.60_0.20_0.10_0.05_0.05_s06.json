@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 169,
+    "bids": [
+      0.6,
+      0.2,
+      0.1,
+      0.05,
+      0.05
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_5_agents/prompt_169/idx169_b1_0.60_b2_0.20_b3_0.10_b4_0.05_b5_0.05_s06.png",
+    "filename": "idx169_b1_0.60_b2_0.20_b3_0.10_b4_0.05_b5_0.05_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a outdoor horseback riding",
+    "agent1_prompt": "Kroger supermarket",
+    "agent2_prompt": "Asics running shoe",
+    "agent3_prompt": "United Airlines",
+    "agent4_prompt": "Bang & Olufsen speaker",
+    "agent5_prompt": "Supreme hoodie"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.27395248413086,
+    "agent1_alignment": 18.414602279663086,
+    "agent2_alignment": 17.27440643310547,
+    "agent3_alignment": 17.606124877929688,
+    "agent4_alignment": 18.146928787231445,
+    "agent5_alignment": 17.338685989379883
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.03853588104248,
+    "total_welfare": 18.03853588104248
+  }
+}

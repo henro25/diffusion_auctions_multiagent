@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 177,
+    "bids": [
+      0.5,
+      0.25,
+      0.15,
+      0.07,
+      0.03
+    ],
+    "sample_index": 15,
+    "image_path": "output/images_5_agents/prompt_177/idx177_b1_0.50_b2_0.25_b3_0.15_b4_0.07_b5_0.03_s15.png",
+    "filename": "idx177_b1_0.50_b2_0.25_b3_0.15_b4_0.07_b5_0.03_s15.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a craft brewery",
+    "agent1_prompt": "New York Times newspaper",
+    "agent2_prompt": "Herman Miller chair",
+    "agent3_prompt": "Lipton tea bag",
+    "agent4_prompt": "All-Clad cookware",
+    "agent5_prompt": "NYX makeup"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.88918685913086,
+    "agent1_alignment": 19.993080139160156,
+    "agent2_alignment": 18.394607543945312,
+    "agent3_alignment": 18.891191482543945,
+    "agent4_alignment": 18.50616455078125,
+    "agent5_alignment": 17.89310646057129
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.261095390319824,
+    "total_welfare": 19.261095390319824
+  }
+}

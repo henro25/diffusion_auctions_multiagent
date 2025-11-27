@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 79,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_2_agents/prompt_079/idx079_b1_1.00_b2_0.00_s04.png",
+    "filename": "idx079_b1_1.00_b2_0.00_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a trivia night at pub",
+    "agent1_prompt": "Timberland boots",
+    "agent2_prompt": "HP laptop"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.436851501464844,
+    "agent1_alignment": 19.277368545532227,
+    "agent2_alignment": 17.211029052734375
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.277368545532227,
+    "total_welfare": 19.277368545532227
+  }
+}

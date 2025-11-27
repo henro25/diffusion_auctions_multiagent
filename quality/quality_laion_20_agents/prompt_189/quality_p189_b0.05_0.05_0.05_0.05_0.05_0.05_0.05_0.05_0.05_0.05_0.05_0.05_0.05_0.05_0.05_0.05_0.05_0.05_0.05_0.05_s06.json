@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "prompt_index": 189,
+    "bids": [
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_20_agents/prompt_189/idx189_b1_0.05_b2_0.05_b3_0.05_b4_0.05_b5_0.05_b6_0.05_b7_0.05_b8_0.05_b9_0.05_b10_0.05_b11_0.05_b12_0.05_b13_0.05_b14_0.05_b15_0.05_b16_0.05_b17_0.05_b18_0.05_b19_0.05_b20_0.05_s06.png",
+    "filename": "idx189_b1_0.05_b2_0.05_b3_0.05_b4_0.05_b5_0.05_b6_0.05_b7_0.05_b8_0.05_b9_0.05_b10_0.05_b11_0.05_b12_0.05_b13_0.05_b14_0.05_b15_0.05_b16_0.05_b17_0.05_b18_0.05_b19_0.05_b20_0.05_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "Person at a indoor ice skating",
+    "agent1_prompt": "Chevrolet Silverado",
+    "agent2_prompt": "AMC Theaters",
+    "agent3_prompt": "Restoration Hardware piece",
+    "agent4_prompt": "TD Bank",
+    "agent5_prompt": "Latte beverage",
+    "agent6_prompt": "Olaplex hair treatment",
+    "agent7_prompt": "Hotel lobby",
+    "agent8_prompt": "Fitbit tracker",
+    "agent9_prompt": "Vans slip-on shoes",
+    "agent10_prompt": "Amazon Prime logo",
+    "agent11_prompt": "Newspaper headline",
+    "agent12_prompt": "USA Today paper",
+    "agent13_prompt": "Range Rover vehicle",
+    "agent14_prompt": "Dyson vacuum",
+    "agent15_prompt": "Regal Cinemas",
+    "agent16_prompt": "Orange juice carton",
+    "agent17_prompt": "Logitech wireless mouse",
+    "agent18_prompt": "Coleman camping tent",
+    "agent19_prompt": "HP laptop",
+    "agent20_prompt": "Sushi platter"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 4.872561931610107
+  }
+}

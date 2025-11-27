@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 154,
+    "bids": [
+      0.4,
+      0.3,
+      0.2,
+      0.05,
+      0.05
+    ],
+    "sample_index": 10,
+    "image_path": "output/images_5_agents/prompt_154/idx154_b1_0.40_b2_0.30_b3_0.20_b4_0.05_b5_0.05_s10.png",
+    "filename": "idx154_b1_0.40_b2_0.30_b3_0.20_b4_0.05_b5_0.05_s10.png"
+  },
+  "prompts": {
+    "base_prompt": "Travelers at an airport security checkpoint",
+    "agent1_prompt": "Aquafina water",
+    "agent2_prompt": "PayPal logo",
+    "agent3_prompt": "Pantene hair care",
+    "agent4_prompt": "Under Armour shorts",
+    "agent5_prompt": "Vaseline lip balm"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.684871673583984,
+    "agent1_alignment": 20.737394332885742,
+    "agent2_alignment": 17.57770347595215,
+    "agent3_alignment": 19.032791137695312,
+    "agent4_alignment": 15.222590446472168,
+    "agent5_alignment": 18.814720153808594
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.07669253349304,
+    "total_welfare": 19.07669253349304
+  }
+}

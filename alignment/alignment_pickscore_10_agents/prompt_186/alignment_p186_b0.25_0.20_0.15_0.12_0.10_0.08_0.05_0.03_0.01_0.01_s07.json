@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 186,
+    "bids": [
+      0.25,
+      0.2,
+      0.15,
+      0.12,
+      0.1,
+      0.08,
+      0.05,
+      0.03,
+      0.01,
+      0.01
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_10_agents/prompt_186/idx186_b1_0.25_b2_0.20_b3_0.15_b4_0.12_b5_0.10_b6_0.08_b7_0.05_b8_0.03_b9_0.01_b10_0.01_s07.png",
+    "filename": "idx186_b1_0.25_b2_0.20_b3_0.15_b4_0.12_b5_0.10_b6_0.08_b7_0.05_b8_0.03_b9_0.01_b10_0.01_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a batting cage",
+    "agent1_prompt": "Spotify music playlist",
+    "agent2_prompt": "Adidas Superstar sneakers",
+    "agent3_prompt": "DJI drone",
+    "agent4_prompt": "USM Haller",
+    "agent5_prompt": "Amazon Prime logo",
+    "agent6_prompt": "Spalding basketball",
+    "agent7_prompt": "Sonos speaker system",
+    "agent8_prompt": "Expedia booking",
+    "agent9_prompt": "Xbox Series X",
+    "agent10_prompt": "Corona beer bottle"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.6147518157959,
+    "agent1_alignment": 18.64023208618164,
+    "agent2_alignment": 17.15777015686035,
+    "agent3_alignment": 19.85211181640625,
+    "agent4_alignment": 18.69778823852539,
+    "agent5_alignment": 16.30172348022461,
+    "agent6_alignment": 18.265363693237305,
+    "agent7_alignment": 18.48743438720703,
+    "agent8_alignment": 18.8231143951416,
+    "agent9_alignment": 17.419160842895508,
+    "agent10_alignment": 17.781747817993164
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.245639095306398,
+    "total_welfare": 18.245639095306398
+  }
+}

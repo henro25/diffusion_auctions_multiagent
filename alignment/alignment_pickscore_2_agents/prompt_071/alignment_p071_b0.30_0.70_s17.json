@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 71,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_2_agents/prompt_071/idx071_b1_0.30_b2_0.70_s17.png",
+    "filename": "idx071_b1_0.30_b2_0.70_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a travel agency planning trip",
+    "agent1_prompt": "Timberland boots",
+    "agent2_prompt": "Comic book"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.653274536132812,
+    "agent1_alignment": 20.700809478759766,
+    "agent2_alignment": 19.2313175201416
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.67216510772705,
+    "total_welfare": 19.67216510772705
+  }
+}

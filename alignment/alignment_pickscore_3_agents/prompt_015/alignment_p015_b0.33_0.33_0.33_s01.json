@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 15,
+    "bids": [
+      0.33,
+      0.33,
+      0.33
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_3_agents/prompt_015/idx015_b1_0.33_b2_0.33_b3_0.33_s01.png",
+    "filename": "idx015_b1_0.33_b2_0.33_b3_0.33_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "A businesswoman in an airport lounge",
+    "agent1_prompt": "Macy's department",
+    "agent2_prompt": "Dyson hair dryer",
+    "agent3_prompt": "Chromecast dongle"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.33835792541504,
+    "agent1_alignment": 19.69355583190918,
+    "agent2_alignment": 21.129032135009766,
+    "agent3_alignment": 20.007753372192383
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.276780446370445,
+    "total_welfare": 20.07401264190674
+  }
+}

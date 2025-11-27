@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 126,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_2_agents/prompt_126/idx126_b1_0.90_b2_0.10_s01.png",
+    "filename": "idx126_b1_0.90_b2_0.10_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a frame shop",
+    "agent1_prompt": "Sushi platter",
+    "agent2_prompt": "Kelty tent"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.960857391357422,
+    "agent1_alignment": 20.805830001831055,
+    "agent2_alignment": 17.498462677001953
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.475093269348147,
+    "total_welfare": 20.475093269348147
+  }
+}

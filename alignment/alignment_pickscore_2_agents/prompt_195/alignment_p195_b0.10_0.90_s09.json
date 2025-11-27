@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 195,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_2_agents/prompt_195/idx195_b1_0.10_b2_0.90_s09.png",
+    "filename": "idx195_b1_0.10_b2_0.90_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "A group at a outdoor festival",
+    "agent1_prompt": "Herman Miller chair",
+    "agent2_prompt": "Biscotti cookie"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.387264251708984,
+    "agent1_alignment": 16.32059669494629,
+    "agent2_alignment": 20.0778751373291
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.70214729309082,
+    "total_welfare": 19.70214729309082
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 15,
+    "bids": [
+      0.2,
+      0.2,
+      0.2,
+      0.15,
+      0.1,
+      0.05,
+      0.05,
+      0.03,
+      0.01,
+      0.01
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_10_agents/prompt_015/idx015_b1_0.20_b2_0.20_b3_0.20_b4_0.15_b5_0.10_b6_0.05_b7_0.05_b8_0.03_b9_0.01_b10_0.01_s11.png",
+    "filename": "idx015_b1_0.20_b2_0.20_b3_0.20_b4_0.15_b5_0.10_b6_0.05_b7_0.05_b8_0.03_b9_0.01_b10_0.01_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "A businesswoman in an airport lounge",
+    "agent1_prompt": "Macy's department",
+    "agent2_prompt": "Dyson hair dryer",
+    "agent3_prompt": "Chromecast dongle",
+    "agent4_prompt": "Cold brew concentrate",
+    "agent5_prompt": "Coffee foam art",
+    "agent6_prompt": "United Airlines",
+    "agent7_prompt": "Knoll furniture",
+    "agent8_prompt": "NYX makeup",
+    "agent9_prompt": "Substack newsletter",
+    "agent10_prompt": "Sprite lemon-lime"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.28636360168457,
+    "agent1_alignment": 19.58099937438965,
+    "agent2_alignment": 20.889122009277344,
+    "agent3_alignment": 19.783946990966797,
+    "agent4_alignment": 18.712902069091797,
+    "agent5_alignment": 18.885221481323242,
+    "agent6_alignment": 18.441850662231445,
+    "agent7_alignment": 18.42827606201172,
+    "agent8_alignment": 19.804771423339844,
+    "agent9_alignment": 18.81436538696289,
+    "agent10_alignment": 18.200429916381836
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.55406856536865,
+    "total_welfare": 19.554068565368652
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 116,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_2_agents/prompt_116/idx116_b1_0.70_b2_0.30_s18.png",
+    "filename": "idx116_b1_0.70_b2_0.30_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a salon waiting area",
+    "agent1_prompt": "Fitbit tracker",
+    "agent2_prompt": "Chevrolet Silverado"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.83306884765625,
+    "agent1_alignment": 19.33246612548828,
+    "agent2_alignment": 20.17331886291504
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.584721946716307,
+    "total_welfare": 19.584721946716307
+  }
+}

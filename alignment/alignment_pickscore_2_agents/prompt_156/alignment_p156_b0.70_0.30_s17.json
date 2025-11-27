@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 156,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_2_agents/prompt_156/idx156_b1_0.70_b2_0.30_s17.png",
+    "filename": "idx156_b1_0.70_b2_0.30_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at an electronics repair shop",
+    "agent1_prompt": "Citibank card",
+    "agent2_prompt": "Passport booklet"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.208173751831055,
+    "agent1_alignment": 20.473968505859375,
+    "agent2_alignment": 19.182828903198242
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.086626625061033,
+    "total_welfare": 20.086626625061033
+  }
+}

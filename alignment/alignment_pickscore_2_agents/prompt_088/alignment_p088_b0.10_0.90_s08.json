@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 88,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_2_agents/prompt_088/idx088_b1_0.10_b2_0.90_s08.png",
+    "filename": "idx088_b1_0.10_b2_0.90_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a dinner party",
+    "agent1_prompt": "Among Us game",
+    "agent2_prompt": "Alexa smart speaker"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.96906280517578,
+    "agent1_alignment": 18.990976333618164,
+    "agent2_alignment": 19.886110305786133
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.796596908569335,
+    "total_welfare": 19.796596908569335
+  }
+}

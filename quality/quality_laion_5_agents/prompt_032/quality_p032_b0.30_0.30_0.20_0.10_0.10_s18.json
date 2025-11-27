@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 32,
+    "bids": [
+      0.3,
+      0.3,
+      0.2,
+      0.1,
+      0.1
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_5_agents/prompt_032/idx032_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s18.png",
+    "filename": "idx032_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends having a picnic in a park",
+    "agent1_prompt": "Pepsi can",
+    "agent2_prompt": "Marriott key card",
+    "agent3_prompt": "Coach handbag",
+    "agent4_prompt": "Kroger supermarket",
+    "agent5_prompt": "Jeep Wrangler"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.573784828186035
+  }
+}

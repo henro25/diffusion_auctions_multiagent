@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 36,
+    "bids": [
+      0.6,
+      0.2,
+      0.1,
+      0.05,
+      0.05
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_5_agents/prompt_036/idx036_b1_0.60_b2_0.20_b3_0.10_b4_0.05_b5_0.05_s04.png",
+    "filename": "idx036_b1_0.60_b2_0.20_b3_0.10_b4_0.05_b5_0.05_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "A person exercising on gym equipment",
+    "agent1_prompt": "Spalding basketball",
+    "agent2_prompt": "Olaplex hair treatment",
+    "agent3_prompt": "Gap clothing store",
+    "agent4_prompt": "Venmo app",
+    "agent5_prompt": "Heineken beer"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.129840850830078,
+    "agent1_alignment": 19.954721450805664,
+    "agent2_alignment": 18.54347801208496,
+    "agent3_alignment": 17.507997512817383,
+    "agent4_alignment": 17.24269676208496,
+    "agent5_alignment": 19.32833480834961
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.260879802703855,
+    "total_welfare": 19.260879802703855
+  }
+}

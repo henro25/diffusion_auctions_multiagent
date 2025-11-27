@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 174,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_2_agents/prompt_174/idx174_b1_0.10_b2_0.90_s05.png",
+    "filename": "idx174_b1_0.10_b2_0.90_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a stained glass studio",
+    "agent1_prompt": "Pizza delivery box",
+    "agent2_prompt": "Spotify music playlist"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.92620086669922,
+    "agent1_alignment": 18.23160743713379,
+    "agent2_alignment": 19.024009704589844
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.94476947784424,
+    "total_welfare": 18.94476947784424
+  }
+}

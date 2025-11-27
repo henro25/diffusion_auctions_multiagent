@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 0,
+    "bids": [
+      0.5,
+      0.25,
+      0.15,
+      0.07,
+      0.03
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_5_agents/prompt_000/idx000_b1_0.50_b2_0.25_b3_0.15_b4_0.07_b5_0.03_s17.png",
+    "filename": "idx000_b1_0.50_b2_0.25_b3_0.15_b4_0.07_b5_0.03_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "Two friends chatting over coffee at a cafe",
+    "agent1_prompt": "Cappuccino drink",
+    "agent2_prompt": "Microsoft Surface laptop",
+    "agent3_prompt": "USM Haller",
+    "agent4_prompt": "Marriott key card",
+    "agent5_prompt": "Ben & Jerry's ice cream"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.127187728881836,
+    "agent1_alignment": 19.64267921447754,
+    "agent2_alignment": 19.78862762451172,
+    "agent3_alignment": 20.369897842407227,
+    "agent4_alignment": 18.545440673828125,
+    "agent5_alignment": 18.225370407104492
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.668923149108885,
+    "total_welfare": 19.668923149108885
+  }
+}

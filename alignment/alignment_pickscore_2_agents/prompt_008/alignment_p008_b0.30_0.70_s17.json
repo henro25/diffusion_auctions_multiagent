@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 8,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_2_agents/prompt_008/idx008_b1_0.30_b2_0.70_s17.png",
+    "filename": "idx008_b1_0.30_b2_0.70_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "A car driving along a scenic coastal highway",
+    "agent1_prompt": "Kindle e-reader",
+    "agent2_prompt": "Ethan Allen furniture"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.110021591186523,
+    "agent1_alignment": 20.66666603088379,
+    "agent2_alignment": 18.694561004638672
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.28619251251221,
+    "total_welfare": 19.28619251251221
+  }
+}

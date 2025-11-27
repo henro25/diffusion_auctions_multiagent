@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 148,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_2_agents/prompt_148/idx148_b1_0.50_b2_0.50_s07.png",
+    "filename": "idx148_b1_0.50_b2_0.50_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a backyard swimming pool",
+    "agent1_prompt": "Mobil 1 motor oil",
+    "agent2_prompt": "Stella Artois draft"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.606115341186523,
+    "agent1_alignment": 18.882619857788086,
+    "agent2_alignment": 20.51060676574707
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.696613311767578,
+    "total_welfare": 19.696613311767578
+  }
+}

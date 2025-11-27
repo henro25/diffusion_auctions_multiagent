@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 197,
+    "bids": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_3_agents/prompt_197/idx197_b1_1.00_b2_0.00_b3_0.00_s09.png",
+    "filename": "idx197_b1_1.00_b2_0.00_b3_0.00_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a horseback riding stable",
+    "agent1_prompt": "Revlon cosmetics",
+    "agent2_prompt": "Sony headphones",
+    "agent3_prompt": "Dyson Supersonic dryer"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.216697692871094,
+    "agent1_alignment": 17.796903610229492,
+    "agent2_alignment": 18.25117301940918,
+    "agent3_alignment": 18.23941421508789
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.796903610229492,
+    "total_welfare": 17.796903610229492
+  }
+}

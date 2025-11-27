@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 105,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_2_agents/prompt_105/idx105_b1_0.50_b2_0.50_s14.png",
+    "filename": "idx105_b1_0.50_b2_0.50_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at an eyewear store",
+    "agent1_prompt": "Revlon cosmetics",
+    "agent2_prompt": "Lipton tea bag"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.95631980895996,
+    "agent1_alignment": 19.090883255004883,
+    "agent2_alignment": 20.338808059692383
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.714845657348633,
+    "total_welfare": 19.714845657348633
+  }
+}

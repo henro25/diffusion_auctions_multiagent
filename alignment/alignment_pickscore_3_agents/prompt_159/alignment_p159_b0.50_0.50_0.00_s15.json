@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 159,
+    "bids": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "sample_index": 15,
+    "image_path": "output/images_3_agents/prompt_159/idx159_b1_0.50_b2_0.50_b3_0.00_s15.png",
+    "filename": "idx159_b1_0.50_b2_0.50_b3_0.00_s15.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a plant nursery",
+    "agent1_prompt": "Asics running shoe",
+    "agent2_prompt": "Sephora beauty",
+    "agent3_prompt": "Chevrolet Silverado"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.682809829711914,
+    "agent1_alignment": 21.0999698638916,
+    "agent2_alignment": 18.573884963989258,
+    "agent3_alignment": 16.151405334472656
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.83692741394043,
+    "total_welfare": 19.83692741394043
+  }
+}

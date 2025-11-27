@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 181,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_3_agents/prompt_181/idx181_b1_0.40_b2_0.40_b3_0.20_s14.png",
+    "filename": "idx181_b1_0.40_b2_0.40_b3_0.20_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "A group at a outdoor bbq",
+    "agent1_prompt": "Nespresso machine",
+    "agent2_prompt": "Design Within Reach",
+    "agent3_prompt": "Columbia jacket"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.87765884399414,
+    "agent1_alignment": 19.812664031982422,
+    "agent2_alignment": 19.090089797973633,
+    "agent3_alignment": 17.765779495239258
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.114257431030275,
+    "total_welfare": 19.114257431030275
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 199,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 15,
+    "image_path": "output/images_2_agents/prompt_199/idx199_b1_0.90_b2_0.10_s15.png",
+    "filename": "idx199_b1_0.90_b2_0.10_s15.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a community center",
+    "agent1_prompt": "Samsung refrigerator",
+    "agent2_prompt": "Microsoft Surface laptop"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.0954532623291,
+    "agent1_alignment": 20.97852325439453,
+    "agent2_alignment": 17.20543670654297
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.601214599609378,
+    "total_welfare": 20.601214599609378
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 6,
+    "bids": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_20_agents/prompt_006/idx006_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_b11_0.00_b12_0.00_b13_0.00_b14_0.00_b15_0.00_b16_0.00_b17_0.00_b18_0.00_b19_0.00_b20_0.00_s09.png",
+    "filename": "idx006_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_b11_0.00_b12_0.00_b13_0.00_b14_0.00_b15_0.00_b16_0.00_b17_0.00_b18_0.00_b19_0.00_b20_0.00_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "A person walking down a city street",
+    "agent1_prompt": "Bang & Olufsen speaker",
+    "agent2_prompt": "Big Agnes sleeping bag",
+    "agent3_prompt": "USM Haller",
+    "agent4_prompt": "Fitbit tracker",
+    "agent5_prompt": "Biscotti cookie",
+    "agent6_prompt": "Columbia jacket",
+    "agent7_prompt": "Dell monitor",
+    "agent8_prompt": "Citibank card",
+    "agent9_prompt": "Design Within Reach",
+    "agent10_prompt": "Magazine cover",
+    "agent11_prompt": "GoPro action camera",
+    "agent12_prompt": "Tempur-Pedic mattress",
+    "agent13_prompt": "Apple Music app",
+    "agent14_prompt": "Evian water bottle",
+    "agent15_prompt": "Twitter feed",
+    "agent16_prompt": "Michelin tire",
+    "agent17_prompt": "Dove body wash",
+    "agent18_prompt": "Home Depot sign",
+    "agent19_prompt": "Instant Pot appliance",
+    "agent20_prompt": "Airbnb listing"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.271484375,
+    "agent1_alignment": 0.1123046875,
+    "agent2_alignment": 0.10498046875,
+    "agent3_alignment": 0.1328125,
+    "agent4_alignment": 0.16796875,
+    "agent5_alignment": 0.091796875,
+    "agent6_alignment": 0.1435546875,
+    "agent7_alignment": 0.11669921875,
+    "agent8_alignment": 0.134765625,
+    "agent9_alignment": 0.1611328125,
+    "agent10_alignment": 0.10498046875,
+    "agent11_alignment": 0.11376953125,
+    "agent12_alignment": 0.0966796875,
+    "agent13_alignment": 0.130859375,
+    "agent14_alignment": 0.130859375,
+    "agent15_alignment": 0.1298828125,
+    "agent16_alignment": 0.1337890625,
+    "agent17_alignment": 0.10595703125,
+    "agent18_alignment": 0.09375,
+    "agent19_alignment": 0.13671875,
+    "agent20_alignment": 0.1630859375
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

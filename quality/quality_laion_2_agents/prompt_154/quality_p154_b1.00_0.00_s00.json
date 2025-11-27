@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 154,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 0,
+    "image_path": "output/images_2_agents/prompt_154/idx154_b1_1.00_b2_0.00_s00.png",
+    "filename": "idx154_b1_1.00_b2_0.00_s00.png"
+  },
+  "prompts": {
+    "base_prompt": "Travelers at an airport security checkpoint",
+    "agent1_prompt": "Aquafina water",
+    "agent2_prompt": "PayPal logo"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.695411682128906
+  }
+}

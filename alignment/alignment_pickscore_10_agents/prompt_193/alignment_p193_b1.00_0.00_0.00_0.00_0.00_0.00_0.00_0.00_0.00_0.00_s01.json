@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 193,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_10_agents/prompt_193/idx193_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_s01.png",
+    "filename": "idx193_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a outdoor concert",
+    "agent1_prompt": "DJI drone",
+    "agent2_prompt": "Wine glass",
+    "agent3_prompt": "Airbnb listing",
+    "agent4_prompt": "Nike running shoes",
+    "agent5_prompt": "Square Cash",
+    "agent6_prompt": "Biscotti cookie",
+    "agent7_prompt": "Tropicana juice",
+    "agent8_prompt": "Latte beverage",
+    "agent9_prompt": "North Face jacket",
+    "agent10_prompt": "Podcast logo"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.04514503479004,
+    "agent1_alignment": 21.313222885131836,
+    "agent2_alignment": 16.712228775024414,
+    "agent3_alignment": 18.64872932434082,
+    "agent4_alignment": 16.70762825012207,
+    "agent5_alignment": 19.274368286132812,
+    "agent6_alignment": 17.738365173339844,
+    "agent7_alignment": 17.451251983642578,
+    "agent8_alignment": 17.283281326293945,
+    "agent9_alignment": 16.5613956451416,
+    "agent10_alignment": 17.267240524291992
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 21.313222885131836,
+    "total_welfare": 21.313222885131836
+  }
+}

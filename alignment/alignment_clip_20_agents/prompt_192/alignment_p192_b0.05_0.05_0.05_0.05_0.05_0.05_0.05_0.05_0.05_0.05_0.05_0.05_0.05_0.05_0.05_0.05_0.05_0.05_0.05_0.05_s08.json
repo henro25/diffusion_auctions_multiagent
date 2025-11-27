@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 192,
+    "bids": [
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_20_agents/prompt_192/idx192_b1_0.05_b2_0.05_b3_0.05_b4_0.05_b5_0.05_b6_0.05_b7_0.05_b8_0.05_b9_0.05_b10_0.05_b11_0.05_b12_0.05_b13_0.05_b14_0.05_b15_0.05_b16_0.05_b17_0.05_b18_0.05_b19_0.05_b20_0.05_s08.png",
+    "filename": "idx192_b1_0.05_b2_0.05_b3_0.05_b4_0.05_b5_0.05_b6_0.05_b7_0.05_b8_0.05_b9_0.05_b10_0.05_b11_0.05_b12_0.05_b13_0.05_b14_0.05_b15_0.05_b16_0.05_b17_0.05_b18_0.05_b19_0.05_b20_0.05_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a art gallery opening",
+    "agent1_prompt": "GHD hair straightener",
+    "agent2_prompt": "Goodyear tire",
+    "agent3_prompt": "ASOS online",
+    "agent4_prompt": "Nike Air Force shoes",
+    "agent5_prompt": "Nike running shoes",
+    "agent6_prompt": "Cold brew concentrate",
+    "agent7_prompt": "Yeti cooler",
+    "agent8_prompt": "Chase bank card",
+    "agent9_prompt": "Oakley sunglasses",
+    "agent10_prompt": "iPhone smartphone",
+    "agent11_prompt": "Hertz rental",
+    "agent12_prompt": "Lipton tea bag",
+    "agent13_prompt": "Herman Miller desk",
+    "agent14_prompt": "Marriott key card",
+    "agent15_prompt": "Costco warehouse",
+    "agent16_prompt": "USA Today paper",
+    "agent17_prompt": "Shark steam mop",
+    "agent18_prompt": "Netflix streaming",
+    "agent19_prompt": "McDonald's burger",
+    "agent20_prompt": "Comic book"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.1865234375,
+    "agent1_alignment": 0.140625,
+    "agent2_alignment": 0.1171875,
+    "agent3_alignment": 0.06591796875,
+    "agent4_alignment": 0.08203125,
+    "agent5_alignment": 0.06494140625,
+    "agent6_alignment": 0.1005859375,
+    "agent7_alignment": 0.07763671875,
+    "agent8_alignment": 0.09814453125,
+    "agent9_alignment": 0.07373046875,
+    "agent10_alignment": 0.1025390625,
+    "agent11_alignment": 0.0751953125,
+    "agent12_alignment": 0.11767578125,
+    "agent13_alignment": 0.1435546875,
+    "agent14_alignment": 0.11181640625,
+    "agent15_alignment": 0.07958984375,
+    "agent16_alignment": 0.0830078125,
+    "agent17_alignment": 0.193359375,
+    "agent18_alignment": 0.11181640625,
+    "agent19_alignment": 0.045654296875,
+    "agent20_alignment": 0.1328125
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.10089111328124997,
+    "total_welfare": 0.10089111328125
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 95,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_2_agents/prompt_095/idx095_b1_1.00_b2_0.00_s11.png",
+    "filename": "idx095_b1_1.00_b2_0.00_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a fishing spot by water",
+    "agent1_prompt": "Expedia booking",
+    "agent2_prompt": "GoPro camera"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.24295997619629,
+    "agent1_alignment": 19.61309814453125,
+    "agent2_alignment": 19.7456111907959
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.61309814453125,
+    "total_welfare": 19.61309814453125
+  }
+}

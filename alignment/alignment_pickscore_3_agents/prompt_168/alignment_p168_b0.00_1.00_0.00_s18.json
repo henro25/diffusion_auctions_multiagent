@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 168,
+    "bids": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_3_agents/prompt_168/idx168_b1_0.00_b2_1.00_b3_0.00_s18.png",
+    "filename": "idx168_b1_0.00_b2_1.00_b3_0.00_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a pottery studio",
+    "agent1_prompt": "ASOS online",
+    "agent2_prompt": "USM Haller",
+    "agent3_prompt": "West Elm couch"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.735244750976562,
+    "agent1_alignment": 17.450363159179688,
+    "agent2_alignment": 17.788841247558594,
+    "agent3_alignment": 16.02724266052246
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.788841247558594,
+    "total_welfare": 17.788841247558594
+  }
+}

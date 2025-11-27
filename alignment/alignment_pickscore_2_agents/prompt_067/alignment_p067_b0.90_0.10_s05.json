@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 67,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_2_agents/prompt_067/idx067_b1_0.90_b2_0.10_s05.png",
+    "filename": "idx067_b1_0.90_b2_0.10_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a BBQ cookout",
+    "agent1_prompt": "Apple Watch",
+    "agent2_prompt": "Gatorade sports drink"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.247373580932617,
+    "agent1_alignment": 20.971942901611328,
+    "agent2_alignment": 17.771387100219727
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.65188732147217,
+    "total_welfare": 20.65188732147217
+  }
+}

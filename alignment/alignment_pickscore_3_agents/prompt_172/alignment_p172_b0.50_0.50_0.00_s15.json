@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 172,
+    "bids": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "sample_index": 15,
+    "image_path": "output/images_3_agents/prompt_172/idx172_b1_0.50_b2_0.50_b3_0.00_s15.png",
+    "filename": "idx172_b1_0.50_b2_0.50_b3_0.00_s15.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a outdoor zip-lining course",
+    "agent1_prompt": "Adidas athletic shirt",
+    "agent2_prompt": "Gatorade sports drink",
+    "agent3_prompt": "Keen boots"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.93331527709961,
+    "agent1_alignment": 16.12287139892578,
+    "agent2_alignment": 20.223987579345703,
+    "agent3_alignment": 19.103759765625
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.173429489135742,
+    "total_welfare": 18.173429489135742
+  }
+}

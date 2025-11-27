@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 184,
+    "bids": [
+      0.35,
+      0.15,
+      0.12,
+      0.1,
+      0.08,
+      0.07,
+      0.05,
+      0.04,
+      0.02,
+      0.02
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_10_agents/prompt_184/idx184_b1_0.35_b2_0.15_b3_0.12_b4_0.10_b5_0.08_b6_0.07_b7_0.05_b8_0.04_b9_0.02_b10_0.02_s14.png",
+    "filename": "idx184_b1_0.35_b2_0.15_b3_0.12_b4_0.10_b5_0.08_b6_0.07_b7_0.05_b8_0.04_b9_0.02_b10_0.02_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a car rental agency",
+    "agent1_prompt": "Article sofa",
+    "agent2_prompt": "Espresso shot",
+    "agent3_prompt": "Biscotti cookie",
+    "agent4_prompt": "Olaplex hair treatment",
+    "agent5_prompt": "Wilson tennis balls",
+    "agent6_prompt": "Nintendo Switch",
+    "agent7_prompt": "Among Us game",
+    "agent8_prompt": "PetSmart store",
+    "agent9_prompt": "LendingClub platform",
+    "agent10_prompt": "Boarding pass"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.5435848236084,
+    "agent1_alignment": 19.262338638305664,
+    "agent2_alignment": 17.838945388793945,
+    "agent3_alignment": 18.5529727935791,
+    "agent4_alignment": 19.231033325195312,
+    "agent5_alignment": 18.040128707885742,
+    "agent6_alignment": 18.694597244262695,
+    "agent7_alignment": 19.11794090270996,
+    "agent8_alignment": 18.64107322692871,
+    "agent9_alignment": 17.835201263427734,
+    "agent10_alignment": 17.645217895507812
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.730100860595705,
+    "total_welfare": 18.730100860595705
+  }
+}

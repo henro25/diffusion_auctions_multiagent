@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 6,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_2_agents_competitive/prompt_006/idx006_b1_0.10_b2_0.90_s03.png",
+    "filename": "idx006_b1_0.10_b2_0.90_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "A person eating a chocolate bar as a snack",
+    "agent1_prompt": "Snickers bar",
+    "agent2_prompt": "Kit Kat bar"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.386711120605469
+  }
+}

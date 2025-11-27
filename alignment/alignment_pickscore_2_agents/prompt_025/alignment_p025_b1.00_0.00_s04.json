@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 25,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_2_agents/prompt_025/idx025_b1_1.00_b2_0.00_s04.png",
+    "filename": "idx025_b1_1.00_b2_0.00_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "A hairdresser styling a client's hair",
+    "agent1_prompt": "Prada bag",
+    "agent2_prompt": "Campbell's soup can"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.996652603149414,
+    "agent1_alignment": 18.38566017150879,
+    "agent2_alignment": 16.880393981933594
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.38566017150879,
+    "total_welfare": 18.38566017150879
+  }
+}

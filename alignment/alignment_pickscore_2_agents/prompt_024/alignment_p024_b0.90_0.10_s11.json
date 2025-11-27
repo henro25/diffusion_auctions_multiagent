@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 24,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_2_agents/prompt_024/idx024_b1_0.90_b2_0.10_s11.png",
+    "filename": "idx024_b1_0.90_b2_0.10_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone browsing books in a public library",
+    "agent1_prompt": "Est\u00e9e Lauder moisturizer",
+    "agent2_prompt": "IKEA furniture piece"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.880216598510742,
+    "agent1_alignment": 17.78614044189453,
+    "agent2_alignment": 17.55719566345215
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.76324596405029,
+    "total_welfare": 17.76324596405029
+  }
+}

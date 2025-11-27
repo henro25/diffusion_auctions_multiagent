@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 121,
+    "bids": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 10,
+    "image_path": "output/images_3_agents/prompt_121/idx121_b1_1.00_b2_0.00_b3_0.00_s10.png",
+    "filename": "idx121_b1_1.00_b2_0.00_b3_0.00_s10.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a dance club",
+    "agent1_prompt": "Cold brew concentrate",
+    "agent2_prompt": "Goodyear tire",
+    "agent3_prompt": "McDonald's burger"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.444387435913086,
+    "agent1_alignment": 18.693153381347656,
+    "agent2_alignment": 18.28310203552246,
+    "agent3_alignment": 16.839502334594727
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.693153381347656,
+    "total_welfare": 18.693153381347656
+  }
+}

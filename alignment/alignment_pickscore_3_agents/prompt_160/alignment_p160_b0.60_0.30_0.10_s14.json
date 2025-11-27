@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 160,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_3_agents/prompt_160/idx160_b1_0.60_b2_0.30_b3_0.10_s14.png",
+    "filename": "idx160_b1_0.60_b2_0.30_b3_0.10_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a outdoor picnic area",
+    "agent1_prompt": "Ray-Ban sunglasses",
+    "agent2_prompt": "PetSmart store",
+    "agent3_prompt": "Peet's Coffee mug"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.69443130493164,
+    "agent1_alignment": 19.854333877563477,
+    "agent2_alignment": 19.640457153320312,
+    "agent3_alignment": 16.72589111328125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.477326583862308,
+    "total_welfare": 19.477326583862304
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "prompt_index": 9,
+    "bids": [
+      0.33,
+      0.33,
+      0.33
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_3_agents/prompt_009/idx009_b1_0.33_b2_0.33_b3_0.33_s16.png",
+    "filename": "idx009_b1_0.33_b2_0.33_b3_0.33_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "Skiers waiting in a ski-lift line",
+    "agent1_prompt": "Tresemm\u00e9 shampoo",
+    "agent2_prompt": "Knoll furniture",
+    "agent3_prompt": "Aquafina water"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.6094136238098145
+  }
+}

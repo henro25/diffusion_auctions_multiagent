@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 155,
+    "bids": [
+      0.5,
+      0.25,
+      0.15,
+      0.07,
+      0.03
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_5_agents/prompt_155/idx155_b1_0.50_b2_0.25_b3_0.15_b4_0.07_b5_0.03_s09.png",
+    "filename": "idx155_b1_0.50_b2_0.25_b3_0.15_b4_0.07_b5_0.03_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone browsing a thrift store",
+    "agent1_prompt": "Hay furniture",
+    "agent2_prompt": "Among Us game",
+    "agent3_prompt": "Arc'teryx gear",
+    "agent4_prompt": "Sprite lemon-lime",
+    "agent5_prompt": "Philips light bulb"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.464235305786133,
+    "agent1_alignment": 18.64821434020996,
+    "agent2_alignment": 18.194494247436523,
+    "agent3_alignment": 18.11605453491211,
+    "agent4_alignment": 17.40013885498047,
+    "agent5_alignment": 18.53203010559082
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.36410953521729,
+    "total_welfare": 18.36410953521729
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "prompt_index": 168,
+    "bids": [
+      0.25,
+      0.25,
+      0.25,
+      0.15,
+      0.1
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_5_agents/prompt_168/idx168_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s18.png",
+    "filename": "idx168_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a pottery studio",
+    "agent1_prompt": "ASOS online",
+    "agent2_prompt": "USM Haller",
+    "agent3_prompt": "West Elm couch",
+    "agent4_prompt": "Merrell hiking shoes",
+    "agent5_prompt": "Boarding pass"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2177734375,
+    "agent1_alignment": 0.109375,
+    "agent2_alignment": 0.12158203125,
+    "agent3_alignment": 0.1416015625,
+    "agent4_alignment": 0.07421875,
+    "agent5_alignment": 0.08544921875
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.1128173828125,
+    "total_welfare": 0.1128173828125
+  }
+}

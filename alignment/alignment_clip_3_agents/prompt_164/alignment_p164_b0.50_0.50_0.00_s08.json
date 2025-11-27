@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "prompt_index": 164,
+    "bids": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_3_agents/prompt_164/idx164_b1_0.50_b2_0.50_b3_0.00_s08.png",
+    "filename": "idx164_b1_0.50_b2_0.50_b3_0.00_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a passport office",
+    "agent1_prompt": "Timberland boots",
+    "agent2_prompt": "Harley-Davidson motorcycle",
+    "agent3_prompt": "ASOS online"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.1396484375,
+    "agent1_alignment": 0.26171875,
+    "agent2_alignment": 0.2236328125,
+    "agent3_alignment": 0.10888671875
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.24267578125,
+    "total_welfare": 0.24267578125
+  }
+}

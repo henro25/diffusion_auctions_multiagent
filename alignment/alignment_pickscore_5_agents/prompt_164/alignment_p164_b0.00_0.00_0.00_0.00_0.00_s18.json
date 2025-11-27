@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 164,
+    "bids": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_5_agents/prompt_164/idx164_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s18.png",
+    "filename": "idx164_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a passport office",
+    "agent1_prompt": "Timberland boots",
+    "agent2_prompt": "Harley-Davidson motorcycle",
+    "agent3_prompt": "ASOS online",
+    "agent4_prompt": "Polo Ralph Lauren shirt",
+    "agent5_prompt": "Wonder Bread loaf"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.794466018676758,
+    "agent1_alignment": 17.93489646911621,
+    "agent2_alignment": 15.65787124633789,
+    "agent3_alignment": 18.6713924407959,
+    "agent4_alignment": 17.122303009033203,
+    "agent5_alignment": 17.52509117126465
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

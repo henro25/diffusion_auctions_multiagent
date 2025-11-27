@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 96,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 19,
+    "image_path": "output/images_2_agents/prompt_096/idx096_b1_0.90_b2_0.10_s19.png",
+    "filename": "idx096_b1_0.90_b2_0.10_s19.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a craft supply store",
+    "agent1_prompt": "Bang & Olufsen speaker",
+    "agent2_prompt": "Pizza delivery box"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.998348236083984,
+    "agent1_alignment": 19.46870994567871,
+    "agent2_alignment": 17.388063430786133
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.260645294189455,
+    "total_welfare": 19.260645294189455
+  }
+}

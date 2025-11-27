@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 186,
+    "bids": [
+      0.3,
+      0.3,
+      0.2,
+      0.1,
+      0.1
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_5_agents/prompt_186/idx186_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s18.png",
+    "filename": "idx186_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a batting cage",
+    "agent1_prompt": "Spotify music playlist",
+    "agent2_prompt": "Adidas Superstar sneakers",
+    "agent3_prompt": "DJI drone",
+    "agent4_prompt": "USM Haller",
+    "agent5_prompt": "Amazon Prime logo"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.7959208488464355
+  }
+}

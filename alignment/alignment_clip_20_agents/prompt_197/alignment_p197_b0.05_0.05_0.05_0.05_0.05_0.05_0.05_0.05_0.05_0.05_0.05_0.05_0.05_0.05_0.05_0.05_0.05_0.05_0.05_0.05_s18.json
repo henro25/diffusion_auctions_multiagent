@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 197,
+    "bids": [
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_20_agents/prompt_197/idx197_b1_0.05_b2_0.05_b3_0.05_b4_0.05_b5_0.05_b6_0.05_b7_0.05_b8_0.05_b9_0.05_b10_0.05_b11_0.05_b12_0.05_b13_0.05_b14_0.05_b15_0.05_b16_0.05_b17_0.05_b18_0.05_b19_0.05_b20_0.05_s18.png",
+    "filename": "idx197_b1_0.05_b2_0.05_b3_0.05_b4_0.05_b5_0.05_b6_0.05_b7_0.05_b8_0.05_b9_0.05_b10_0.05_b11_0.05_b12_0.05_b13_0.05_b14_0.05_b15_0.05_b16_0.05_b17_0.05_b18_0.05_b19_0.05_b20_0.05_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a horseback riding stable",
+    "agent1_prompt": "Revlon cosmetics",
+    "agent2_prompt": "Sony headphones",
+    "agent3_prompt": "Dyson Supersonic dryer",
+    "agent4_prompt": "Substack newsletter",
+    "agent5_prompt": "Stripe payment",
+    "agent6_prompt": "Vitamix blender",
+    "agent7_prompt": "Under Armour shorts",
+    "agent8_prompt": "Hulu series",
+    "agent9_prompt": "McDonald's burger",
+    "agent10_prompt": "PayPal logo",
+    "agent11_prompt": "Trader Joe's bags",
+    "agent12_prompt": "La-Z-Boy recliner",
+    "agent13_prompt": "Regal Cinemas",
+    "agent14_prompt": "French press pot",
+    "agent15_prompt": "Budweiser beer can",
+    "agent16_prompt": "Goodyear tire",
+    "agent17_prompt": "Enterprise car",
+    "agent18_prompt": "Gucci loafers",
+    "agent19_prompt": "Camelback water pack",
+    "agent20_prompt": "TikTok app"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2158203125,
+    "agent1_alignment": 0.080078125,
+    "agent2_alignment": 0.056884765625,
+    "agent3_alignment": 0.0172119140625,
+    "agent4_alignment": 0.142578125,
+    "agent5_alignment": 0.1376953125,
+    "agent6_alignment": 0.1015625,
+    "agent7_alignment": 0.1064453125,
+    "agent8_alignment": 0.08203125,
+    "agent9_alignment": 0.1650390625,
+    "agent10_alignment": 0.060791015625,
+    "agent11_alignment": 0.1484375,
+    "agent12_alignment": 0.0830078125,
+    "agent13_alignment": 0.07275390625,
+    "agent14_alignment": 0.0247802734375,
+    "agent15_alignment": 0.1025390625,
+    "agent16_alignment": 0.1318359375,
+    "agent17_alignment": 0.1494140625,
+    "agent18_alignment": 0.0908203125,
+    "agent19_alignment": 0.12890625,
+    "agent20_alignment": 0.09228515625
+  },
+  "quality_assessment": {
+    "clip_quality": 0.50390625
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.09875488281249997,
+    "total_welfare": 0.0987548828125
+  }
+}

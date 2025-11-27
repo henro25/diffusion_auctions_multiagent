@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 188,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_5_agents/prompt_188/idx188_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s16.png",
+    "filename": "idx188_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "A group at a outdoor soccer game",
+    "agent1_prompt": "Osprey backpack",
+    "agent2_prompt": "Dick's Sporting Goods",
+    "agent3_prompt": "Coffee foam art",
+    "agent4_prompt": "USM Haller",
+    "agent5_prompt": "Columbia jacket"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.54892921447754,
+    "agent1_alignment": 19.169572830200195,
+    "agent2_alignment": 18.298294067382812,
+    "agent3_alignment": 16.975013732910156,
+    "agent4_alignment": 19.43807601928711,
+    "agent5_alignment": 17.638425827026367
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.169572830200195,
+    "total_welfare": 19.169572830200195
+  }
+}

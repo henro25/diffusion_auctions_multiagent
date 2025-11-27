@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 12,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_2_agents_competitive/prompt_012/idx012_b1_0.10_b2_0.90_s13.png",
+    "filename": "idx012_b1_0.10_b2_0.90_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone using a smartphone at a coffee shop",
+    "agent1_prompt": "iPhone smartphone",
+    "agent2_prompt": "Samsung Galaxy phone"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.868200302124023,
+    "agent1_alignment": 20.92841148376465,
+    "agent2_alignment": 21.703861236572266
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 21.626316261291503,
+    "total_welfare": 21.626316261291503
+  }
+}

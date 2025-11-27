@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 108,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 0,
+    "image_path": "output/images_2_agents/prompt_108/idx108_b1_0.10_b2_0.90_s00.png",
+    "filename": "idx108_b1_0.10_b2_0.90_s00.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a furniture showroom",
+    "agent1_prompt": "Echo Dot",
+    "agent2_prompt": "Deuter backpack"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.17607879638672,
+    "agent1_alignment": 17.62600326538086,
+    "agent2_alignment": 20.465970993041992
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.18197422027588,
+    "total_welfare": 20.18197422027588
+  }
+}

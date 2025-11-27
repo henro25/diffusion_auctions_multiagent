@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 7,
+    "bids": [
+      0.3,
+      0.2,
+      0.15,
+      0.12,
+      0.1,
+      0.07,
+      0.04,
+      0.01,
+      0.0,
+      0.01
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_10_agents/prompt_007/idx007_b1_0.30_b2_0.20_b3_0.15_b4_0.12_b5_0.10_b6_0.07_b7_0.04_b8_0.01_b9_0.00_b10_0.01_s14.png",
+    "filename": "idx007_b1_0.30_b2_0.20_b3_0.15_b4_0.12_b5_0.10_b6_0.07_b7_0.04_b8_0.01_b9_0.00_b10_0.01_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends gathered for a movie night at home",
+    "agent1_prompt": "Vaseline lip balm",
+    "agent2_prompt": "CVS pharmacy",
+    "agent3_prompt": "Dell monitor",
+    "agent4_prompt": "La-Z-Boy recliner",
+    "agent5_prompt": "Wells Fargo check",
+    "agent6_prompt": "Colgate toothpaste",
+    "agent7_prompt": "Newspaper headline",
+    "agent8_prompt": "Apple Watch",
+    "agent9_prompt": "Aquafina water",
+    "agent10_prompt": "Wonder Bread loaf"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.759254455566406,
+    "agent1_alignment": 18.039993286132812,
+    "agent2_alignment": 17.699077606201172,
+    "agent3_alignment": 18.80658531188965,
+    "agent4_alignment": 18.32771873474121,
+    "agent5_alignment": 18.422998428344727,
+    "agent6_alignment": 18.725055694580078,
+    "agent7_alignment": 18.31989097595215,
+    "agent8_alignment": 17.7705078125,
+    "agent9_alignment": 18.207012176513672,
+    "agent10_alignment": 17.803876876831055
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.21372077941895,
+    "total_welfare": 18.21372077941895
+  }
+}

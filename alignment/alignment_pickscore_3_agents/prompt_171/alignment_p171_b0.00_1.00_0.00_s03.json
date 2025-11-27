@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 171,
+    "bids": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_3_agents/prompt_171/idx171_b1_0.00_b2_1.00_b3_0.00_s03.png",
+    "filename": "idx171_b1_0.00_b2_1.00_b3_0.00_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a woodworking shop",
+    "agent1_prompt": "Spalding basketball",
+    "agent2_prompt": "Mastercard payment",
+    "agent3_prompt": "Logitech wireless mouse"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.895559310913086,
+    "agent1_alignment": 17.795757293701172,
+    "agent2_alignment": 18.34003448486328,
+    "agent3_alignment": 18.543807983398438
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.34003448486328,
+    "total_welfare": 18.34003448486328
+  }
+}

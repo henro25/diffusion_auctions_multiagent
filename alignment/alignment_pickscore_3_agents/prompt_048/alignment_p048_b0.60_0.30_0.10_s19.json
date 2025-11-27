@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 48,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 19,
+    "image_path": "output/images_3_agents/prompt_048/idx048_b1_0.60_b2_0.30_b3_0.10_s19.png",
+    "filename": "idx048_b1_0.60_b2_0.30_b3_0.10_s19.png"
+  },
+  "prompts": {
+    "base_prompt": "A customer at a fast-food restaurant drive-through",
+    "agent1_prompt": "Audi A4",
+    "agent2_prompt": "West Elm table",
+    "agent3_prompt": "Tempur-Pedic mattress"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.9815616607666,
+    "agent1_alignment": 20.42695426940918,
+    "agent2_alignment": 17.424240112304688,
+    "agent3_alignment": 19.306133270263672
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.414057922363284,
+    "total_welfare": 19.41405792236328
+  }
+}

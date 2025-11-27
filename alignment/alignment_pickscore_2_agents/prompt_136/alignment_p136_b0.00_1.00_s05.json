@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 136,
+    "bids": [
+      0.0,
+      1.0
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_2_agents/prompt_136/idx136_b1_0.00_b2_1.00_s05.png",
+    "filename": "idx136_b1_0.00_b2_1.00_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a picnic table in park",
+    "agent1_prompt": "LendingClub platform",
+    "agent2_prompt": "Coleman cooler"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.788843154907227,
+    "agent1_alignment": 17.658098220825195,
+    "agent2_alignment": 20.174100875854492
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.174100875854492,
+    "total_welfare": 20.174100875854492
+  }
+}

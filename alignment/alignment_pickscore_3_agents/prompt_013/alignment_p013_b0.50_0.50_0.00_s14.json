@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 13,
+    "bids": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_3_agents/prompt_013/idx013_b1_0.50_b2_0.50_b3_0.00_s14.png",
+    "filename": "idx013_b1_0.50_b2_0.50_b3_0.00_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "A couple shopping at a farmers market",
+    "agent1_prompt": "Costco warehouse",
+    "agent2_prompt": "Expedia booking",
+    "agent3_prompt": "Sprite lemon-lime"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.985515594482422,
+    "agent1_alignment": 19.584819793701172,
+    "agent2_alignment": 19.77329444885254,
+    "agent3_alignment": 18.423776626586914
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.679057121276855,
+    "total_welfare": 19.679057121276855
+  }
+}

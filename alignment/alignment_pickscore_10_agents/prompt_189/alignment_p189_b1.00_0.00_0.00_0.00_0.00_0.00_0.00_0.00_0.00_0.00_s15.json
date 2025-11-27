@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 189,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 15,
+    "image_path": "output/images_10_agents/prompt_189/idx189_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_s15.png",
+    "filename": "idx189_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_s15.png"
+  },
+  "prompts": {
+    "base_prompt": "Person at a indoor ice skating",
+    "agent1_prompt": "Chevrolet Silverado",
+    "agent2_prompt": "AMC Theaters",
+    "agent3_prompt": "Restoration Hardware piece",
+    "agent4_prompt": "TD Bank",
+    "agent5_prompt": "Latte beverage",
+    "agent6_prompt": "Olaplex hair treatment",
+    "agent7_prompt": "Hotel lobby",
+    "agent8_prompt": "Fitbit tracker",
+    "agent9_prompt": "Vans slip-on shoes",
+    "agent10_prompt": "Amazon Prime logo"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.9346923828125,
+    "agent1_alignment": 18.180776596069336,
+    "agent2_alignment": 18.186405181884766,
+    "agent3_alignment": 17.094928741455078,
+    "agent4_alignment": 17.785436630249023,
+    "agent5_alignment": 16.398305892944336,
+    "agent6_alignment": 17.43716812133789,
+    "agent7_alignment": 15.961020469665527,
+    "agent8_alignment": 18.352842330932617,
+    "agent9_alignment": 17.915719985961914,
+    "agent10_alignment": 17.24212646484375
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.180776596069336,
+    "total_welfare": 18.180776596069336
+  }
+}

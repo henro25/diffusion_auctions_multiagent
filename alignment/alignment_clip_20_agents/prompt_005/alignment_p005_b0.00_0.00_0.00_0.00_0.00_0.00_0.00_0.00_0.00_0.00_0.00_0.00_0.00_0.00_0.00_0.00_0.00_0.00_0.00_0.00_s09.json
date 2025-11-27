@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 5,
+    "bids": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_20_agents/prompt_005/idx005_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_b11_0.00_b12_0.00_b13_0.00_b14_0.00_b15_0.00_b16_0.00_b17_0.00_b18_0.00_b19_0.00_b20_0.00_s09.png",
+    "filename": "idx005_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_b11_0.00_b12_0.00_b13_0.00_b14_0.00_b15_0.00_b16_0.00_b17_0.00_b18_0.00_b19_0.00_b20_0.00_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "A woman with a tray of food at a cafeteria",
+    "agent1_prompt": "Shell fuel",
+    "agent2_prompt": "Peet's Coffee mug",
+    "agent3_prompt": "USA Today paper",
+    "agent4_prompt": "Prada bag",
+    "agent5_prompt": "Kroger supermarket",
+    "agent6_prompt": "Yeti cooler",
+    "agent7_prompt": "Fitbit smartwatch",
+    "agent8_prompt": "Wells Fargo check",
+    "agent9_prompt": "Marriott key card",
+    "agent10_prompt": "Regal Cinemas",
+    "agent11_prompt": "Ashley Furniture",
+    "agent12_prompt": "Evian water bottle",
+    "agent13_prompt": "KitchenAid mixer",
+    "agent14_prompt": "NYX makeup",
+    "agent15_prompt": "Wilson tennis balls",
+    "agent16_prompt": "Latte beverage",
+    "agent17_prompt": "Michelin tire",
+    "agent18_prompt": "Rocket Mortgage",
+    "agent19_prompt": "McDonald's burger",
+    "agent20_prompt": "Wonder Bread loaf"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.27734375,
+    "agent1_alignment": 0.1416015625,
+    "agent2_alignment": 0.0576171875,
+    "agent3_alignment": 0.0791015625,
+    "agent4_alignment": 0.09033203125,
+    "agent5_alignment": 0.11083984375,
+    "agent6_alignment": 0.09228515625,
+    "agent7_alignment": 0.0634765625,
+    "agent8_alignment": 0.091796875,
+    "agent9_alignment": 0.0712890625,
+    "agent10_alignment": 0.138671875,
+    "agent11_alignment": 0.111328125,
+    "agent12_alignment": 0.050537109375,
+    "agent13_alignment": 0.060302734375,
+    "agent14_alignment": 0.09375,
+    "agent15_alignment": 0.0673828125,
+    "agent16_alignment": 0.07763671875,
+    "agent17_alignment": 0.061767578125,
+    "agent18_alignment": 0.10009765625,
+    "agent19_alignment": 0.10986328125,
+    "agent20_alignment": 0.0625
+  },
+  "quality_assessment": {
+    "clip_quality": 0.515625
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

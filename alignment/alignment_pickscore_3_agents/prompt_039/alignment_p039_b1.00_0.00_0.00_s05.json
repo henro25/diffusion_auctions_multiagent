@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 39,
+    "bids": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_3_agents/prompt_039/idx039_b1_1.00_b2_0.00_b3_0.00_s05.png",
+    "filename": "idx039_b1_1.00_b2_0.00_b3_0.00_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "People dancing at a nightclub",
+    "agent1_prompt": "Gillette razor",
+    "agent2_prompt": "New York Times newspaper",
+    "agent3_prompt": "Budweiser beer can"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.561948776245117,
+    "agent1_alignment": 21.688316345214844,
+    "agent2_alignment": 17.70180892944336,
+    "agent3_alignment": 17.583072662353516
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 21.688316345214844,
+    "total_welfare": 21.688316345214844
+  }
+}

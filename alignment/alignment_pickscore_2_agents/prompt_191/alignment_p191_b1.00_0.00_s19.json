@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 191,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 19,
+    "image_path": "output/images_2_agents/prompt_191/idx191_b1_1.00_b2_0.00_s19.png",
+    "filename": "idx191_b1_1.00_b2_0.00_s19.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a plant nursery",
+    "agent1_prompt": "Jeep Wrangler",
+    "agent2_prompt": "Gatorade sports drink"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.125743865966797,
+    "agent1_alignment": 19.263517379760742,
+    "agent2_alignment": 17.50765037536621
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.263517379760742,
+    "total_welfare": 19.263517379760742
+  }
+}

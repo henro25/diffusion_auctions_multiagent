@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 151,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_2_agents/prompt_151/idx151_b1_0.10_b2_0.90_s03.png",
+    "filename": "idx151_b1_0.10_b2_0.90_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at an outdoor hiking trail",
+    "agent1_prompt": "Subway sandwich",
+    "agent2_prompt": "Uber ride"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.66220474243164,
+    "agent1_alignment": 17.888986587524414,
+    "agent2_alignment": 19.73489761352539
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.550306510925292,
+    "total_welfare": 19.550306510925292
+  }
+}

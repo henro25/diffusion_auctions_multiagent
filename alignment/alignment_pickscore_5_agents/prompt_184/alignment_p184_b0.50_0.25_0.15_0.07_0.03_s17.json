@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 184,
+    "bids": [
+      0.5,
+      0.25,
+      0.15,
+      0.07,
+      0.03
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_5_agents/prompt_184/idx184_b1_0.50_b2_0.25_b3_0.15_b4_0.07_b5_0.03_s17.png",
+    "filename": "idx184_b1_0.50_b2_0.25_b3_0.15_b4_0.07_b5_0.03_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a car rental agency",
+    "agent1_prompt": "Article sofa",
+    "agent2_prompt": "Espresso shot",
+    "agent3_prompt": "Biscotti cookie",
+    "agent4_prompt": "Olaplex hair treatment",
+    "agent5_prompt": "Wilson tennis balls"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.20501708984375,
+    "agent1_alignment": 19.28866958618164,
+    "agent2_alignment": 18.822315216064453,
+    "agent3_alignment": 19.36383056640625,
+    "agent4_alignment": 19.419931411743164,
+    "agent5_alignment": 17.629745483398438
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.142775745391845,
+    "total_welfare": 19.142775745391845
+  }
+}

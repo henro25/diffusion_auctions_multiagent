@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 133,
+    "bids": [
+      0.33,
+      0.33,
+      0.33
+    ],
+    "sample_index": 19,
+    "image_path": "output/images_3_agents/prompt_133/idx133_b1_0.33_b2_0.33_b3_0.33_s19.png",
+    "filename": "idx133_b1_0.33_b2_0.33_b3_0.33_s19.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at an outdoor wedding reception",
+    "agent1_prompt": "Lexus ES",
+    "agent2_prompt": "Orange juice carton",
+    "agent3_prompt": "Airport sign"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.43037223815918,
+    "agent1_alignment": 16.172517776489258,
+    "agent2_alignment": 19.338613510131836,
+    "agent3_alignment": 16.41483497619629
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.30865542093913,
+    "total_welfare": 17.135568866729738
+  }
+}

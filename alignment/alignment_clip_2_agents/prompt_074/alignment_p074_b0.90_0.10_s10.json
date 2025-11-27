@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 74,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 10,
+    "image_path": "output/images_2_agents/prompt_074/idx074_b1_0.90_b2_0.10_s10.png",
+    "filename": "idx074_b1_0.90_b2_0.10_s10.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a bookstore cafe",
+    "agent1_prompt": "Biscotti cookie",
+    "agent2_prompt": "Steelcase office chair"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2021484375,
+    "agent1_alignment": 0.15234375,
+    "agent2_alignment": 0.040283203125
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.1411376953125,
+    "total_welfare": 0.1411376953125
+  }
+}

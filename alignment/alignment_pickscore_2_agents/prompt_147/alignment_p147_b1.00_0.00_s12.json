@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 147,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 12,
+    "image_path": "output/images_2_agents/prompt_147/idx147_b1_1.00_b2_0.00_s12.png",
+    "filename": "idx147_b1_1.00_b2_0.00_s12.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a computer repair shop",
+    "agent1_prompt": "AMC Theaters",
+    "agent2_prompt": "Podcast logo"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.713836669921875,
+    "agent1_alignment": 20.422683715820312,
+    "agent2_alignment": 17.344379425048828
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.422683715820312,
+    "total_welfare": 20.422683715820312
+  }
+}

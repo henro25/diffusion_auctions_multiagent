@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 127,
+    "bids": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "sample_index": 19,
+    "image_path": "output/images_3_agents/prompt_127/idx127_b1_0.00_b2_0.00_b3_1.00_s19.png",
+    "filename": "idx127_b1_0.00_b2_0.00_b3_1.00_s19.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a murder mystery dinner",
+    "agent1_prompt": "REI sleeping bag",
+    "agent2_prompt": "Delta airline",
+    "agent3_prompt": "Ethan Allen furniture"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.286718368530273,
+    "agent1_alignment": 16.632919311523438,
+    "agent2_alignment": 16.159692764282227,
+    "agent3_alignment": 17.452226638793945
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.452226638793945,
+    "total_welfare": 17.452226638793945
+  }
+}

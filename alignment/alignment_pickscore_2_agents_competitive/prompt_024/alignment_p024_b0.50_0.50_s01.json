@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 24,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_2_agents_competitive/prompt_024/idx024_b1_0.50_b2_0.50_s01.png",
+    "filename": "idx024_b1_0.50_b2_0.50_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "A customer holding a grocery store bag",
+    "agent1_prompt": "Whole Foods bag",
+    "agent2_prompt": "Trader Joe's bag"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.731382369995117,
+    "agent1_alignment": 23.18535804748535,
+    "agent2_alignment": 22.79671859741211
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 22.99103832244873,
+    "total_welfare": 22.99103832244873
+  }
+}

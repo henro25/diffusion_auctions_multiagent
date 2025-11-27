@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "prompt_index": 124,
+    "bids": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_3_agents/prompt_124/idx124_b1_0.00_b2_0.00_b3_0.00_s18.png",
+    "filename": "idx124_b1_0.00_b2_0.00_b3_0.00_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at an outdoor sports event",
+    "agent1_prompt": "Kindle e-reader",
+    "agent2_prompt": "Design Within Reach",
+    "agent3_prompt": "Bank of America"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.612085342407227
+  }
+}

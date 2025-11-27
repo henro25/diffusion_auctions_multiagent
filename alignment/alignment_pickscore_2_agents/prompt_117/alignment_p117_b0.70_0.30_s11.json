@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 117,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_2_agents/prompt_117/idx117_b1_0.70_b2_0.30_s11.png",
+    "filename": "idx117_b1_0.70_b2_0.30_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a watch repair shop",
+    "agent1_prompt": "Keen boots",
+    "agent2_prompt": "Sephora beauty"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.245086669921875,
+    "agent1_alignment": 20.134183883666992,
+    "agent2_alignment": 20.088706970214844
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.120540809631347,
+    "total_welfare": 20.120540809631347
+  }
+}

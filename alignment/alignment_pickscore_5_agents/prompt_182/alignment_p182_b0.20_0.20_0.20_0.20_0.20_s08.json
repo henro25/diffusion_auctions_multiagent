@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 182,
+    "bids": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_5_agents/prompt_182/idx182_b1_0.20_b2_0.20_b3_0.20_b4_0.20_b5_0.20_s08.png",
+    "filename": "idx182_b1_0.20_b2_0.20_b3_0.20_b4_0.20_b5_0.20_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "Person at a mall food court",
+    "agent1_prompt": "Airbnb listing",
+    "agent2_prompt": "Toyota Camry",
+    "agent3_prompt": "Samsung Galaxy tablet",
+    "agent4_prompt": "Red Bull energy drink",
+    "agent5_prompt": "Dyson vacuum"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.891521453857422,
+    "agent1_alignment": 18.523069381713867,
+    "agent2_alignment": 16.97740936279297,
+    "agent3_alignment": 19.881357192993164,
+    "agent4_alignment": 18.016143798828125,
+    "agent5_alignment": 20.218931198120117
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.723382186889648,
+    "total_welfare": 18.723382186889648
+  }
+}

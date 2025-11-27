@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 13,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_2_agents/prompt_013/idx013_b1_0.30_b2_0.70_s03.png",
+    "filename": "idx013_b1_0.30_b2_0.70_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "A couple shopping at a farmers market",
+    "agent1_prompt": "Costco warehouse",
+    "agent2_prompt": "Expedia booking"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.029008865356445,
+    "agent1_alignment": 19.136560440063477,
+    "agent2_alignment": 19.281192779541016
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.23780307769775,
+    "total_welfare": 19.23780307769775
+  }
+}

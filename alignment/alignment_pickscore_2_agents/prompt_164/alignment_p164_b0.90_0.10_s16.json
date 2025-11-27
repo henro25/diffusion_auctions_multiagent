@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 164,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_2_agents/prompt_164/idx164_b1_0.90_b2_0.10_s16.png",
+    "filename": "idx164_b1_0.90_b2_0.10_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a passport office",
+    "agent1_prompt": "Timberland boots",
+    "agent2_prompt": "Harley-Davidson motorcycle"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.370405197143555,
+    "agent1_alignment": 20.2395076751709,
+    "agent2_alignment": 16.520172119140625
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.867574119567873,
+    "total_welfare": 19.867574119567873
+  }
+}

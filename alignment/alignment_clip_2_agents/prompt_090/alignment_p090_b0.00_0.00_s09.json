@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 90,
+    "bids": [
+      0.0,
+      0.0
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_2_agents/prompt_090/idx090_b1_0.00_b2_0.00_s09.png",
+    "filename": "idx090_b1_0.00_b2_0.00_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a shoe store",
+    "agent1_prompt": "Boarding pass",
+    "agent2_prompt": "New Balance shoes"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.267578125,
+    "agent1_alignment": 0.138671875,
+    "agent2_alignment": 0.220703125
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

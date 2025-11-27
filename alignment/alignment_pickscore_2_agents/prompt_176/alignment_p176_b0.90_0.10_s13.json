@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 176,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_2_agents/prompt_176/idx176_b1_0.90_b2_0.10_s13.png",
+    "filename": "idx176_b1_0.90_b2_0.10_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a outdoor rooftop gathering",
+    "agent1_prompt": "Microsoft Surface laptop",
+    "agent2_prompt": "Pottery Barn shelving"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.960481643676758,
+    "agent1_alignment": 17.994646072387695,
+    "agent2_alignment": 16.766361236572266
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.871817588806152,
+    "total_welfare": 17.871817588806152
+  }
+}

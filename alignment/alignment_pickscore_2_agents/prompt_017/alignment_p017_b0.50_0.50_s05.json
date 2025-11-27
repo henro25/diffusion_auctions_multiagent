@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 17,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_2_agents/prompt_017/idx017_b1_0.50_b2_0.50_s05.png",
+    "filename": "idx017_b1_0.50_b2_0.50_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "A fitness trainer at a modern gym",
+    "agent1_prompt": "Wall Street Journal",
+    "agent2_prompt": "Aquafina water"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.916593551635742,
+    "agent1_alignment": 19.352134704589844,
+    "agent2_alignment": 20.076274871826172
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.714204788208008,
+    "total_welfare": 19.714204788208008
+  }
+}

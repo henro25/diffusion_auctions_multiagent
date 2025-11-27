@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 69,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_2_agents/prompt_069/idx069_b1_0.90_b2_0.10_s18.png",
+    "filename": "idx069_b1_0.90_b2_0.10_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a furniture store",
+    "agent1_prompt": "Amazon book",
+    "agent2_prompt": "iPad device"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.019227981567383,
+    "agent1_alignment": 21.491470336914062,
+    "agent2_alignment": 17.877111434936523
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 21.13003444671631,
+    "total_welfare": 21.13003444671631
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 16,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_3_agents/prompt_016/idx016_b1_0.40_b2_0.40_b3_0.20_s11.png",
+    "filename": "idx016_b1_0.40_b2_0.40_b3_0.20_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "A mechanic working in an auto garage",
+    "agent1_prompt": "Subway sandwich",
+    "agent2_prompt": "Apple Pay",
+    "agent3_prompt": "Hulu series"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.82579231262207,
+    "agent1_alignment": 19.85409927368164,
+    "agent2_alignment": 19.094043731689453,
+    "agent3_alignment": 19.08401870727539
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.396060943603516,
+    "total_welfare": 19.396060943603516
+  }
+}

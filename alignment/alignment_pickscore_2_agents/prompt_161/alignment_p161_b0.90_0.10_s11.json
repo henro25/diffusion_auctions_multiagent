@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 161,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_2_agents/prompt_161/idx161_b1_0.90_b2_0.10_s11.png",
+    "filename": "idx161_b1_0.90_b2_0.10_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a tax preparation office",
+    "agent1_prompt": "Chevrolet Silverado",
+    "agent2_prompt": "American Airlines"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.83719825744629,
+    "agent1_alignment": 22.259023666381836,
+    "agent2_alignment": 17.598493576049805
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 21.792970657348633,
+    "total_welfare": 21.792970657348633
+  }
+}

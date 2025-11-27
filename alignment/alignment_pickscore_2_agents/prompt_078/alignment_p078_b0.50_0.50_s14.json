@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 78,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_2_agents/prompt_078/idx078_b1_0.50_b2_0.50_s14.png",
+    "filename": "idx078_b1_0.50_b2_0.50_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at an office supply store",
+    "agent1_prompt": "GoPro action camera",
+    "agent2_prompt": "Comic book"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.781030654907227,
+    "agent1_alignment": 19.574193954467773,
+    "agent2_alignment": 19.53032875061035
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.552261352539062,
+    "total_welfare": 19.552261352539062
+  }
+}

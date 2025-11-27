@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 2,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_2_agents/prompt_002/idx002_b1_0.50_b2_0.50_s09.png",
+    "filename": "idx002_b1_0.50_b2_0.50_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "A person relaxing on a living-room sofa",
+    "agent1_prompt": "Clinique skincare",
+    "agent2_prompt": "Hulu series"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.468189239501953,
+    "agent1_alignment": 18.743627548217773,
+    "agent2_alignment": 20.029478073120117
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.386552810668945,
+    "total_welfare": 19.386552810668945
+  }
+}

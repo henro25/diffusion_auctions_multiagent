@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 0,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_2_agents_competitive/prompt_000/idx000_b1_0.10_b2_0.90_s13.png",
+    "filename": "idx000_b1_0.10_b2_0.90_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "A person drinking from a beverage can while working at a desk",
+    "agent1_prompt": "Coca-Cola can",
+    "agent2_prompt": "Pepsi can"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.099916458129883,
+    "agent1_alignment": 19.03359031677246,
+    "agent2_alignment": 20.101526260375977
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.994732666015626,
+    "total_welfare": 19.994732666015626
+  }
+}

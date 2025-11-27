@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 175,
+    "bids": [
+      0.5,
+      0.3,
+      0.2
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_3_agents/prompt_175/idx175_b1_0.50_b2_0.30_b3_0.20_s09.png",
+    "filename": "idx175_b1_0.50_b2_0.30_b3_0.20_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "A chef preparing ingredients at a prep station",
+    "agent1_prompt": "Bank of America",
+    "agent2_prompt": "Ben & Jerry's ice cream",
+    "agent3_prompt": "Twitch streaming"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.588176727294922,
+    "agent1_alignment": 18.33033561706543,
+    "agent2_alignment": 18.42209243774414,
+    "agent3_alignment": 19.050643920898438
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.501924324035645,
+    "total_welfare": 18.501924324035645
+  }
+}

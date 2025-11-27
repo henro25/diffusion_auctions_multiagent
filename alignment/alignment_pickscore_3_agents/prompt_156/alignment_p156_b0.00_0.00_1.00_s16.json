@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 156,
+    "bids": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_3_agents/prompt_156/idx156_b1_0.00_b2_0.00_b3_1.00_s16.png",
+    "filename": "idx156_b1_0.00_b2_0.00_b3_1.00_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at an electronics repair shop",
+    "agent1_prompt": "Citibank card",
+    "agent2_prompt": "Passport booklet",
+    "agent3_prompt": "Tempur-Pedic mattress"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.25572395324707,
+    "agent1_alignment": 17.888248443603516,
+    "agent2_alignment": 16.235071182250977,
+    "agent3_alignment": 21.194711685180664
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 21.194711685180664,
+    "total_welfare": 21.194711685180664
+  }
+}

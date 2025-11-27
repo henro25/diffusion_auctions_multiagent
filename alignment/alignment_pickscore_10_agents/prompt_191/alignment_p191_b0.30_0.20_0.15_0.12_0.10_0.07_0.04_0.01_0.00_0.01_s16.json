@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 191,
+    "bids": [
+      0.3,
+      0.2,
+      0.15,
+      0.12,
+      0.1,
+      0.07,
+      0.04,
+      0.01,
+      0.0,
+      0.01
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_10_agents/prompt_191/idx191_b1_0.30_b2_0.20_b3_0.15_b4_0.12_b5_0.10_b6_0.07_b7_0.04_b8_0.01_b9_0.00_b10_0.01_s16.png",
+    "filename": "idx191_b1_0.30_b2_0.20_b3_0.15_b4_0.12_b5_0.10_b6_0.07_b7_0.04_b8_0.01_b9_0.00_b10_0.01_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a plant nursery",
+    "agent1_prompt": "Jeep Wrangler",
+    "agent2_prompt": "Gatorade sports drink",
+    "agent3_prompt": "Blog post",
+    "agent4_prompt": "iPad device",
+    "agent5_prompt": "REI backpack",
+    "agent6_prompt": "IHG hotel",
+    "agent7_prompt": "Merrell hiking shoes",
+    "agent8_prompt": "Vitra chair",
+    "agent9_prompt": "IHG hotel",
+    "agent10_prompt": "Walmart store"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.539430618286133,
+    "agent1_alignment": 17.766660690307617,
+    "agent2_alignment": 19.118192672729492,
+    "agent3_alignment": 19.209457397460938,
+    "agent4_alignment": 18.594707489013672,
+    "agent5_alignment": 17.60039520263672,
+    "agent6_alignment": 18.035795211791992,
+    "agent7_alignment": 18.124176025390625,
+    "agent8_alignment": 17.783655166625977,
+    "agent9_alignment": 18.035795211791992,
+    "agent10_alignment": 17.587800979614258
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.367647037506106,
+    "total_welfare": 18.367647037506106
+  }
+}

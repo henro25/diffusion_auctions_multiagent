@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 182,
+    "bids": [
+      0.25,
+      0.25,
+      0.25,
+      0.15,
+      0.1
+    ],
+    "sample_index": 19,
+    "image_path": "output/images_5_agents/prompt_182/idx182_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s19.png",
+    "filename": "idx182_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s19.png"
+  },
+  "prompts": {
+    "base_prompt": "Person at a mall food court",
+    "agent1_prompt": "Airbnb listing",
+    "agent2_prompt": "Toyota Camry",
+    "agent3_prompt": "Samsung Galaxy tablet",
+    "agent4_prompt": "Red Bull energy drink",
+    "agent5_prompt": "Dyson vacuum"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 4.642035961151123
+  }
+}

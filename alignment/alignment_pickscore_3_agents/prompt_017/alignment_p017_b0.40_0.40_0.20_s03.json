@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 17,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_3_agents/prompt_017/idx017_b1_0.40_b2_0.40_b3_0.20_s03.png",
+    "filename": "idx017_b1_0.40_b2_0.40_b3_0.20_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "A fitness trainer at a modern gym",
+    "agent1_prompt": "Wall Street Journal",
+    "agent2_prompt": "Aquafina water",
+    "agent3_prompt": "Prada bag"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.00333595275879,
+    "agent1_alignment": 19.459482192993164,
+    "agent2_alignment": 19.166889190673828,
+    "agent3_alignment": 17.22584342956543
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.895717239379884,
+    "total_welfare": 18.895717239379884
+  }
+}

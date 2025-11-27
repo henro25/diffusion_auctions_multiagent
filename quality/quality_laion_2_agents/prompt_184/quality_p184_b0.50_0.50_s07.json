@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 184,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_2_agents/prompt_184/idx184_b1_0.50_b2_0.50_s07.png",
+    "filename": "idx184_b1_0.50_b2_0.50_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a car rental agency",
+    "agent1_prompt": "Article sofa",
+    "agent2_prompt": "Espresso shot"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 7.214451789855957
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 146,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_2_agents/prompt_146/idx146_b1_0.30_b2_0.70_s16.png",
+    "filename": "idx146_b1_0.30_b2_0.70_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a locksmith shop",
+    "agent1_prompt": "HP laptop",
+    "agent2_prompt": "Coleman camping tent"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.243576049804688,
+    "agent1_alignment": 19.736419677734375,
+    "agent2_alignment": 20.7701473236084
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.46002902984619,
+    "total_welfare": 20.46002902984619
+  }
+}

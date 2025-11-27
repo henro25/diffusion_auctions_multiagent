@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 149,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_2_agents/prompt_149/idx149_b1_0.30_b2_0.70_s06.png",
+    "filename": "idx149_b1_0.30_b2_0.70_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a hardware store",
+    "agent1_prompt": "Evian water bottle",
+    "agent2_prompt": "Jeep Wrangler"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.96279525756836,
+    "agent1_alignment": 17.968111038208008,
+    "agent2_alignment": 21.464624404907227
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.41567039489746,
+    "total_welfare": 20.41567039489746
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "prompt_index": 11,
+    "bids": [
+      0.33,
+      0.33,
+      0.33
+    ],
+    "sample_index": 19,
+    "image_path": "output/images_3_agents/prompt_011/idx011_b1_0.33_b2_0.33_b3_0.33_s19.png",
+    "filename": "idx011_b1_0.33_b2_0.33_b3_0.33_s19.png"
+  },
+  "prompts": {
+    "base_prompt": "A student studying in a university library",
+    "agent1_prompt": "Aquafina water",
+    "agent2_prompt": "CeraVe moisturizer",
+    "agent3_prompt": "Coleman camping tent"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.3046875,
+    "agent1_alignment": 0.1767578125,
+    "agent2_alignment": 0.17578125,
+    "agent3_alignment": 0.21875
+  },
+  "quality_assessment": {
+    "clip_quality": 0.51171875
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.1904296875,
+    "total_welfare": 0.188525390625
+  }
+}

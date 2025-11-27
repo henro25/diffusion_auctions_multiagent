@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 3,
+    "bids": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "sample_index": 12,
+    "image_path": "output/images_3_agents/prompt_003/idx003_b1_0.60_b2_0.20_b3_0.20_s12.png",
+    "filename": "idx003_b1_0.60_b2_0.20_b3_0.20_s12.png"
+  },
+  "prompts": {
+    "base_prompt": "A hiker resting on a mountain trail",
+    "agent1_prompt": "Keen boots",
+    "agent2_prompt": "Jura espresso machine",
+    "agent3_prompt": "Cold brew concentrate"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.132064819335938,
+    "agent1_alignment": 20.072248458862305,
+    "agent2_alignment": 19.119945526123047,
+    "agent3_alignment": 19.213550567626953
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.710048294067384,
+    "total_welfare": 19.710048294067384
+  }
+}

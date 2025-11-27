@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "prompt_index": 175,
+    "bids": [
+      0.3,
+      0.3,
+      0.2,
+      0.1,
+      0.1
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_5_agents/prompt_175/idx175_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s05.png",
+    "filename": "idx175_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "A chef preparing ingredients at a prep station",
+    "agent1_prompt": "Bank of America",
+    "agent2_prompt": "Ben & Jerry's ice cream",
+    "agent3_prompt": "Twitch streaming",
+    "agent4_prompt": "Article sofa",
+    "agent5_prompt": "Patagonia hiking pants"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.23828125,
+    "agent1_alignment": 0.193359375,
+    "agent2_alignment": 0.15234375,
+    "agent3_alignment": 0.1142578125,
+    "agent4_alignment": 0.044677734375,
+    "agent5_alignment": 0.0703125
+  },
+  "quality_assessment": {
+    "clip_quality": 0.50390625
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.13806152343749997,
+    "total_welfare": 0.13806152343749997
+  }
+}

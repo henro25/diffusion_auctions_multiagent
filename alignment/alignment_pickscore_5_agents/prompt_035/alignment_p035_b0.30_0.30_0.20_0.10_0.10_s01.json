@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 35,
+    "bids": [
+      0.3,
+      0.3,
+      0.2,
+      0.1,
+      0.1
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_5_agents/prompt_035/idx035_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s01.png",
+    "filename": "idx035_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "A group of people waiting for a train",
+    "agent1_prompt": "Keurig coffee maker",
+    "agent2_prompt": "Columbia hiking boots",
+    "agent3_prompt": "AutoZone parts",
+    "agent4_prompt": "New York Times newspaper",
+    "agent5_prompt": "Snickers candy bar"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.098115921020508,
+    "agent1_alignment": 19.09486961364746,
+    "agent2_alignment": 17.986047744750977,
+    "agent3_alignment": 19.175453186035156,
+    "agent4_alignment": 18.481969833374023,
+    "agent5_alignment": 19.62314224243164
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.76987705230713,
+    "total_welfare": 18.76987705230713
+  }
+}

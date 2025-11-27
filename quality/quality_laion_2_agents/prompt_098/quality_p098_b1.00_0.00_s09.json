@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 98,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_2_agents/prompt_098/idx098_b1_1.00_b2_0.00_s09.png",
+    "filename": "idx098_b1_1.00_b2_0.00_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a post office mailing package",
+    "agent1_prompt": "Sprite lemon-lime",
+    "agent2_prompt": "Jif peanut butter"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.9044036865234375
+  }
+}

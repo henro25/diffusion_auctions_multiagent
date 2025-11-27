@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 54,
+    "bids": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_3_agents/prompt_054/idx054_b1_0.00_b2_0.00_b3_1.00_s01.png",
+    "filename": "idx054_b1_0.00_b2_0.00_b3_1.00_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a pet store shopping",
+    "agent1_prompt": "Pottery Barn shelving",
+    "agent2_prompt": "Nespresso machine",
+    "agent3_prompt": "Kraft cheese slice"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.35127067565918,
+    "agent1_alignment": 16.565052032470703,
+    "agent2_alignment": 16.4728946685791,
+    "agent3_alignment": 19.276948928833008
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.276948928833008,
+    "total_welfare": 19.276948928833008
+  }
+}

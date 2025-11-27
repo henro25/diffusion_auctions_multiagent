@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 19,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 25,
+    "image_path": "output/images_2_agents/prompt_019/idx019_b1_0.50_b2_0.50_s25.png",
+    "filename": "idx019_b1_0.50_b2_0.50_s25.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone shopping for groceries at a supermarket",
+    "agent1_prompt": "Google Pay",
+    "agent2_prompt": "Clinique skincare"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.69721031188965,
+    "agent1_alignment": 19.759004592895508,
+    "agent2_alignment": 18.218809127807617
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.988906860351562,
+    "total_welfare": 18.988906860351562
+  }
+}

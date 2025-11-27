@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 23,
+    "bids": [
+      0.0,
+      1.0
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_2_agents_competitive/prompt_023/idx023_b1_0.00_b2_1.00_s06.png",
+    "filename": "idx023_b1_0.00_b2_1.00_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone drinking a sports drink after a workout",
+    "agent1_prompt": "Gatorade bottle",
+    "agent2_prompt": "Powerade bottle"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.654494285583496
+  }
+}

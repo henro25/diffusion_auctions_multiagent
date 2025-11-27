@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 4,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 37,
+    "image_path": "output/images_2_agents/prompt_004/idx004_b1_0.70_b2_0.30_s37.png",
+    "filename": "idx004_b1_0.70_b2_0.30_s37.png"
+  },
+  "prompts": {
+    "base_prompt": "A professional working at a desk in a bright office",
+    "agent1_prompt": "Wine glass",
+    "agent2_prompt": "Chromecast dongle"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.344343185424805,
+    "agent1_alignment": 19.77933692932129,
+    "agent2_alignment": 18.952861785888672
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.531394386291502,
+    "total_welfare": 19.531394386291502
+  }
+}

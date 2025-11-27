@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "prompt_index": 11,
+    "bids": [
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_20_agents/prompt_011/idx011_b1_0.05_b2_0.05_b3_0.05_b4_0.05_b5_0.05_b6_0.05_b7_0.05_b8_0.05_b9_0.05_b10_0.05_b11_0.05_b12_0.05_b13_0.05_b14_0.05_b15_0.05_b16_0.05_b17_0.05_b18_0.05_b19_0.05_b20_0.05_s11.png",
+    "filename": "idx011_b1_0.05_b2_0.05_b3_0.05_b4_0.05_b5_0.05_b6_0.05_b7_0.05_b8_0.05_b9_0.05_b10_0.05_b11_0.05_b12_0.05_b13_0.05_b14_0.05_b15_0.05_b16_0.05_b17_0.05_b18_0.05_b19_0.05_b20_0.05_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "A student studying in a university library",
+    "agent1_prompt": "Aquafina water",
+    "agent2_prompt": "CeraVe moisturizer",
+    "agent3_prompt": "Coleman camping tent",
+    "agent4_prompt": "Wayfair furniture",
+    "agent5_prompt": "Kiehl's facial cream",
+    "agent6_prompt": "New Balance shoes",
+    "agent7_prompt": "Walgreens pharmacy",
+    "agent8_prompt": "HBO Max show",
+    "agent9_prompt": "Tropicana juice",
+    "agent10_prompt": "Book cover",
+    "agent11_prompt": "Louis Vuitton handbag",
+    "agent12_prompt": "Article sofa",
+    "agent13_prompt": "Uber ride",
+    "agent14_prompt": "Kraft cheese slice",
+    "agent15_prompt": "Ford F-150 truck",
+    "agent16_prompt": "Rocket Mortgage",
+    "agent17_prompt": "iPhone smartphone",
+    "agent18_prompt": "All-Clad cookware",
+    "agent19_prompt": "Shark steam mop",
+    "agent20_prompt": "Espresso shot"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.386101722717285
+  }
+}

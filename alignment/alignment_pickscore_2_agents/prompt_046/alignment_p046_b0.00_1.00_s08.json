@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 46,
+    "bids": [
+      0.0,
+      1.0
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_2_agents/prompt_046/idx046_b1_0.00_b2_1.00_s08.png",
+    "filename": "idx046_b1_0.00_b2_1.00_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "A person practicing yoga in a studio",
+    "agent1_prompt": "PayPal logo",
+    "agent2_prompt": "Dunkin coffee"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.193923950195312,
+    "agent1_alignment": 16.471574783325195,
+    "agent2_alignment": 21.27358055114746
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 21.27358055114746,
+    "total_welfare": 21.27358055114746
+  }
+}

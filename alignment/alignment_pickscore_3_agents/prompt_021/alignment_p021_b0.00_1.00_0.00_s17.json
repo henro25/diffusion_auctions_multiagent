@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 21,
+    "bids": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_3_agents/prompt_021/idx021_b1_0.00_b2_1.00_b3_0.00_s17.png",
+    "filename": "idx021_b1_0.00_b2_1.00_b3_0.00_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "A person jogging in a city park",
+    "agent1_prompt": "Wonder Bread loaf",
+    "agent2_prompt": "TD Bank",
+    "agent3_prompt": "DJI drone"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.920486450195312,
+    "agent1_alignment": 17.78769302368164,
+    "agent2_alignment": 19.8840274810791,
+    "agent3_alignment": 19.101119995117188
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.8840274810791,
+    "total_welfare": 19.8840274810791
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 60,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_2_agents/prompt_060/idx060_b1_0.70_b2_0.30_s18.png",
+    "filename": "idx060_b1_0.70_b2_0.30_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a car dealership showroom",
+    "agent1_prompt": "Est\u00e9e Lauder moisturizer",
+    "agent2_prompt": "Apple Music app"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.902027130126953,
+    "agent1_alignment": 19.7623291015625,
+    "agent2_alignment": 17.586095809936523
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.109459114074706,
+    "total_welfare": 19.109459114074706
+  }
+}

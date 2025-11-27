@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 102,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 15,
+    "image_path": "output/images_2_agents/prompt_102/idx102_b1_1.00_b2_0.00_s15.png",
+    "filename": "idx102_b1_1.00_b2_0.00_s15.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a bicycle shop",
+    "agent1_prompt": "Levi's blue jeans",
+    "agent2_prompt": "NYX makeup"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.09174156188965,
+    "agent1_alignment": 22.01378631591797,
+    "agent2_alignment": 16.563053131103516
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 22.01378631591797,
+    "total_welfare": 22.01378631591797
+  }
+}

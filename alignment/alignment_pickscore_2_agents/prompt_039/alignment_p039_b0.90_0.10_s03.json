@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 39,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_2_agents/prompt_039/idx039_b1_0.90_b2_0.10_s03.png",
+    "filename": "idx039_b1_0.90_b2_0.10_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "People dancing at a nightclub",
+    "agent1_prompt": "Gillette razor",
+    "agent2_prompt": "New York Times newspaper"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.853796005249023,
+    "agent1_alignment": 20.795921325683594,
+    "agent2_alignment": 17.350250244140625
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.4513542175293,
+    "total_welfare": 20.4513542175293
+  }
+}

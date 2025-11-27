@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 4,
+    "bids": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_3_agents/prompt_004/idx004_b1_0.60_b2_0.20_b3_0.20_s16.png",
+    "filename": "idx004_b1_0.60_b2_0.20_b3_0.20_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "A professional working at a desk in a bright office",
+    "agent1_prompt": "Wine glass",
+    "agent2_prompt": "Chromecast dongle",
+    "agent3_prompt": "Coleman cooler"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.51193618774414,
+    "agent1_alignment": 19.72174644470215,
+    "agent2_alignment": 19.054603576660156,
+    "agent3_alignment": 19.046422958374023
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.453253173828124,
+    "total_welfare": 19.453253173828124
+  }
+}

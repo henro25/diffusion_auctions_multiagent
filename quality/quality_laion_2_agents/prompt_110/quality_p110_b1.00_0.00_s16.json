@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 110,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_2_agents/prompt_110/idx110_b1_1.00_b2_0.00_s16.png",
+    "filename": "idx110_b1_1.00_b2_0.00_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a health food store",
+    "agent1_prompt": "Medium article",
+    "agent2_prompt": "Citibank card"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.505253791809082
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 3,
+    "bids": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_20_agents/prompt_003/idx003_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_b11_0.00_b12_0.00_b13_0.00_b14_0.00_b15_0.00_b16_0.00_b17_0.00_b18_0.00_b19_0.00_b20_0.00_s18.png",
+    "filename": "idx003_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_b11_0.00_b12_0.00_b13_0.00_b14_0.00_b15_0.00_b16_0.00_b17_0.00_b18_0.00_b19_0.00_b20_0.00_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "A hiker resting on a mountain trail",
+    "agent1_prompt": "Keen boots",
+    "agent2_prompt": "Jura espresso machine",
+    "agent3_prompt": "Cold brew concentrate",
+    "agent4_prompt": "SoFi loan",
+    "agent5_prompt": "Ashley Furniture",
+    "agent6_prompt": "Dyson vacuum",
+    "agent7_prompt": "IKEA chair",
+    "agent8_prompt": "Salomon ski boots",
+    "agent9_prompt": "Passport booklet",
+    "agent10_prompt": "Fortnite game",
+    "agent11_prompt": "Yeti cooler",
+    "agent12_prompt": "Gillette razor",
+    "agent13_prompt": "Gap clothing store",
+    "agent14_prompt": "Harley-Davidson motorcycle",
+    "agent15_prompt": "Levi's blue jeans",
+    "agent16_prompt": "Deli turkey slice",
+    "agent17_prompt": "Corona beer bottle",
+    "agent18_prompt": "Regal Cinemas",
+    "agent19_prompt": "Apple MacBook Air",
+    "agent20_prompt": "Newspaper headline"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2734375,
+    "agent1_alignment": 0.1494140625,
+    "agent2_alignment": 0.09423828125,
+    "agent3_alignment": 0.099609375,
+    "agent4_alignment": 0.0810546875,
+    "agent5_alignment": 0.0869140625,
+    "agent6_alignment": 0.11376953125,
+    "agent7_alignment": 0.1357421875,
+    "agent8_alignment": 0.130859375,
+    "agent9_alignment": 0.13671875,
+    "agent10_alignment": 0.1064453125,
+    "agent11_alignment": 0.1298828125,
+    "agent12_alignment": 0.09619140625,
+    "agent13_alignment": 0.10302734375,
+    "agent14_alignment": 0.0771484375,
+    "agent15_alignment": 0.126953125,
+    "agent16_alignment": 0.08447265625,
+    "agent17_alignment": 0.103515625,
+    "agent18_alignment": 0.08837890625,
+    "agent19_alignment": 0.11767578125,
+    "agent20_alignment": 0.0966796875
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

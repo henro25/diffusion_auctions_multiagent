@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 152,
+    "bids": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_3_agents/prompt_152/idx152_b1_0.60_b2_0.20_b3_0.20_s11.png",
+    "filename": "idx152_b1_0.60_b2_0.20_b3_0.20_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a print shop",
+    "agent1_prompt": "Nintendo Switch",
+    "agent2_prompt": "Osprey backpack",
+    "agent3_prompt": "Magazine cover"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.895530700683594,
+    "agent1_alignment": 20.014915466308594,
+    "agent2_alignment": 20.07636833190918,
+    "agent3_alignment": 19.2611026763916
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.876443481445314,
+    "total_welfare": 19.876443481445314
+  }
+}

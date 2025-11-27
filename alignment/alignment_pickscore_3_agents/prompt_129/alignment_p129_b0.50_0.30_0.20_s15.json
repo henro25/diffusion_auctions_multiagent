@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 129,
+    "bids": [
+      0.5,
+      0.3,
+      0.2
+    ],
+    "sample_index": 15,
+    "image_path": "output/images_3_agents/prompt_129/idx129_b1_0.50_b2_0.30_b3_0.20_s15.png",
+    "filename": "idx129_b1_0.50_b2_0.30_b3_0.20_s15.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a kitchen appliance store",
+    "agent1_prompt": "Fanta orange soda",
+    "agent2_prompt": "Yeti cooler",
+    "agent3_prompt": "Vaseline lip balm"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.652137756347656,
+    "agent1_alignment": 20.283815383911133,
+    "agent2_alignment": 18.47193717956543,
+    "agent3_alignment": 19.199459075927734
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.52338066101074,
+    "total_welfare": 19.52338066101074
+  }
+}

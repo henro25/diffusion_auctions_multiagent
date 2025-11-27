@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 176,
+    "bids": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_10_agents/prompt_176/idx176_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.10_b6_0.10_b7_0.10_b8_0.10_b9_0.10_b10_0.10_s13.png",
+    "filename": "idx176_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.10_b6_0.10_b7_0.10_b8_0.10_b9_0.10_b10_0.10_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a outdoor rooftop gathering",
+    "agent1_prompt": "Microsoft Surface laptop",
+    "agent2_prompt": "Pottery Barn shelving",
+    "agent3_prompt": "Amazon Prime video",
+    "agent4_prompt": "Adidas Superstar sneakers",
+    "agent5_prompt": "Logitech wireless mouse",
+    "agent6_prompt": "CVS pharmacy",
+    "agent7_prompt": "Subway sandwich",
+    "agent8_prompt": "Starbucks coffee cup",
+    "agent9_prompt": "PayPal logo",
+    "agent10_prompt": "Blog post"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.11320686340332,
+    "agent1_alignment": 16.861530303955078,
+    "agent2_alignment": 16.539201736450195,
+    "agent3_alignment": 18.07807159423828,
+    "agent4_alignment": 17.417457580566406,
+    "agent5_alignment": 18.406484603881836,
+    "agent6_alignment": 17.75580596923828,
+    "agent7_alignment": 17.5594425201416,
+    "agent8_alignment": 17.671117782592773,
+    "agent9_alignment": 18.23305892944336,
+    "agent10_alignment": 18.842199325561523
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.73643703460694,
+    "total_welfare": 17.736437034606936
+  }
+}

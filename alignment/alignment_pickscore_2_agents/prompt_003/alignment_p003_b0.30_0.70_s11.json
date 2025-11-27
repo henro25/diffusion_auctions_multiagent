@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 3,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_2_agents/prompt_003/idx003_b1_0.30_b2_0.70_s11.png",
+    "filename": "idx003_b1_0.30_b2_0.70_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "A hiker resting on a mountain trail",
+    "agent1_prompt": "Keen boots",
+    "agent2_prompt": "Jura espresso machine"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.420454025268555,
+    "agent1_alignment": 20.113279342651367,
+    "agent2_alignment": 20.153749465942383
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.141608428955077,
+    "total_welfare": 20.141608428955077
+  }
+}

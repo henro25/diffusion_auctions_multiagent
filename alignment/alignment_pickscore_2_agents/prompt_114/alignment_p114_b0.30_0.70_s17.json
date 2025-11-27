@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 114,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_2_agents/prompt_114/idx114_b1_0.30_b2_0.70_s17.png",
+    "filename": "idx114_b1_0.30_b2_0.70_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a sports equipment store",
+    "agent1_prompt": "Echo Dot",
+    "agent2_prompt": "Urban Decay eyeshadow"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.180849075317383,
+    "agent1_alignment": 17.301788330078125,
+    "agent2_alignment": 17.435941696166992
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.395695686340332,
+    "total_welfare": 17.395695686340332
+  }
+}

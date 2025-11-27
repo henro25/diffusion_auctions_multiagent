@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 27,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 15,
+    "image_path": "output/images_2_agents/prompt_027/idx027_b1_0.30_b2_0.70_s15.png",
+    "filename": "idx027_b1_0.30_b2_0.70_s15.png"
+  },
+  "prompts": {
+    "base_prompt": "A photographer taking pictures at a wedding",
+    "agent1_prompt": "Ethan Allen furniture",
+    "agent2_prompt": "Ben & Jerry's ice cream"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.020221710205078,
+    "agent1_alignment": 17.28424644470215,
+    "agent2_alignment": 19.829627990722656
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.066013526916503,
+    "total_welfare": 19.066013526916503
+  }
+}

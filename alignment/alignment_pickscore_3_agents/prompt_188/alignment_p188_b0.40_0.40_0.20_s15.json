@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 188,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 15,
+    "image_path": "output/images_3_agents/prompt_188/idx188_b1_0.40_b2_0.40_b3_0.20_s15.png",
+    "filename": "idx188_b1_0.40_b2_0.40_b3_0.20_s15.png"
+  },
+  "prompts": {
+    "base_prompt": "A group at a outdoor soccer game",
+    "agent1_prompt": "Osprey backpack",
+    "agent2_prompt": "Dick's Sporting Goods",
+    "agent3_prompt": "Coffee foam art"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.058076858520508,
+    "agent1_alignment": 20.72954559326172,
+    "agent2_alignment": 18.760475158691406,
+    "agent3_alignment": 18.12247085571289
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.42050247192383,
+    "total_welfare": 19.42050247192383
+  }
+}

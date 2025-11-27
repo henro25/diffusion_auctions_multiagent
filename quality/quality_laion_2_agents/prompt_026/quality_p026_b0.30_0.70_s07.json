@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 26,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_2_agents/prompt_026/idx026_b1_0.30_b2_0.70_s07.png",
+    "filename": "idx026_b1_0.30_b2_0.70_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends meeting at a shopping mall",
+    "agent1_prompt": "Heinz ketchup",
+    "agent2_prompt": "Among Us game"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 7.458252906799316
+  }
+}

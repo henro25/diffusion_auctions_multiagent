@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 47,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_2_agents/prompt_047/idx047_b1_1.00_b2_0.00_s06.png",
+    "filename": "idx047_b1_1.00_b2_0.00_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends hanging out at a sports bar",
+    "agent1_prompt": "Amazon Prime video",
+    "agent2_prompt": "Pizza delivery box"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.504706382751465
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 169,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_3_agents/prompt_169/idx169_b1_0.60_b2_0.30_b3_0.10_s01.png",
+    "filename": "idx169_b1_0.60_b2_0.30_b3_0.10_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a outdoor horseback riding",
+    "agent1_prompt": "Kroger supermarket",
+    "agent2_prompt": "Asics running shoe",
+    "agent3_prompt": "United Airlines"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.51110076904297,
+    "agent1_alignment": 16.95806884765625,
+    "agent2_alignment": 19.357952117919922,
+    "agent3_alignment": 17.528301239013672
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.7350570678711,
+    "total_welfare": 17.735057067871097
+  }
+}

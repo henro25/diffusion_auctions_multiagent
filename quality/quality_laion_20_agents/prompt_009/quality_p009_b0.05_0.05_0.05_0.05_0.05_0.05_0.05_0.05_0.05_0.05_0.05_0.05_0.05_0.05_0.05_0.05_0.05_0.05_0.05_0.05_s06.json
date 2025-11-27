@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "prompt_index": 9,
+    "bids": [
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_20_agents/prompt_009/idx009_b1_0.05_b2_0.05_b3_0.05_b4_0.05_b5_0.05_b6_0.05_b7_0.05_b8_0.05_b9_0.05_b10_0.05_b11_0.05_b12_0.05_b13_0.05_b14_0.05_b15_0.05_b16_0.05_b17_0.05_b18_0.05_b19_0.05_b20_0.05_s06.png",
+    "filename": "idx009_b1_0.05_b2_0.05_b3_0.05_b4_0.05_b5_0.05_b6_0.05_b7_0.05_b8_0.05_b9_0.05_b10_0.05_b11_0.05_b12_0.05_b13_0.05_b14_0.05_b15_0.05_b16_0.05_b17_0.05_b18_0.05_b19_0.05_b20_0.05_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "Skiers waiting in a ski-lift line",
+    "agent1_prompt": "Tresemm\u00e9 shampoo",
+    "agent2_prompt": "Knoll furniture",
+    "agent3_prompt": "Aquafina water",
+    "agent4_prompt": "Robinhood app",
+    "agent5_prompt": "Trader Joe's bags",
+    "agent6_prompt": "Coffee grinder",
+    "agent7_prompt": "Nintendo Switch",
+    "agent8_prompt": "Mobil 1 motor oil",
+    "agent9_prompt": "Instagram story",
+    "agent10_prompt": "American Airlines",
+    "agent11_prompt": "Instant Pot cooker",
+    "agent12_prompt": "Sony headphones",
+    "agent13_prompt": "Converse Chuck Taylor",
+    "agent14_prompt": "Sprite lemon-lime",
+    "agent15_prompt": "Audi A4",
+    "agent16_prompt": "Airbnb listing",
+    "agent17_prompt": "Deli turkey slice",
+    "agent18_prompt": "Salomon hiking boots",
+    "agent19_prompt": "TaylorMade golf balls",
+    "agent20_prompt": "Kelty tent"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 7.081198215484619
+  }
+}

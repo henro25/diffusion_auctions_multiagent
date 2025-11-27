@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 46,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_3_agents/prompt_046/idx046_b1_0.60_b2_0.30_b3_0.10_s16.png",
+    "filename": "idx046_b1_0.60_b2_0.30_b3_0.10_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "A person practicing yoga in a studio",
+    "agent1_prompt": "PayPal logo",
+    "agent2_prompt": "Dunkin coffee",
+    "agent3_prompt": "Campbell's soup can"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.659263610839844,
+    "agent1_alignment": 19.672536849975586,
+    "agent2_alignment": 19.042606353759766,
+    "agent3_alignment": 17.61085319519043
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.27738933563233,
+    "total_welfare": 19.277389335632325
+  }
+}

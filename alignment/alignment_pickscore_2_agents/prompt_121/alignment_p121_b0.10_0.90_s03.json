@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 121,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_2_agents/prompt_121/idx121_b1_0.10_b2_0.90_s03.png",
+    "filename": "idx121_b1_0.10_b2_0.90_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a dance club",
+    "agent1_prompt": "Cold brew concentrate",
+    "agent2_prompt": "Goodyear tire"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.2525577545166,
+    "agent1_alignment": 17.903888702392578,
+    "agent2_alignment": 19.37717056274414
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.229842376708987,
+    "total_welfare": 19.229842376708987
+  }
+}

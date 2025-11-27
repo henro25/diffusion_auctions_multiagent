@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 191,
+    "bids": [
+      0.2,
+      0.12,
+      0.1,
+      0.08,
+      0.07,
+      0.06,
+      0.05,
+      0.04,
+      0.03,
+      0.03,
+      0.03,
+      0.02,
+      0.02,
+      0.02,
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "sample_index": 0,
+    "image_path": "output/images_20_agents/prompt_191/idx191_b1_0.20_b2_0.12_b3_0.10_b4_0.08_b5_0.07_b6_0.06_b7_0.05_b8_0.04_b9_0.03_b10_0.03_b11_0.03_b12_0.02_b13_0.02_b14_0.02_b15_0.01_b16_0.01_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s00.png",
+    "filename": "idx191_b1_0.20_b2_0.12_b3_0.10_b4_0.08_b5_0.07_b6_0.06_b7_0.05_b8_0.04_b9_0.03_b10_0.03_b11_0.03_b12_0.02_b13_0.02_b14_0.02_b15_0.01_b16_0.01_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s00.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a plant nursery",
+    "agent1_prompt": "Jeep Wrangler",
+    "agent2_prompt": "Gatorade sports drink",
+    "agent3_prompt": "Blog post",
+    "agent4_prompt": "iPad device",
+    "agent5_prompt": "REI backpack",
+    "agent6_prompt": "IHG hotel",
+    "agent7_prompt": "Merrell hiking shoes",
+    "agent8_prompt": "Vitra chair",
+    "agent9_prompt": "IHG hotel",
+    "agent10_prompt": "Walmart store",
+    "agent11_prompt": "Among Us game",
+    "agent12_prompt": "Discover card",
+    "agent13_prompt": "Shark steam mop",
+    "agent14_prompt": "Latte beverage",
+    "agent15_prompt": "North Face jacket",
+    "agent16_prompt": "Dell monitor",
+    "agent17_prompt": "Kraft cheese slice",
+    "agent18_prompt": "REI sleeping bag",
+    "agent19_prompt": "Dyson Supersonic dryer",
+    "agent20_prompt": "Tommy Hilfiger polo"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2294921875,
+    "agent1_alignment": 0.2099609375,
+    "agent2_alignment": 0.11328125,
+    "agent3_alignment": 0.1533203125,
+    "agent4_alignment": 0.1484375,
+    "agent5_alignment": 0.1982421875,
+    "agent6_alignment": 0.08740234375,
+    "agent7_alignment": 0.11962890625,
+    "agent8_alignment": 0.111328125,
+    "agent9_alignment": 0.08740234375,
+    "agent10_alignment": 0.10546875,
+    "agent11_alignment": 0.1044921875,
+    "agent12_alignment": 0.1083984375,
+    "agent13_alignment": 0.12060546875,
+    "agent14_alignment": 0.1103515625,
+    "agent15_alignment": 0.158203125,
+    "agent16_alignment": 0.115234375,
+    "agent17_alignment": 0.044921875,
+    "agent18_alignment": 0.140625,
+    "agent19_alignment": 0.072265625,
+    "agent20_alignment": 0.09326171875
+  },
+  "quality_assessment": {
+    "clip_quality": 0.51171875
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.14441049227150535,
+    "total_welfare": 0.13430175781250003
+  }
+}

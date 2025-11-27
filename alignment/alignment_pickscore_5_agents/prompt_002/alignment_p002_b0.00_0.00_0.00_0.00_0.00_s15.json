@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 2,
+    "bids": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 15,
+    "image_path": "output/images_5_agents/prompt_002/idx002_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s15.png",
+    "filename": "idx002_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s15.png"
+  },
+  "prompts": {
+    "base_prompt": "A person relaxing on a living-room sofa",
+    "agent1_prompt": "Clinique skincare",
+    "agent2_prompt": "Hulu series",
+    "agent3_prompt": "Nest thermostat",
+    "agent4_prompt": "YouTube channel",
+    "agent5_prompt": "Article sofa"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.916168212890625,
+    "agent1_alignment": 18.358930587768555,
+    "agent2_alignment": 19.422941207885742,
+    "agent3_alignment": 17.89619255065918,
+    "agent4_alignment": 18.016666412353516,
+    "agent5_alignment": 19.108489990234375
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

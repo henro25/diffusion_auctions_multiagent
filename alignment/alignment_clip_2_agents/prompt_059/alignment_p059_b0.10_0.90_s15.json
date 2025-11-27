@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 59,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 15,
+    "image_path": "output/images_2_agents/prompt_059/idx059_b1_0.10_b2_0.90_s15.png",
+    "filename": "idx059_b1_0.10_b2_0.90_s15.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a dentist office waiting",
+    "agent1_prompt": "YouTube channel",
+    "agent2_prompt": "Coffee grinder"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.1845703125,
+    "agent1_alignment": 0.0986328125,
+    "agent2_alignment": 0.2080078125
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.1970703125,
+    "total_welfare": 0.1970703125
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 14,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_10_agents/prompt_014/idx014_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_s05.png",
+    "filename": "idx014_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "A teenager gaming in their bedroom",
+    "agent1_prompt": "Gucci loafers",
+    "agent2_prompt": "Doritos tortilla chips",
+    "agent3_prompt": "Fitbit tracker",
+    "agent4_prompt": "Fanta orange soda",
+    "agent5_prompt": "Dyson hair dryer",
+    "agent6_prompt": "PayPal logo",
+    "agent7_prompt": "Hyatt resort",
+    "agent8_prompt": "McDonald's burger",
+    "agent9_prompt": "Audi A4",
+    "agent10_prompt": "Chromecast dongle"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.132497787475586,
+    "agent1_alignment": 18.972900390625,
+    "agent2_alignment": 17.821487426757812,
+    "agent3_alignment": 18.548267364501953,
+    "agent4_alignment": 18.30129623413086,
+    "agent5_alignment": 19.08753204345703,
+    "agent6_alignment": 17.29918670654297,
+    "agent7_alignment": 19.24434471130371,
+    "agent8_alignment": 18.183940887451172,
+    "agent9_alignment": 17.61846923828125,
+    "agent10_alignment": 19.498966217041016
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.972900390625,
+    "total_welfare": 18.972900390625
+  }
+}

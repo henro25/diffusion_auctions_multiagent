@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 177,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 10,
+    "image_path": "output/images_10_agents/prompt_177/idx177_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_s10.png",
+    "filename": "idx177_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_s10.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a craft brewery",
+    "agent1_prompt": "New York Times newspaper",
+    "agent2_prompt": "Herman Miller chair",
+    "agent3_prompt": "Lipton tea bag",
+    "agent4_prompt": "All-Clad cookware",
+    "agent5_prompt": "NYX makeup",
+    "agent6_prompt": "Nespresso machine",
+    "agent7_prompt": "Converse Chuck Taylor",
+    "agent8_prompt": "Arc'teryx backpack",
+    "agent9_prompt": "Airbnb listing",
+    "agent10_prompt": "Target logo"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.748897552490234,
+    "agent1_alignment": 20.32645034790039,
+    "agent2_alignment": 17.23927116394043,
+    "agent3_alignment": 18.446165084838867,
+    "agent4_alignment": 18.65777015686035,
+    "agent5_alignment": 17.75802993774414,
+    "agent6_alignment": 17.831825256347656,
+    "agent7_alignment": 17.58620834350586,
+    "agent8_alignment": 17.064151763916016,
+    "agent9_alignment": 17.85254669189453,
+    "agent10_alignment": 16.784090042114258
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.32645034790039,
+    "total_welfare": 20.32645034790039
+  }
+}

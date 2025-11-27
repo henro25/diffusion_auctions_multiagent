@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "prompt_index": 14,
+    "bids": [
+      0.33,
+      0.33,
+      0.33
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_3_agents/prompt_014/idx014_b1_0.33_b2_0.33_b3_0.33_s08.png",
+    "filename": "idx014_b1_0.33_b2_0.33_b3_0.33_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "A teenager gaming in their bedroom",
+    "agent1_prompt": "Gucci loafers",
+    "agent2_prompt": "Doritos tortilla chips",
+    "agent3_prompt": "Fitbit tracker"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.29296875,
+    "agent1_alignment": 0.10302734375,
+    "agent2_alignment": 0.216796875,
+    "agent3_alignment": 0.17578125
+  },
+  "quality_assessment": {
+    "clip_quality": 0.51171875
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.16520182291666669,
+    "total_welfare": 0.16354980468750002
+  }
+}

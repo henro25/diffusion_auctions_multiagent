@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 125,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 19,
+    "image_path": "output/images_2_agents/prompt_125/idx125_b1_0.30_b2_0.70_s19.png",
+    "filename": "idx125_b1_0.30_b2_0.70_s19.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a coffee roastery",
+    "agent1_prompt": "Boarding pass",
+    "agent2_prompt": "Lipton tea bag"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.36897850036621,
+    "agent1_alignment": 17.25063705444336,
+    "agent2_alignment": 20.59647560119629
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.59272403717041,
+    "total_welfare": 19.59272403717041
+  }
+}

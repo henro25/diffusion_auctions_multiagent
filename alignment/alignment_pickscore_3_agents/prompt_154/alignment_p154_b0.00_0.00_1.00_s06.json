@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 154,
+    "bids": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_3_agents/prompt_154/idx154_b1_0.00_b2_0.00_b3_1.00_s06.png",
+    "filename": "idx154_b1_0.00_b2_0.00_b3_1.00_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "Travelers at an airport security checkpoint",
+    "agent1_prompt": "Aquafina water",
+    "agent2_prompt": "PayPal logo",
+    "agent3_prompt": "Pantene hair care"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.156848907470703,
+    "agent1_alignment": 18.459028244018555,
+    "agent2_alignment": 16.886123657226562,
+    "agent3_alignment": 18.972808837890625
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.972808837890625,
+    "total_welfare": 18.972808837890625
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 132,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 0,
+    "image_path": "output/images_2_agents/prompt_132/idx132_b1_1.00_b2_0.00_s00.png",
+    "filename": "idx132_b1_1.00_b2_0.00_s00.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at an office cubicle working",
+    "agent1_prompt": "Chase bank card",
+    "agent2_prompt": "Honda Civic"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.3334903717041,
+    "agent1_alignment": 19.523710250854492,
+    "agent2_alignment": 16.905290603637695
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.523710250854492,
+    "total_welfare": 19.523710250854492
+  }
+}

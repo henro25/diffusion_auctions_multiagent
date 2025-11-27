@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 7,
+    "bids": [
+      0.2,
+      0.12,
+      0.1,
+      0.08,
+      0.07,
+      0.06,
+      0.05,
+      0.04,
+      0.03,
+      0.03,
+      0.03,
+      0.02,
+      0.02,
+      0.02,
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_20_agents/prompt_007/idx007_b1_0.20_b2_0.12_b3_0.10_b4_0.08_b5_0.07_b6_0.06_b7_0.05_b8_0.04_b9_0.03_b10_0.03_b11_0.03_b12_0.02_b13_0.02_b14_0.02_b15_0.01_b16_0.01_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s03.png",
+    "filename": "idx007_b1_0.20_b2_0.12_b3_0.10_b4_0.08_b5_0.07_b6_0.06_b7_0.05_b8_0.04_b9_0.03_b10_0.03_b11_0.03_b12_0.02_b13_0.02_b14_0.02_b15_0.01_b16_0.01_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends gathered for a movie night at home",
+    "agent1_prompt": "Vaseline lip balm",
+    "agent2_prompt": "CVS pharmacy",
+    "agent3_prompt": "Dell monitor",
+    "agent4_prompt": "La-Z-Boy recliner",
+    "agent5_prompt": "Wells Fargo check",
+    "agent6_prompt": "Colgate toothpaste",
+    "agent7_prompt": "Newspaper headline",
+    "agent8_prompt": "Apple Watch",
+    "agent9_prompt": "Aquafina water",
+    "agent10_prompt": "Wonder Bread loaf",
+    "agent11_prompt": "La-Z-Boy recliner",
+    "agent12_prompt": "Wilson tennis balls",
+    "agent13_prompt": "Hertz rental",
+    "agent14_prompt": "Keurig coffee maker",
+    "agent15_prompt": "ExxonMobil gas",
+    "agent16_prompt": "Coach handbag",
+    "agent17_prompt": "Spotify music playlist",
+    "agent18_prompt": "Yeti cooler",
+    "agent19_prompt": "Pottery Barn decorations",
+    "agent20_prompt": "Hyatt resort"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.185546875,
+    "agent1_alignment": 0.1455078125,
+    "agent2_alignment": 0.154296875,
+    "agent3_alignment": 0.09912109375,
+    "agent4_alignment": 0.11328125,
+    "agent5_alignment": 0.099609375,
+    "agent6_alignment": 0.10107421875,
+    "agent7_alignment": 0.12890625,
+    "agent8_alignment": 0.083984375,
+    "agent9_alignment": 0.07470703125,
+    "agent10_alignment": 0.06640625,
+    "agent11_alignment": 0.11328125,
+    "agent12_alignment": 0.07666015625,
+    "agent13_alignment": 0.0361328125,
+    "agent14_alignment": 0.08203125,
+    "agent15_alignment": 0.1328125,
+    "agent16_alignment": 0.0517578125,
+    "agent17_alignment": 0.11083984375,
+    "agent18_alignment": 0.07080078125,
+    "agent19_alignment": 0.053466796875,
+    "agent20_alignment": 0.04833984375
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.11359364499327952,
+    "total_welfare": 0.10564208984375
+  }
+}

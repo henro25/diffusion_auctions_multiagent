@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 9,
+    "bids": [
+      0.2,
+      0.2,
+      0.2,
+      0.15,
+      0.1,
+      0.05,
+      0.05,
+      0.03,
+      0.01,
+      0.01
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_10_agents/prompt_009/idx009_b1_0.20_b2_0.20_b3_0.20_b4_0.15_b5_0.10_b6_0.05_b7_0.05_b8_0.03_b9_0.01_b10_0.01_s02.png",
+    "filename": "idx009_b1_0.20_b2_0.20_b3_0.20_b4_0.15_b5_0.10_b6_0.05_b7_0.05_b8_0.03_b9_0.01_b10_0.01_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "Skiers waiting in a ski-lift line",
+    "agent1_prompt": "Tresemm\u00e9 shampoo",
+    "agent2_prompt": "Knoll furniture",
+    "agent3_prompt": "Aquafina water",
+    "agent4_prompt": "Robinhood app",
+    "agent5_prompt": "Trader Joe's bags",
+    "agent6_prompt": "Coffee grinder",
+    "agent7_prompt": "Nintendo Switch",
+    "agent8_prompt": "Mobil 1 motor oil",
+    "agent9_prompt": "Instagram story",
+    "agent10_prompt": "American Airlines"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.7697696685791,
+    "agent1_alignment": 17.678417205810547,
+    "agent2_alignment": 18.102365493774414,
+    "agent3_alignment": 18.34381675720215,
+    "agent4_alignment": 18.505455017089844,
+    "agent5_alignment": 17.715633392333984,
+    "agent6_alignment": 17.06048583984375,
+    "agent7_alignment": 17.568748474121094,
+    "agent8_alignment": 17.95428466796875,
+    "agent9_alignment": 19.877416610717773,
+    "agent10_alignment": 17.232173919677734
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.013487644195553,
+    "total_welfare": 18.013487644195557
+  }
+}

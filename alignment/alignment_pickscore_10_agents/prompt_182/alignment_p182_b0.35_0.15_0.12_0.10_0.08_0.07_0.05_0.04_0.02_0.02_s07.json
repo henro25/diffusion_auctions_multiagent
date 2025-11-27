@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 182,
+    "bids": [
+      0.35,
+      0.15,
+      0.12,
+      0.1,
+      0.08,
+      0.07,
+      0.05,
+      0.04,
+      0.02,
+      0.02
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_10_agents/prompt_182/idx182_b1_0.35_b2_0.15_b3_0.12_b4_0.10_b5_0.08_b6_0.07_b7_0.05_b8_0.04_b9_0.02_b10_0.02_s07.png",
+    "filename": "idx182_b1_0.35_b2_0.15_b3_0.12_b4_0.10_b5_0.08_b6_0.07_b7_0.05_b8_0.04_b9_0.02_b10_0.02_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Person at a mall food court",
+    "agent1_prompt": "Airbnb listing",
+    "agent2_prompt": "Toyota Camry",
+    "agent3_prompt": "Samsung Galaxy tablet",
+    "agent4_prompt": "Red Bull energy drink",
+    "agent5_prompt": "Dyson vacuum",
+    "agent6_prompt": "American Express",
+    "agent7_prompt": "CVS pharmacy",
+    "agent8_prompt": "Sony headphones",
+    "agent9_prompt": "Michael Kors watch",
+    "agent10_prompt": "Movie ticket stub"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.618024826049805,
+    "agent1_alignment": 18.505218505859375,
+    "agent2_alignment": 17.64105987548828,
+    "agent3_alignment": 19.33553123474121,
+    "agent4_alignment": 18.065492630004883,
+    "agent5_alignment": 19.838268280029297,
+    "agent6_alignment": 17.407432556152344,
+    "agent7_alignment": 18.593076705932617,
+    "agent8_alignment": 19.03524398803711,
+    "agent9_alignment": 17.600011825561523,
+    "agent10_alignment": 17.701379776000977
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.45247163772583,
+    "total_welfare": 18.45247163772583
+  }
+}

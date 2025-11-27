@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 5,
+    "bids": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_5_agents/prompt_005/idx005_b1_0.20_b2_0.20_b3_0.20_b4_0.20_b5_0.20_s13.png",
+    "filename": "idx005_b1_0.20_b2_0.20_b3_0.20_b4_0.20_b5_0.20_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "A woman with a tray of food at a cafeteria",
+    "agent1_prompt": "Shell fuel",
+    "agent2_prompt": "Peet's Coffee mug",
+    "agent3_prompt": "USA Today paper",
+    "agent4_prompt": "Prada bag",
+    "agent5_prompt": "Kroger supermarket"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.482486724853516,
+    "agent1_alignment": 18.278207778930664,
+    "agent2_alignment": 18.23642921447754,
+    "agent3_alignment": 18.440820693969727,
+    "agent4_alignment": 18.044301986694336,
+    "agent5_alignment": 19.91904067993164
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.583760070800782,
+    "total_welfare": 18.583760070800782
+  }
+}

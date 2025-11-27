@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 193,
+    "bids": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_3_agents/prompt_193/idx193_b1_1.00_b2_0.00_b3_0.00_s02.png",
+    "filename": "idx193_b1_1.00_b2_0.00_b3_0.00_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a outdoor concert",
+    "agent1_prompt": "DJI drone",
+    "agent2_prompt": "Wine glass",
+    "agent3_prompt": "Airbnb listing"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.24616813659668,
+    "agent1_alignment": 21.201570510864258,
+    "agent2_alignment": 17.538589477539062,
+    "agent3_alignment": 18.668489456176758
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 21.201570510864258,
+    "total_welfare": 21.201570510864258
+  }
+}

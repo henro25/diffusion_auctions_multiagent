@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 175,
+    "bids": [
+      0.0,
+      1.0
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_2_agents/prompt_175/idx175_b1_0.00_b2_1.00_s03.png",
+    "filename": "idx175_b1_0.00_b2_1.00_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "A chef preparing ingredients at a prep station",
+    "agent1_prompt": "Bank of America",
+    "agent2_prompt": "Ben & Jerry's ice cream"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.18749237060547,
+    "agent1_alignment": 16.885263442993164,
+    "agent2_alignment": 19.27828025817871
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.27828025817871,
+    "total_welfare": 19.27828025817871
+  }
+}

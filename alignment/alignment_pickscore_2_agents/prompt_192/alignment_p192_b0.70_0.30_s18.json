@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 192,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_2_agents/prompt_192/idx192_b1_0.70_b2_0.30_s18.png",
+    "filename": "idx192_b1_0.70_b2_0.30_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a art gallery opening",
+    "agent1_prompt": "GHD hair straightener",
+    "agent2_prompt": "Goodyear tire"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.92428970336914,
+    "agent1_alignment": 19.752553939819336,
+    "agent2_alignment": 19.657751083374023
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.72411308288574,
+    "total_welfare": 19.72411308288574
+  }
+}

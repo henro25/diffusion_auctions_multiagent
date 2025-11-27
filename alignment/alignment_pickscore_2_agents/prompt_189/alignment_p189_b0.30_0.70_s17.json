@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 189,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_2_agents/prompt_189/idx189_b1_0.30_b2_0.70_s17.png",
+    "filename": "idx189_b1_0.30_b2_0.70_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "Person at a indoor ice skating",
+    "agent1_prompt": "Chevrolet Silverado",
+    "agent2_prompt": "AMC Theaters"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.202882766723633,
+    "agent1_alignment": 17.610069274902344,
+    "agent2_alignment": 19.996845245361328
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.280812454223632,
+    "total_welfare": 19.280812454223632
+  }
+}

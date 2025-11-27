@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 11,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 49,
+    "image_path": "output/images_2_agents/prompt_011/idx011_b1_0.30_b2_0.70_s49.png",
+    "filename": "idx011_b1_0.30_b2_0.70_s49.png"
+  },
+  "prompts": {
+    "base_prompt": "A student studying in a university library",
+    "agent1_prompt": "Aquafina water",
+    "agent2_prompt": "CeraVe moisturizer"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.472644805908203,
+    "agent1_alignment": 19.81171226501465,
+    "agent2_alignment": 19.211549758911133
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.391598510742188,
+    "total_welfare": 19.391598510742188
+  }
+}

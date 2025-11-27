@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 168,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_2_agents/prompt_168/idx168_b1_1.00_b2_0.00_s08.png",
+    "filename": "idx168_b1_1.00_b2_0.00_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a pottery studio",
+    "agent1_prompt": "ASOS online",
+    "agent2_prompt": "USM Haller"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.609657287597656,
+    "agent1_alignment": 17.49493408203125,
+    "agent2_alignment": 17.76046371459961
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.49493408203125,
+    "total_welfare": 17.49493408203125
+  }
+}

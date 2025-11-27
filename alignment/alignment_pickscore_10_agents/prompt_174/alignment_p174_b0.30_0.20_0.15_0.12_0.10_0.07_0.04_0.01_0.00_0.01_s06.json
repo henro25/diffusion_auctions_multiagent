@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 174,
+    "bids": [
+      0.3,
+      0.2,
+      0.15,
+      0.12,
+      0.1,
+      0.07,
+      0.04,
+      0.01,
+      0.0,
+      0.01
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_10_agents/prompt_174/idx174_b1_0.30_b2_0.20_b3_0.15_b4_0.12_b5_0.10_b6_0.07_b7_0.04_b8_0.01_b9_0.00_b10_0.01_s06.png",
+    "filename": "idx174_b1_0.30_b2_0.20_b3_0.15_b4_0.12_b5_0.10_b6_0.07_b7_0.04_b8_0.01_b9_0.00_b10_0.01_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a stained glass studio",
+    "agent1_prompt": "Pizza delivery box",
+    "agent2_prompt": "Spotify music playlist",
+    "agent3_prompt": "Aquafina water",
+    "agent4_prompt": "Prada bag",
+    "agent5_prompt": "Wilson tennis balls",
+    "agent6_prompt": "Apple Watch",
+    "agent7_prompt": "Boarding pass",
+    "agent8_prompt": "Kiehl's facial cream",
+    "agent9_prompt": "Trader Joe's bags",
+    "agent10_prompt": "West Elm couch"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.76827049255371,
+    "agent1_alignment": 21.41107749938965,
+    "agent2_alignment": 19.060325622558594,
+    "agent3_alignment": 18.47441864013672,
+    "agent4_alignment": 17.79329490661621,
+    "agent5_alignment": 17.392173767089844,
+    "agent6_alignment": 18.561809539794922,
+    "agent7_alignment": 17.323104858398438,
+    "agent8_alignment": 18.18841552734375,
+    "agent9_alignment": 17.468318939208984,
+    "agent10_alignment": 16.09288215637207
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.216027774810794,
+    "total_welfare": 19.216027774810794
+  }
+}

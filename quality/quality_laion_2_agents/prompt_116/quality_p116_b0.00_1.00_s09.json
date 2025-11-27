@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 116,
+    "bids": [
+      0.0,
+      1.0
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_2_agents/prompt_116/idx116_b1_0.00_b2_1.00_s09.png",
+    "filename": "idx116_b1_0.00_b2_1.00_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a salon waiting area",
+    "agent1_prompt": "Fitbit tracker",
+    "agent2_prompt": "Chevrolet Silverado"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.3803391456604
+  }
+}

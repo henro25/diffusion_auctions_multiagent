@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 12,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_2_agents/prompt_012/idx012_b1_0.50_b2_0.50_s01.png",
+    "filename": "idx012_b1_0.50_b2_0.50_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "A chef cooking in a restaurant kitchen",
+    "agent1_prompt": "Ford F-150 truck",
+    "agent2_prompt": "Wells Fargo check"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.370119094848633,
+    "agent1_alignment": 19.83147430419922,
+    "agent2_alignment": 20.62179183959961
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.226633071899414,
+    "total_welfare": 20.226633071899414
+  }
+}

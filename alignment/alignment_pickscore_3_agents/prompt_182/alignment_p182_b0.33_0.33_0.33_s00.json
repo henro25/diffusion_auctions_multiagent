@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 182,
+    "bids": [
+      0.33,
+      0.33,
+      0.33
+    ],
+    "sample_index": 0,
+    "image_path": "output/images_3_agents/prompt_182/idx182_b1_0.33_b2_0.33_b3_0.33_s00.png",
+    "filename": "idx182_b1_0.33_b2_0.33_b3_0.33_s00.png"
+  },
+  "prompts": {
+    "base_prompt": "Person at a mall food court",
+    "agent1_prompt": "Airbnb listing",
+    "agent2_prompt": "Toyota Camry",
+    "agent3_prompt": "Samsung Galaxy tablet"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.420318603515625,
+    "agent1_alignment": 19.470218658447266,
+    "agent2_alignment": 20.058605194091797,
+    "agent3_alignment": 20.626604080200195
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.05180931091309,
+    "total_welfare": 19.851291217803958
+  }
+}

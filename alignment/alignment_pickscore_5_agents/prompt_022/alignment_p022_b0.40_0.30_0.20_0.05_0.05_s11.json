@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 22,
+    "bids": [
+      0.4,
+      0.3,
+      0.2,
+      0.05,
+      0.05
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_5_agents/prompt_022/idx022_b1_0.40_b2_0.30_b3_0.20_b4_0.05_b5_0.05_s11.png",
+    "filename": "idx022_b1_0.40_b2_0.30_b3_0.20_b4_0.05_b5_0.05_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "Customers waiting in line at a coffee shop",
+    "agent1_prompt": "Shell fuel",
+    "agent2_prompt": "Jura espresso machine",
+    "agent3_prompt": "HBO Max show",
+    "agent4_prompt": "Cheetos snack",
+    "agent5_prompt": "Microsoft Surface laptop"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.11839485168457,
+    "agent1_alignment": 20.22502326965332,
+    "agent2_alignment": 18.996929168701172,
+    "agent3_alignment": 18.71112632751465,
+    "agent4_alignment": 17.80551528930664,
+    "agent5_alignment": 16.531953811645508
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.24818677902222,
+    "total_welfare": 19.24818677902222
+  }
+}

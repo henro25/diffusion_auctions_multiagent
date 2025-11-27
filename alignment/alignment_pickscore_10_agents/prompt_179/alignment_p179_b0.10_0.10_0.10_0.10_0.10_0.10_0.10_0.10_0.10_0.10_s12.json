@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 179,
+    "bids": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "sample_index": 12,
+    "image_path": "output/images_10_agents/prompt_179/idx179_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.10_b6_0.10_b7_0.10_b8_0.10_b9_0.10_b10_0.10_s12.png",
+    "filename": "idx179_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.10_b6_0.10_b7_0.10_b8_0.10_b9_0.10_b10_0.10_s12.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a wine tasting event",
+    "agent1_prompt": "Steam gaming platform",
+    "agent2_prompt": "Tempur-Pedic mattress",
+    "agent3_prompt": "Jeep Wrangler",
+    "agent4_prompt": "Osprey backpack",
+    "agent5_prompt": "Rocket Mortgage",
+    "agent6_prompt": "North Face jacket",
+    "agent7_prompt": "Article sofa",
+    "agent8_prompt": "Gap clothing store",
+    "agent9_prompt": "Wall Street Journal",
+    "agent10_prompt": "Jura espresso machine"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.340803146362305,
+    "agent1_alignment": 18.307086944580078,
+    "agent2_alignment": 18.537290573120117,
+    "agent3_alignment": 17.52128028869629,
+    "agent4_alignment": 18.570772171020508,
+    "agent5_alignment": 18.44269371032715,
+    "agent6_alignment": 17.138940811157227,
+    "agent7_alignment": 17.33037757873535,
+    "agent8_alignment": 17.755184173583984,
+    "agent9_alignment": 17.946569442749023,
+    "agent10_alignment": 18.08708953857422
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.9637285232544,
+    "total_welfare": 17.963728523254396
+  }
+}

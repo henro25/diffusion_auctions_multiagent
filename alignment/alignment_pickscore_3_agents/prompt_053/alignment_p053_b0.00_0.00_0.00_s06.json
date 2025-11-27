@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 53,
+    "bids": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_3_agents/prompt_053/idx053_b1_0.00_b2_0.00_b3_0.00_s06.png",
+    "filename": "idx053_b1_0.00_b2_0.00_b3_0.00_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a karaoke bar singing",
+    "agent1_prompt": "Venmo app",
+    "agent2_prompt": "Herman Miller desk",
+    "agent3_prompt": "Home Depot sign"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.868114471435547,
+    "agent1_alignment": 17.93680763244629,
+    "agent2_alignment": 17.134132385253906,
+    "agent3_alignment": 17.612516403198242
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

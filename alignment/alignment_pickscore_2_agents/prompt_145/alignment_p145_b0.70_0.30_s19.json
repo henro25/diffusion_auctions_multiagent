@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 145,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 19,
+    "image_path": "output/images_2_agents/prompt_145/idx145_b1_0.70_b2_0.30_s19.png",
+    "filename": "idx145_b1_0.70_b2_0.30_s19.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at an outdoor festival ground",
+    "agent1_prompt": "Wall Street Journal",
+    "agent2_prompt": "KitchenAid mixer"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.727306365966797,
+    "agent1_alignment": 17.54519271850586,
+    "agent2_alignment": 19.4583797454834
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.119148826599123,
+    "total_welfare": 18.119148826599123
+  }
+}

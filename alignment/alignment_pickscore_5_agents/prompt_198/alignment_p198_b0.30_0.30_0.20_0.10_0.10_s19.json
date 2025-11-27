@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 198,
+    "bids": [
+      0.3,
+      0.3,
+      0.2,
+      0.1,
+      0.1
+    ],
+    "sample_index": 19,
+    "image_path": "output/images_5_agents/prompt_198/idx198_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s19.png",
+    "filename": "idx198_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s19.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a glassblowing studio",
+    "agent1_prompt": "CB2 side table",
+    "agent2_prompt": "Southwest flight",
+    "agent3_prompt": "Kroger supermarket",
+    "agent4_prompt": "Clinique skincare",
+    "agent5_prompt": "Fanta orange soda"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.71524429321289,
+    "agent1_alignment": 16.995418548583984,
+    "agent2_alignment": 17.0296688079834,
+    "agent3_alignment": 16.32314682006836,
+    "agent4_alignment": 17.66240882873535,
+    "agent5_alignment": 17.894733428955078
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.02786979675293,
+    "total_welfare": 17.02786979675293
+  }
+}

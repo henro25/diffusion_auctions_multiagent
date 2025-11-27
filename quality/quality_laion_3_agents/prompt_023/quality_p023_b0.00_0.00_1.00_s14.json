@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "prompt_index": 23,
+    "bids": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_3_agents/prompt_023/idx023_b1_0.00_b2_0.00_b3_1.00_s14.png",
+    "filename": "idx023_b1_0.00_b2_0.00_b3_1.00_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "A family having breakfast in their kitchen",
+    "agent1_prompt": "Old Spice deodorant",
+    "agent2_prompt": "Design Within Reach",
+    "agent3_prompt": "PlayStation 5"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.828570365905762
+  }
+}

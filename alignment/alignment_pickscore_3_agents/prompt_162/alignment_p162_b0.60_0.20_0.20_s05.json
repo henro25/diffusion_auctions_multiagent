@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 162,
+    "bids": [
+      0.6,
+      0.2,
+      0.2
+    ],
+    "sample_index": 5,
+    "image_path": "output/images_3_agents/prompt_162/idx162_b1_0.60_b2_0.20_b3_0.20_s05.png",
+    "filename": "idx162_b1_0.60_b2_0.20_b3_0.20_s05.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a glassblowing studio",
+    "agent1_prompt": "Knoll furniture",
+    "agent2_prompt": "Coleman camping tent",
+    "agent3_prompt": "Gap clothing store"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.00333023071289,
+    "agent1_alignment": 17.614730834960938,
+    "agent2_alignment": 19.17789077758789,
+    "agent3_alignment": 17.679244995117188
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.940265655517578,
+    "total_welfare": 17.940265655517578
+  }
+}

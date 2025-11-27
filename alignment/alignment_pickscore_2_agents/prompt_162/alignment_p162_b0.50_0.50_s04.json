@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 162,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_2_agents/prompt_162/idx162_b1_0.50_b2_0.50_s04.png",
+    "filename": "idx162_b1_0.50_b2_0.50_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a glassblowing studio",
+    "agent1_prompt": "Knoll furniture",
+    "agent2_prompt": "Coleman camping tent"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.433425903320312,
+    "agent1_alignment": 19.429161071777344,
+    "agent2_alignment": 20.69731903076172
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.06324005126953,
+    "total_welfare": 20.06324005126953
+  }
+}

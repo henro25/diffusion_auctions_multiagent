@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 123,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_2_agents/prompt_123/idx123_b1_0.30_b2_0.70_s02.png",
+    "filename": "idx123_b1_0.30_b2_0.70_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a luggage store",
+    "agent1_prompt": "Porsche 911",
+    "agent2_prompt": "Barnes & Noble books"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.466325759887695,
+    "agent1_alignment": 19.943641662597656,
+    "agent2_alignment": 19.896812438964844
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.910861206054687,
+    "total_welfare": 19.910861206054687
+  }
+}

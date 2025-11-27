@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 16,
+    "bids": [
+      0.2,
+      0.2,
+      0.2,
+      0.15,
+      0.1,
+      0.05,
+      0.05,
+      0.03,
+      0.01,
+      0.01
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_10_agents/prompt_016/idx016_b1_0.20_b2_0.20_b3_0.20_b4_0.15_b5_0.10_b6_0.05_b7_0.05_b8_0.03_b9_0.01_b10_0.01_s02.png",
+    "filename": "idx016_b1_0.20_b2_0.20_b3_0.20_b4_0.15_b5_0.10_b6_0.05_b7_0.05_b8_0.03_b9_0.01_b10_0.01_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "A mechanic working in an auto garage",
+    "agent1_prompt": "Subway sandwich",
+    "agent2_prompt": "Apple Pay",
+    "agent3_prompt": "Hulu series",
+    "agent4_prompt": "Pepsi can",
+    "agent5_prompt": "Garmin GPS",
+    "agent6_prompt": "West Elm table",
+    "agent7_prompt": "Ethan Allen furniture",
+    "agent8_prompt": "CeraVe moisturizer",
+    "agent9_prompt": "ExxonMobil gas",
+    "agent10_prompt": "Gap clothing store"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.190195083618164,
+    "agent1_alignment": 20.017702102661133,
+    "agent2_alignment": 18.26322364807129,
+    "agent3_alignment": 19.46989631652832,
+    "agent4_alignment": 18.921751022338867,
+    "agent5_alignment": 18.690731048583984,
+    "agent6_alignment": 16.851526260375977,
+    "agent7_alignment": 18.007858276367188,
+    "agent8_alignment": 17.303701400756836,
+    "agent9_alignment": 18.901714324951172,
+    "agent10_alignment": 17.698963165283203
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.885587215423577,
+    "total_welfare": 18.88558721542358
+  }
+}

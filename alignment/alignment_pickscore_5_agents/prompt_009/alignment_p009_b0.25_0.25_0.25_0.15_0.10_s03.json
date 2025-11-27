@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 9,
+    "bids": [
+      0.25,
+      0.25,
+      0.25,
+      0.15,
+      0.1
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_5_agents/prompt_009/idx009_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s03.png",
+    "filename": "idx009_b1_0.25_b2_0.25_b3_0.25_b4_0.15_b5_0.10_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "Skiers waiting in a ski-lift line",
+    "agent1_prompt": "Tresemm\u00e9 shampoo",
+    "agent2_prompt": "Knoll furniture",
+    "agent3_prompt": "Aquafina water",
+    "agent4_prompt": "Robinhood app",
+    "agent5_prompt": "Trader Joe's bags"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.583955764770508,
+    "agent1_alignment": 18.085203170776367,
+    "agent2_alignment": 17.989181518554688,
+    "agent3_alignment": 19.37423324584961,
+    "agent4_alignment": 18.317733764648438,
+    "agent5_alignment": 16.78649139404297
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.288463687896726,
+    "total_welfare": 18.288463687896726
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 130,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 12,
+    "image_path": "output/images_3_agents/prompt_130/idx130_b1_0.60_b2_0.30_b3_0.10_s12.png",
+    "filename": "idx130_b1_0.60_b2_0.30_b3_0.10_s12.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a barn dance",
+    "agent1_prompt": "Trader Joe's bags",
+    "agent2_prompt": "Gregory pack",
+    "agent3_prompt": "Tropicana juice"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.74534797668457,
+    "agent1_alignment": 19.865957260131836,
+    "agent2_alignment": 19.057485580444336,
+    "agent3_alignment": 18.11147117614746
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.44796714782715,
+    "total_welfare": 19.447967147827146
+  }
+}

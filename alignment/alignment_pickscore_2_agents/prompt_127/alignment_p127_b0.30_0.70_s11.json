@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 127,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_2_agents/prompt_127/idx127_b1_0.30_b2_0.70_s11.png",
+    "filename": "idx127_b1_0.30_b2_0.70_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a murder mystery dinner",
+    "agent1_prompt": "REI sleeping bag",
+    "agent2_prompt": "Delta airline"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.0307674407959,
+    "agent1_alignment": 17.5122013092041,
+    "agent2_alignment": 17.98074722290039
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.840183448791503,
+    "total_welfare": 17.840183448791503
+  }
+}

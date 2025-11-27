@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 38,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 19,
+    "image_path": "output/images_2_agents/prompt_038/idx038_b1_0.10_b2_0.90_s19.png",
+    "filename": "idx038_b1_0.10_b2_0.90_s19.png"
+  },
+  "prompts": {
+    "base_prompt": "A tourist visiting a famous landmark",
+    "agent1_prompt": "Rolex watch",
+    "agent2_prompt": "Nutella spread jar"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.789779663085938,
+    "agent1_alignment": 17.257871627807617,
+    "agent2_alignment": 20.638690948486328
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.30060901641846,
+    "total_welfare": 20.30060901641846
+  }
+}

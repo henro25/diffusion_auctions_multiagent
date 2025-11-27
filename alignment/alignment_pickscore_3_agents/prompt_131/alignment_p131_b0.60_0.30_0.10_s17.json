@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 131,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_3_agents/prompt_131/idx131_b1_0.60_b2_0.30_b3_0.10_s17.png",
+    "filename": "idx131_b1_0.60_b2_0.30_b3_0.10_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a cobbler shoe repair",
+    "agent1_prompt": "GoPro camera",
+    "agent2_prompt": "H&M storefront",
+    "agent3_prompt": "Newspaper headline"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.905981063842773,
+    "agent1_alignment": 20.046398162841797,
+    "agent2_alignment": 18.772981643676758,
+    "agent3_alignment": 18.085655212402344
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.46829891204834,
+    "total_welfare": 19.468298912048336
+  }
+}

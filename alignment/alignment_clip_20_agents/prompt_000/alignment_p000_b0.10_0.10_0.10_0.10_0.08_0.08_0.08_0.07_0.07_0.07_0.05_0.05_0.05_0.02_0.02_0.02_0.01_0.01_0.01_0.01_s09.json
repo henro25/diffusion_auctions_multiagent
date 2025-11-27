@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 0,
+    "bids": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.08,
+      0.08,
+      0.08,
+      0.07,
+      0.07,
+      0.07,
+      0.05,
+      0.05,
+      0.05,
+      0.02,
+      0.02,
+      0.02,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_20_agents/prompt_000/idx000_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.08_b6_0.08_b7_0.08_b8_0.07_b9_0.07_b10_0.07_b11_0.05_b12_0.05_b13_0.05_b14_0.02_b15_0.02_b16_0.02_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s09.png",
+    "filename": "idx000_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.08_b6_0.08_b7_0.08_b8_0.07_b9_0.07_b10_0.07_b11_0.05_b12_0.05_b13_0.05_b14_0.02_b15_0.02_b16_0.02_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "Two friends chatting over coffee at a cafe",
+    "agent1_prompt": "Cappuccino drink",
+    "agent2_prompt": "Microsoft Surface laptop",
+    "agent3_prompt": "USM Haller",
+    "agent4_prompt": "Marriott key card",
+    "agent5_prompt": "Ben & Jerry's ice cream",
+    "agent6_prompt": "Magazine cover",
+    "agent7_prompt": "Ray-Ban sunglasses",
+    "agent8_prompt": "Fanta orange soda",
+    "agent9_prompt": "Barnes & Noble books",
+    "agent10_prompt": "Gillette razor",
+    "agent11_prompt": "Trader Joe's bags",
+    "agent12_prompt": "Honda Civic",
+    "agent13_prompt": "Samsung Galaxy tablet",
+    "agent14_prompt": "Xbox Series X",
+    "agent15_prompt": "TD Bank",
+    "agent16_prompt": "Callaway golf clubs",
+    "agent17_prompt": "GoPro camera",
+    "agent18_prompt": "Room & Board",
+    "agent19_prompt": "Sonos speaker system",
+    "agent20_prompt": "Nike running shoes"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2265625,
+    "agent1_alignment": 0.158203125,
+    "agent2_alignment": 0.11669921875,
+    "agent3_alignment": 0.10546875,
+    "agent4_alignment": 0.1494140625,
+    "agent5_alignment": 0.126953125,
+    "agent6_alignment": 0.11376953125,
+    "agent7_alignment": 0.1669921875,
+    "agent8_alignment": 0.0888671875,
+    "agent9_alignment": 0.140625,
+    "agent10_alignment": 0.10888671875,
+    "agent11_alignment": 0.140625,
+    "agent12_alignment": 0.09619140625,
+    "agent13_alignment": 0.10107421875,
+    "agent14_alignment": 0.0732421875,
+    "agent15_alignment": 0.1015625,
+    "agent16_alignment": 0.0830078125,
+    "agent17_alignment": 0.10986328125,
+    "agent18_alignment": 0.140625,
+    "agent19_alignment": 0.09326171875,
+    "agent20_alignment": 0.05224609375
+  },
+  "quality_assessment": {
+    "clip_quality": 0.51171875
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.12299360795454543,
+    "total_welfare": 0.13529296875000002
+  }
+}

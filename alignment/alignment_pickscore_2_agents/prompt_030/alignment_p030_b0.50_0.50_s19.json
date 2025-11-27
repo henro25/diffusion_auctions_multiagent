@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 30,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 19,
+    "image_path": "output/images_2_agents/prompt_030/idx030_b1_0.50_b2_0.50_s19.png",
+    "filename": "idx030_b1_0.50_b2_0.50_s19.png"
+  },
+  "prompts": {
+    "base_prompt": "A person relaxing at a swimming pool",
+    "agent1_prompt": "Fitbit smartwatch",
+    "agent2_prompt": "Blue Bottle coffee"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.635700225830078,
+    "agent1_alignment": 19.815532684326172,
+    "agent2_alignment": 19.822229385375977
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.818881034851074,
+    "total_welfare": 19.818881034851074
+  }
+}

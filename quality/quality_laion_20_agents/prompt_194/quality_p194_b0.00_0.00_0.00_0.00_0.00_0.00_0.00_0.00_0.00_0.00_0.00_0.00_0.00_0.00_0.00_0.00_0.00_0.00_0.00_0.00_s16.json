@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "prompt_index": 194,
+    "bids": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_20_agents/prompt_194/idx194_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_b11_0.00_b12_0.00_b13_0.00_b14_0.00_b15_0.00_b16_0.00_b17_0.00_b18_0.00_b19_0.00_b20_0.00_s16.png",
+    "filename": "idx194_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_b11_0.00_b12_0.00_b13_0.00_b14_0.00_b15_0.00_b16_0.00_b17_0.00_b18_0.00_b19_0.00_b20_0.00_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a climbing wall",
+    "agent1_prompt": "Substack newsletter",
+    "agent2_prompt": "NYX makeup",
+    "agent3_prompt": "YouTube video",
+    "agent4_prompt": "Booking.com",
+    "agent5_prompt": "Callaway golf clubs",
+    "agent6_prompt": "DJI drone",
+    "agent7_prompt": "Lexus ES",
+    "agent8_prompt": "TikTok app",
+    "agent9_prompt": "Audi A4",
+    "agent10_prompt": "CVS pharmacy",
+    "agent11_prompt": "Samsung refrigerator",
+    "agent12_prompt": "Osprey pack",
+    "agent13_prompt": "Sprite lemon-lime",
+    "agent14_prompt": "Mastercard payment",
+    "agent15_prompt": "Doritos tortilla chips",
+    "agent16_prompt": "Michael Kors watch",
+    "agent17_prompt": "Keurig coffee maker",
+    "agent18_prompt": "Ethan Allen furniture",
+    "agent19_prompt": "Rocket Mortgage",
+    "agent20_prompt": "AirPods headphones"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 4.97794246673584
+  }
+}

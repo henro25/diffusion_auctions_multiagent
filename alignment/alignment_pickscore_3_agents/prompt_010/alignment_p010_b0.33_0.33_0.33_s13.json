@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 10,
+    "bids": [
+      0.33,
+      0.33,
+      0.33
+    ],
+    "sample_index": 13,
+    "image_path": "output/images_3_agents/prompt_010/idx010_b1_0.33_b2_0.33_b3_0.33_s13.png",
+    "filename": "idx010_b1_0.33_b2_0.33_b3_0.33_s13.png"
+  },
+  "prompts": {
+    "base_prompt": "A man waiting at a bus stop",
+    "agent1_prompt": "Oakley sunglasses",
+    "agent2_prompt": "BMW sedan",
+    "agent3_prompt": "Google Pay"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.66143035888672,
+    "agent1_alignment": 20.400890350341797,
+    "agent2_alignment": 19.7471866607666,
+    "agent3_alignment": 19.395618438720703
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.84789848327637,
+    "total_welfare": 19.649419498443606
+  }
+}

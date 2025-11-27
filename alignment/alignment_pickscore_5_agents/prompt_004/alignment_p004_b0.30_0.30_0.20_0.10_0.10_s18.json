@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 4,
+    "bids": [
+      0.3,
+      0.3,
+      0.2,
+      0.1,
+      0.1
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_5_agents/prompt_004/idx004_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s18.png",
+    "filename": "idx004_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "A professional working at a desk in a bright office",
+    "agent1_prompt": "Wine glass",
+    "agent2_prompt": "Chromecast dongle",
+    "agent3_prompt": "Coleman cooler",
+    "agent4_prompt": "USM Haller",
+    "agent5_prompt": "Hyatt resort"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.701183319091797,
+    "agent1_alignment": 20.02357292175293,
+    "agent2_alignment": 18.79507064819336,
+    "agent3_alignment": 17.724424362182617,
+    "agent4_alignment": 20.033321380615234,
+    "agent5_alignment": 19.44413185119629
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.13822326660156,
+    "total_welfare": 19.13822326660156
+  }
+}

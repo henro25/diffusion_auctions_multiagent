@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 17,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_2_agents_competitive/prompt_017/idx017_b1_1.00_b2_0.00_s18.png",
+    "filename": "idx017_b1_1.00_b2_0.00_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone eating chips while watching TV at home",
+    "agent1_prompt": "Lay's chips bag",
+    "agent2_prompt": "Doritos bag"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.036569595336914,
+    "agent1_alignment": 20.58646583557129,
+    "agent2_alignment": 19.716022491455078
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.58646583557129,
+    "total_welfare": 20.58646583557129
+  }
+}

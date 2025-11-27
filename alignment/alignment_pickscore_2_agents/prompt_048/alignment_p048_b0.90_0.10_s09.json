@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 48,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_2_agents/prompt_048/idx048_b1_0.90_b2_0.10_s09.png",
+    "filename": "idx048_b1_0.90_b2_0.10_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "A customer at a fast-food restaurant drive-through",
+    "agent1_prompt": "Audi A4",
+    "agent2_prompt": "West Elm table"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.185747146606445,
+    "agent1_alignment": 20.90675163269043,
+    "agent2_alignment": 16.308095932006836
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.44688606262207,
+    "total_welfare": 20.44688606262207
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 86,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_2_agents/prompt_086/idx086_b1_0.90_b2_0.10_s06.png",
+    "filename": "idx086_b1_0.90_b2_0.10_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a music store",
+    "agent1_prompt": "Stella Artois draft",
+    "agent2_prompt": "CeraVe moisturizer"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.410064697265625,
+    "agent1_alignment": 20.82611083984375,
+    "agent2_alignment": 17.645307540893555
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.508030509948732,
+    "total_welfare": 20.508030509948732
+  }
+}

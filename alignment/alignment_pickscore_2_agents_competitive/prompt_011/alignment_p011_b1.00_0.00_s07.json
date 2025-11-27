@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 11,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_2_agents_competitive/prompt_011/idx011_b1_1.00_b2_0.00_s07.png",
+    "filename": "idx011_b1_1.00_b2_0.00_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "A person carrying a backpack while hiking on a trail",
+    "agent1_prompt": "North Face backpack",
+    "agent2_prompt": "Patagonia backpack"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.547927856445312,
+    "agent1_alignment": 21.305946350097656,
+    "agent2_alignment": 20.10016441345215
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 21.305946350097656,
+    "total_welfare": 21.305946350097656
+  }
+}

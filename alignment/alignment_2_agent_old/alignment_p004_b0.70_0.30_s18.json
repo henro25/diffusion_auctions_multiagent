@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 4,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 18,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_2_agent/prompt_004/idx004_b1_0.70_b2_0.30_s18.png",
+    "filename": "idx004_b1_0.70_b2_0.30_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "A professional working at a desk in a bright office",
+    "agent1_prompt": "Dell monitor",
+    "agent2_prompt": "Deer Park water bottle"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.234375,
+    "agent1_alignment": 0.25390625,
+    "agent2_alignment": 0.08544921875
+  },
+  "quality_assessment": {
+    "clip_quality": 0.51171875
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.203369140625,
+    "total_welfare": 0.203369140625
+  }
+}

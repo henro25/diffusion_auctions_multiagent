@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 106,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_2_agents/prompt_106/idx106_b1_0.30_b2_0.70_s03.png",
+    "filename": "idx106_b1_0.30_b2_0.70_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a rock climbing gym",
+    "agent1_prompt": "YouTube channel",
+    "agent2_prompt": "Salomon ski boots"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 5.640007972717285
+  }
+}

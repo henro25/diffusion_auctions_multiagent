@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 8,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 3,
+    "image_path": "/datastor1/gdaras/diffusion_auctions_multiagent/images/images_2_agent/prompt_008/idx008_b1_0.70_b2_0.30_s03.png",
+    "filename": "idx008_b1_0.70_b2_0.30_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends gathered for a movie night at home",
+    "agent1_prompt": "Doritos chips",
+    "agent2_prompt": "Coca-Cola cans"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.29296875,
+    "agent1_alignment": 0.220703125,
+    "agent2_alignment": 0.2041015625
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.21572265624999998,
+    "total_welfare": 0.21572265624999998
+  }
+}

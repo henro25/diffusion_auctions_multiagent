@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 193,
+    "bids": [
+      0.3,
+      0.3,
+      0.2,
+      0.1,
+      0.1
+    ],
+    "sample_index": 10,
+    "image_path": "output/images_5_agents/prompt_193/idx193_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s10.png",
+    "filename": "idx193_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s10.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a outdoor concert",
+    "agent1_prompt": "DJI drone",
+    "agent2_prompt": "Wine glass",
+    "agent3_prompt": "Airbnb listing",
+    "agent4_prompt": "Nike running shoes",
+    "agent5_prompt": "Square Cash"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.651657104492188,
+    "agent1_alignment": 21.601808547973633,
+    "agent2_alignment": 19.58094596862793,
+    "agent3_alignment": 18.73908042907715,
+    "agent4_alignment": 16.467775344848633,
+    "agent5_alignment": 19.442270278930664
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.693647003173826,
+    "total_welfare": 19.693647003173826
+  }
+}

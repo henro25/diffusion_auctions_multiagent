@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 153,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 15,
+    "image_path": "output/images_2_agents/prompt_153/idx153_b1_0.30_b2_0.70_s15.png",
+    "filename": "idx153_b1_0.30_b2_0.70_s15.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a restaurant counter",
+    "agent1_prompt": "Audi A4",
+    "agent2_prompt": "Campbell's soup can"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.17718505859375,
+    "agent1_alignment": 19.49468421936035,
+    "agent2_alignment": 19.720382690429688
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.652673149108885,
+    "total_welfare": 19.652673149108885
+  }
+}

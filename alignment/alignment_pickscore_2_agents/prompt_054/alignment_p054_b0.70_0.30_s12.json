@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 54,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 12,
+    "image_path": "output/images_2_agents/prompt_054/idx054_b1_0.70_b2_0.30_s12.png",
+    "filename": "idx054_b1_0.70_b2_0.30_s12.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a pet store shopping",
+    "agent1_prompt": "Pottery Barn shelving",
+    "agent2_prompt": "Nespresso machine"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.28253936767578,
+    "agent1_alignment": 19.402841567993164,
+    "agent2_alignment": 19.01853370666504
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.287549209594726,
+    "total_welfare": 19.287549209594726
+  }
+}

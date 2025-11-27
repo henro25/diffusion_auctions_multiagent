@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 26,
+    "bids": [
+      0.5,
+      0.5
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_2_agents/prompt_026/idx026_b1_0.50_b2_0.50_s03.png",
+    "filename": "idx026_b1_0.50_b2_0.50_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends meeting at a shopping mall",
+    "agent1_prompt": "Heinz ketchup",
+    "agent2_prompt": "Among Us game"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.401817321777344,
+    "agent1_alignment": 19.36827278137207,
+    "agent2_alignment": 20.764320373535156
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.066296577453613,
+    "total_welfare": 20.066296577453613
+  }
+}

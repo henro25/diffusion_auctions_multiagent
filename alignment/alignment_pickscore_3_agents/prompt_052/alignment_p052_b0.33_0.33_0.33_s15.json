@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 52,
+    "bids": [
+      0.33,
+      0.33,
+      0.33
+    ],
+    "sample_index": 15,
+    "image_path": "output/images_3_agents/prompt_052/idx052_b1_0.33_b2_0.33_b3_0.33_s15.png",
+    "filename": "idx052_b1_0.33_b2_0.33_b3_0.33_s15.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone working out at a CrossFit gym",
+    "agent1_prompt": "Sonos speaker system",
+    "agent2_prompt": "Airbnb listing",
+    "agent3_prompt": "Tommy Hilfiger polo"
+  },
+  "alignment_scores": {
+    "base_alignment": 19.5718994140625,
+    "agent1_alignment": 18.336383819580078,
+    "agent2_alignment": 18.25943374633789,
+    "agent3_alignment": 18.457616806030273
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.351144790649414,
+    "total_welfare": 18.16763334274292
+  }
+}

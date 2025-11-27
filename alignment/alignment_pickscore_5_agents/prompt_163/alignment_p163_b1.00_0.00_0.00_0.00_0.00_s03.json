@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 163,
+    "bids": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_5_agents/prompt_163/idx163_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s03.png",
+    "filename": "idx163_b1_1.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a scuba diving shop",
+    "agent1_prompt": "Dove body wash",
+    "agent2_prompt": "Deli turkey slice",
+    "agent3_prompt": "Columbia jacket",
+    "agent4_prompt": "iPad device",
+    "agent5_prompt": "Alexa smart speaker"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.933902740478516,
+    "agent1_alignment": 19.450523376464844,
+    "agent2_alignment": 14.991520881652832,
+    "agent3_alignment": 16.91033363342285,
+    "agent4_alignment": 17.23887825012207,
+    "agent5_alignment": 17.1932373046875
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.450523376464844,
+    "total_welfare": 19.450523376464844
+  }
+}

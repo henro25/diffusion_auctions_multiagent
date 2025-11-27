@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "prompt_index": 197,
+    "bids": [
+      0.2,
+      0.2,
+      0.2,
+      0.15,
+      0.1,
+      0.05,
+      0.05,
+      0.03,
+      0.01,
+      0.01
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_10_agents/prompt_197/idx197_b1_0.20_b2_0.20_b3_0.20_b4_0.15_b5_0.10_b6_0.05_b7_0.05_b8_0.03_b9_0.01_b10_0.01_s18.png",
+    "filename": "idx197_b1_0.20_b2_0.20_b3_0.20_b4_0.15_b5_0.10_b6_0.05_b7_0.05_b8_0.03_b9_0.01_b10_0.01_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a horseback riding stable",
+    "agent1_prompt": "Revlon cosmetics",
+    "agent2_prompt": "Sony headphones",
+    "agent3_prompt": "Dyson Supersonic dryer",
+    "agent4_prompt": "Substack newsletter",
+    "agent5_prompt": "Stripe payment",
+    "agent6_prompt": "Vitamix blender",
+    "agent7_prompt": "Under Armour shorts",
+    "agent8_prompt": "Hulu series",
+    "agent9_prompt": "McDonald's burger",
+    "agent10_prompt": "PayPal logo"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2353515625,
+    "agent1_alignment": 0.13671875,
+    "agent2_alignment": 0.1064453125,
+    "agent3_alignment": 0.0546875,
+    "agent4_alignment": 0.126953125,
+    "agent5_alignment": 0.12109375,
+    "agent6_alignment": 0.130859375,
+    "agent7_alignment": 0.0771484375,
+    "agent8_alignment": 0.1103515625,
+    "agent9_alignment": 0.0703125,
+    "agent10_alignment": 0.057861328125
+  },
+  "quality_assessment": {
+    "clip_quality": 0.51171875
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.10571533203124998,
+    "total_welfare": 0.10571533203125001
+  }
+}

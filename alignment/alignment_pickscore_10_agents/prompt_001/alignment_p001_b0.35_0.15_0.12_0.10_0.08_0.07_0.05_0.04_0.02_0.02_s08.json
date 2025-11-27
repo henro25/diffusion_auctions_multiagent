@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 1,
+    "bids": [
+      0.35,
+      0.15,
+      0.12,
+      0.1,
+      0.08,
+      0.07,
+      0.05,
+      0.04,
+      0.02,
+      0.02
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_10_agents/prompt_001/idx001_b1_0.35_b2_0.15_b3_0.12_b4_0.10_b5_0.08_b6_0.07_b7_0.05_b8_0.04_b9_0.02_b10_0.02_s08.png",
+    "filename": "idx001_b1_0.35_b2_0.15_b3_0.12_b4_0.10_b5_0.08_b6_0.07_b7_0.05_b8_0.04_b9_0.02_b10_0.02_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "People enjoying a sunny day at the beach",
+    "agent1_prompt": "Spalding basketball",
+    "agent2_prompt": "Target logo",
+    "agent3_prompt": "Iced coffee",
+    "agent4_prompt": "Tempur-Pedic mattress",
+    "agent5_prompt": "Mobil 1 motor oil",
+    "agent6_prompt": "DJI drone",
+    "agent7_prompt": "Dell monitor",
+    "agent8_prompt": "Movie ticket stub",
+    "agent9_prompt": "ASOS online",
+    "agent10_prompt": "Corona beer bottle"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.409177780151367,
+    "agent1_alignment": 20.59870719909668,
+    "agent2_alignment": 18.408077239990234,
+    "agent3_alignment": 17.448068618774414,
+    "agent4_alignment": 19.51380157470703,
+    "agent5_alignment": 18.375219345092773,
+    "agent6_alignment": 19.14886474609375,
+    "agent7_alignment": 18.591629028320312,
+    "agent8_alignment": 17.889604568481445,
+    "agent9_alignment": 18.004247665405273,
+    "agent10_alignment": 19.240623474121094
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.216408634185793,
+    "total_welfare": 19.216408634185793
+  }
+}

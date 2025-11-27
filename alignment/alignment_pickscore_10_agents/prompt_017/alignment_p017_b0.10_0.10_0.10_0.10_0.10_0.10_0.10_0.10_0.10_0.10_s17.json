@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 17,
+    "bids": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_10_agents/prompt_017/idx017_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.10_b6_0.10_b7_0.10_b8_0.10_b9_0.10_b10_0.10_s17.png",
+    "filename": "idx017_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.10_b6_0.10_b7_0.10_b8_0.10_b9_0.10_b10_0.10_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "A fitness trainer at a modern gym",
+    "agent1_prompt": "Wall Street Journal",
+    "agent2_prompt": "Aquafina water",
+    "agent3_prompt": "Prada bag",
+    "agent4_prompt": "Ethan Allen furniture",
+    "agent5_prompt": "Lyft rideshare",
+    "agent6_prompt": "YouTube video",
+    "agent7_prompt": "Deuter backpack",
+    "agent8_prompt": "Louis Vuitton handbag",
+    "agent9_prompt": "Tempur-Pedic mattress",
+    "agent10_prompt": "Audi A4"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.2921085357666,
+    "agent1_alignment": 17.96074867248535,
+    "agent2_alignment": 18.4819278717041,
+    "agent3_alignment": 19.057994842529297,
+    "agent4_alignment": 18.669206619262695,
+    "agent5_alignment": 18.541622161865234,
+    "agent6_alignment": 18.486387252807617,
+    "agent7_alignment": 19.470176696777344,
+    "agent8_alignment": 19.184738159179688,
+    "agent9_alignment": 19.80754280090332,
+    "agent10_alignment": 18.060039520263672
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.772038459777836,
+    "total_welfare": 18.772038459777832
+  }
+}

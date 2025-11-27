@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "prompt_index": 199,
+    "bids": [
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_20_agents/prompt_199/idx199_b1_0.05_b2_0.05_b3_0.05_b4_0.05_b5_0.05_b6_0.05_b7_0.05_b8_0.05_b9_0.05_b10_0.05_b11_0.05_b12_0.05_b13_0.05_b14_0.05_b15_0.05_b16_0.05_b17_0.05_b18_0.05_b19_0.05_b20_0.05_s06.png",
+    "filename": "idx199_b1_0.05_b2_0.05_b3_0.05_b4_0.05_b5_0.05_b6_0.05_b7_0.05_b8_0.05_b9_0.05_b10_0.05_b11_0.05_b12_0.05_b13_0.05_b14_0.05_b15_0.05_b16_0.05_b17_0.05_b18_0.05_b19_0.05_b20_0.05_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a community center",
+    "agent1_prompt": "Samsung refrigerator",
+    "agent2_prompt": "Microsoft Surface laptop",
+    "agent3_prompt": "New Balance shoes",
+    "agent4_prompt": "YouTube video",
+    "agent5_prompt": "Instagram story",
+    "agent6_prompt": "Vitra chair",
+    "agent7_prompt": "Enterprise car",
+    "agent8_prompt": "Jeep Wrangler",
+    "agent9_prompt": "Converse Chuck Taylor",
+    "agent10_prompt": "Barnes & Noble books",
+    "agent11_prompt": "Aquafina water",
+    "agent12_prompt": "TaylorMade golf balls",
+    "agent13_prompt": "Latte beverage",
+    "agent14_prompt": "Bose speaker",
+    "agent15_prompt": "Bank of America",
+    "agent16_prompt": "Dyson Supersonic dryer",
+    "agent17_prompt": "Iced coffee",
+    "agent18_prompt": "Bosch dishwasher",
+    "agent19_prompt": "Arc'teryx gear",
+    "agent20_prompt": "Ramen noodle packet"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.349025249481201
+  }
+}

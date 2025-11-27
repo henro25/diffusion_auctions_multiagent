@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 190,
+    "bids": [
+      0.25,
+      0.2,
+      0.15,
+      0.12,
+      0.1,
+      0.08,
+      0.05,
+      0.03,
+      0.01,
+      0.01
+    ],
+    "sample_index": 1,
+    "image_path": "output/images_10_agents/prompt_190/idx190_b1_0.25_b2_0.20_b3_0.15_b4_0.12_b5_0.10_b6_0.08_b7_0.05_b8_0.03_b9_0.01_b10_0.01_s01.png",
+    "filename": "idx190_b1_0.25_b2_0.20_b3_0.15_b4_0.12_b5_0.10_b6_0.08_b7_0.05_b8_0.03_b9_0.01_b10_0.01_s01.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a murder mystery party",
+    "agent1_prompt": "Ben & Jerry's ice cream",
+    "agent2_prompt": "Whole Foods market",
+    "agent3_prompt": "Callaway golf clubs",
+    "agent4_prompt": "Goodyear tire",
+    "agent5_prompt": "Medium article",
+    "agent6_prompt": "Hotel lobby",
+    "agent7_prompt": "Snapple iced tea",
+    "agent8_prompt": "Shark steam mop",
+    "agent9_prompt": "SoFi loan",
+    "agent10_prompt": "Alexa smart speaker"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.91672706604004,
+    "agent1_alignment": 19.0927791595459,
+    "agent2_alignment": 18.214313507080078,
+    "agent3_alignment": 17.874256134033203,
+    "agent4_alignment": 18.09662437438965,
+    "agent5_alignment": 20.276212692260742,
+    "agent6_alignment": 17.525861740112305,
+    "agent7_alignment": 18.656063079833984,
+    "agent8_alignment": 18.28898048400879,
+    "agent9_alignment": 19.09964942932129,
+    "agent10_alignment": 18.178327560424805
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.55273338317871,
+    "total_welfare": 18.55273338317871
+  }
+}

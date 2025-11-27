@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 23,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 49,
+    "image_path": "output/images_2_agents/prompt_023/idx023_b1_0.10_b2_0.90_s49.png",
+    "filename": "idx023_b1_0.10_b2_0.90_s49.png"
+  },
+  "prompts": {
+    "base_prompt": "A family having breakfast in their kitchen",
+    "agent1_prompt": "Old Spice deodorant",
+    "agent2_prompt": "Design Within Reach"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.721771240234375,
+    "agent1_alignment": 18.62771987915039,
+    "agent2_alignment": 19.66200065612793
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.558572578430176,
+    "total_welfare": 19.558572578430176
+  }
+}

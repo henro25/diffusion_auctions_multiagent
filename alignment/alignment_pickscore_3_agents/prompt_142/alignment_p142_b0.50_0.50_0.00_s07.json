@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 142,
+    "bids": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_3_agents/prompt_142/idx142_b1_0.50_b2_0.50_b3_0.00_s07.png",
+    "filename": "idx142_b1_0.50_b2_0.50_b3_0.00_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at an outdoor concert pavilion",
+    "agent1_prompt": "Article sofa",
+    "agent2_prompt": "Ben & Jerry's ice cream",
+    "agent3_prompt": "Lyft rideshare"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.65582275390625,
+    "agent1_alignment": 19.136919021606445,
+    "agent2_alignment": 19.716236114501953,
+    "agent3_alignment": 18.356670379638672
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.4265775680542,
+    "total_welfare": 19.4265775680542
+  }
+}

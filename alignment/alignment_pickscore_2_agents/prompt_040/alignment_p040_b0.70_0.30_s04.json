@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 40,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 4,
+    "image_path": "output/images_2_agents/prompt_040/idx040_b1_0.70_b2_0.30_s04.png",
+    "filename": "idx040_b1_0.70_b2_0.30_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "A person reading on a park bench",
+    "agent1_prompt": "Magazine cover",
+    "agent2_prompt": "Bosch dishwasher"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.860572814941406,
+    "agent1_alignment": 19.32422637939453,
+    "agent2_alignment": 19.762365341186523
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.45566806793213,
+    "total_welfare": 19.45566806793213
+  }
+}

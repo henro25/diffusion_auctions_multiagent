@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 33,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_2_agents/prompt_033/idx033_b1_0.10_b2_0.90_s17.png",
+    "filename": "idx033_b1_0.10_b2_0.90_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "A customer at a retail clothing store",
+    "agent1_prompt": "Apple MacBook Air",
+    "agent2_prompt": "Merrell hiking shoes"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.122711181640625
+  }
+}

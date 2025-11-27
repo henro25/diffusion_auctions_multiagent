@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 16,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_2_agents/prompt_016/idx016_b1_0.90_b2_0.10_s02.png",
+    "filename": "idx016_b1_0.90_b2_0.10_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "A mechanic working in an auto garage",
+    "agent1_prompt": "Subway sandwich",
+    "agent2_prompt": "Apple Pay"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.825572967529297,
+    "agent1_alignment": 20.913293838500977,
+    "agent2_alignment": 18.135643005371094
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.635528755187988,
+    "total_welfare": 20.635528755187988
+  }
+}

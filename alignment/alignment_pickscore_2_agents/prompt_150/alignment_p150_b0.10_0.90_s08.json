@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 150,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_2_agents/prompt_150/idx150_b1_0.10_b2_0.90_s08.png",
+    "filename": "idx150_b1_0.10_b2_0.90_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a trophy shop",
+    "agent1_prompt": "Book cover",
+    "agent2_prompt": "Patagonia vest"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.39313507080078,
+    "agent1_alignment": 17.575803756713867,
+    "agent2_alignment": 20.371166229248047
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.091629981994632,
+    "total_welfare": 20.091629981994632
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 92,
+    "bids": [
+      0.0,
+      0.0
+    ],
+    "sample_index": 10,
+    "image_path": "output/images_2_agents/prompt_092/idx092_b1_0.00_b2_0.00_s10.png",
+    "filename": "idx092_b1_0.00_b2_0.00_s10.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a bakery buying pastries",
+    "agent1_prompt": "Gatorade sports drink",
+    "agent2_prompt": "Among Us game"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 6.742300033569336
+  }
+}

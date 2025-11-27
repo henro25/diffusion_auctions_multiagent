@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "prompt_index": 175,
+    "bids": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_10_agents/prompt_175/idx175_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.10_b6_0.10_b7_0.10_b8_0.10_b9_0.10_b10_0.10_s07.png",
+    "filename": "idx175_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.10_b6_0.10_b7_0.10_b8_0.10_b9_0.10_b10_0.10_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "A chef preparing ingredients at a prep station",
+    "agent1_prompt": "Bank of America",
+    "agent2_prompt": "Ben & Jerry's ice cream",
+    "agent3_prompt": "Twitch streaming",
+    "agent4_prompt": "Article sofa",
+    "agent5_prompt": "Patagonia hiking pants",
+    "agent6_prompt": "Dick's Sporting Goods",
+    "agent7_prompt": "Boarding pass",
+    "agent8_prompt": "Colgate toothpaste",
+    "agent9_prompt": "Arizona tea",
+    "agent10_prompt": "AutoZone parts"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.259765625,
+    "agent1_alignment": 0.109375,
+    "agent2_alignment": 0.1298828125,
+    "agent3_alignment": 0.11572265625,
+    "agent4_alignment": 0.080078125,
+    "agent5_alignment": 0.0810546875,
+    "agent6_alignment": 0.1689453125,
+    "agent7_alignment": 0.08056640625,
+    "agent8_alignment": 0.1025390625,
+    "agent9_alignment": 0.07421875,
+    "agent10_alignment": 0.091796875
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.10341796875000002,
+    "total_welfare": 0.10341796875
+  }
+}

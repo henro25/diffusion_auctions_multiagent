@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 135,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 9,
+    "image_path": "output/images_2_agents/prompt_135/idx135_b1_0.30_b2_0.70_s09.png",
+    "filename": "idx135_b1_0.30_b2_0.70_s09.png"
+  },
+  "prompts": {
+    "base_prompt": "A person at a discount department store",
+    "agent1_prompt": "La-Z-Boy recliner",
+    "agent2_prompt": "Bose speaker"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.221078872680664,
+    "agent1_alignment": 17.657045364379883,
+    "agent2_alignment": 17.907617568969727
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.832445907592774,
+    "total_welfare": 17.832445907592774
+  }
+}

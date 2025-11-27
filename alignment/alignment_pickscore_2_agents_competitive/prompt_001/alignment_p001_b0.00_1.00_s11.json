@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 1,
+    "bids": [
+      0.0,
+      1.0
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_2_agents_competitive/prompt_001/idx001_b1_0.00_b2_1.00_s11.png",
+    "filename": "idx001_b1_0.00_b2_1.00_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone wearing athletic shoes while jogging in a park",
+    "agent1_prompt": "Nike running shoes",
+    "agent2_prompt": "Adidas running shoes"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.078779220581055,
+    "agent1_alignment": 19.889177322387695,
+    "agent2_alignment": 20.173728942871094
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.173728942871094,
+    "total_welfare": 20.173728942871094
+  }
+}

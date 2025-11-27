@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 187,
+    "bids": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_3_agents/prompt_187/idx187_b1_0.60_b2_0.30_b3_0.10_s16.png",
+    "filename": "idx187_b1_0.60_b2_0.30_b3_0.10_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a laser tag venue",
+    "agent1_prompt": "Coleman cooler",
+    "agent2_prompt": "Nike Air Force shoes",
+    "agent3_prompt": "AirPods headphones"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.383684158325195,
+    "agent1_alignment": 20.64727020263672,
+    "agent2_alignment": 17.757122039794922,
+    "agent3_alignment": 17.67022132873535
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.482520866394044,
+    "total_welfare": 19.48252086639404
+  }
+}

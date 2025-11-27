@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 186,
+    "bids": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_20_agents/prompt_186/idx186_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_b11_0.00_b12_0.00_b13_0.00_b14_0.00_b15_0.00_b16_0.00_b17_0.00_b18_0.00_b19_0.00_b20_0.00_s08.png",
+    "filename": "idx186_b1_0.00_b2_0.00_b3_0.00_b4_0.00_b5_0.00_b6_0.00_b7_0.00_b8_0.00_b9_0.00_b10_0.00_b11_0.00_b12_0.00_b13_0.00_b14_0.00_b15_0.00_b16_0.00_b17_0.00_b18_0.00_b19_0.00_b20_0.00_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a batting cage",
+    "agent1_prompt": "Spotify music playlist",
+    "agent2_prompt": "Adidas Superstar sneakers",
+    "agent3_prompt": "DJI drone",
+    "agent4_prompt": "USM Haller",
+    "agent5_prompt": "Amazon Prime logo",
+    "agent6_prompt": "Spalding basketball",
+    "agent7_prompt": "Sonos speaker system",
+    "agent8_prompt": "Expedia booking",
+    "agent9_prompt": "Xbox Series X",
+    "agent10_prompt": "Corona beer bottle",
+    "agent11_prompt": "Dyson hair dryer",
+    "agent12_prompt": "Camelback water pack",
+    "agent13_prompt": "Barista apron",
+    "agent14_prompt": "Honda Civic",
+    "agent15_prompt": "Stripe payment",
+    "agent16_prompt": "YouTube channel",
+    "agent17_prompt": "Est\u00e9e Lauder moisturizer",
+    "agent18_prompt": "Steelcase office chair",
+    "agent19_prompt": "TaylorMade golf balls",
+    "agent20_prompt": "Bacon strips"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2109375,
+    "agent1_alignment": 0.11083984375,
+    "agent2_alignment": 0.06396484375,
+    "agent3_alignment": 0.10302734375,
+    "agent4_alignment": 0.07861328125,
+    "agent5_alignment": 0.0615234375,
+    "agent6_alignment": 0.115234375,
+    "agent7_alignment": 0.10205078125,
+    "agent8_alignment": 0.1025390625,
+    "agent9_alignment": 0.07470703125,
+    "agent10_alignment": 0.053955078125,
+    "agent11_alignment": 0.052734375,
+    "agent12_alignment": 0.095703125,
+    "agent13_alignment": 0.09814453125,
+    "agent14_alignment": 0.087890625,
+    "agent15_alignment": 0.123046875,
+    "agent16_alignment": 0.12158203125,
+    "agent17_alignment": 0.033203125,
+    "agent18_alignment": 0.06884765625,
+    "agent19_alignment": 0.1064453125,
+    "agent20_alignment": 0.1142578125
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.0,
+    "total_welfare": 0.0
+  }
+}

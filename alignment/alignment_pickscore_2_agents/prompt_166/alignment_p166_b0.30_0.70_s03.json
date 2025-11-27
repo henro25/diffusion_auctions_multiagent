@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 166,
+    "bids": [
+      0.3,
+      0.7
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_2_agents/prompt_166/idx166_b1_0.30_b2_0.70_s03.png",
+    "filename": "idx166_b1_0.30_b2_0.70_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a outdoor archery range",
+    "agent1_prompt": "Converse Chuck Taylor",
+    "agent2_prompt": "Sonos speaker system"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.61689567565918,
+    "agent1_alignment": 17.521421432495117,
+    "agent2_alignment": 17.408098220825195
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.44209518432617,
+    "total_welfare": 17.44209518432617
+  }
+}

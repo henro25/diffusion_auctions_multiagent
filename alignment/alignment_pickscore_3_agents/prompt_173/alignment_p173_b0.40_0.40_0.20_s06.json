@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 173,
+    "bids": [
+      0.4,
+      0.4,
+      0.2
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_3_agents/prompt_173/idx173_b1_0.40_b2_0.40_b3_0.20_s06.png",
+    "filename": "idx173_b1_0.40_b2_0.40_b3_0.20_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a legal office waiting",
+    "agent1_prompt": "Bosch dishwasher",
+    "agent2_prompt": "Wells Fargo check",
+    "agent3_prompt": "Asics running shoe"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.561983108520508,
+    "agent1_alignment": 19.744779586791992,
+    "agent2_alignment": 19.3572940826416,
+    "agent3_alignment": 17.34202766418457
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.109235000610354,
+    "total_welfare": 19.109235000610354
+  }
+}

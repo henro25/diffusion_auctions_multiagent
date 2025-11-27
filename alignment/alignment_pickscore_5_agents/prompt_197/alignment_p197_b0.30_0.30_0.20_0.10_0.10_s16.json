@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 197,
+    "bids": [
+      0.3,
+      0.3,
+      0.2,
+      0.1,
+      0.1
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_5_agents/prompt_197/idx197_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s16.png",
+    "filename": "idx197_b1_0.30_b2_0.30_b3_0.20_b4_0.10_b5_0.10_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a horseback riding stable",
+    "agent1_prompt": "Revlon cosmetics",
+    "agent2_prompt": "Sony headphones",
+    "agent3_prompt": "Dyson Supersonic dryer",
+    "agent4_prompt": "Substack newsletter",
+    "agent5_prompt": "Stripe payment"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.38616371154785,
+    "agent1_alignment": 17.41465187072754,
+    "agent2_alignment": 19.421709060668945,
+    "agent3_alignment": 18.577035903930664,
+    "agent4_alignment": 17.433250427246094,
+    "agent5_alignment": 17.83330535888672
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 18.29297103881836,
+    "total_welfare": 18.29297103881836
+  }
+}

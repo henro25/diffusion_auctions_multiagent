@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "prompt_index": 194,
+    "bids": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.08,
+      0.08,
+      0.08,
+      0.07,
+      0.07,
+      0.07,
+      0.05,
+      0.05,
+      0.05,
+      0.02,
+      0.02,
+      0.02,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "sample_index": 2,
+    "image_path": "output/images_20_agents/prompt_194/idx194_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.08_b6_0.08_b7_0.08_b8_0.07_b9_0.07_b10_0.07_b11_0.05_b12_0.05_b13_0.05_b14_0.02_b15_0.02_b16_0.02_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s02.png",
+    "filename": "idx194_b1_0.10_b2_0.10_b3_0.10_b4_0.10_b5_0.08_b6_0.08_b7_0.08_b8_0.07_b9_0.07_b10_0.07_b11_0.05_b12_0.05_b13_0.05_b14_0.02_b15_0.02_b16_0.02_b17_0.01_b18_0.01_b19_0.01_b20_0.01_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a climbing wall",
+    "agent1_prompt": "Substack newsletter",
+    "agent2_prompt": "NYX makeup",
+    "agent3_prompt": "YouTube video",
+    "agent4_prompt": "Booking.com",
+    "agent5_prompt": "Callaway golf clubs",
+    "agent6_prompt": "DJI drone",
+    "agent7_prompt": "Lexus ES",
+    "agent8_prompt": "TikTok app",
+    "agent9_prompt": "Audi A4",
+    "agent10_prompt": "CVS pharmacy",
+    "agent11_prompt": "Samsung refrigerator",
+    "agent12_prompt": "Osprey pack",
+    "agent13_prompt": "Sprite lemon-lime",
+    "agent14_prompt": "Mastercard payment",
+    "agent15_prompt": "Doritos tortilla chips",
+    "agent16_prompt": "Michael Kors watch",
+    "agent17_prompt": "Keurig coffee maker",
+    "agent18_prompt": "Ethan Allen furniture",
+    "agent19_prompt": "Rocket Mortgage",
+    "agent20_prompt": "AirPods headphones"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.26171875,
+    "agent1_alignment": 0.19140625,
+    "agent2_alignment": 0.09375,
+    "agent3_alignment": 0.1611328125,
+    "agent4_alignment": 0.1826171875,
+    "agent5_alignment": 0.06884765625,
+    "agent6_alignment": 0.1416015625,
+    "agent7_alignment": 0.07568359375,
+    "agent8_alignment": 0.1728515625,
+    "agent9_alignment": 0.1103515625,
+    "agent10_alignment": 0.10595703125,
+    "agent11_alignment": 0.095703125,
+    "agent12_alignment": 0.09814453125,
+    "agent13_alignment": 0.08984375,
+    "agent14_alignment": 0.1435546875,
+    "agent15_alignment": 0.11328125,
+    "agent16_alignment": 0.036865234375,
+    "agent17_alignment": 0.087890625,
+    "agent18_alignment": 0.03662109375,
+    "agent19_alignment": 0.1171875,
+    "agent20_alignment": 0.11474609375
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.12422318892045452,
+    "total_welfare": 0.1366455078125
+  }
+}

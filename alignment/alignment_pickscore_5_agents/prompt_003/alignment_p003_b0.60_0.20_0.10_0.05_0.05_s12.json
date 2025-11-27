@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "prompt_index": 3,
+    "bids": [
+      0.6,
+      0.2,
+      0.1,
+      0.05,
+      0.05
+    ],
+    "sample_index": 12,
+    "image_path": "output/images_5_agents/prompt_003/idx003_b1_0.60_b2_0.20_b3_0.10_b4_0.05_b5_0.05_s12.png",
+    "filename": "idx003_b1_0.60_b2_0.20_b3_0.10_b4_0.05_b5_0.05_s12.png"
+  },
+  "prompts": {
+    "base_prompt": "A hiker resting on a mountain trail",
+    "agent1_prompt": "Keen boots",
+    "agent2_prompt": "Jura espresso machine",
+    "agent3_prompt": "Cold brew concentrate",
+    "agent4_prompt": "SoFi loan",
+    "agent5_prompt": "Ashley Furniture"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.069541931152344,
+    "agent1_alignment": 20.20804786682129,
+    "agent2_alignment": 17.074783325195312,
+    "agent3_alignment": 17.961780548095703,
+    "agent4_alignment": 18.672351837158203,
+    "agent5_alignment": 18.196800231933594
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.179421043395994,
+    "total_welfare": 19.179421043395994
+  }
+}

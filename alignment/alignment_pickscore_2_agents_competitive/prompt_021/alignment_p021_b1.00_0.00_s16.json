@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 21,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 16,
+    "image_path": "output/images_2_agents_competitive/prompt_021/idx021_b1_1.00_b2_0.00_s16.png",
+    "filename": "idx021_b1_1.00_b2_0.00_s16.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone holding a pizza box at a house party",
+    "agent1_prompt": "Domino's pizza box",
+    "agent2_prompt": "Pizza Hut box"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.99905776977539,
+    "agent1_alignment": 21.271181106567383,
+    "agent2_alignment": 21.535356521606445
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 21.271181106567383,
+    "total_welfare": 21.271181106567383
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 92,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 11,
+    "image_path": "output/images_2_agents/prompt_092/idx092_b1_0.70_b2_0.30_s11.png",
+    "filename": "idx092_b1_0.70_b2_0.30_s11.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone at a bakery buying pastries",
+    "agent1_prompt": "Gatorade sports drink",
+    "agent2_prompt": "Among Us game"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.16617774963379,
+    "agent1_alignment": 19.73849868774414,
+    "agent2_alignment": 19.199520111083984
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.576805114746094,
+    "total_welfare": 19.576805114746094
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "prompt_index": 4,
+    "bids": [
+      0.25,
+      0.2,
+      0.15,
+      0.12,
+      0.1,
+      0.08,
+      0.05,
+      0.03,
+      0.01,
+      0.01
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_10_agents/prompt_004/idx004_b1_0.25_b2_0.20_b3_0.15_b4_0.12_b5_0.10_b6_0.08_b7_0.05_b8_0.03_b9_0.01_b10_0.01_s06.png",
+    "filename": "idx004_b1_0.25_b2_0.20_b3_0.15_b4_0.12_b5_0.10_b6_0.08_b7_0.05_b8_0.03_b9_0.01_b10_0.01_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "A professional working at a desk in a bright office",
+    "agent1_prompt": "Wine glass",
+    "agent2_prompt": "Chromecast dongle",
+    "agent3_prompt": "Coleman cooler",
+    "agent4_prompt": "USM Haller",
+    "agent5_prompt": "Hyatt resort",
+    "agent6_prompt": "Nest thermostat",
+    "agent7_prompt": "Wells Fargo check",
+    "agent8_prompt": "CVS pharmacy",
+    "agent9_prompt": "Hydroflask water bottle",
+    "agent10_prompt": "Steam gaming platform"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.917316436767578,
+    "agent1_alignment": 19.479625701904297,
+    "agent2_alignment": 18.80130386352539,
+    "agent3_alignment": 18.332605361938477,
+    "agent4_alignment": 20.159379959106445,
+    "agent5_alignment": 19.454599380493164,
+    "agent6_alignment": 17.74515724182129,
+    "agent7_alignment": 19.41998291015625,
+    "agent8_alignment": 18.438722610473633,
+    "agent9_alignment": 17.870811462402344,
+    "agent10_alignment": 18.89193344116211
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.05604438781738,
+    "total_welfare": 19.05604438781738
+  }
+}

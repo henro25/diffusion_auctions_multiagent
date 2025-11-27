@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 124,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 7,
+    "image_path": "output/images_2_agents/prompt_124/idx124_b1_1.00_b2_0.00_s07.png",
+    "filename": "idx124_b1_1.00_b2_0.00_s07.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at an outdoor sports event",
+    "agent1_prompt": "Kindle e-reader",
+    "agent2_prompt": "Design Within Reach"
+  },
+  "alignment_scores": {
+    "base_alignment": 22.032922744750977,
+    "agent1_alignment": 20.41208839416504,
+    "agent2_alignment": 18.956161499023438
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.41208839416504,
+    "total_welfare": 20.41208839416504
+  }
+}

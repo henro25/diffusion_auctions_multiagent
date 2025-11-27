@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 9,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 8,
+    "image_path": "output/images_2_agents_competitive/prompt_009/idx009_b1_0.90_b2_0.10_s08.png",
+    "filename": "idx009_b1_0.90_b2_0.10_s08.png"
+  },
+  "prompts": {
+    "base_prompt": "A person wearing wireless earbuds while commuting",
+    "agent1_prompt": "Apple AirPods",
+    "agent2_prompt": "Samsung Galaxy Buds"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.476896286010742,
+    "agent1_alignment": 19.953996658325195,
+    "agent2_alignment": 20.287757873535156
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.987372779846194,
+    "total_welfare": 19.987372779846194
+  }
+}

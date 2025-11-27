@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 41,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 18,
+    "image_path": "output/images_2_agents/prompt_041/idx041_b1_0.10_b2_0.90_s18.png",
+    "filename": "idx041_b1_0.10_b2_0.90_s18.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone getting a massage at a spa",
+    "agent1_prompt": "Ethan Allen furniture",
+    "agent2_prompt": "Boarding pass"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.882314682006836,
+    "agent1_alignment": 19.116979598999023,
+    "agent2_alignment": 17.582767486572266
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 17.736188697814942,
+    "total_welfare": 17.736188697814942
+  }
+}

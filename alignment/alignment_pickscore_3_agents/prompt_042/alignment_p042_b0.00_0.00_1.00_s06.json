@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 42,
+    "bids": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "sample_index": 6,
+    "image_path": "output/images_3_agents/prompt_042/idx042_b1_0.00_b2_0.00_b3_1.00_s06.png",
+    "filename": "idx042_b1_0.00_b2_0.00_b3_1.00_s06.png"
+  },
+  "prompts": {
+    "base_prompt": "A group watching a movie in a theater",
+    "agent1_prompt": "Home Depot sign",
+    "agent2_prompt": "Rocket Mortgage",
+    "agent3_prompt": "Kindle e-reader"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.48875617980957,
+    "agent1_alignment": 16.539094924926758,
+    "agent2_alignment": 17.6291446685791,
+    "agent3_alignment": 19.428329467773438
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.428329467773438,
+    "total_welfare": 19.428329467773438
+  }
+}

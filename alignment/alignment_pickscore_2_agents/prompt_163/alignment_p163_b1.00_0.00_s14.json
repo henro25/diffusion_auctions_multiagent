@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 163,
+    "bids": [
+      1.0,
+      0.0
+    ],
+    "sample_index": 14,
+    "image_path": "output/images_2_agents/prompt_163/idx163_b1_1.00_b2_0.00_s14.png",
+    "filename": "idx163_b1_1.00_b2_0.00_s14.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a scuba diving shop",
+    "agent1_prompt": "Dove body wash",
+    "agent2_prompt": "Deli turkey slice"
+  },
+  "alignment_scores": {
+    "base_alignment": 23.24823570251465,
+    "agent1_alignment": 20.12308692932129,
+    "agent2_alignment": 16.400320053100586
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.12308692932129,
+    "total_welfare": 20.12308692932129
+  }
+}

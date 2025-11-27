@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 58,
+    "bids": [
+      0.9,
+      0.1
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_2_agents/prompt_058/idx058_b1_0.90_b2_0.10_s17.png",
+    "filename": "idx058_b1_0.90_b2_0.10_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a bowling alley",
+    "agent1_prompt": "Robinhood app",
+    "agent2_prompt": "Converse Chuck Taylor"
+  },
+  "alignment_scores": {
+    "base_alignment": 21.505151748657227,
+    "agent1_alignment": 20.132463455200195,
+    "agent2_alignment": 17.74534797668457
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 19.893751907348634,
+    "total_welfare": 19.893751907348634
+  }
+}

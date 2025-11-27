@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "prompt_index": 24,
+    "bids": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_3_agents/prompt_024/idx024_b1_0.50_b2_0.50_b3_0.00_s17.png",
+    "filename": "idx024_b1_0.50_b2_0.50_b3_0.00_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone browsing books in a public library",
+    "agent1_prompt": "Est\u00e9e Lauder moisturizer",
+    "agent2_prompt": "IKEA furniture piece",
+    "agent3_prompt": "West Elm table"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.201171875,
+    "agent1_alignment": 0.2470703125,
+    "agent2_alignment": 0.06640625,
+    "agent3_alignment": 0.0634765625
+  },
+  "quality_assessment": {
+    "clip_quality": 0.50390625
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.15673828125,
+    "total_welfare": 0.15673828125
+  }
+}

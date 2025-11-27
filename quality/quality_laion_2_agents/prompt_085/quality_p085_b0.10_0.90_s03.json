@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "prompt_index": 85,
+    "bids": [
+      0.1,
+      0.9
+    ],
+    "sample_index": 3,
+    "image_path": "output/images_2_agents/prompt_085/idx085_b1_0.10_b2_0.90_s03.png",
+    "filename": "idx085_b1_0.10_b2_0.90_s03.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at an outdoor camping site",
+    "agent1_prompt": "Heineken beer",
+    "agent2_prompt": "Discord voice chat"
+  },
+  "quality_assessment": {
+    "aesthetic_score": 7.309602737426758
+  }
+}

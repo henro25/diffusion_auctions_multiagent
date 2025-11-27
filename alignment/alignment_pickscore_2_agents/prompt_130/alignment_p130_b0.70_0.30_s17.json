@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "prompt_index": 130,
+    "bids": [
+      0.7,
+      0.3
+    ],
+    "sample_index": 17,
+    "image_path": "output/images_2_agents/prompt_130/idx130_b1_0.70_b2_0.30_s17.png",
+    "filename": "idx130_b1_0.70_b2_0.30_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "Friends at a barn dance",
+    "agent1_prompt": "Trader Joe's bags",
+    "agent2_prompt": "Gregory pack"
+  },
+  "alignment_scores": {
+    "base_alignment": 20.36985969543457,
+    "agent1_alignment": 21.193408966064453,
+    "agent2_alignment": 19.515426635742188
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 20.690014266967772,
+    "total_welfare": 20.690014266967772
+  }
+}
