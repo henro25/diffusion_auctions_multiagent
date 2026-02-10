@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 5,
+    "bids": [
+      0.7,
+      0.35
+    ],
+    "sample_index": 2,
+    "image_path": "/net/holy-isilon/ifs/rc_labs/ydu_lab/lilliansun/diffusion_auction_images/truthfulness_regular/prompt_005/idx005_b1_0.70_b2_0.35_s02.png",
+    "filename": "idx005_b1_0.70_b2_0.35_s02.png"
+  },
+  "prompts": {
+    "base_prompt": "A car driving along a scenic coastal highway",
+    "agent1_prompt": "Tesla car",
+    "agent2_prompt": "ExxonMobil sign"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2373046875,
+    "agent1_alignment": 0.205078125,
+    "agent2_alignment": 0.1689453125
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.1930338541666667,
+    "total_welfare": 0.202685546875
+  }
+}

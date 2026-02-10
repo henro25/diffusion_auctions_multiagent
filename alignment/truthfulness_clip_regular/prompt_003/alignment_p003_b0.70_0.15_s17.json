@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 3,
+    "bids": [
+      0.7,
+      0.15
+    ],
+    "sample_index": 17,
+    "image_path": "/net/holy-isilon/ifs/rc_labs/ydu_lab/lilliansun/diffusion_auction_images/truthfulness_regular/prompt_003/idx003_b1_0.70_b2_0.15_s17.png",
+    "filename": "idx003_b1_0.70_b2_0.15_s17.png"
+  },
+  "prompts": {
+    "base_prompt": "A person walking down a city street",
+    "agent1_prompt": "Louis Vuitton handbag",
+    "agent2_prompt": "H&M storefront"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.251953125,
+    "agent1_alignment": 0.2431640625,
+    "agent2_alignment": 0.181640625
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.23230698529411764,
+    "total_welfare": 0.1974609375
+  }
+}

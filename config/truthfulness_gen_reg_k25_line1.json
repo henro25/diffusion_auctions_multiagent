@@ -1,0 +1,96 @@
+{
+  "num_agents": 2,
+  "prompts_path": "../prompts/truthfulness_regular.json",
+  "output_dir": "/net/holy-isilon/ifs/rc_labs/ydu_lab/lilliansun/diffusion_auction_images/truthfulness_regular",
+  "num_samples_per_combination": 25,
+  "num_prompts_to_process": null,
+  "process_prompts_forward": true,
+  "guidance_scale": 10.0,
+  "num_inference_steps": 5,
+  "bidding_combinations": [
+    [
+      0.0,
+      0.3
+    ],
+    [
+      0.05,
+      0.3
+    ],
+    [
+      0.1,
+      0.3
+    ],
+    [
+      0.15,
+      0.3
+    ],
+    [
+      0.2,
+      0.3
+    ],
+    [
+      0.25,
+      0.3
+    ],
+    [
+      0.3,
+      0.3
+    ],
+    [
+      0.35,
+      0.3
+    ],
+    [
+      0.4,
+      0.3
+    ],
+    [
+      0.45,
+      0.3
+    ],
+    [
+      0.5,
+      0.3
+    ],
+    [
+      0.55,
+      0.3
+    ],
+    [
+      0.6,
+      0.3
+    ],
+    [
+      0.65,
+      0.3
+    ],
+    [
+      0.7,
+      0.3
+    ],
+    [
+      0.75,
+      0.3
+    ],
+    [
+      0.8,
+      0.3
+    ],
+    [
+      0.85,
+      0.3
+    ],
+    [
+      0.9,
+      0.3
+    ],
+    [
+      0.95,
+      0.3
+    ],
+    [
+      1.0,
+      0.3
+    ]
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "base_prompt": "Someone drinking from a coffee cup in an office meeting",
+    "agent1_prompt": "Starbucks coffee cup",
+    "agent2_prompt": "Dunkin coffee cup"
+  },
+  {
+    "base_prompt": "A person drinking from a beverage can while working at a desk",
+    "agent1_prompt": "Coca-Cola can",
+    "agent2_prompt": "Pepsi can"
+  },
+  {
+    "base_prompt": "Someone wearing athletic shoes while jogging in a park",
+    "agent1_prompt": "Nike running shoes",
+    "agent2_prompt": "Adidas running shoes"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 2,
+    "bids": [
+      0.7,
+      1.0
+    ],
+    "sample_index": 4,
+    "image_path": "/net/holy-isilon/ifs/rc_labs/ydu_lab/lilliansun/diffusion_auction_images/truthfulness_competitive/prompt_002/idx002_b1_0.70_b2_1.00_s04.png",
+    "filename": "idx002_b1_0.70_b2_1.00_s04.png"
+  },
+  "prompts": {
+    "base_prompt": "Someone wearing athletic shoes while jogging in a park",
+    "agent1_prompt": "Nike running shoes",
+    "agent2_prompt": "Adidas running shoes"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.255859375,
+    "agent1_alignment": 0.201171875,
+    "agent2_alignment": 0.2275390625
+  },
+  "quality_assessment": {
+    "clip_quality": 0.5078125
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.21668198529411764,
+    "total_welfare": 0.368359375
+  }
+}

@@ -1,0 +1,39 @@
+\subsubsection{Truthful Payment Rule from Myerson's Lemma}
+
+Myerson's lemma~\cite{myerson1981optimal} establishes that if an allocation rule $x_i(b_i)$ is monotone non-decreasing in the agent's bid, then there exists a unique payment rule that renders truthful bidding a dominant strategy:
+\begin{equation}
+    p_i(b_i) = b_i \cdot x_i(b_i) - \int_0^{b_i} x_i(z) \, dz.
+    \label{eq:myerson_payment}
+\end{equation}
+Under this payment, an agent with true value $v_i$ who bids truthfully ($b_i = v_i$) obtains utility $u_i(v_i) = v_i \cdot x_i(v_i) - p_i(v_i)$, and no alternative bid yields strictly higher utility. To verify that our mechanism satisfies the monotonicity precondition and that the resulting regret from truthful bidding is negligible, we conduct the following experiment.
+
+We fix Agent~2's bid at $b_2 = 0.3$ and vary Agent~1's bid over a fine grid $b_1 \in \{0.00, 0.05, 0.10, \ldots, 1.00\}$. For each of the 21 bid combinations, we generate $k = 25$ images using our auction pipeline. To obtain a stable estimate of the expected allocation $\mathbb{E}[x_i(b_i)]$ under welfare-optimal selection, we partition the 25 samples into 5 batches of 5, select the welfare-maximizing image within each batch, and average the CLIP alignment scores of the 5 batch winners. This batch-averaging procedure reduces variance relative to selecting a single best-of-$k$ sample while still reflecting the welfare-optimal selection rule that the mechanism would employ in practice.
+
+We then compute the Myerson payment~\eqref{eq:myerson_payment} via numerical integration (trapezoidal rule) over the estimated allocation curve, and evaluate the \emph{relative regret} from truthful bidding:
+\begin{equation}
+    \text{Regret}(v_i) = \frac{\max_{b_i} \, u_i(v_i, b_i) - u_i(v_i, v_i)}{|u_i(v_i, v_i)|},
+\end{equation}
+where the maximization is over all bids on the grid.
+
+Figure~\ref{fig:myerson_regret} shows the results for two representative prompts. The allocation curves are approximately monotone non-decreasing, confirming the precondition of Myerson's lemma. The relative regret remains below 4\% across all tested true values $v \in \{0.1, 0.2, \ldots, 0.9\}$, with most values near zero, confirming that the mechanism is approximately incentive compatible under the Myerson payment rule.
+
+While the Myerson payment provides a theoretically grounded truthful mechanism, computing it requires evaluating the allocation function over a dense bid grid and numerically integrating at each query point---an $O(n)$ cost per payment computation, where $n$ is the grid resolution. Moreover, accurately estimating the allocation curve itself demands generating images at many bid levels, compounding the expense. For these reasons, we adopt the Vickrey--Clarke--Groves (VCG) mechanism in our main experiments. VCG computes each agent's payment as the externality they impose on others: the difference in other agents' welfare with and without the agent present. This requires only two allocation evaluations per agent rather than integration over the full bid space, making it substantially more efficient while preserving the same truthfulness guarantee.
+
+\begin{figure}[t]
+    \centering
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{ec2026/figures/regret_myerson_p1.png}
+        \caption{``A woman with a tray of food at a cafeteria.'' Agent~1: McDonald's fries; Agent~2: Pepsi can.}
+        \label{fig:myerson_p1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{ec2026/figures/regret_myerson_p2.png}
+        \caption{``A person walking down a city street.'' Agent~1: Louis Vuitton handbag; Agent~2: H\&M storefront.}
+        \label{fig:myerson_p2}
+    \end{subfigure}
+    \caption{Allocation curves (top) and relative regret from truthful bidding (bottom) under the Myerson payment rule. Agent~2's bid is fixed at $b_2 = 0.3$; Agent~1's bid varies over $[0, 1]$ in increments of $0.05$. Allocations are estimated from $k = 25$ samples via batch-averaged welfare-optimal selection ($5$ batches of $5$). Regret stays below $4\%$ across all true values, confirming approximate incentive compatibility.}
+    \label{fig:myerson_regret}
+\end{figure}

@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "prompt_index": 2,
+    "bids": [
+      0.7,
+      0.05
+    ],
+    "sample_index": 10,
+    "image_path": "/net/holy-isilon/ifs/rc_labs/ydu_lab/lilliansun/diffusion_auction_images/truthfulness_regular/prompt_002/idx002_b1_0.70_b2_0.05_s10.png",
+    "filename": "idx002_b1_0.70_b2_0.05_s10.png"
+  },
+  "prompts": {
+    "base_prompt": "A woman with a tray of food at a cafeteria",
+    "agent1_prompt": "McDonald's fries",
+    "agent2_prompt": "Pepsi can"
+  },
+  "alignment_scores": {
+    "base_alignment": 0.2177734375,
+    "agent1_alignment": 0.26953125,
+    "agent2_alignment": 0.07958984375
+  },
+  "quality_assessment": {
+    "clip_quality": 0.51171875
+  },
+  "welfare_metrics": {
+    "weighted_alignment": 0.2568684895833333,
+    "total_welfare": 0.19265136718749998
+  }
+}

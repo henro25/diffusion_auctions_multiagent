@@ -1,0 +1,32 @@
+[
+  {
+    "base_prompt": "Two friends chatting over coffee at a cafe",
+    "agent1_prompt": "Starbucks mug",
+    "agent2_prompt": "Apple MacBook Air"
+  },
+  {
+    "base_prompt": "A hiker resting on a mountain trail",
+    "agent1_prompt": "North Face backpack",
+    "agent2_prompt": "Gatorade bottle"
+  },
+  {
+    "base_prompt": "A woman with a tray of food at a cafeteria",
+    "agent1_prompt": "McDonald's fries",
+    "agent2_prompt": "Pepsi can"
+  },
+  {
+    "base_prompt": "A person walking down a city street",
+    "agent1_prompt": "Louis Vuitton handbag",
+    "agent2_prompt": "H&M storefront"
+  },
+  {
+    "base_prompt": "Friends gathered for a movie night at home",
+    "agent1_prompt": "Doritos chips",
+    "agent2_prompt": "Coca-Cola cans"
+  },
+  {
+    "base_prompt": "A car driving along a scenic coastal highway",
+    "agent1_prompt": "Tesla car",
+    "agent2_prompt": "ExxonMobil sign"
+  }
+]

@@ -1,303 +1,235 @@
-# CLAUDE.md - Development Context
+# CLAUDE.md
 
-## 🎯 Project Overview
-**Diffusion Auctions Multi-Agent** - A research project implementing auction mechanisms for diffusion models where multiple agents bid to influence image generation. Higher bids result in greater representation in the final generated image.
+## Project Overview
+
+**Diffusion Auctions Multi-Agent** — Multi-agent auction mechanism for diffusion models where N agents (2-20) bid to influence image generation. Higher bids result in greater visual representation in the final image.
 
 **Authors:** Lillian Sun, Warren Zhu, Henry Huang
-**Academic Context:** 4th Year research project on multi-winner auctions for generative AI
+**Context:** 4th year research project on multi-winner auctions for generative AI
 
-## 🏗️ Architecture & Core Concepts
+## Architecture & Algorithm
 
-### Auction Mechanism
-- **2-3 agents** place bids (0.0-1.0) to influence final image generation
-- **Score Composition Algorithm:** Recursive weighted interpolation based on bid ratios
-- **Sorting:** Agents sorted by bid amount (highest to lowest)
-- **Weight Calculation:** Uses dominance ratios to determine influence
+### Pipeline
 
-### Key Algorithm (FluxPipelineAuction.__call__)
-1. Sort agents by bid amount: `sb1 >= sb2 >= sb3`
-2. Calculate dominance weights:
-   - `P_dom_A = (sb1 + sb2) / S3` where `S3 = sb1 + sb2 + sb3`
-   - `w_A = 2 * P_dom_A - 1`
-   - `P_dom_B = sb1 / S2` where `S2 = sb1 + sb2`
-   - `w_B = 2 * P_dom_B - 1`
-3. Recursive composition:
-   - `s_1_2_intermediate = (1-w_B) * noise_pred_s1_s2 + w_B * noise_pred_s1`
-   - `final_noise_pred = (1-w_A) * noise_pred_s1_s2_s3 + w_A * s_1_2_intermediate`
+`FluxPipelineAuction` extends `FluxPipeline` (from HuggingFace diffusers) in `pipelines/flux_auction_pipeline.py`. Model: FLUX.1-schnell (`black-forest-labs/FLUX.1-schnell`).
 
-## 📁 Project Structure
+### Iterative Pairwise Score Composition
+
+The core algorithm in `_apply_iterative_score_composition` (line 506):
+
+1. Agents sorted ascending by bid (`_organize_and_sort_agents`)
+2. Pop two highest bidders (random tie-breaking via `_select_two_highest_bidders`)
+3. Pairwise normalize: `norm_bid_n = bid_n / (bid_n + bid_n_minus_1)`
+4. Dominant weight: `w_dom = clamp(2 * norm_bid_n - 1, 0.0, 1.0)`
+5. Compose noise: `combined = (1 - w_dom) * noise_shared + w_dom * noise_dom`
+6. Create composite agent with summed bids and concatenated prompts, add back, re-sort
+7. Repeat until one agent remains
+
+### Prompt Encoding
+
+- Individual agent: `"{base_prompt} with {agent_prompt}"`
+- Combined pair: `"{base_prompt} with {agentA_prompt} and {agentB_prompt}"`
+- All-zero bids: encodes only `base_prompt`
+
+### Edge Cases
+
+- All bids zero (`total_bid < 1e-9`): returns base-prompt-only noise prediction
+- Both bids in pair near-zero (`bid_sum < 1e-9`): skips composition, re-adds agent
+- Tied highest bids: random selection among tied agents
+- Mismatched prompt/bid lengths: raises `ValueError`
+
+### Key Methods
+
+| Method | Purpose |
+|--------|---------|
+| `__call__` | Main entry point (line 88) |
+| `_apply_iterative_score_composition` | Core auction algorithm (line 506) |
+| `_select_two_highest_bidders` | Picks top 2 with tie-breaking (line 370) |
+| `_organize_and_sort_agents` | Sorts agents ascending by bid (line 396) |
+| `_denoising_loop_with_score_composition` | Runs denoising timesteps (line 430) |
+| `_get_noise_prediction` | Transformer inference wrapper (line 685) |
+
+## Project Structure
+
 ```
 diffusion_auctions_multiagent/
-├── pipelines/                        # Core pipeline implementations
-│   ├── __init__.py                   # Module exports
-│   ├── flux_auction_pipeline.py      # FluxPipelineAuction class
-│   └── README.md                     # Pipeline documentation
-├── scripts/                          # Main generation scripts
-│   ├── generate_images_3_agent.py    # 3-agent single-GPU script (auto-cache)
-│   ├── generate_images_3_agent_multigpu.py # 3-agent multi-GPU script
-│   ├── generate_images_2_agent.py    # 2-agent single-GPU script
-│   ├── generate_images_2_agent_multigpu.py # 2-agent multi-GPU script
-│   ├── multi_gpu_config.py           # Multi-GPU management
-│   ├── run_with_cache.sh             # 3-agent cluster-optimized runner
-│   └── run_with_cache_2_agent.sh     # 2-agent cluster-optimized runner
-├── helpers/                          # Utility scripts and tools
-│   ├── setup_cache.sh                # HuggingFace cache setup
-│   ├── manage_cache.py               # Cache management utility
-│   └── CLUSTER_SETUP.md              # Cluster deployment guide
-├── prompts/                          # Prompt configurations
-│   ├── prompts_3_agent.json          # 3-agent test scenarios
-│   ├── prompts_2_agent.json          # 2-agent scenarios
-│   └── base_prompts.json             # Base prompt library
-├── images/                           # Generated outputs (gitignored)
-├── requirements.txt                  # Dependencies
-├── README.md                         # User documentation
-└── CLAUDE.md                         # This file
+├── pipelines/
+│   ├── flux_auction_pipeline.py      # FluxPipelineAuction (current, N-agent iterative)
+│   └── flux_auction_pipeline_old.py  # Legacy 3-agent recursive version
+├── scripts/
+│   ├── generate_images.py            # Config-driven image generation (any N agents)
+│   ├── alignment_clip.py             # CLIP alignment analysis (config-driven)
+│   ├── alignment_pickscore.py        # PickScore alignment analysis (config-driven)
+│   ├── calculate_alignment_2_agent.py # 2-agent alignment (hardcoded paths, VLM support)
+│   ├── calculate_alignment_3_agent.py # 3-agent alignment (hardcoded paths, VLM support)
+│   ├── quality_laion.py              # LAION aesthetic quality (config-driven)
+│   ├── multi_gpu_config.py           # MultiGPUManager class
+│   ├── run_with_cache.sh             # Cache-optimized runner (3-agent)
+│   └── run_with_cache_2_agent.sh     # Cache-optimized runner (2-agent)
+├── config/                           # New configs go here
+├── old_configs/                      # 56 legacy JSON configs (from henry branch)
+│   ├── config_{2,3,5,10,20}_agents.json        # Generation configs
+│   ├── backwards_config_*.json                  # Reverse-order processing
+│   ├── alignment_{clip,pickscore}_config_*.json # Alignment analysis configs
+│   ├── quality_laion_config_*.json              # Quality assessment configs
+│   ├── vlm_config.json                          # VLM model configuration
+│   └── README.md                                # Config schema docs
+├── prompts/
+│   ├── agent_prompts.json            # 50+ prompts, 20 agents each
+│   ├── agent_prompts_competitive.json
+│   ├── base_prompts.json             # 50+ base scene descriptions
+│   └── base_prompts_competitive.json
+├── analysis/                         # Jupyter notebooks
+│   ├── calculate_welfare_clip.ipynb
+│   ├── calculate_welfare_pickscore.ipynb
+│   ├── analyze_quality_laion.ipynb
+│   └── *_competitive.ipynb, *_old.ipynb variants
+├── alignment/                        # CLIP & PickScore alignment results
+├── quality/                          # LAION aesthetic quality results
+├── results/                          # Aggregated charts & data.csv
+│   └── {2,3,5,10,20}_agents/        # Per-agent-count visualizations
+├── helpers/
+│   ├── manage_cache.py               # HF cache management
+│   ├── setup_cache.sh                # Cache initialization
+│   ├── zip_*.sh                      # Result compression utilities
+│   └── CLUSTER_SETUP.md
+├── vlm_quality_assessor.py           # VLM quality assessment module (Qwen2.5-VL)
+├── pickscore_predictor.py            # PickScore utility
+├── VLM_SETUP.md
+├── requirements.txt
+├── README.md
+└── CLAUDE.md
 ```
 
-## 🔧 Key Configuration (scripts/generate_images_3_agent.py)
+## Configuration System
 
-### Configuration Section (Lines 13-55)
-```python
-# Path configurations
-PROMPTS_PATH = "../prompts/prompts_3_agent.json"
-OUTPUT_DIR = "images/images_3_agent"
+All main scripts accept `--config path/to/config.json`. Config schema:
 
-# Sampling configuration
-NUM_SAMPLES_PER_COMBINATION = 1      # Multiple sampling support
-NUM_PROMPTS_TO_PROCESS = None        # Limit prompts (None = all)
-
-# Generation parameters
-GUIDANCE_SCALE = 10.0
-NUM_INFERENCE_STEPS = 5
-TORCH_DTYPE = torch.bfloat16 if torch.cuda.is_available() else torch.float16
-
-# Bidding combinations (Lines 29-53)
-BIDDING_COMBINATIONS_3_AGENT = [
-    (0.0, 0.0, 0.0),      # Base prompt only (no agent influence)
-    (1.0, 0.0, 0.0),      # Agent 1 dominant
-    (0.33, 0.33, 0.33),   # All equal
-    (0.4, 0.4, 0.2),      # A1 & A2 strong, A3 minor
-    (0.6, 0.3, 0.1),      # Clear hierarchy
-    (0.6, 0.2, 0.2),      # A1 > A2 = A3
-]
-```
-
-### Key Functions
-- **`FluxPipelineAuction.__call__`** (pipelines/flux_auction_pipeline.py): Core auction mechanism
-- **`generate_and_save_image`** (scripts/generate_images_3_agent.py): Image generation wrapper
-- **Multi-GPU support** (scripts/multi_gpu_config.py): Parallel processing across GPUs
-
-## 🐛 Known Issues & Fixes Applied
-
-### Fixed Issues
-- **Image access bug** (Line 705): Fixed `images[0][0].save()` → `images.images[0].save()`
-- **Path configuration**: Centralized hardcoded values to configuration section
-- **Multiple sampling**: Added sample indexing for statistical analysis
-
-### Potential Issues (Not Fixed - Need Domain Expertise)
-- **Line 422**: `image_seq_len` calculation might be incorrect
-- **Lines 560-582**: Complex bid edge case handling in score composition
-- **Line 17**: Path `../prompts/` assumes script run from `scripts/` directory
-
-## 📊 Data Formats
-
-### Prompt Structure (prompts_3_agent.json)
 ```json
 {
-  "base_prompt": "Scene description",
-  "agent1_prompt": "Brand/object for agent 1",
-  "agent2_prompt": "Brand/object for agent 2",
-  "agent3_prompt": "Brand/object for agent 3"
+  "num_agents": 3,
+  "prompts_path": "prompts/agent_prompts.json",
+  "output_dir": "output/images_3_agents",
+  "num_samples_per_combination": 20,
+  "num_prompts_to_process": null,
+  "process_prompts_forward": true,
+  "guidance_scale": 10.0,
+  "num_inference_steps": 5,
+  "bidding_combinations": [[0.0, 0.0, 0.0], [1.0, 0.0, 0.0], [0.33, 0.33, 0.33]]
 }
 ```
 
-### Output Naming Convention
-`idx{prompt_index:03d}_b1_{bid1:.2f}_b2_{bid2:.2f}_b3_{bid3:.2f}_s{sample_idx:02d}.png`
+Legacy configs are in `old_configs/` (from henry branch). New experiment configs go in `config/`.
 
-Examples:
-- Base prompt only: `idx000_b1_0.00_b2_0.00_b3_0.00_s00.png`
-- Agent bidding: `idx000_b1_0.60_b2_0.30_b3_0.10_s00.png`
+Config categories:
+- **Generation**: `config_{N}_agents.json` — image generation for N agents
+- **Backward**: `backwards_config_*.json` — process prompts in reverse order
+- **Alignment**: `alignment_{clip,pickscore}_config_*.json` — CLIP/PickScore analysis
+- **Quality**: `quality_laion_config_*.json` — LAION aesthetic scoring
+- **VLM**: `vlm_config.json` — Vision Language Model settings
 
-### Generation Log (generation_log.json)
-```json
-{
-  "item_index": 0,
-  "bids": [0.6, 0.3, 0.1],
-  "sample_index": 0,
-  "agent1_prompt": "Starbucks mug",
-  "agent2_prompt": "Apple MacBook Air",
-  "agent3_prompt": "New York Times newspaper",
-  "base_prompt": "Two friends chatting over coffee at a cafe",
-  "image_path": "path/to/generated/image.png"
-}
-```
+**Image storage**: New experiments should store images at `/net/holy-isilon/ifs/rc_labs/ydu_lab/lilliansun/diffusion_auction_images/` (not local `output/`).
 
-## 🚀 Usage Patterns
+## Key Commands
 
-### Development Workflow
-
-#### Single GPU (Recommended for Development)
-1. **Modify configuration** at top of `generate_images_3_agent.py`
-2. **Run from scripts directory**:
-   - Standard: `cd scripts && python generate_images_3_agent.py`
-   - Cluster-optimized: `cd scripts && ./run_with_cache.sh`
-3. **Check outputs** in `images/images_3_agent/prompt_XXX/`
-4. **Resume interrupted runs**: Script automatically skips existing images, allowing safe resumption
-
-#### Multi-GPU (Production)
-1. **Configure GPUs** in `generate_images_3_agent_multigpu.py`:
-   ```python
-   USE_MULTI_GPU = True
-   GPU_INDICES = [0, 1, 2, 3]  # Specify exact GPUs
-   ```
-2. **Run**: `cd scripts && python generate_images_3_agent_multigpu.py`
-3. **Check outputs** in `images/images_3_agent_multigpu/prompt_XXX/`
-
-#### Cluster/HPC Environments
-For faster model downloads on clusters:
 ```bash
-# Automatic cache setup + generation (3-agent)
-cd scripts && ./run_with_cache.sh
+# Image generation (config-driven)
+cd scripts && python generate_images.py --config ../config/config_3_agents.json
 
-# Automatic cache setup + generation (2-agent)
-cd scripts && ./run_with_cache_2_agent.sh
+# CLIP alignment analysis
+cd scripts && python alignment_clip.py --config ../config/alignment_clip_config_3_agents.json
 
-# Manual cache management
-python helpers/manage_cache.py list
-python helpers/manage_cache.py clean black-forest-labs/FLUX.1-schnell
-```
+# PickScore alignment analysis
+cd scripts && python alignment_pickscore.py --config ../config/alignment_pickscore_config_3_agents.json
 
-### Common Modifications
-```python
-# Test multiple samples for statistical analysis
-NUM_SAMPLES_PER_COMBINATION = 5
+# LAION quality assessment
+cd scripts && python quality_laion.py --config ../config/quality_laion_config_3_agents.json
 
-# Test specific bidding scenarios
-BIDDING_COMBINATIONS_3_AGENT = [
-    (1.0, 0.0, 0.0),     # Only agent 1
-    (0.0, 1.0, 0.0),     # Only agent 2
-    (0.0, 0.0, 1.0),     # Only agent 3
-]
-
-# Process only first few prompts during development
-NUM_PROMPTS_TO_PROCESS = 3
-```
-
-## 🧪 Testing Scenarios
-
-### Validation Tests
-- **Base prompt only**: `(0.0, 0.0, 0.0)` should show only base prompt content with no agent influence
-- **Single agent dominance**: `(1.0, 0.0, 0.0)` should show only agent 1's content
-- **Equal influence**: `(0.33, 0.33, 0.33)` should blend all agents equally
-- **Clear hierarchy**: `(0.6, 0.3, 0.1)` should show proportional influence
-
-### Edge Cases (Commented Out)
-```python
-# Important test cases preserved in BIDDING_COMBINATIONS_3_AGENT comments:
-# (0.0, 1.0, 0.0),      # Agent 2 dominant
-# (0.5, 0.5, 0.0),      # Two-agent equal
-# (0.7, 0.2, 0.1),      # Strong dominance with weak third
-```
-
-## 🔬 Research Context
-
-### Academic Goals
-- Design auction mechanisms for diffusion models
-- Demonstrate proportional influence based on bidding
-- Characterize the tilted distribution from score composition
-- Experimental validation of multi-winner auctions
-
-### Key Metrics to Evaluate
-- **Visual influence correlation**: Higher bids → more visible brand presence
-- **Fairness**: Equal bids → equal visual representation
-- **Stability**: Consistent results across multiple samples
-- **Scalability**: Performance with different agent counts
-
-## 🛠️ Development Notes
-
-### Dependencies
-- **Core**: `torch`, `diffusers`, `transformers`
-- **Model**: FLUX.1-schnell (black-forest-labs)
-- **Hardware**: CUDA GPU recommended (8-12GB VRAM)
-
-### Performance
-- **Generation time**: ~5-10 seconds per image on GPU
-- **Memory usage**: ~8-12GB VRAM
-- **Storage**: ~2-5MB per generated image
-
-### Common Commands
-```bash
-# Run generation (3-agent standard)
-cd scripts && python generate_images_3_agent.py
-
-# Run generation (2-agent standard)
-cd scripts && python generate_images_2_agent.py
-
-# Run generation (cluster-optimized)
-cd scripts && ./run_with_cache.sh          # 3-agent
-cd scripts && ./run_with_cache_2_agent.sh  # 2-agent
+# Legacy 2/3-agent alignment (hardcoded paths, optional VLM)
+cd scripts && python calculate_alignment_2_agent.py [--enable_vlm] [--prompt_index N]
+cd scripts && python calculate_alignment_3_agent.py [--enable_vlm]
 
 # Cache management
 python helpers/manage_cache.py list
 python helpers/manage_cache.py usage
 python helpers/manage_cache.py clean [model_name]
-
-# Project maintenance
-git status  # Many files in images/ are gitignored
-pip install -r requirements.txt
-source .venv/bin/activate
 ```
 
-## 🎨 Prompt Engineering
+## SLURM / Cluster
 
-### Effective Base Prompts
-- Clear scene descriptions work best
-- Specific contexts: "cafe", "beach", "office"
-- Natural scenarios where brands can be integrated
+No sbatch scripts exist in the repo yet. Cluster details for job scripts:
 
-### Agent Prompt Strategies
-- **Brand names**: "Starbucks mug", "Nike sneakers"
-- **Product categories**: "Apple MacBook Air", "Coca-Cola cans"
-- **Contextual objects**: "New York Times newspaper"
+| Setting | Primary | Secondary |
+|---------|---------|-----------|
+| Account | `kempner_ydu_lab` | `hlakkaraju_lab` |
+| Partitions | `kempner_h100`, `kempner` | `seas_gpu`, `gpu`, `gpu_h200` |
 
-## 📝 Future Development Areas
+Typical resources: `--gres=gpu:2 --mem=200gb -t 0-12:00`
+Mail notifications: `lilliansun@college.harvard.edu`
+Log directory: project-level results directory
 
-### Potential Enhancements
-1. **Dynamic bidding combinations**: Generate based on mathematical properties
-2. **Evaluation metrics**: Automated visual analysis of brand presence
-3. **Multi-resolution testing**: Different image sizes and aspect ratios
-4. **Prompt complexity**: More complex multi-object scenes
-5. **Alternative models**: Test with other diffusion models beyond FLUX
+### Job Environment Setup
 
-### Research Extensions
-1. **4+ agent scenarios**: Extend beyond 3 agents
-2. **Auction mechanism variants**: Different weighting strategies
-3. **Temporal dynamics**: Bidding over multiple generation steps
-4. **Interactive bidding**: Real-time bid adjustment during generation
+Every sbatch script should include this preamble before running any Python:
 
-## 🆕 Recent Updates & Repository Status
+```bash
+export HF_HOME=/n/holylabs/LABS/ydu_lab/Lab/lilliansun/.cache/huggingface
+export HF_HUB_CACHE="$HF_HOME/hub"
+export HF_DATASETS_CACHE="$HF_HOME/datasets"
+export TRANSFORMERS_CACHE="$HF_HOME/models"
 
-### Current Branch: `gdaras`
-- **Main Branch:** `main` (for PRs)
-- **Status:** Clean working directory with recent cache infrastructure improvements
+# Load HF_TOKEN from .env (gitignored)
+set -a; source /n/holylabs/LABS/ydu_lab/Lab/lilliansun/diffusion_auctions_multiagent/.env; set +a
 
-### Recent Changes (Sept 2025)
-- **Added separate cache runners**: Created `run_with_cache_2_agent.sh` for dedicated 2-agent cache support
-- **Enhanced documentation**: Updated README.md and CLAUDE.md with 2-agent/3-agent separation
-- **Repository improvements**: Better organization of cache utilities and multi-agent scenarios
+module load Mambaforge/23.11.0-fasrc01
+conda activate flux
 
-### Current Repository State
-- **Untracked files**: `scripts/run_with_cache_2_agent.sh` (newly created)
-- **Modified files**: `README.md` (updated with new cache commands)
-- **Recent commits**:
-  - cb859ef: Adding 2 Agent Image Generation
-  - 71060d6: Generated 20 Samples Each and Zipped 3 Agent Images
-  - b9765a6: Fixing Boolean Tensor Bug 3
+cd /n/holylabs/LABS/ydu_lab/Lab/lilliansun/diffusion_auctions_multiagent/scripts
+```
 
-### Key Infrastructure Additions
-1. **Separate 2-agent cache runner**: `scripts/run_with_cache_2_agent.sh`
-2. **Enhanced documentation**: Clear separation between 2-agent and 3-agent workflows
-3. **Project structure updates**: Better organization in both README.md and CLAUDE.md
+## Data Formats
 
----
-*Last updated: September 2025 - Cache infrastructure and 2-agent separation*
+### Prompts (`agent_prompts.json`)
+```json
+{
+  "base_prompt": "Two friends chatting over coffee at a cafe",
+  "agent1_prompt": "Cappuccino drink",
+  "agent2_prompt": "Microsoft Surface laptop",
+  ...
+  "agent20_prompt": "Nike running shoes"
+}
+```
+Script extracts first N agent prompts based on `num_agents` in config.
+
+### Output Image Naming
+`idx{idx:03d}_b1_{bid1:.2f}_b2_{bid2:.2f}..._s{sample:02d}.png`
+Saved to `{output_dir}/prompt_{idx:03d}/`
+
+### Alignment Output (JSON per image)
+```json
+{
+  "metadata": {"prompt_index": 0, "bids": [0.6, 0.3, 0.1], "sample_index": 0, "image_path": "..."},
+  "alignment_scores": {"base_alignment": 0.85, "agent1_alignment": 0.92, ...},
+  "quality_assessment": {"clip_quality": 0.82},
+  "welfare_metrics": {"weighted_alignment": 0.856, "total_welfare": 1.70}
+}
+```
+
+### Generation Log (`generation_log.json`)
+```json
+{"item_index": 0, "bids": [0.6, 0.3, 0.1], "sample_index": 0, "agent_prompts": [...], "base_prompt": "...", "image_path": "..."}
+```
+
+## Dependencies
+
+Core: `torch>=2.4.0`, `diffusers>=0.30.0`, `transformers>=4.49.0`, `accelerate>=0.24.0`
+Evaluation: `open-clip-torch`, `qwen-vl-utils[decord]`, `flash-attn>=2.0.0`, `einops`, `timm`
+Supporting: `numpy`, `tqdm`, `matplotlib`, `pillow`, `seaborn`, `sentencepiece`
+
+Hardware: CUDA GPU required. 8-12GB VRAM for generation, ~29GB for VLM assessment.
+
+## Git
+
+- **Current branch**: `lillian` (copied from `henry`)
+- **Main branch**: `main`
+- **Remote branches**: `origin/main`, `origin/henry`, `origin/gdaras`

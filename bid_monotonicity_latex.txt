@@ -1,0 +1,22 @@
+\begin{figure}[t]
+    \centering
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{ec2026/figures/allocation_curves_mean_a1_opp0.3.png}
+        \caption{Agent~1's expected allocation as its bid varies.}
+        \label{fig:bid_monotonicity_agent1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{ec2026/figures/allocation_curves_mean_a2_opp0.3.png}
+        \caption{Agent~2's expected allocation as its bid varies.}
+        \label{fig:bid_monotonicity_agent2}
+    \end{subfigure}
+    \caption{Expected allocation curves averaged across two prompts, with the opposing agent's bid fixed at $0.3$. Each agent's bid varies over $[0, 1]$ in increments of $0.05$. For each bid combination, $k = 5$ images are generated per trial across 5 trials; the welfare-maximizing image is selected within each trial, and CLIP alignment scores are averaged across the 5 winners. Shaded regions indicate cross-prompt standard deviation.}
+    \label{fig:bid_monotonicity}
+\end{figure}
+
+One auction property that we aim to verify is \emph{bid monotonicity}: agents who bid higher should receive higher expected allocations, meaning their advertised product should appear more prominently in the generated image as their bid increases. To evaluate this, we fix one agent's bid at $b = 0.3$ and vary the other agent's bid over $\{0.00, 0.05, 0.10, \ldots, 1.00\}$ across two representative prompts. For each of the 21 bid combinations, we generate $k = 5$ images using our auction pipeline. To obtain a stable estimate of the expected allocation $\mathbb{E}[x_i(b_i)]$ under welfare-optimal selection, we repeat the auction process for 5 trials total, selecting the welfare-maximizing image within each trial of $k = 5$, and averaging the CLIP alignment scores of the 5 outputted images.
+
+\paragraph{Results.} Figure~\ref{fig:bid_monotonicity} shows the expected allocation curves for both agents. As Agent~1's bid increases from $0$ to $1$ (with Agent~2 fixed at $0.3$), its mean CLIP alignment rises monotonically from approximately $0.11$ to $0.26$, reflecting increasing visual prominence of its advertised product. Similarly, Agent~2's allocation increases from approximately $0.11$ to $0.24$ as its own bid increases (with Agent~1 fixed at $0.3$). Both curves are approximately monotone non-decreasing, confirming that higher bids translate to stronger semantic alignment with the agent's prompt. These results validate that the auction mechanism faithfully rewards higher-bidding advertisers with greater influence over the generated content, as also visualized in Figure~\ref{fig:grid_images_2_agents}.

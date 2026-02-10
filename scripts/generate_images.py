@@ -190,6 +190,24 @@ def main():
         required=True,
         help="Path to configuration JSON file",
     )
+    parser.add_argument(
+        "--prompt_index",
+        type=int,
+        default=None,
+        help="Process only this prompt index (for parallel jobs)",
+    )
+    parser.add_argument(
+        "--bid_chunk",
+        type=int,
+        default=None,
+        help="Which chunk of bid combinations to process (0-indexed)",
+    )
+    parser.add_argument(
+        "--num_chunks",
+        type=int,
+        default=None,
+        help="Total number of bid chunks (used with --bid_chunk)",
+    )
     args = parser.parse_args()
 
     # Load configuration
@@ -225,6 +243,15 @@ def main():
 
     # Convert bidding combinations to tuples
     bidding_combinations = [tuple(combo) for combo in bidding_combinations]
+
+    # Filter to a chunk of bid combinations if specified
+    if args.bid_chunk is not None and args.num_chunks is not None:
+        total = len(bidding_combinations)
+        chunk_size = (total + args.num_chunks - 1) // args.num_chunks
+        start = args.bid_chunk * chunk_size
+        end = min(start + chunk_size, total)
+        bidding_combinations = bidding_combinations[start:end]
+        print(f"\nBid chunk {args.bid_chunk}/{args.num_chunks}: combinations {start}-{end-1} ({len(bidding_combinations)} combos)")
 
     # Determine torch dtype
     torch_dtype = torch.bfloat16 if torch.cuda.is_available() else torch.float16
@@ -286,7 +313,15 @@ def main():
     else:
         prompt_items = [(num_items_to_process - 1 - idx, item) for idx, item in enumerate(prompts_to_process)]
 
-    for i, item_data in tqdm(prompt_items, desc="Processing Prompts", total=num_items_to_process):
+    # Filter to single prompt if --prompt_index is specified
+    if args.prompt_index is not None:
+        prompt_items = [(i, item) for i, item in prompt_items if i == args.prompt_index]
+        if not prompt_items:
+            print(f"Error: prompt_index {args.prompt_index} not found (max: {num_items_to_process - 1})")
+            sys.exit(1)
+        print(f"\nProcessing only prompt index {args.prompt_index}")
+
+    for i, item_data in tqdm(prompt_items, desc="Processing Prompts", total=len(prompt_items)):
         for bids_tuple in bidding_combinations:
             for sample_idx in range(num_samples_per_combination):
                 generated_image_path = generate_and_save_image(
