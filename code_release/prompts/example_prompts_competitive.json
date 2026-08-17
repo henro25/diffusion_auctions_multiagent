@@ -1,0 +1,127 @@
+[
+    {
+      "base_prompt": "A person drinking from a beverage can while working at a desk",
+      "agent1_prompt": "Coca-Cola can",
+      "agent2_prompt": "Pepsi can"
+    },
+    {
+      "base_prompt": "Someone wearing athletic shoes while jogging in a park",
+      "agent1_prompt": "Nike running shoes",
+      "agent2_prompt": "Adidas running shoes"
+    },
+    {
+      "base_prompt": "A customer paying with a credit card at a retail checkout",
+      "agent1_prompt": "Visa credit card",
+      "agent2_prompt": "Mastercard credit card"
+    },
+    {
+      "base_prompt": "A person wearing a smartwatch while exercising at the gym",
+      "agent1_prompt": "Apple Watch",
+      "agent2_prompt": "Samsung Galaxy Watch"
+    },
+    {
+      "base_prompt": "Someone drinking from a water bottle during a yoga class",
+      "agent1_prompt": "Hydro Flask water bottle",
+      "agent2_prompt": "Yeti water bottle"
+    },
+    {
+      "base_prompt": "A driver filling up their car at a gas station",
+      "agent1_prompt": "Shell gas station",
+      "agent2_prompt": "Chevron gas station"
+    },
+    {
+      "base_prompt": "A person eating a chocolate bar as a snack",
+      "agent1_prompt": "Snickers bar",
+      "agent2_prompt": "Kit Kat bar"
+    },
+    {
+      "base_prompt": "Someone wearing sunglasses at an outdoor cafe",
+      "agent1_prompt": "Ray-Ban sunglasses",
+      "agent2_prompt": "Oakley sunglasses"
+    },
+    {
+      "base_prompt": "A customer holding a shopping bag from a clothing store",
+      "agent1_prompt": "Zara shopping bag",
+      "agent2_prompt": "H&M shopping bag"
+    },
+    {
+      "base_prompt": "A person wearing wireless earbuds while commuting",
+      "agent1_prompt": "Apple AirPods",
+      "agent2_prompt": "Samsung Galaxy Buds"
+    },
+    {
+      "base_prompt": "Someone drinking an energy drink at a skateboard park",
+      "agent1_prompt": "Red Bull can",
+      "agent2_prompt": "Monster Energy can"
+    },
+    {
+      "base_prompt": "A person carrying a backpack while hiking on a trail",
+      "agent1_prompt": "North Face backpack",
+      "agent2_prompt": "Patagonia backpack"
+    },
+    {
+      "base_prompt": "Someone using a smartphone at a coffee shop",
+      "agent1_prompt": "iPhone smartphone",
+      "agent2_prompt": "Samsung Galaxy phone"
+    },
+    {
+      "base_prompt": "A person wearing a baseball cap at a sports game",
+      "agent1_prompt": "New York Yankees cap",
+      "agent2_prompt": "Boston Red Sox cap"
+    },
+    {
+      "base_prompt": "Someone drinking from a coffee cup in an office meeting",
+      "agent1_prompt": "Starbucks coffee cup",
+      "agent2_prompt": "Dunkin coffee cup"
+    },
+    {
+      "base_prompt": "A customer carrying a fast food bag on a city street",
+      "agent1_prompt": "McDonald's bag",
+      "agent2_prompt": "Burger King bag"
+    },
+    {
+      "base_prompt": "A person wearing running shorts during a marathon",
+      "agent1_prompt": "Nike running shorts",
+      "agent2_prompt": "Adidas running shorts"
+    },
+    {
+      "base_prompt": "Someone eating chips while watching TV at home",
+      "agent1_prompt": "Lay's chips bag",
+      "agent2_prompt": "Doritos bag"
+    },
+    {
+      "base_prompt": "A person wearing a winter jacket in a snowy setting",
+      "agent1_prompt": "Canada Goose jacket",
+      "agent2_prompt": "North Face jacket"
+    },
+    {
+      "base_prompt": "Someone drinking orange juice at breakfast",
+      "agent1_prompt": "Tropicana orange juice",
+      "agent2_prompt": "Minute Maid orange juice"
+    },
+    {
+      "base_prompt": "A person wearing a fitness tracker at a cycling class",
+      "agent1_prompt": "Fitbit tracker",
+      "agent2_prompt": "Garmin tracker"
+    },
+    {
+      "base_prompt": "Someone holding a pizza box at a house party",
+      "agent1_prompt": "Domino's pizza box",
+      "agent2_prompt": "Pizza Hut box"
+    },
+    {
+      "base_prompt": "A person wearing a hoodie at a college campus",
+      "agent1_prompt": "Champion hoodie",
+      "agent2_prompt": "Nike hoodie"
+    },
+    {
+      "base_prompt": "Someone drinking a sports drink after a workout",
+      "agent1_prompt": "Gatorade bottle",
+      "agent2_prompt": "Powerade bottle"
+    },
+    {
+      "base_prompt": "A customer holding a grocery store bag",
+      "agent1_prompt": "Whole Foods bag",
+      "agent2_prompt": "Trader Joe's bag"
+    }
+  ]

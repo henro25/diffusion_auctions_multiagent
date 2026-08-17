@@ -1,0 +1,17 @@
+# Core ML dependencies
+torch>=2.4.0
+accelerate>=0.24.0
+transformers>=4.49.0
+diffusers>=0.30.0
+
+# Supporting dependencies
+protobuf
+numpy
+pandas
+scipy
+tqdm
+requests
+matplotlib
+pillow
+sentencepiece
+open-clip-torch  # LAION aesthetic predictor

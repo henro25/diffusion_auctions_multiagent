@@ -1,0 +1,27 @@
+[
+  {
+    "base_prompt": "A person posing for a portrait",
+    "agent1_prompt": "Canada Goose parka",
+    "agent2_prompt": "Apple MacBook Air"
+  },
+  {
+    "base_prompt": "A person photographed indoors",
+    "agent1_prompt": "Full scuba diving gear",
+    "agent2_prompt": "Hardcover novel"
+  },
+  {
+    "base_prompt": "A person standing in a room",
+    "agent1_prompt": "White wedding dress",
+    "agent2_prompt": "DeWalt power drill"
+  },
+  {
+    "base_prompt": "A person enjoying a hot drink",
+    "agent1_prompt": "Snowboarding gear on a snowy mountain",
+    "agent2_prompt": "Espresso machine"
+  },
+  {
+    "base_prompt": "A person seated at a desk",
+    "agent1_prompt": "Black wetsuit",
+    "agent2_prompt": "Vintage typewriter"
+  }
+]

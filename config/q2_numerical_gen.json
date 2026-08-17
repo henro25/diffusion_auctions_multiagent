@@ -1,0 +1,20 @@
+{
+  "num_agents": 2,
+  "prompts_path": "../prompts/q2_numerical.json",
+  "output_dir": "/net/holy-isilon/ifs/rc_labs/ydu_lab/lilliansun/diffusion_auction_images/q2_numerical_baseline",
+  "num_samples_per_combination": 20,
+  "num_prompts_to_process": null,
+  "process_prompts_forward": true,
+  "guidance_scale": 10.0,
+  "num_inference_steps": 5,
+  "bidding_combinations": [
+    [0.0, 0.0],
+    [1.0, 0.0],
+    [0.1, 0.9],
+    [0.9, 0.1],
+    [0.0, 1.0],
+    [0.5, 0.5],
+    [0.7, 0.3],
+    [0.3, 0.7]
+  ]
+}
