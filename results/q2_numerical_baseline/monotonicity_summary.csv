@@ -1,0 +1,5 @@
+method,agent,n_pairs,n_monotone,pct_monotone
+auction,1,5,5,100.0
+auction,2,5,5,100.0
+numerical_baseline,1,5,5,100.0
+numerical_baseline,2,5,5,100.0
